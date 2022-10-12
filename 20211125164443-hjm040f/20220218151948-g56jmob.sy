@@ -1,0 +1,1603 @@
+{
+	"ID": "20220218151948-g56jmob",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220218151948-g56jmob",
+		"title": "整理",
+		"updated": "20220219195620"
+	},
+	"Children": [
+		{
+			"ID": "20220219192802-ywxewe1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220219192802-ywxewe1",
+				"updated": "20220219192812"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2021"
+				}
+			]
+		},
+		{
+			"ID": "20220219192818-phmisg5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219192818-phmisg5",
+				"updated": "20220219193305"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "FSA: Fronthaul Slicing Architecture for 5G using dataplane programmable switches"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220219193306-zxhfqvc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219193306-zxhfqvc",
+				"updated": "20220219193309"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "摘要："
+				}
+			]
+		},
+		{
+			"ID": "20220219193309-g88s2pq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219193309-g88s2pq",
+				"updated": "20220219195620"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在本文中，我们设计并实现了前传切片架构（FSA），据我们所知，这是前传网络的第一个切片架构。FSA 在交换机数据平面中运行，并使用来自无线调度的信息以线速识别前传数据包的切片。它支持多点到多点路由以及数据包优先级划分，以在前传和 C-RAN 中提供多路复用增益，从而使系统更具可扩展性。我们使用放大的 LTE 跟踪的测试台评估表明，FSA 可以支持准确的多点到多点路由，用于 80 Gbps 的前传流量。此外，FSA 的数据包优先级启用的切片感知数据包调度减少了 95"
+				},
+				{
+					"Type": "NodeSup",
+					"Data": "sup",
+					"Children": [
+						{
+							"Type": "NodeSupOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "个"
+						},
+						{
+							"Type": "NodeSupCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "延迟敏感流量的百分位 Flowlet 完成时间 (FCT) 最多 4 倍。"
+				}
+			]
+		},
+		{
+			"ID": "20220218151948-ccezh4o",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220218151948-ccezh4o",
+				"updated": "20220219143546"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2020"
+				}
+			]
+		},
+		{
+			"ID": "20220219191906-7pv6anc",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0
+			],
+			"Properties": {
+				"id": "20220219191906-7pv6anc",
+				"updated": "20220219191906"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 104,
+									"TableCellContentMaxWidth": 104,
+									"Children": [
+										{
+											"Type": "NodeLink",
+											"Data": "span",
+											"Children": [
+												{
+													"Type": "NodeOpenBracket"
+												},
+												{
+													"Type": "NodeLinkText",
+													"Data": "A hyperlocal mobile web for the next 3 billion users"
+												},
+												{
+													"Type": "NodeCloseBracket"
+												},
+												{
+													"Type": "NodeOpenParen"
+												},
+												{
+													"Type": "NodeLinkDest",
+													"Data": "https://dl.acm.org/doi/10.1145/3372224.3417316"
+												},
+												{
+													"Type": "NodeCloseParen"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220219192556-oloxbir",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219192556-oloxbir",
+				"updated": "20220219192558"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "摘要："
+				}
+			]
+		},
+		{
+			"ID": "20220219192559-rcgu80v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219192559-rcgu80v",
+				"updated": "20220219192559"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "尽管移动互联网在发展中地区的普及率不断提高，但网页复杂性的增加以及远程内容提供商缺乏优化使得这些地区的网络体验很差。较高的相对带宽成本、较差的网络性能以及缺乏相关的本地内容共同抑制了对互联网及其支持的服务的需求。在本文中，我们提出了 GAIUS，一个内容生态系统，能够有效地创建和传播本地相关的网络内容。GAIUS 的核心包括以下创新：本地可持续的内容生态系统和 MAML，一种简化网页以降低成本并降低内容创建障碍的 Web 规范语言。"
+				}
+			]
+		},
+		{
+			"ID": "20220219191945-lpx6zyn",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0
+			],
+			"Properties": {
+				"id": "20220219191945-lpx6zyn",
+				"updated": "20220219191945"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 122,
+									"TableCellContentMaxWidth": 122,
+									"Children": [
+										{
+											"Type": "NodeLink",
+											"Data": "span",
+											"Children": [
+												{
+													"Type": "NodeOpenBracket"
+												},
+												{
+													"Type": "NodeLinkText",
+													"Data": "The implementation of stigmergy in network-assisted multi-agent system"
+												},
+												{
+													"Type": "NodeCloseBracket"
+												},
+												{
+													"Type": "NodeOpenParen"
+												},
+												{
+													"Type": "NodeLinkDest",
+													"Data": "https://dl.acm.org/doi/10.1145/3372224.3417318"
+												},
+												{
+													"Type": "NodeCloseParen"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220219192004-kzhzmj8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219192004-kzhzmj8",
+				"updated": "20220219192647"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "摘要："
+				}
+			]
+		},
+		{
+			"ID": "20220219192648-zoyl7d4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219192648-zoyl7d4",
+				"updated": "20220219192648"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在这个演示中，我们通过利用数字信息素 (DP) 作为间接通信媒介并在顶部利用深度强化学习 (DRL)，提出了一种在网络辅助 MAS 中称为“stigmergy”的分散式协作方法。4"
+				}
+			]
+		},
+		{
+			"ID": "20220219192640-chesy5h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219192640-chesy5h",
+				"updated": "20220219192642"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "多智能体系统（MAS）需要调动多个简单的智能体来完成复杂的任务。然而，通过有限的本地信息很难协调地协调分布式代理。在这个演示中，我们通过利用数字信息素 (DP) 作为间接通信媒介并在顶部利用深度强化学习 (DRL)，提出了一种在网络辅助 MAS 中称为“stigmergy”的分散式协作方法。相应地，我们实现了一个实验平台，其中 KHEPERA IV 机器人以分散的方式形成有针对性的特定形状。实验结果证明了所提出方法的有效性和效率。我们的平台可以方便地扩展以调查网络因素（例如延迟、数据速率等）的影响。"
+				}
+			]
+		},
+		{
+			"ID": "20220219192059-nu8v4vk",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0
+			],
+			"Properties": {
+				"id": "20220219192059-nu8v4vk",
+				"updated": "20220219192059"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 126,
+									"TableCellContentMaxWidth": 126,
+									"Children": [
+										{
+											"Type": "NodeLink",
+											"Data": "span",
+											"Children": [
+												{
+													"Type": "NodeOpenBracket"
+												},
+												{
+													"Type": "NodeLinkText",
+													"Data": "Slicing-enabled private 4G/5G network for industrial wireless applications"
+												},
+												{
+													"Type": "NodeCloseBracket"
+												},
+												{
+													"Type": "NodeOpenParen"
+												},
+												{
+													"Type": "NodeLinkDest",
+													"Data": "https://dl.acm.org/doi/10.1145/3372224.3417325"
+												},
+												{
+													"Type": "NodeCloseParen"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220219192702-wv82ao8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219192702-wv82ao8",
+				"updated": "20220219192705"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "摘要："
+				}
+			]
+		},
+		{
+			"ID": "20220219192705-cds5im3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219192705-cds5im3",
+				"updated": "20220219192706"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "工业环境中 4G 和 5G 网络的私有部署从各个方面都有好处。专用 4G/5G 网络通常面临支持异构工业应用的挑战。该技术演示突出了网络切片在专用 4G/5G 网络中的重要性。它表明网络切片对于多服务共存场景中的性能保证至关重要。通过网络切片，我们的私有 4G/5G 网络成功支持闭环控制、事件驱动控制和视频流应用。"
+				}
+			]
+		},
+		{
+			"ID": "20220219192123-5sxuuq4",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0
+			],
+			"Properties": {
+				"id": "20220219192123-5sxuuq4",
+				"updated": "20220219192123"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 120,
+									"TableCellContentMaxWidth": 120,
+									"Children": [
+										{
+											"Type": "NodeLink",
+											"Data": "span",
+											"Children": [
+												{
+													"Type": "NodeOpenBracket"
+												},
+												{
+													"Type": "NodeLinkText",
+													"Data": "Performance bottlenecks identification in cloudified mobile networks"
+												},
+												{
+													"Type": "NodeCloseBracket"
+												},
+												{
+													"Type": "NodeOpenParen"
+												},
+												{
+													"Type": "NodeLinkDest",
+													"Data": "https://dl.acm.org/doi/10.1145/3372224.3418158"
+												},
+												{
+													"Type": "NodeCloseParen"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220219192708-el94cue",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219192708-el94cue",
+				"updated": "20220219192710"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "摘要："
+				}
+			]
+		},
+		{
+			"ID": "20220219192710-m1wtqig",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219192710-m1wtqig",
+				"updated": "20220219192731"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "移动网络云化的最新趋势带来了更大的灵活性并缩短了部署时间。但是，它会导致架构跨越从裸机到服务级别的多个独立层，从而使故障排除和服务保证变得复杂。在这项工作中，我们通过实验探索我们是否能够准确有效地识别网络不同位置和云化架构层的瓶颈。我们的发现证实了这项任务的复杂性，并通过使用机器学习引导我们找到有希望的解决方案。"
+				}
+			]
+		},
+		{
+			"ID": "20220219192209-esb5ey8",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0
+			],
+			"Properties": {
+				"id": "20220219192209-esb5ey8",
+				"updated": "20220219192209"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 112,
+									"TableCellContentMaxWidth": 112,
+									"Children": [
+										{
+											"Type": "NodeLink",
+											"Data": "span",
+											"Children": [
+												{
+													"Type": "NodeOpenBracket"
+												},
+												{
+													"Type": "NodeLinkText",
+													"Data": "A reliable intelligent routing mechanism in 5G core networks"
+												},
+												{
+													"Type": "NodeCloseBracket"
+												},
+												{
+													"Type": "NodeOpenParen"
+												},
+												{
+													"Type": "NodeLinkDest",
+													"Data": "https://dl.acm.org/doi/10.1145/3372224.3418167"
+												},
+												{
+													"Type": "NodeCloseParen"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220219192733-mjxxlq8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219192733-mjxxlq8",
+				"updated": "20220219192745"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "摘要："
+				}
+			]
+		},
+		{
+			"ID": "20220219192746-o4gx3la",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219192746-o4gx3la",
+				"updated": "20220219192746"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5G网络的主要目标之一是为用户提供超可靠的低延迟服务。当用户不断访问系统时，5G核心网（5GC）的流量可能会出现拥塞。因此，我们提出了一种负载均衡算法，以根据 5GC 中的流量负载选择最佳流量数据路由路径。所提出的算法在名为 free5GC 的 5G 测试平台中实现。实验结果表明，我们提出的算法在许多性能指标上都优于传统的循环负载均衡算法。"
+				}
+			]
+		},
+		{
+			"ID": "20220219193317-za1vzy4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220219193317-za1vzy4",
+				"updated": "20220219193318"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2019"
+				}
+			]
+		},
+		{
+			"ID": "20220219194646-rbgbxly",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0
+			],
+			"Properties": {
+				"id": "20220219194646-rbgbxly",
+				"updated": "20220219194646"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 125,
+									"TableCellContentMaxWidth": 125,
+									"Children": [
+										{
+											"Type": "NodeLink",
+											"Data": "span",
+											"Children": [
+												{
+													"Type": "NodeOpenBracket"
+												},
+												{
+													"Type": "NodeLinkText",
+													"Data": "MuSher: An Agile Multipath-TCP Scheduler for Dual-Band 802.11ad/ac Wireless LANs"
+												},
+												{
+													"Type": "NodeCloseBracket"
+												},
+												{
+													"Type": "NodeOpenParen"
+												},
+												{
+													"Type": "NodeLinkDest",
+													"Data": "https://doi.org/10.1145/3300061.3345435"
+												},
+												{
+													"Type": "NodeCloseParen"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220219195436-n33dedb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219195436-n33dedb",
+				"updated": "20220219195438"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "摘要："
+				}
+			]
+		},
+		{
+			"ID": "20220219195438-7fz9smm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219195438-7fz9smm",
+				"updated": "20220219195439"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "未来的 WLAN 设备将结合 IEEE 802.11ad 和 802.11ac 接口。前者提供多 Gbps 速率但容易受到阻塞，而后者速度较慢但提供可靠的连接。因此，一个基本挑战是如何结合这些互补技术，以充分利用它们提供的优势。在这项工作中，我们探索利用多路径 TCP (MPTCP) 同时使用两个接口，以实现更高的整体吞吐量，并在另一个接口出现故障时无缝切换到单个接口。我们发现标准 MPTCP 的性能通常不是最理想的，甚至可能在两个接口中更快的情况下产生比单路径 TCP 低得多的吞吐量。我们详细分析了这些性能问题的原因，然后设计了MuSher，一个灵活的 MPTCP 调度程序，它允许 MPTCP 充分利用两个接口可用的通道资源。我们在实际场景中的评估表明，在 WLAN/Internet 设置下，MuSher 可将吞吐量提高高达 1.5 倍/2.3 倍，并在中断后将流量流的恢复速度提高高达 8 倍/75 倍，与默认的 MPTCP 调度程序相比。"
+				}
+			]
+		},
+		{
+			"ID": "20220219194830-au8xugw",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0
+			],
+			"Properties": {
+				"id": "20220219194830-au8xugw",
+				"updated": "20220219194830"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 144,
+									"TableCellContentMaxWidth": 144,
+									"Children": [
+										{
+											"Type": "NodeLink",
+											"Data": "span",
+											"Children": [
+												{
+													"Type": "NodeOpenBracket"
+												},
+												{
+													"Type": "NodeLinkText",
+													"Data": "Poster: SeamFarm — Distributed Data Analytic for Precision Agriculture based on Seamless Computing"
+												},
+												{
+													"Type": "NodeCloseBracket"
+												},
+												{
+													"Type": "NodeOpenParen"
+												},
+												{
+													"Type": "NodeLinkDest",
+													"Data": "https://doi.org/10.1145/3300061.3343400"
+												},
+												{
+													"Type": "NodeCloseParen"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220219195446-rhtq2aq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219195446-rhtq2aq",
+				"updated": "20220219195513"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "摘要："
+				}
+			]
+		},
+		{
+			"ID": "20220219195513-zq136xh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219195513-zq136xh",
+				"updated": "20220219195513"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这项工作提出了一个基于无缝计算范式的精准农业分布式数据分析框架SeamFarm。通常，异构节点部署用于精准农业，这些节点生成大量数据。然后可以使用机器学习来分析这些数据以进行精准农业。然而，大多数物联网设备都是资源受限的设备，这导致在执行机器学习任务时性能不佳。因此，在 SeamFarm 中，我们考虑将数据和任务分发到所有可用节点。结果表明，SeamFarm 可以满足精准农业分布式数据分析的所有功能和非功能需求。而且，它可以获得更快的数据分析结果。"
+				}
+			]
+		},
+		{
+			"ID": "20220219194152-0tqeivm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220219194152-0tqeivm",
+				"updated": "20220219194217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2018"
+				}
+			]
+		},
+		{
+			"ID": "20220219193427-2sqtjks",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0
+			],
+			"Properties": {
+				"id": "20220219193427-2sqtjks",
+				"updated": "20220219193427"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 110,
+									"TableCellContentMaxWidth": 110,
+									"Children": [
+										{
+											"Type": "NodeLink",
+											"Data": "span",
+											"Children": [
+												{
+													"Type": "NodeOpenBracket"
+												},
+												{
+													"Type": "NodeLinkText",
+													"Data": "FoggyCache: Cross-Device Approximate Computation Reuse"
+												},
+												{
+													"Type": "NodeCloseBracket"
+												},
+												{
+													"Type": "NodeOpenParen"
+												},
+												{
+													"Type": "NodeLinkDest",
+													"Data": "https://dl.acm.org/doi/abs/10.1145/3241539.3241557"
+												},
+												{
+													"Type": "NodeCloseParen"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220219193428-qhwhzil",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219193428-qhwhzil",
+				"updated": "20220219193431"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "摘要："
+				}
+			]
+		},
+		{
+			"ID": "20220219193431-5vae94k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219193431-5vae94k",
+				"updated": "20220219194330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "移动和物联网场景越来越多地涉及交互式和计算密集型上下文识别。现有的优化通常求助于计算卸载或简化的设备上处理。相反，我们观察到同一个应用程序经常在靠近的多个设备上调用。此外，应用程序实例通常处理映射到相同结果的 "
+				},
+				{
+					"Type": "NodeEmphasis",
+					"Data": "em",
+					"Children": [
+						{
+							"Type": "NodeEmA6kOpenMarker",
+							"Data": "*"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "类似上下文数据。"
+						},
+						{
+							"Type": "NodeEmA6kCloseMarker",
+							"Data": "*"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 在本文中，我们提出了跨设备近似计算重用，通过利用不同输入值之间的“等价性”并以高置信度重用先前计算的输出，最大限度地减少冗余计算。我们设计了自适应局部敏感散列（A-LSH）和同质化ķ最近邻（H-kNN）。前者实现了可扩展和恒定的查找，而后者提供了高质量的重用和可调的精度保证。我们进一步将近似重用作为一种服务，在计算卸载运行时中。广泛的评估表明，当给定 95% 的准确度目标时，该服务始终利用 90% 以上的重用机会，这意味着计算延迟和能耗减少了 3 到 10 倍。"
+				}
+			]
+		},
+		{
+			"ID": "20220219193538-knadp3j",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0
+			],
+			"Properties": {
+				"id": "20220219193538-knadp3j",
+				"updated": "20220219193538"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 136,
+									"TableCellContentMaxWidth": 136,
+									"Children": [
+										{
+											"Type": "NodeLink",
+											"Data": "span",
+											"Children": [
+												{
+													"Type": "NodeOpenBracket"
+												},
+												{
+													"Type": "NodeLinkText",
+													"Data": "ECHO: A Reliable Distributed Cellular Core Network for Hyper-scale Public Clouds"
+												},
+												{
+													"Type": "NodeCloseBracket"
+												},
+												{
+													"Type": "NodeOpenParen"
+												},
+												{
+													"Type": "NodeLinkDest",
+													"Data": "https://dl.acm.org/doi/abs/10.1145/3241539.3241564"
+												},
+												{
+													"Type": "NodeCloseParen"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220219193545-y8uubao",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219193545-y8uubao",
+				"updated": "20220219194309"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "摘要："
+				}
+			]
+		},
+		{
+			"ID": "20220219194309-miq56q4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219194309-miq56q4",
+				"updated": "20220219194310"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "与超大规模公共云平台相关的规模经济提供了灵活性和成本效益，从而导致各种服务和业务迁移到云端。在这个方向上进展不大的一个领域是蜂窝核心网络。蜂窝核心网络管理蜂窝客户端的状态；与典型的云服务相比，它本质上是一个大型分布式状态机，具有非常不同的虚拟化挑战。在本文中，我们提出了一种新的蜂窝核心网络架构，称为 ECHO，特别适用于公共云部署，与现有（冗余）硬件平台相比，可用性保证可能要差一个数量级。我们展示了我们方法的设计和实现，并在公共云平台上评估了它的功能。"
+				}
+			]
+		},
+		{
+			"ID": "20220219193549-n3n9rb9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219193549-n3n9rb9",
+				"updated": "20220219193550"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "How Should I Slice My Network?: A Multi-Service Empirical Evaluation of Resource Sharing Efficiency"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://dl.acm.org/doi/abs/10.1145/3241539.3241567"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220219193617-kdyfg3y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219193617-kdyfg3y",
+				"updated": "20220219194344"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "摘要："
+				}
+			]
+		},
+		{
+			"ID": "20220219194344-nzs0aj6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219194344-nzs0aj6",
+				"updated": "20220219194345"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "过提供特别定制的虚拟网络实例，网络切片允许在同一共享基础架构上提供强大的专业化服务。网络切片对资源管理具有深远的影响，因为它需要在以下方面进行内在权衡：(i) 需要完全专用的资源来支持服务定制，以及 (ii) 服务之间的动态资源共享以提高资源效率和成本-系统的有效性。在本文中，我们通过对网络切片中资源管理效率的实证研究，对这种权衡进行了首次调查。基于在运营移动网络中收集的大量测量数据 (i) 我们量化了由不同类型资源的不可重构分配策略引入的效率差距，从无线电接入到网络核心，以及（ii）我们量化了它们在不同时间尺度上动态编排的优势。我们的结果提供了关于网络切片架构的可实现效率、它们的尺寸以及它们与资源管理算法的相互作用的见解。"
+				}
+			]
+		},
+		{
+			"ID": "20220219193618-nfnlvaz",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0
+			],
+			"Properties": {
+				"id": "20220219193618-nfnlvaz",
+				"updated": "20220219193618"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 143,
+									"TableCellContentMaxWidth": 143,
+									"Children": [
+										{
+											"Type": "NodeLink",
+											"Data": "span",
+											"Children": [
+												{
+													"Type": "NodeOpenBracket"
+												},
+												{
+													"Type": "NodeLinkText",
+													"Data": "Adaptive Codebook Optimization for Beam Training on Off-the-Shelf IEEE 802.11ad Devices"
+												},
+												{
+													"Type": "NodeCloseBracket"
+												},
+												{
+													"Type": "NodeOpenParen"
+												},
+												{
+													"Type": "NodeLinkDest",
+													"Data": "https://dl.acm.org/doi/abs/10.1145/3241539.3241576"
+												},
+												{
+													"Type": "NodeCloseParen"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220219193855-aoaxi74",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219193855-aoaxi74",
+				"updated": "20220219194439"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "摘要：因此，我们自动利用环境中的反射器并提高接收信号质量。我们在现成设备上的这种机制的实现表明，自适应码本优化在典型的现实世界场景中实现了大约两倍的显着更高的吞吐量。发射机动态计算发射波束模式，使接收机的信号强度最大化。因此，我们自动利用环境中的反射器并提高接收信号质量。我们在现成设备上的这种机制的实现表明，自适应码本优化在典型的现实世界场景中实现了大约两倍的显着更高的吞吐量。发射机动态计算发射波束模式，使接收机的信号强度最大化。因此，我们自动利用环境中的反射器并提高接收信号质量。我们在现成设备上的这种机制的实现表明，自适应码本优化在典型的现实世界场景中实现了大约两倍的显着更高的吞吐量。"
+				}
+			]
+		},
+		{
+			"ID": "20220219193855-9cr1bl4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219193855-9cr1bl4",
+				"updated": "20220219193856"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "An SDN Based Content Cache at the WiFi Edge"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://dl.acm.org/doi/abs/10.1145/3241539.3267752"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220219193935-34ajb8d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219193935-34ajb8d",
+				"updated": "20220219194452"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "摘要：我们描述了当前版本的 Wi-Cache，一个用于在 WiFi 边缘进行缓存的 SDN 框架。Wi-Cache 的动机是这样一种信念，即需要边缘缓存技术来增强新兴网络技术以满足对内容不断增长的（数量、质量和种类）需求，而内容本身正在显着改变其特征。Wi-Cache 被用于测试边缘缓存的新想法。具体来说，Wi-Cache 是一种边缘缓存框架，它允许在 WiFi AP 上缓存和交付内容。除了网络引起的客户端切换外，它还允许 AP 之间进行通信以进行内容交付。我们还开发了一个 API，用于实现内容交付和放置以及缓存替换的算法。"
+				}
+			]
+		},
+		{
+			"ID": "20220219193936-snhxgxc",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0
+			],
+			"Properties": {
+				"id": "20220219193936-snhxgxc",
+				"updated": "20220219193936"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 100,
+									"TableCellContentMaxWidth": 100,
+									"Children": [
+										{
+											"Type": "NodeLink",
+											"Data": "span",
+											"Children": [
+												{
+													"Type": "NodeOpenBracket"
+												},
+												{
+													"Type": "NodeLinkText",
+													"Data": "Scalable Network Slicing Architecture for 5G"
+												},
+												{
+													"Type": "NodeCloseBracket"
+												},
+												{
+													"Type": "NodeOpenParen"
+												},
+												{
+													"Type": "NodeLinkDest",
+													"Data": "https://dl.acm.org/doi/abs/10.1145/3241539.3267762"
+												},
+												{
+													"Type": "NodeCloseParen"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220219194023-s70trsv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219194023-s70trsv",
+				"updated": "20220219194504"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "摘要："
+				}
+			]
+		},
+		{
+			"ID": "20220219194504-4devrpe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219194504-4devrpe",
+				"updated": "20220219194505"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "下一代移动网络的多样化用例可以通过网络切片的关键概念来实现，该概念使移动网络运营商能够将单个物理网络切片为多个针对特定服务和业务目标优化的虚拟网络实例。需要扩展网络切片以应对高峰流量需求所需的资源。在本文中，我们演示了基于网络切片类型的网络切片扩展，例如增强型移动宽带 (eMBB)、海量机器类型通信 (mMTC)，以确保网络切片的服务水平协议 (SLA) 保证与我们在基于 ETSI MANO 的网络切片框架中提出的网络切片分析器 (NSP) 和网络切片缩放功能 (NSSF) 的帮助。"
+				}
+			]
+		},
+		{
+			"ID": "20220219194024-n3r57qo",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0
+			],
+			"Properties": {
+				"id": "20220219194024-n3r57qo",
+				"updated": "20220219194024"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 157,
+									"TableCellContentMaxWidth": 157,
+									"Children": [
+										{
+											"Type": "NodeLink",
+											"Data": "span",
+											"Children": [
+												{
+													"Type": "NodeOpenBracket"
+												},
+												{
+													"Type": "NodeLinkText",
+													"Data": "Joint Data Latency and Packet Loss Optimization for Relay-Node Selection in Time-Varying IoT Networks"
+												},
+												{
+													"Type": "NodeCloseBracket"
+												},
+												{
+													"Type": "NodeOpenParen"
+												},
+												{
+													"Type": "NodeLinkDest",
+													"Data": "https://dl.acm.org/doi/abs/10.1145/3241539.3267758"
+												},
+												{
+													"Type": "NodeCloseParen"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220219194514-7btvh3o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219194514-7btvh3o",
+				"updated": "20220219194516"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "摘要："
+				}
+			]
+		},
+		{
+			"ID": "20220219194516-n8vdlfe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219194516-n8vdlfe",
+				"updated": "20220219194517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "物联网中智能互联设备的移动性带来了可靠数据转发的挑战。在这项工作中，提出了一种用于移动容错数据转发的中继节点选择方法。所提出的中继节点选择方法使用时变网络中的连接信息。物联网设备的连接信息是使用齐次泊松点过程建模的。所有设备与其邻居的连接持续时间信息不断更新。根据连通性信息，选择最佳中继节点作为数据转发节点。从源节点到基站的在线中继节点选择建立了数据转发路径。该方法基于数据延迟和丢包风险这两个网络参数的联合优化来选择中继节点。"
+				}
+			]
+		},
+		{
+			"ID": "20220219195007-hxbeav3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220219195007-hxbeav3",
+				"updated": "20220219195008"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2017"
+				}
+			]
+		},
+		{
+			"ID": "20220219195010-fl6dkkw",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0
+			],
+			"Properties": {
+				"id": "20220219195010-fl6dkkw",
+				"updated": "20220219195010"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 150,
+									"TableCellContentMaxWidth": 150,
+									"Children": [
+										{
+											"Type": "NodeLink",
+											"Data": "span",
+											"Children": [
+												{
+													"Type": "NodeOpenBracket"
+												},
+												{
+													"Type": "NodeLinkText",
+													"Data": "Orion: RAN Slicing for a Flexible and Cost-Effective Multi-Service Mobile Network Architecture"
+												},
+												{
+													"Type": "NodeCloseBracket"
+												},
+												{
+													"Type": "NodeOpenParen"
+												},
+												{
+													"Type": "NodeLinkDest",
+													"Data": "https://dl.acm.org/doi/abs/10.1145/3117811.3117831"
+												},
+												{
+													"Type": "NodeCloseParen"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220219195334-tro7c7y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219195334-tro7c7y",
+				"updated": "20220219195336"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "摘要："
+				}
+			]
+		},
+		{
+			"ID": "20220219195336-i5m3w4j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219195336-i5m3w4j",
+				"updated": "20220219195337"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "新兴的 5G 移动网络被设想为多服务环境，能够动态部署具有各种性能要求的服务，满足移动网络运营商、垂直行业和 OTT 服务提供商的需求。以灵活的方式虚拟化移动网络对于经济高效地实现这一愿景至关重要。虽然在移动核心的情况下已经对虚拟化进行了广泛的研究，但无线接入网络 (RAN) 的虚拟化仍处于起步阶段。在本文中，我们介绍了 Orion，这是一种新颖的 RAN 切片系统，可实现基站的动态动态虚拟化、切片的灵活定制以满足各自的服务需求，并可用于端到端网络切片设置。Orion 保证 slice 的功能和性能隔离，同时允许有效使用它们之间的 RAN 资源。我们提出了用于 LTE 的 Orion 的具体原型实现，以及实验结果，考虑了替代 RAN 切片方法，表明了它的效率并突出了它的隔离能力。我们还介绍了 Orion 的扩展，以适应 OTT 提供商的需求"
+				}
+			]
+		},
+		{
+			"ID": "20220219195033-w2l18un",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0
+			],
+			"Properties": {
+				"id": "20220219195033-w2l18un",
+				"updated": "20220219195033"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 124,
+									"TableCellContentMaxWidth": 124,
+									"Children": [
+										{
+											"Type": "NodeLink",
+											"Data": "span",
+											"Children": [
+												{
+													"Type": "NodeOpenBracket"
+												},
+												{
+													"Type": "NodeLinkText",
+													"Data": "Accelerating Multipath Transport Through Balanced Subflow Completion"
+												},
+												{
+													"Type": "NodeCloseBracket"
+												},
+												{
+													"Type": "NodeOpenParen"
+												},
+												{
+													"Type": "NodeLinkDest",
+													"Data": "https://dl.acm.org/doi/abs/10.1145/3117811.3117829"
+												},
+												{
+													"Type": "NodeCloseParen"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220219195340-s50h6uv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219195340-s50h6uv",
+				"updated": "20220219195343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "摘要："
+				}
+			]
+		},
+		{
+			"ID": "20220219195344-q6242dm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219195344-q6242dm",
+				"updated": "20220219195403"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "同时使用多个网络路径（例如，WiFi 和蜂窝网络）是移动设备上的一项有吸引力的功能。MPTCP 等多路径系统中的一个关键组件是调度程序，它决定如何在多条路径上分配流量。在本文中，我们提出了 DEMS，一种新的多路径调度器，旨在减少数据块下载时间。DEMS 包含三个关键设计决策：(1) 了解块边界并战略性地解耦块交付路径，(2) 确保接收端同时完成子流，以及 (3) 允许路径进行少量交易冗余数据的性能。我们已经在智能手机上实施了 DEMS，并在模拟和真实蜂窝WiFi 网络上对其进行了评估。"
+				}
+			]
+		},
+		{
+			"ID": "20220219195134-mu10n9d",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0
+			],
+			"Properties": {
+				"id": "20220219195134-mu10n9d",
+				"updated": "20220219195134"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 134,
+									"TableCellContentMaxWidth": 134,
+									"Children": [
+										{
+											"Type": "NodeLink",
+											"Data": "span",
+											"Children": [
+												{
+													"Type": "NodeOpenBracket"
+												},
+												{
+													"Type": "NodeLinkText",
+													"Data": "Demo: DEMS: DEcoupled Multipath Scheduler for Accelerating Multipath Transport"
+												},
+												{
+													"Type": "NodeCloseBracket"
+												},
+												{
+													"Type": "NodeOpenParen"
+												},
+												{
+													"Type": "NodeLinkDest",
+													"Data": "https://dl.acm.org/doi/abs/10.1145/3117811.3119869"
+												},
+												{
+													"Type": "NodeCloseParen"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220219195346-nvlzxxa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219195346-nvlzxxa",
+				"updated": "20220219195348"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "摘要："
+				}
+			]
+		},
+		{
+			"ID": "20220219195348-f736bev",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220219195348-f736bev",
+				"updated": "20220219195415"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我们展示了 DEMS 的演示，这是一种旨在减少数据块下载时间的新多路径调度程序。DEMS 包含三个关键设计决策：(1) 了解块边界并战略性地解耦块交付路径，(2) 确保接收端同时完成子流，以及 (3) 允许路径进行少量交易冗余数据的性能。我们将 DEMS 组件集成到一个整体系统中，并在商品移动设备上实施，未经修改的移动应用程序可以使用 DEMS 通过多路径传输数据。我们演示了在多路径上使用 DEMS 的简单配置、多路径调度的可视化、与默认 MinRTT 调度程序相比，在模拟和真实蜂窝/WiFi 网络上使用 DEMS 减少数据块的下载时间，"
+				}
+			]
+		}
+	]
+}

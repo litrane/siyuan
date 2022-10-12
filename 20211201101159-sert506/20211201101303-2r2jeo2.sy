@@ -1,0 +1,728 @@
+{
+	"ID": "20211201101303-2r2jeo2",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211201101303-2r2jeo2",
+		"title": "编辑桌面图标（APPimage）",
+		"updated": "20211201101655"
+	},
+	"Children": [
+		{
+			"ID": "20211201101419-83blxz0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"fold": "1",
+				"id": "20211201101419-83blxz0",
+				"updated": "20211201101419"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "运行方法"
+				}
+			]
+		},
+		{
+			"ID": "20211201101419-9v46x2a",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20211201101419-9v46x2a",
+				"updated": "20211201101419"
+			},
+			"Children": [
+				{
+					"ID": "20211201101419-c8atuad",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20211201101419-c8atuad"
+					},
+					"Children": [
+						{
+							"ID": "20211201101419-uj3qzfl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101419-uj3qzfl"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "添加可执行权限"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211201101419-dumok05",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20211201101419-dumok05",
+				"updated": "20211201101419"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "chmod a+x *.AppImage\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211201101419-i2xtoph",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20211201101419-i2xtoph",
+				"updated": "20211201101419"
+			},
+			"Children": [
+				{
+					"ID": "20211201101419-pt7km1e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20211201101419-pt7km1e"
+					},
+					"Children": [
+						{
+							"ID": "20211201101419-tcqiijo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101419-tcqiijo"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "执行它！"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211201101419-ritddro",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20211201101419-ritddro",
+				"updated": "20211201101419"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "./*.AppImage\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211201101419-ka5wg1d",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20211201101419-ka5wg1d",
+				"updated": "20211201101419"
+			},
+			"Children": [
+				{
+					"ID": "20211201101419-qkid4gv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20211201101419-qkid4gv"
+					},
+					"Children": [
+						{
+							"ID": "20211201101419-auet2xx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101419-auet2xx"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "就这么简单，快去体验吧。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211201101419-b8qbye2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"fold": "1",
+				"id": "20211201101419-b8qbye2",
+				"updated": "20211201101419"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通过GNOME Files运行"
+				}
+			]
+		},
+		{
+			"ID": "20211201101419-vnsd5uh",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20211201101419-vnsd5uh",
+				"updated": "20211201101419"
+			},
+			"Children": [
+				{
+					"ID": "20211201101419-v7pg310",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20211201101419-v7pg310"
+					},
+					"Children": [
+						{
+							"ID": "20211201101419-dl5wxfe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101419-dl5wxfe"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "右键选择"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Properties 属性"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211201101419-1ijhhnz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20211201101419-1ijhhnz"
+					},
+					"Children": [
+						{
+							"ID": "20211201101419-s7lqui9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101419-s7lqui9"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在弹出的窗口中选择"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Permissions 权限"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211201101419-ofz6mqb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20211201101419-ofz6mqb"
+					},
+					"Children": [
+						{
+							"ID": "20211201101419-jjj1gnu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101419-jjj1gnu"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "勾选"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Allow executing file as program"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211201101419-mepx689",
+			"Type": "NodeHeading",
+			"HeadingLevel": 6,
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20211201101419-mepx689",
+				"updated": "20211201101419"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考资料："
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://appimage.org/"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://appimage.org/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211201101509-n713nab",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20211201101509-n713nab",
+				"updated": "20211201101509"
+			}
+		},
+		{
+			"ID": "20211201101511-sam53vd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20211201101511-sam53vd",
+				"updated": "20211201101511"
+			}
+		},
+		{
+			"ID": "20211201101511-jv0wt3w",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20211201101511-jv0wt3w",
+				"updated": "20211201101540"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Properties": {
+						"style": "color: var(--b3-font-color8);"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "图标编辑"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color8);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20211201101511-nuag3jq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20211201101511-nuag3jq",
+				"updated": "20211201101511"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Linux 下的程序启动图标基本都存放在 “/usr/share/applications” 目录下，并且以 “.desktop 结尾”，其实自己使用文本编辑器打开一个即可仿照着写一个自定义的启动程序图标。"
+				}
+			]
+		},
+		{
+			"ID": "20211201101511-f60cohl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20211201101511-f60cohl",
+				"updated": "20211201101511"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "以创建IDEA桌面程序为例：\n打开终端，输入如下命令："
+				}
+			]
+		},
+		{
+			"ID": "20211201101511-70h6d3m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20211201101511-70h6d3m",
+				"updated": "20211201101511"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "sudo vim /usr/share/applications/intellij-idea.desktop\n将下面的内容粘贴到 intellij-idea.desktop 文件中："
+				}
+			]
+		},
+		{
+			"ID": "20211201101511-5q2yy37",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20211201101511-5q2yy37",
+				"updated": "20211201101611"
+			}
+		},
+		{
+			"ID": "20211201101613-7qn4hg8",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20211201101613-7qn4hg8",
+				"updated": "20211201101613"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "[Desktop Entry]\nName=IntelliJ IDEA\nExec=/home/demo/Tools/idea/bin/idea.sh\nComment=IntelliJ IDEA\nIcon=/home/demo/Tools/idea/bin/idea.png\nType=Application\nTerminal=false\nEncoding=UTF-8\nCategories=Developer;\n注意 将 /home/demo/Tools/idea/bin/idea.sh 这段路径换成自己的实际存放路径。\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211201101511-z3scgrt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20211201101511-z3scgrt",
+				"updated": "20211201101511"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其中 Exec 就是平时用终端打开IntelliJ IDEA的命令， Icon 是图标文件。"
+				}
+			]
+		},
+		{
+			"ID": "20211201101511-n7vtayy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20211201101511-n7vtayy",
+				"updated": "20211201101511"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "然后在终端执行授予执行权限："
+				}
+			]
+		},
+		{
+			"ID": "20211201101511-c1mqtzt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20211201101511-c1mqtzt",
+				"updated": "20211201101511"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "sudo chmod +x /usr/share/applications/intellij-idea.desktop\n此时在 /usr/share/applications/ 目录下便有了IntelliJ IDEA的快捷方式，按下 Win键 找到IntelliJ IDEA 直接拖到 Launcher 可创建 Launcher 快捷方式，直接将 /usr/share/applications/intellij-idea.desktop 文件复制到桌面上即可创建桌面快捷方式。"
+				}
+			]
+		},
+		{
+			"ID": "20211201101511-7up6fvv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20211201101511-7up6fvv",
+				"updated": "20211201101511"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一般复制之后桌面上并不可以直接执行，需要等到用户双击之后，提示用户信任之后才能真使用。\n————————————————\n版权声明：本文为CSDN博主「「已注销」」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。\n原文链接：https://blog.csdn.net/gulang03/article/details/80058463"
+				}
+			]
+		},
+		{
+			"ID": "20211201101653-i28uz8s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20211201101653-i28uz8s",
+				"updated": "20211201101653"
+			}
+		},
+		{
+			"ID": "20211201101655-qlhxu0x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20211201101655-qlhxu0x",
+				"updated": "20211201101655"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "查看.desktop文件"
+				}
+			]
+		},
+		{
+			"ID": "20211201101655-388p54l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20211201101655-388p54l",
+				"updated": "20211201101655"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    Lancucher中的每个图标都有一个对应的"
+				},
+				{
+					"Type": "NodeEmphasis",
+					"Data": "em",
+					"Children": [
+						{
+							"Type": "NodeEmA6kOpenMarker",
+							"Data": "*"
+						},
+						{
+							"Type": "NodeText",
+							"Data": ".desktop文件（保存于/usr/share/applications目录中）。例如，查找Files图标对应的"
+						},
+						{
+							"Type": "NodeEmA6kCloseMarker",
+							"Data": "*"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": ".destop文件："
+				}
+			]
+		},
+		{
+			"ID": "20211201101655-44rctf9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20211201101655-44rctf9",
+				"updated": "20211201101655"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "liyihai@ubuntu:/usr/share/applications$ grep Files *\n    结果如下图："
+				}
+			]
+		},
+		{
+			"ID": "20211201101655-uq1q7gs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20211201101655-uq1q7gs",
+				"updated": "20211201101655"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    由上图可见，包含“Name=Files”的文件有两个nautilus.desktop和nautilus-folder-hander.desktop。使用vim打开前者，其内容如下："
+				}
+			]
+		},
+		{
+			"ID": "20211201101655-jr79rww",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20211201101655-jr79rww",
+				"updated": "20211201101655"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "[Desktop Entry]\nName=Files\nComment=Access and organize files\nKeywords=folder;manager;explore;disk;filesystem;\nExec=nautilus --new-window %U\nIcon=system-file-manager\nTerminal=false\nType=Application\nStartupNotify=true\nOnlyShowIn=GNOME;Unity;\nCategories=GNOME;GTK;Utility;Core;FileManager;\nMimeType=inode/directory;application/x-gnome-saved-search;\nX-GNOME-Bugzilla-Bugzilla=GNOME\nX-GNOME-Bugzilla-Product=nautilus\nX-GNOME-Bugzilla-Component=general\nX-GNOME-Bugzilla-Version=3.10.1\nX-GNOME-UsesNotifications=true\nActions=Window;\nX-Unity-IconBackgroundColor=#af4853\nX-Ubuntu-Gettext-Domain=nautilus"
+				}
+			]
+		},
+		{
+			"ID": "20211201101655-35psgu0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20211201101655-35psgu0",
+				"updated": "20211201101655"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "[Desktop Action Window]\nName=Open a New Window\nExec=nautilus --new-window\nOnlyShowIn=Unity;\n    由上面的第5行“Exec=nautilus --new-window %U”可知，Files图标所对应的可执行文件为 nautilus。\n————————————————\n版权声明：本文为CSDN博主「OneSea」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。\n原文链接：https://blog.csdn.net/Q1302182594/article/details/47059285"
+				}
+			]
+		}
+	]
+}

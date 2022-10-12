@@ -1,0 +1,65 @@
+{
+	"ID": "20220902221018-702zt0n",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220902221018-702zt0n",
+		"title": "merge",
+		"updated": "20220902221212"
+	},
+	"Children": [
+		{
+			"ID": "20220902221018-0ll9o6w",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220902221018-0ll9o6w",
+				"updated": "20220902221055"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z2l0"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "var subchainTNT20TokenAddress common.Address\nvar subchainTNT721TokenAddress common.Address\nvar subchainTNT1155TokenAddress common.Address\n\nfunc deploy_contracts() {\n\tsubchainClient, err := ethclient.Dial(\"http://localhost:19888/rpc\")\n\tif err != nil {\n\t\tlog.Fatal(err)\n\t}\n\tauth := subchainSelectAccount(subchainClient, 1)\n\taddress, tx, _, err := ct.DeployMockTNT20(auth, subchainClient)\n\tfmt.Println(\"tnt20\", address)\n\tfmt.Println(tx.Hash().Hex())\n\tif err != nil {\n\t\tlog.Fatal(err)\n\t}\n\tsubchainTNT20TokenAddress = address\n\tauth = subchainSelectAccount(subchainClient, 1)\n\taddress, tx, _, err = ct.DeployMockTNT721(auth, subchainClient)\n\tfmt.Println(\"tnt721\", address)\n\tfmt.Println(tx.Hash().Hex())\n\tif err != nil {\n\t\tlog.Fatal(err)\n\t}\n\tsubchainTNT721TokenAddress = address\n\tauth = subchainSelectAccount(subchainClient, 1)\n\taddress, tx, _, err = ct.DeployMockTNT1155(auth, subchainClient)\n\tfmt.Println(\"tnt1155\", address)\n\tfmt.Println(tx.Hash().Hex())\n\tif err != nil {\n\t\tlog.Fatal(err)\n\t}\n\tsubchainTNT1155TokenAddress = address\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220902221123-fv9d8we",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220902221123-fv9d8we",
+				"updated": "20220902221212"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z2l0"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "func query() {\n\tclient, err := ethclient.Dial(\"http://localhost:19888/rpc\")\n\tif err != nil {\n\t\tlog.Fatal(err)\n\t}\n\tsubchainAddress := common.HexToAddress(\"0x7D7e270b7E279C94b265A535CdbC00Eb62E6e68f\")\n\tsubchainTNT20VoucherAddressInstance, _ := ct.NewMockTNT20(subchainAddress, client)\n\ttx, err := subchainTNT20VoucherAddressInstance.BalanceOf(nil, accountList[1].fromAddress)\n\tfmt.Println(tx)\n\tif err != nil {\n\t\tlog.Fatal(err)\n\t}\n}\n\n\n\t// mintLockAmount := big.NewInt(100)\n\t// client, err := ethclient.Dial(\"http://localhost:18888/rpc\")\n\t// if err != nil {\n\t// \tlog.Fatal(err)\n\t// }\n\t// var dec18 = new(big.Int)\n\t// dec18.SetString(\"1000000000000000000\", 10)\n\t// user := accountList[1].fromAddress\n\n\t// instanceTNT20VoucherContract, err := ct.NewTNT20VoucherContract(tnt20VoucherContractAddress, client)\n\t// if err != nil {\n\t// \tlog.Fatal(err)\n\t// }\n\n\t// authAccount0 := mainchainSelectAccount(client, 0)\n\t// _, err = instanceTNT20VoucherContract.Mint(authAccount0, user, mintLockAmount)\n\t// if err != nil {\n\t// \tlog.Fatal(err)\n\t// }\n\t// authUser := mainchainSelectAccount(client, 1)\n\t// _, err = instanceTNT20VoucherContract.Approve(authUser, tnt20TokenBankAddress, mintLockAmount)\n\t// if err != nil {\n\t// \tlog.Fatal(err)\n\t// }\n\t// chs := make([]chan int, 10)\n\t// for i := 0; i \u003c 10; i++ {\n\t// \tchs[i] = make(chan int)\n\t// \tgo parallelLock(chs[i])\n\t// }\n\t// for _, ch := range chs {\n\t// \t\u003c-ch\n\t// }\n\n\n\n\nfunc parallelLock(ch chan int) {\n\tclient, err := ethclient.Dial(\"http://localhost:18888/rpc\")\n\tif err != nil {\n\t\tlog.Fatal(err)\n\t}\n\tinstanceTNT20TokenBank, err := ct.NewTNT20TokenBank(tnt20TokenBankAddress, client)\n\tif err != nil {\n\t\tlog.Fatal(err)\n\t}\n\tmintLockAmount := big.NewInt(10)\n\tuser := accountList[1].fromAddress\n\tfor {\n\t\tauthUser := mainchainSelectAccount(client, 1)\n\t\tLockTx, err := instanceTNT20TokenBank.LockTokens(authUser, subchainID, tnt20VoucherContractAddress, user, mintLockAmount)\n\t\tif err != nil {\n\t\t\tfmt.Println(err)\n\t\t\tcontinue\n\t\t}\n\t\treceipt, err := client.TransactionReceipt(context.Background(), LockTx.Hash())\n\t\tif err != nil {\n\t\t\tfmt.Println(err)\n\t\t\tcontinue\n\t\t}\n\t\tif receipt.Status != 1 {\n\t\t\tfmt.Println(\"lock error\")\n\t\t\tcontinue\n\t\t}\n\t\tfmt.Println(LockTx.Hash().Hex())\n\t\tbreak\n\t}\n\n\tch \u003c- 1\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

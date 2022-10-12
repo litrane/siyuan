@@ -1,0 +1,289 @@
+{
+	"ID": "20220917202656-v73cvpm",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220917202656-v73cvpm",
+		"title": "Go并发专栏",
+		"updated": "20220917205427"
+	},
+	"Children": [
+		{
+			"ID": "20220917202657-d87quzt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220917202657-d87quzt",
+				"updated": "20220917202712"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "原子操作"
+				}
+			]
+		},
+		{
+			"ID": "20220917202714-9xojd7g",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220917202714-9xojd7g",
+				"updated": "20220917203255"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220917203255-pc2t8ok",
+					"Type": "NodeHeading",
+					"HeadingLevel": 2,
+					"Properties": {
+						"id": "20220917203255-pc2t8ok",
+						"updated": "20220917203255"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "原子操作"
+						}
+					]
+				},
+				{
+					"ID": "20220917203255-lgh40h6",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220917203255-lgh40h6",
+						"updated": "20220917203255"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "原子操作指的是不可分割的操作。"
+						}
+					]
+				},
+				{
+					"ID": "20220917203255-y37shja",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220917203255-y37shja",
+						"updated": "20220917203255"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "在单核机器上，一个CPU指令能够完成的操作天然就是原子操作，比如MOV、INC等。比如++v是一个INC指令可以完成的操作，这就是一个原子操作。如果一个操作需要多个CPU指令才能够完成，这个操作就不是原子操作，可能会被中断，中断过程中外部可能修改这个操作的数据。"
+						}
+					]
+				},
+				{
+					"ID": "20220917203255-k755l4c",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220917203255-k755l4c",
+						"updated": "20220917203255"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "在多核机器上，一个CPU指令能够完成的操作不再是原子操作，因为指令读写的数据在缓存中，无法保证读到的数据是最新的，并且也无法保证指令完成后写入缓存的数据能够被其他核心“看见”。"
+						}
+					]
+				},
+				{
+					"ID": "20220917203255-km5dgkm",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220917203255-km5dgkm",
+						"updated": "20220917203255"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "x86架构中提供了LOCK指令前缀，LOCK前缀保证了指令不会受到其他核心的影响，保持原子性。这个是通过在指令执行时，限制其他核心访问相关数据，保证指令读到的是最新数据，写入数据后能够立刻被其他核心”看见”。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220917203300-53irtho",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220917203300-53irtho",
+				"updated": "20220917203415"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "go中的数据竞争以及解决之道"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://cloud.tencent.com/developer/article/1634663?from=10680"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220917205427-wp3nwdz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220917205427-wp3nwdz",
+				"updated": "20220917205427"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用锁的做法趋于悲观"
+				}
+			]
+		},
+		{
+			"ID": "20220917205427-4bjzf8w",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220917205427-4bjzf8w",
+				"updated": "20220917205427"
+			},
+			"Children": [
+				{
+					"ID": "20220917205427-wdzvsw1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220917205427-wdzvsw1",
+						"updated": "20220917205427"
+					},
+					"Children": [
+						{
+							"ID": "20220917205427-v43wcf9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220917205427-v43wcf9",
+								"updated": "20220917205427"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "我们总假设会有并发的操作要修改被操作的值，并使用锁将相关操作放入临界区中加以保护"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220917205427-ub1rw01",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220917205427-ub1rw01",
+						"updated": "20220917205427"
+					},
+					"Children": [
+						{
+							"ID": "20220917205427-chhseek",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220917205427-chhseek",
+								"updated": "20220917205427"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用CAS操作的做法趋于乐观"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220917205427-txqw27n",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220917205427-txqw27n",
+						"updated": "20220917205427"
+					},
+					"Children": [
+						{
+							"ID": "20220917205427-meiivpl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220917205427-meiivpl",
+								"updated": "20220917205427"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "总是假设被操作值未曾被改变（即与旧值相等），并一旦确认这个假设的真实性就立即进行值替换。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220917205343-9sj8fix",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220917205343-9sj8fix",
+				"updated": "20220917205348"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//不断地尝试原子地更新value的值,直到操作成功为止\nfunc addValue(delta int32){\n    //在被操作值被频繁变更的情况下,CAS操作并不那么容易成功\n    //so 不得不利用for循环以进行多次尝试\n    for {\n        //v := value\n        //在进行读取value的操作的过程中,其他对此值的读写操作是可以被同时进行的,那么这个读操作很可能会读取到一个只被修改了一半的数据.\n        //因此我们要使用载入\n        v := atomic.LoadInt32(\u0026value)\n        if atomic.CompareAndSwapInt32(\u0026value, v, (v + delta)){\n            //在函数的结果值为true时,退出循环\n            break\n        }\n        //操作失败的缘由总会是value的旧值已不与v的值相等了.\n        //CAS操作虽然不会让某个Goroutine阻塞在某条语句上,但是仍可能会使流产的执行暂时停一下,不过时间大都极其短暂.\n    }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220917205349-dgyo0e0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220917205349-dgyo0e0"
+			}
+		}
+	]
+}

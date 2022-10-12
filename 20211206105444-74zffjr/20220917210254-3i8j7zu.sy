@@ -1,0 +1,91 @@
+{
+	"ID": "20220917210254-3i8j7zu",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220917210254-3i8j7zu",
+		"title": "Go语言常量、变量",
+		"updated": "20220917210359"
+	},
+	"Children": [
+		{
+			"ID": "20220917210254-jmdn3a8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220917210254-jmdn3a8",
+				"updated": "20220917210312"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "iota自增行"
+				}
+			]
+		},
+		{
+			"ID": "20220917210312-zjvafgb",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220917210312-zjvafgb",
+				"updated": "20220917210335"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "const ( \n    i = iota \n    j = 3.14 \n    k = iota \n    l \n)\n//那么打印出来的结果是 i=0,j=3.14,k=2,l=3\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220917210336-toowtw7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220917210336-toowtw7",
+				"updated": "20220917210344"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "const (\nSunday = iota\n        Monday\n        Tuesday\n        Wednesday\n        Thursday\n        Friday\n        Saturday\n        numberOfDays // 这个常量没有导出 \n)\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220917210350-fpn2ftk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220917210350-fpn2ftk",
+				"updated": "20220917210359"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在设置类型可以如此定义"
+				}
+			]
+		}
+	]
+}

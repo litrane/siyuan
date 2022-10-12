@@ -1,0 +1,90 @@
+{
+	"ID": "20220716153243-mltlpds",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f552",
+		"id": "20220716153243-mltlpds",
+		"title": "Go Ethereum",
+		"updated": "20220717163629"
+	},
+	"Children": [
+		{
+			"ID": "20220716153243-4v3j3q2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220716153243-4v3j3q2",
+				"updated": "20220716153351"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "首先注意调用的包，其次注意Abigen，之后注意调用账户的nonce以及gas，"
+				}
+			]
+		},
+		{
+			"ID": "20220717011350-f59opgz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220717011350-f59opgz",
+				"updated": "20220717011350"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "value，之后注意合约地址"
+				}
+			]
+		},
+		{
+			"ID": "20220717094706-fv8l04n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220717094706-fv8l04n",
+				"updated": "20220717094714"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "侧链主链检查速度"
+				}
+			]
+		},
+		{
+			"ID": "20220717163526-v78zjd2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220717163526-v78zjd2",
+				"updated": "20220717163526"
+			}
+		},
+		{
+			"ID": "20220717163529-h2gahtv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220717163529-h2gahtv",
+				"updated": "20220717163534"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "host bug"
+				}
+			]
+		},
+		{
+			"ID": "20220717163535-yjo5efk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220717163535-yjo5efk",
+				"updated": "20220717163629"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "地址，map初始化，event解析，abi适应"
+				}
+			]
+		}
+	]
+}

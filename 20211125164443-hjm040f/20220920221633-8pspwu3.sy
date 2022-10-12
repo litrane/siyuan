@@ -1,0 +1,330 @@
+{
+	"ID": "20220920221633-8pspwu3",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220920221633-8pspwu3",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220920221638-oi6dilv\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220920222240-0zhqthu\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:1502,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220920222240-0zhqthu\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"title": "区块链方向",
+		"updated": "20220920222240"
+	},
+	"Children": [
+		{
+			"ID": "20220920221638-oi6dilv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220920221638-oi6dilv",
+				"updated": "20220920221638"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "智能物联网与边缘计算小组主要致力于研究智能物联网背景下，结合区块链的定价问题与生态调控方案。其中主要研究方向有："
+				}
+			]
+		},
+		{
+			"ID": "20220920221638-jcy1b99",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220920221638-jcy1b99",
+				"updated": "20220920221638"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "博弈论："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220920221638-x1v9cwu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220920221638-x1v9cwu",
+				"updated": "20220920221638"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "博弈论是设计分布式机制的有力工具，使得博弈的玩家能够基于策略交互并进行局部决策，从而实现相互满意的策略，这有助于减轻集中管理的沉重负担。此外,不同的玩家通常是不同的个体,他们可能会追求不同的利益,博弈论提供了一个非常有用的框架来分析多个玩家的交互行为，从而设计激励相容的机制使得玩家没有动机独自离开博弈系统。"
+				}
+			]
+		},
+		{
+			"ID": "20220920221638-qo9sggp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220920221638-qo9sggp",
+				"updated": "20220920221638"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "近年来，工业物联网(IIoT)发展迅速并被广泛应用，而如何建立一个可信高效的IIoT是一个重要的研究问题。为了解决这个问题，本文创新性地在IIoT中引入了区块链技术并为IIoT提出了一种基于博弈论的多跳协同分布式计算迁移算法来帮助建立一个可信高效的IIoT。区块链技术的引入使得在IIoT中能够进行安全可行的计算资源交易。"
+				}
+			]
+		},
+		{
+			"ID": "20220920221638-h95ymwo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220920221638-h95ymwo",
+				"updated": "20220920221638"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "21"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "http://inpluslab.com/wp-content/uploads/2019/07/21.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220920221638-co6rlds",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220920221638-co6rlds",
+				"updated": "20220920221638"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "区块链调控："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220920221638-u68tg7r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220920221638-u68tg7r",
+				"updated": "20220920221638"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "       利用区块链技术实现车联网下安全可信的数据交易，同时设计了基于两阶段斯坦科尔博格博弈模型的多方借贷算法，以解决车联网高速数据交易中由于交易确认延时和用户冷启动问题造成的资金短缺和交易效率低下问题。在该借贷模型中，借钱用户以债券的方式向多个投资用户募集资金，其中借钱用户在博弈模型中充当领导者，决定借贷利率，出借人作为投资用户，决定贷款的数额。同时，该算法通过额外的奖励机制鼓励出借人的相互竞争，从而最大化借钱用户的综合收益。"
+				}
+			]
+		},
+		{
+			"ID": "20220920221638-7t2osuh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220920221638-7t2osuh",
+				"updated": "20220920221638"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "22"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "http://inpluslab.com/wp-content/uploads/2019/07/22.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220920221638-uogdyxn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220920221638-uogdyxn",
+				"updated": "20220920221638"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "深度强化学习："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220920221638-e9fwvhs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220920221638-e9fwvhs",
+				"updated": "20220920221638"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "面对传统边缘计算中存在的多方信任问题，利用区块链技术可以用于解决有关IoT的安全和信任问题。面对移动设备有限的计算和存储能力，如何对数据处理任务和区块链挖矿任务做出合理的计算迁移决策，是将区块链技术应用到物联网领域的关键。"
+				}
+			]
+		},
+		{
+			"ID": "20220920221638-sjr1hj4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220920221638-sjr1hj4",
+				"updated": "20220920221638"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "深度强化学习使用试错方法来最大限度地实现算法奖励函数，其最佳应用点是在环境情境化决策场景中计算出智能体应采取的最优措施。利用深度强化学习算法，通过与环境进行交互，从而学习到最优的计算迁移策略，解决区块链物联网中数据处理与挖矿任务迁移策略面临的挑战。"
+				}
+			]
+		},
+		{
+			"ID": "20220920221638-64kg553",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220920221638-64kg553",
+				"updated": "20220920221638"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "23"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "http://inpluslab.com/wp-content/uploads/2019/07/23-1024x460.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220920222007-n6xfkbc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220920222007-n6xfkbc",
+				"updated": "20220920222008"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Wireless blockchain systems for Future Internet of things (IoT)/social networking/ crowdsourcing and crowdsensing/edge and cloud computing;"
+				}
+			]
+		},
+		{
+			"ID": "20220920222240-0zhqthu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220920222240-0zhqthu"
+			}
+		}
+	]
+}

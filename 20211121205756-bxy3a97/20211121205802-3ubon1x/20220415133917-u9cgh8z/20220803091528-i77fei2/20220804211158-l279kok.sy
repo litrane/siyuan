@@ -1,0 +1,39 @@
+{
+	"ID": "20220804211158-l279kok",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220804211158-l279kok",
+		"title": "2022-08-04",
+		"updated": "20220804211216"
+	},
+	"Children": [
+		{
+			"ID": "20220804211158-tbmt8xq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220804211158-tbmt8xq",
+				"updated": "20220804211209"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "go语言的指针"
+				}
+			]
+		},
+		{
+			"ID": "20220804211209-mmpanlr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220804211209-mmpanlr",
+				"updated": "20220804211216"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "git回退版本"
+				}
+			]
+		}
+	]
+}

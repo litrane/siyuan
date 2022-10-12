@@ -1,0 +1,230 @@
+{
+	"ID": "20220929231505-obxpcfw",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220929231505-obxpcfw",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220929231546-h9f4bgo\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220929231546-601ttte\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:311,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220929231718-bmyskca\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:3,\u0026amp;quot;focusEnd\u0026amp;quot;:3}",
+		"title": "2022-09-29",
+		"updated": "20220929231826"
+	},
+	"Children": [
+		{
+			"ID": "20220929231546-h9f4bgo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220929231546-h9f4bgo",
+				"updated": "20220928092159"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "日程："
+				}
+			]
+		},
+		{
+			"ID": "20220929231546-8eg56cy",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220929231546-8eg56cy",
+				"updated": "20220929231647"
+			},
+			"Children": [
+				{
+					"ID": "20220929231546-1ezof4w",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220929231546-1ezof4w",
+						"updated": "20220928092205"
+					},
+					"Children": [
+						{
+							"ID": "20220929231546-l87b9j8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220929231546-l87b9j8",
+								"updated": "20220929231608"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "早上过了一道题，配置vscode c"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220929231608-dhysc9m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220929231608-dhysc9m",
+						"updated": "20220929231647"
+					},
+					"Children": [
+						{
+							"ID": "20220929231608-oa11wb9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220929231608-oa11wb9",
+								"updated": "20220929231647"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "上马克思课，交作业，出校"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220929231619-wt2meqw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220929231619-wt2meqw",
+						"updated": "20220929231636"
+					},
+					"Children": [
+						{
+							"ID": "20220929231619-nh90hyk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220929231619-nh90hyk",
+								"updated": "20220929231636"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "看query论文以及storage论文"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220929231546-w9aidyo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220929231546-w9aidyo",
+				"updated": "20220928092211"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "奇思妙想："
+				}
+			]
+		},
+		{
+			"ID": "20220929231546-fu1cx7p",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220929231546-fu1cx7p",
+				"updated": "20220929231826"
+			},
+			"Children": [
+				{
+					"ID": "20220929231718-mv9x6yg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220929231718-mv9x6yg",
+						"updated": "20220929231826"
+					},
+					"Children": [
+						{
+							"ID": "20220929231718-bmyskca",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220929231718-bmyskca",
+								"updated": "20220929231826"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220929231825-cckmrsy.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220929231546-601ttte",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220929231546-601ttte",
+				"updated": "20220928092218"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "总结："
+				}
+			]
+		}
+	]
+}

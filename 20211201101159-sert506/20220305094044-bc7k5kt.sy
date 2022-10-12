@@ -1,0 +1,60 @@
+{
+	"ID": "20220305094044-bc7k5kt",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220305094044-bc7k5kt",
+		"title": "端口映射",
+		"updated": "20220305094136"
+	},
+	"Children": [
+		{
+			"ID": "20220305094045-tcw3sxm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220305094045-tcw3sxm",
+				"updated": "20220305094044"
+			}
+		},
+		{
+			"ID": "20220305094102-0pa535n",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220305094102-0pa535n",
+				"updated": "20220305094102"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 添加本地8080端口代理到WSL的80端口\nnetsh interface portproxy add v4tov4 listenport=8080 listenaddress=0.0.0.0 connectport=80 connectaddress=192.168.2.100\n// 删除8080这条代理\nnetsh interface portproxy delete v4tov4 listenport=8080 listenaddress=0.0.0.0"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220305094133-xn2cw0a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220305094133-xn2cw0a",
+				"updated": "20220305094136"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "http://localhost:1090/"
+				}
+			]
+		}
+	]
+}

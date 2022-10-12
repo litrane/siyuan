@@ -1,0 +1,507 @@
+{
+	"ID": "20211122094635-mhhd9fq",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211122094635-mhhd9fq",
+		"title": "2021年11月22日可可英语",
+		"updated": "20211122100957"
+	},
+	"Children": [
+		{
+			"ID": "20211122094642-5gtnefy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211122094642-5gtnefy",
+				"updated": "20211122094642"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可可英语"
+				}
+			]
+		},
+		{
+			"ID": "20211122094642-sp6z6lo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211122094642-sp6z6lo",
+				"updated": "20211122094642"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "生词"
+				}
+			]
+		},
+		{
+			"ID": "20211122094642-gwa4o9y",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0,
+				0
+			],
+			"Properties": {
+				"id": "20211122094642-gwa4o9y",
+				"style": "text-align: left;",
+				"updated": "20211122100957"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 9,
+									"TableCellContentMaxWidth": 21,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Vintage"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 14,
+									"TableCellContentMaxWidth": 14,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "古董、古老的"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 4,
+									"TableCellContentMaxWidth": 4,
+									"Children": [
+										{
+											"Type": "NodeBr",
+											"Data": "br"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 18,
+							"TableCellContentMaxWidth": 21,
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "satire"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 6,
+							"TableCellContentMaxWidth": 14,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "讽刺"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 4,
+							"TableCellContentMaxWidth": 4,
+							"Children": [
+								{
+									"Type": "NodeBr",
+									"Data": "br"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 19,
+							"TableCellContentMaxWidth": 21,
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "pungent"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 8,
+							"TableCellContentMaxWidth": 14,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "辛辣的"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 2,
+							"TableCellContentMaxWidth": 4
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 21,
+							"TableCellContentMaxWidth": 21,
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "punchline"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 14,
+							"TableCellContentMaxWidth": 14,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "笑料，关键点"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 2,
+							"TableCellContentMaxWidth": 4
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 9,
+							"TableCellContentMaxWidth": 21,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "deckled"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 10,
+							"TableCellContentMaxWidth": 14,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "被裁剪的"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 2,
+							"TableCellContentMaxWidth": 4
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 15,
+							"TableCellContentMaxWidth": 21,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "odor emission"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 10,
+							"TableCellContentMaxWidth": 14,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "散发气味"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 2,
+							"TableCellContentMaxWidth": 4
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 7,
+							"TableCellContentMaxWidth": 21,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "fable"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 6,
+							"TableCellContentMaxWidth": 14,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "寓言"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 2,
+							"TableCellContentMaxWidth": 4
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 8,
+							"TableCellContentMaxWidth": 21,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "depict"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 8,
+							"TableCellContentMaxWidth": 14,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "描述"
+								},
+								{
+									"Type": "NodeBr",
+									"Data": "br"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 2,
+							"TableCellContentMaxWidth": 4
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211122095045-nnvvi0z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211122095045-nnvvi0z",
+				"updated": "20211122095045"
+			}
+		},
+		{
+			"ID": "20211122094642-47yciii",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211122094642-47yciii",
+				"updated": "20211122094642"
+			}
+		},
+		{
+			"ID": "20211122094642-7anzn9s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211122094642-7anzn9s",
+				"updated": "20211122094642"
+			}
+		},
+		{
+			"ID": "20211122094642-tmgz3vz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211122094642-tmgz3vz",
+				"updated": "20211122094642"
+			}
+		},
+		{
+			"ID": "20211122094642-ffq7zvr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211122094642-ffq7zvr",
+				"updated": "20211122094642"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "句式"
+				}
+			]
+		},
+		{
+			"ID": "20211122094642-a5zmbq5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211122094642-a5zmbq5",
+				"updated": "20211122095529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "have a moment 经久不衰"
+				}
+			]
+		},
+		{
+			"ID": "20211122095530-mwxet10",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211122095530-mwxet10",
+				"updated": "20211122100654"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "muse about her legacy 沉思她的故事"
+				}
+			]
+		},
+		{
+			"ID": "20211122094642-csjfv2u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211122094642-csjfv2u",
+				"updated": "20211122094642"
+			}
+		},
+		{
+			"ID": "20211122094642-kol2g4a",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211122094642-kol2g4a",
+				"updated": "20211122094642"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "感悟"
+				}
+			]
+		}
+	]
+}

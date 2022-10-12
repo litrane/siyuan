@@ -1,0 +1,172 @@
+{
+	"ID": "20221004200555-wrff4ux",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221004200555-wrff4ux",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221004200602-7bfh9ei\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221004200602-gi07hvj\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221004200709-z7q3f1n\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:16}",
+		"title": "2022-10-04",
+		"updated": "20221005103845"
+	},
+	"Children": [
+		{
+			"ID": "20221004200602-7bfh9ei",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221004200602-7bfh9ei",
+				"updated": "20220928092159"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "日程："
+				}
+			]
+		},
+		{
+			"ID": "20221004200602-tfu4ms4",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221004200602-tfu4ms4",
+				"updated": "20221004201253"
+			},
+			"Children": [
+				{
+					"ID": "20221004200602-frf0yca",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221004200602-frf0yca",
+						"updated": "20220928092205"
+					},
+					"Children": [
+						{
+							"ID": "20221004200602-3loclzg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221004200602-3loclzg",
+								"updated": "20221004200638"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "早上开组会，表明下面的工作是theta实验以及看论文写专利想idea"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221004200612-wzbxpog",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221004200612-wzbxpog",
+						"updated": "20221004201239"
+					},
+					"Children": [
+						{
+							"ID": "20221004200612-kbw3htb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221004200612-kbw3htb",
+								"updated": "20221004201239"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "下午看acwing，明白并查集以及加权并查集；表明余数；加写了三维重建PPT"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221004200709-3p9h8ze",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221004200709-3p9h8ze",
+						"updated": "20221004201253"
+					},
+					"Children": [
+						{
+							"ID": "20221004200709-z7q3f1n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221004200709-z7q3f1n",
+								"updated": "20221004201253"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "晚上开始研究cosmos环境搭建"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221004200602-v8e9eg3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221004200602-v8e9eg3",
+				"updated": "20220928092211"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "奇思妙想："
+				}
+			]
+		},
+		{
+			"ID": "20221004200602-hx1y25i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221004200602-hx1y25i",
+				"updated": "20221005103845"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "无"
+				}
+			]
+		},
+		{
+			"ID": "20221004200602-gi07hvj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221004200602-gi07hvj",
+				"updated": "20220928092218"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "总结："
+				}
+			]
+		}
+	]
+}

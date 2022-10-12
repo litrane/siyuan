@@ -1,0 +1,691 @@
+{
+	"ID": "20220919091155-d4pm1pg",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220919091155-d4pm1pg",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220919091226-dhpzl9c\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220919091226-wv46c1o\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:2730,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220919091226-64egwbe\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:54,\u0026amp;quot;focusEnd\u0026amp;quot;:148}",
+		"title": "Setup for e2e Test",
+		"updated": "20220919091226"
+	},
+	"Children": [
+		{
+			"ID": "20220919091226-dhpzl9c",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220919091226-dhpzl9c",
+				"updated": "20220919091226"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Setup for the End-to-End Tests"
+				}
+			]
+		},
+		{
+			"ID": "20220919091226-d2vj6f0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220919091226-d2vj6f0",
+				"updated": "20220919091226"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. Setup (Run once)"
+				}
+			]
+		},
+		{
+			"ID": "20220919091226-efv6vsh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919091226-efv6vsh",
+				"updated": "20220919091226"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "First, please make sure the following software are installed on your machine:"
+				}
+			]
+		},
+		{
+			"ID": "20220919091226-4eu5x1f",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220919091226-4eu5x1f",
+				"updated": "20220919091226"
+			},
+			"Children": [
+				{
+					"ID": "20220919091226-khwack0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220919091226-khwack0",
+						"updated": "20220919091226"
+					},
+					"Children": [
+						{
+							"ID": "20220919091226-tc1f9v0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220919091226-tc1f9v0",
+								"updated": "20220919091226"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://go.dev/dl/",
+									"TextMarkTextContent": "Golang"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 1.14 or higher version. Also please make sure Golang related env variables like "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "$GOPATH"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " are set properly."
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220919091226-pbwhs2n",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220919091226-pbwhs2n",
+						"updated": "20220919091226"
+					},
+					"Children": [
+						{
+							"ID": "20220919091226-z2dffb8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220919091226-z2dffb8",
+								"updated": "20220919091226"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "The "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://trufflesuite.com/docs/truffle/getting-started/installation/",
+									"TextMarkTextContent": "Truffle suite"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " for smart contract compilation and deployment"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220919091226-j3r7fi2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919091226-j3r7fi2",
+				"updated": "20220919091226"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Then, follow the instructions below to setup the testing environment. You only need to do it once. If you need to modify the smart contracts, please check out the "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "./update-smart-contracts.md#procedure-for-updating-smart-contracts",
+					"TextMarkTextContent": "this doc"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "."
+				}
+			]
+		},
+		{
+			"ID": "20220919091226-ioo7m72",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220919091226-ioo7m72",
+				"updated": "20220919091226"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.1 Compile the Theta binaries"
+				}
+			]
+		},
+		{
+			"ID": "20220919091226-nk5xsr5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919091226-nk5xsr5",
+				"updated": "20220919091226"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Compile the Theta binaries from source code:"
+				}
+			]
+		},
+		{
+			"ID": "20220919091226-0fwyzal",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220919091226-0fwyzal",
+				"updated": "20220919091226"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# Make sure your $GOPATH env variable is set properly below running the following commands\nmkdir -p $GOPATH/src/github.com/thetatoken\n\ngit clone https://github.com/thetatoken/theta-protocol-ledger.git $GOPATH/src/github.com/thetatoken/theta\nexport THETA_HOME=$GOPATH/src/github.com/thetatoken/theta\ncd $THETA_HOME\ngit checkout sc-privatenet\ngit pull origin sc-privatenet\nexport GO111MODULE=on\nmake install\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220919091226-pkg98s8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220919091226-pkg98s8",
+				"updated": "20220919091226"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.2 Compile the ETH RPC Adapter binary"
+				}
+			]
+		},
+		{
+			"ID": "20220919091226-pb2d6eb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919091226-pb2d6eb",
+				"updated": "20220919091226"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Compile the ETH RPC Adapter binary from source code:"
+				}
+			]
+		},
+		{
+			"ID": "20220919091226-bk705oy",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220919091226-bk705oy",
+				"updated": "20220919091226"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "cd $GOPATH/src/github.com/thetatoken\ngit clone https://github.com/thetatoken/theta-eth-rpc-adaptor\nexport THETA_ETH_RPC_ADAPTOR_HOME=$GOPATH/src/github.com/thetatoken/theta-eth-rpc-adaptor\ncd $THETA_ETH_RPC_ADAPTOR_HOME\nexport GO111MODULE=on\nmake install\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220919091226-z2a6v9g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220919091226-z2a6v9g",
+				"updated": "20220919091226"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.3 Compile the Subchain binaries"
+				}
+			]
+		},
+		{
+			"ID": "20220919091226-i6h5e3m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919091226-i6h5e3m",
+				"updated": "20220919091226"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Compile the subchain binaries from source code:"
+				}
+			]
+		},
+		{
+			"ID": "20220919091226-nggvux0",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220919091226-nggvux0",
+				"updated": "20220919091226"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "git clone https://github.com/thetatoken/theta-protocol-subchain.git $GOPATH/src/github.com/thetatoken/thetasubchain\nexport SUBCHAIN_HOME=$GOPATH/src/github.com/thetatoken/thetasubchain\ncd $SUBCHAIN_HOME\n​export GO111MODULE=on\nmake install\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220919091226-yfpq6xk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220919091226-yfpq6xk",
+				"updated": "20220919091226"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.4 Setup the Workspace for the Tests"
+				}
+			]
+		},
+		{
+			"ID": "20220919091226-4ngaqcx",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220919091226-4ngaqcx",
+				"updated": "20220919091226"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "cd ~\nmkdir -p metachain_playground/privatenet/workspace\nmkdir -p metachain_playground/privatenet/mainchain/validator\nmkdir -p metachain_playground/privatenet/mainchain/eth_rpc_adaptor\nmkdir -p metachain_playground/privatenet/subchain/validator\nmkdir -p metachain_playground/privatenet/subchain/eth_rpc_adaptor\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220919091226-p09ov7l",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220919091226-p09ov7l",
+				"updated": "20220919091226"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.5 Setup the Validator Nodes"
+				}
+			]
+		},
+		{
+			"ID": "20220919091226-33tudum",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919091226-33tudum",
+				"updated": "20220919091226"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "For the Mainchain Validator, copy over the necessary files using the following command:"
+				}
+			]
+		},
+		{
+			"ID": "20220919091226-2rogfur",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220919091226-2rogfur",
+				"updated": "20220919091226"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "cd $THETA_HOME\ncp -r integration/privatenet/node/* ~/metachain_playground/privatenet/mainchain/validator/\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220919091226-7yu37je",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919091226-7yu37je",
+				"updated": "20220919091226"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Next, copy over the files for the Subchain Validator:"
+				}
+			]
+		},
+		{
+			"ID": "20220919091226-86j2gbc",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220919091226-86j2gbc",
+				"updated": "20220919091226"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "cd $SUBCHAIN_HOME\ncp -r integration/privatenet/node/* ~/metachain_playground/privatenet/subchain/validator/\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220919091226-iz8c8pp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919091226-iz8c8pp",
+				"updated": "20220919091226"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "Note"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " (Optional): If you want to regenerate the genesis snapshot for the subchain, please exec the code below\n​"
+				}
+			]
+		},
+		{
+			"ID": "20220919091226-64egwbe",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220919091226-64egwbe",
+				"updated": "20220919091226"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "cd $SUBCHAIN_HOME\ncd integration/privatenet/node\nsubchain_generate_genesis -initValidatorSet=./data/init_validator_set.json -genesis=./snapshot\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220919091226-7l1zt1e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919091226-7l1zt1e",
+				"updated": "20220919091226"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Then copy the genessis hash to "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "~/metachain_playground/privatenet/subchain/validator/config.yaml"
+				},
+				{
+					"Type": "NodeText",
+					"Data": ":"
+				}
+			]
+		},
+		{
+			"ID": "20220919091226-0acp7dd",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220919091226-0acp7dd",
+				"updated": "20220919091226"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eWFtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "genesis:\n   hash:\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220919091226-5yzy7v6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220919091226-5yzy7v6",
+				"updated": "20220919091226"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.6 Setup the ETH RPC Adapters"
+				}
+			]
+		},
+		{
+			"ID": "20220919091226-zl0ri01",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919091226-zl0ri01",
+				"updated": "20220919091226"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Create an YAML file "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "~/metachain_playground/privatenet/mainchain/eth_rpc_adaptor/config.yaml"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " and paste in the following configs:"
+				}
+			]
+		},
+		{
+			"ID": "20220919091226-45gzbsg",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220919091226-45gzbsg",
+				"updated": "20220919091226"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eWFtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "theta:\n  rpcEndpoint: \"http://127.0.0.1:16888/rpc\"\nnode:\n  skipInitializeTestWallets: true\nrpc:\n  enabled: true\n  httpAddress: \"127.0.0.1\"\n  httpPort: 18888\n  wsAddress: \"127.0.0.1\"\n  wsPort: 18889\n  timeoutSecs: 600 \n  maxConnections: 2048\nlog:\n  levels: \"*:debug\"\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220919091226-v2ugqgn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919091226-v2ugqgn",
+				"updated": "20220919091226"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Create an YAML file "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "~/metachain_playground/privatenet/subchain/eth_rpc_adaptor/config.yaml"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " and paste in the following configs:"
+				}
+			]
+		},
+		{
+			"ID": "20220919091226-wv46c1o",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220919091226-wv46c1o",
+				"updated": "20220919091226"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eWFtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "theta:\n  rpcEndpoint: \"http://127.0.0.1:16900/rpc\"\nnode:\n  skipInitializeTestWallets: true\nrpc:\n  enabled: true\n  httpAddress: \"127.0.0.1\"\n  httpPort: 19888\n  wsAddress: \"127.0.0.1\"\n  wsPort: 19889\n  timeoutSecs: 600 \n  maxConnections: 2048\nlog:\n  levels: \"*:debug\"\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

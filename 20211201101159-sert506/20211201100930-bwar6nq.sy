@@ -1,0 +1,1936 @@
+{
+	"ID": "20211201100930-bwar6nq",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211201100930-bwar6nq",
+		"title": "electron ssr使用",
+		"updated": "20211201101347"
+	},
+	"Children": [
+		{
+			"ID": "20211201100930-jk2zntt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211201100930-jk2zntt",
+				"updated": "20211201100941"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "https://github.com/qingshuisiyuan/electron-ssr-backup/blob/master/Ubuntu.md"
+				}
+			]
+		},
+		{
+			"ID": "20211201101025-8fx7a6a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211201101025-8fx7a6a",
+				"updated": "20211201101127"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Properties": {
+						"style": "color: var(--b3-font-color8);"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "需要考虑python版本以及其依赖"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color8);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20211201101119-nzvzklm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211201101119-nzvzklm",
+				"updated": "20211201101119"
+			}
+		},
+		{
+			"ID": "20211201101120-zx5nhii",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211201101120-zx5nhii",
+				"updated": "20211201101120"
+			}
+		},
+		{
+			"ID": "20211201101121-ws90ksd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20211201101121-ws90ksd",
+				"updated": "20211201101121"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "写在前面"
+				}
+			]
+		},
+		{
+			"ID": "20211201101121-cmc1bfq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211201101121-cmc1bfq",
+				"updated": "20211201101121"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "原作者（不具名）于2019年5月15日删除了并停止开发这个伟大的项目，不管因为什么原因，我们都应该感谢原作者的付出，希望有缘再见！"
+				}
+			]
+		},
+		{
+			"ID": "20211201101121-3uxqz3d",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211201101121-3uxqz3d",
+				"updated": "20211201101121"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用时注意事项："
+				}
+			]
+		},
+		{
+			"ID": "20211201101121-mfbgyol",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211201101121-mfbgyol",
+				"updated": "20211201101121"
+			},
+			"Children": [
+				{
+					"ID": "20211201101121-txqdmfh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211201101121-txqdmfh"
+					},
+					"Children": [
+						{
+							"ID": "20211201101121-a0lbw8c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101121-a0lbw8c"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "本应用内置http_proxy服务，如果您系统中或浏览器中安装有其他代理工具，服务，插件等请暂时停用或关闭服务或卸载后使用本软件。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211201101121-ws6069x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211201101121-ws6069x"
+					},
+					"Children": [
+						{
+							"ID": "20211201101121-i5cq7yr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101121-i5cq7yr"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "本应用使用"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "gsetting"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "设置系统代理，所以有些Linux系统无法使用该功能，请参考"
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Ubuntu.md"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://github.com/qingshuisiyuan/electron-ssr-backup/blob/master/Ubuntu.md"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "手动设置系统代理。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211201101121-yr25lep",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211201101121-yr25lep"
+					},
+					"Children": [
+						{
+							"ID": "20211201101121-ixxxoh3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101121-ixxxoh3"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "火狐浏览器请注意在浏览器设置中更改代理方式为使用系统代理或手动设置。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211201101121-woradcg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211201101121-woradcg"
+					},
+					"Children": [
+						{
+							"ID": "20211201101121-htcta89",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101121-htcta89"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Chrome浏览器默认使用系统代理"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211201101121-aqm0w46",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211201101121-aqm0w46",
+				"updated": "20211201101121"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2019-08-05更新"
+				}
+			]
+		},
+		{
+			"ID": "20211201101121-cmscihg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211201101121-cmscihg",
+				"updated": "20211201101121"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "更新内容："
+				}
+			]
+		},
+		{
+			"ID": "20211201101121-3m60mcj",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211201101121-3m60mcj",
+				"updated": "20211201101121"
+			},
+			"Children": [
+				{
+					"ID": "20211201101121-rga778j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211201101121-rga778j"
+					},
+					"Children": [
+						{
+							"ID": "20211201101121-nu25g0p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101121-nu25g0p"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "增加原作者发布的0.2.5安装包，未在release发布请访问项目文件夹"
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "0.2.5App"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://github.com/qingshuisiyuan/electron-ssr-backup/tree/master/0.2.5App"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211201101121-90kd312",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211201101121-90kd312"
+					},
+					"Children": [
+						{
+							"ID": "20211201101121-kiusiiu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101121-kiusiiu"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "更新并收集issues并制成文档"
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "issue.md"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://github.com/qingshuisiyuan/electron-ssr-backup/blob/master/issue.md"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211201101121-wocxr9m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211201101121-wocxr9m"
+					},
+					"Children": [
+						{
+							"ID": "20211201101121-d7aop9r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101121-d7aop9r"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "说明issues作用"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211201101121-uwi7znw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211201101121-uwi7znw",
+				"updated": "20211201101121"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "下载"
+				}
+			]
+		},
+		{
+			"ID": "20211201101121-y5lke1w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211201101121-y5lke1w",
+				"updated": "20211201101121"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "提供0.2.6版本与0.2.5版本，建议优先使用0.2.6版本 0.2.6下载地址见"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Github release"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/qingshuisiyuan/electron-ssr-backup/releases"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，对应的操作系统下载的文件为"
+				}
+			]
+		},
+		{
+			"ID": "20211201101121-n0knbh2",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211201101121-n0knbh2",
+				"updated": "20211201101121"
+			},
+			"Children": [
+				{
+					"ID": "20211201101121-9sfmeub",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211201101121-9sfmeub"
+					},
+					"Children": [
+						{
+							"ID": "20211201101121-30rbwkj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101121-30rbwkj"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Windows "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "electron-ssr-setup-x.x.x.exe"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211201101121-fjjwqxf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211201101121-fjjwqxf"
+					},
+					"Children": [
+						{
+							"ID": "20211201101121-myiqr2p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101121-myiqr2p"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Mac "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "electron-ssr-x.x.x.dmg"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211201101121-c2il9rq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211201101121-c2il9rq"
+					},
+					"Children": [
+						{
+							"ID": "20211201101121-b0s8lr0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101121-b0s8lr0"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Linux 优先建议下载"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "electron-ssr-x.x.x.AppImage"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，直接双击运行。如果无法使用或者想直接下载自己系统专用包请看下一条"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211201101121-hdezx6f",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211201101121-hdezx6f"
+					},
+					"Children": [
+						{
+							"ID": "20211201101121-6rw3a8o",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101121-6rw3a8o"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Arch或者基于Arch的系统，下载"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "electron-ssr-x.x.x.pacman"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211201101121-ydhyrxq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211201101121-ydhyrxq"
+					},
+					"Children": [
+						{
+							"ID": "20211201101121-dknbzmd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101121-dknbzmd"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "RedHat系列的系统，下载"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "electron-ssr-x.x.x.rpm"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211201101121-dt1wudm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211201101121-dt1wudm"
+					},
+					"Children": [
+						{
+							"ID": "20211201101121-zsdu6k7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101121-zsdu6k7"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Debian系列的系统，下载"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "electron-ssr-x.x.x.deb"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211201101121-bidjjyh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211201101121-bidjjyh"
+					},
+					"Children": [
+						{
+							"ID": "20211201101121-xjdx5wa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101121-xjdx5wa"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "其他Linux系统或者通用Linux系统可下载"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "electron-ssr-x.x.x.tar.gz"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "（不会使用.tar.gz的请自行百度）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211201101121-rwdw239",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211201101121-rwdw239",
+				"updated": "20211201101121"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Debian系列安装与配置"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Ubuntu.md"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/qingshuisiyuan/electron-ssr-backup/blob/master/Ubuntu.md"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211201101121-mfkoa95",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211201101121-mfkoa95",
+				"updated": "20211201101121"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "收集已知问题和解决方案"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "issue.md"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/qingshuisiyuan/electron-ssr-backup/blob/master/issue.md"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211201101121-39e8ebw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211201101121-39e8ebw",
+				"updated": "20211201101121"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Issus"
+				}
+			]
+		},
+		{
+			"ID": "20211201101121-3zjezxg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211201101121-3zjezxg",
+				"updated": "20211201101121"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在发issue前请先在issue中搜索是否有同类issue，如果有请跟帖。\n另外发Bug类issue请详细描述你的使用环境，包括但不限于操作系统、软件版本，操作步骤，报错日志等。\n欢迎在issue写出你们的经验，这对这个项目非常重要！包括但不限于如何解决错误，如何在不同的操作系统安装软件、依赖，设置代理，成功的使用软件的经验。对于正确的issue，我会收集到项目代码中。"
+				}
+			]
+		},
+		{
+			"ID": "20211201101121-2231o6a",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211201101121-2231o6a",
+				"updated": "20211201101121"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ShadowsocksR跨平台客户端"
+				}
+			]
+		},
+		{
+			"ID": "20211201101121-uir2ect",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211201101121-uir2ect",
+				"updated": "20211201101121"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这是一个跨平台（支持Windows MacOS Linux系统）的"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "ShadowsocksR"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "客户端桌面应用，它功能丰富，支持windows版大部分功能，更有更多人性化功能。它是开源的，它来源于开源，回馈以开源。"
+				}
+			]
+		},
+		{
+			"ID": "20211201101121-y6zbh5h",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211201101121-y6zbh5h",
+				"updated": "20211201101121"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "功能特色"
+				}
+			]
+		},
+		{
+			"ID": "20211201101121-95ilb7g",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211201101121-95ilb7g",
+				"updated": "20211201101121"
+			},
+			"Children": [
+				{
+					"ID": "20211201101121-zqjivr8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211201101121-zqjivr8"
+					},
+					"Children": [
+						{
+							"ID": "20211201101121-5gp6xql",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101121-5gp6xql"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "支持手动添加配置"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211201101121-4gnsx90",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211201101121-4gnsx90"
+					},
+					"Children": [
+						{
+							"ID": "20211201101121-1r3ex7u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101121-1r3ex7u"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "支持服务器订阅更新，复制该地址测试"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211201101121-iv44nwx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211201101121-iv44nwx"
+					},
+					"Children": [
+						{
+							"ID": "20211201101121-294ccms",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101121-294ccms"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "支持二维码扫描(请确保屏幕中只有一个有效的二维码)，扫描该二维码测试"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211201101121-eq8ubbq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211201101121-eq8ubbq"
+					},
+					"Children": [
+						{
+							"ID": "20211201101121-512z4w0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101121-512z4w0"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "支持从剪贴板复制、从配置文件导入等方式添加配置"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211201101121-tklp4cc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211201101121-tklp4cc"
+					},
+					"Children": [
+						{
+							"ID": "20211201101121-adzo7rq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101121-adzo7rq"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "支持复制二维码图片、复制SSR链接(右键应用内二维码，点击右键菜单中的复制)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211201101121-yr6whjc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211201101121-yr6whjc"
+					},
+					"Children": [
+						{
+							"ID": "20211201101121-la596sv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101121-la596sv"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "支持通过点击ss/ssr链接添加配置并打开应用(仅Mac和Windows)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211201101121-y6cdmo5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211201101121-y6cdmo5"
+					},
+					"Children": [
+						{
+							"ID": "20211201101121-e2h5azy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101121-e2h5azy"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "支持切换系统代理模式:PAC、全局、不代理"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211201101121-9iil18e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211201101121-9iil18e"
+					},
+					"Children": [
+						{
+							"ID": "20211201101121-4ui6mxi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101121-4ui6mxi"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "内置http_proxy服务，可在选项中开启或关闭"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211201101121-vgun2ga",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211201101121-vgun2ga"
+					},
+					"Children": [
+						{
+							"ID": "20211201101121-e30wc13",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101121-e30wc13"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "支持配置项变更"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211201101121-7vo6x60",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211201101121-7vo6x60"
+					},
+					"Children": [
+						{
+							"ID": "20211201101121-7llc5gs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101121-7llc5gs"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "更多功能尽在任务栏菜单中"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211201101121-ek0qmnd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211201101121-ek0qmnd",
+				"updated": "20211201101121"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "配置文件位置"
+				}
+			]
+		},
+		{
+			"ID": "20211201101121-tgl2hy7",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211201101121-tgl2hy7",
+				"updated": "20211201101121"
+			},
+			"Children": [
+				{
+					"ID": "20211201101121-7ttq8th",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211201101121-7ttq8th"
+					},
+					"Children": [
+						{
+							"ID": "20211201101121-vbpn8uc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101121-vbpn8uc"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Windows "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "C:\\Users\\{your username}\\AppData\\Roaming\\electron-ssr\\gui-config.json"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211201101121-f2jrs0x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211201101121-f2jrs0x"
+					},
+					"Children": [
+						{
+							"ID": "20211201101121-doiemi6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101121-doiemi6"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Mac "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "~/Library/Application Support/electron-ssr/gui-config.json"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211201101121-nyfg35w",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211201101121-nyfg35w"
+					},
+					"Children": [
+						{
+							"ID": "20211201101121-kfk5ym0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101121-kfk5ym0"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Linux "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "~/.config/gui-config.json"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211201101121-fmfvk21",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211201101121-fmfvk21",
+				"updated": "20211201101121"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "快捷键"
+				}
+			]
+		},
+		{
+			"ID": "20211201101121-21texyd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211201101121-21texyd",
+				"updated": "20211201101121"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "加入快捷键本来是为了解决部分Linux发行版无法显示图标导致功能无法使用而加入的，当然其它系统也是可以使用的，同时支持在设置中进行开启/关闭以及更换按键的操作。"
+				}
+			]
+		},
+		{
+			"ID": "20211201101121-gidpdbw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211201101121-gidpdbw",
+				"updated": "20211201101121"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "全局快捷键"
+				}
+			]
+		},
+		{
+			"ID": "20211201101121-cz7juff",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211201101121-cz7juff",
+				"updated": "20211201101121"
+			},
+			"Children": [
+				{
+					"ID": "20211201101121-s2p4fz3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211201101121-s2p4fz3"
+					},
+					"Children": [
+						{
+							"ID": "20211201101121-vynqltw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101121-vynqltw"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "CommandOrControl+Shift+W"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 切换主窗口显隐"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211201101121-o6hzjbp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211201101121-o6hzjbp"
+					},
+					"Children": [
+						{
+							"ID": "20211201101121-t6b9x79",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101121-t6b9x79"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "未设置"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 切换系统代理"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211201101121-7h5hh7j",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211201101121-7h5hh7j",
+				"updated": "20211201101121"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "应用内快捷键"
+				}
+			]
+		},
+		{
+			"ID": "20211201101121-voxp1ne",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211201101121-voxp1ne",
+				"updated": "20211201101121"
+			},
+			"Children": [
+				{
+					"ID": "20211201101121-oxoqdb3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211201101121-oxoqdb3"
+					},
+					"Children": [
+						{
+							"ID": "20211201101121-k6w2flk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101121-k6w2flk"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "CommandOrControl+Shift+B"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 切换是否显示操作菜单，仅Linux可用"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211201101121-bwifc7y",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211201101121-bwifc7y",
+				"updated": "20211201101121"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "已知Bug"
+				}
+			]
+		},
+		{
+			"ID": "20211201101121-3y19d0v",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211201101121-3y19d0v",
+				"updated": "20211201101121"
+			},
+			"Children": [
+				{
+					"ID": "20211201101121-pow9j8a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211201101121-pow9j8a"
+					},
+					"Children": [
+						{
+							"ID": "20211201101121-ryp7a66",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101121-ryp7a66"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "部分Linux系统无法切换系统代理模式（本应用使用"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "gsetting"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "设置系统代理，所以有些Linux系统无法使用该功能），如果你知道如何实现，欢迎发issue告知。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211201101121-vt0ilyy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211201101121-vt0ilyy"
+					},
+					"Children": [
+						{
+							"ID": "20211201101121-wv6v3a2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101121-wv6v3a2"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Windows系统切换全局代理不生效"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211201101121-wn5rs2w",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211201101121-wn5rs2w",
+				"updated": "20211201101121"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "开发和构建"
+				}
+			]
+		},
+		{
+			"ID": "20211201101121-55yvoqh",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211201101121-55yvoqh",
+				"updated": "20211201101121"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# or npm install\nyarn\n\n# 开发时\nnpm run dev\n\n# 打包构建\nnpm run build\n\n# 单元测试\nnpm run mocha\n\n# 代码风格检查\nnpm run lint\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211201101343-ijp6c8y",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20211201101343-ijp6c8y",
+				"updated": "20211201101347"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20211201101347-4xbz84t",
+					"Type": "NodeHeading",
+					"HeadingLevel": 1,
+					"Properties": {
+						"id": "20211201101347-4xbz84t",
+						"updated": "20211201101347"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "ArchLinux下electronssr无法启动的解决措施"
+						}
+					]
+				},
+				{
+					"ID": "20211201101347-nc8gja1",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20211201101347-nc8gja1",
+						"updated": "20211201101347"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "今天重新配置electron-ssr时发现闪退（无法启动）。\n于是开始查错\n首先是找到了目录位置"
+						}
+					]
+				},
+				{
+					"ID": "20211201101347-5oi4oq1",
+					"Type": "NodeBlockquote",
+					"Properties": {
+						"id": "20211201101347-5oi4oq1",
+						"updated": "20211201101347"
+					},
+					"Children": [
+						{
+							"Type": "NodeBlockquoteMarker",
+							"Data": "\u003e"
+						},
+						{
+							"ID": "20211201101347-4ejxj6h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211201101347-4ejxj6h"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "/usr/electron-ssr/electron-ssr"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211201101347-isjd1y7",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20211201101347-isjd1y7",
+						"updated": "20211201101347"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "并且尝试在终端里启动它。\n发现缺少 "
+						},
+						{
+							"Type": "NodeStrong",
+							"Data": "strong",
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "python2"
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**"
+								}
+							]
+						},
+						{
+							"Type": "NodeText",
+							"Data": " ，\n安装"
+						},
+						{
+							"Type": "NodeStrong",
+							"Data": "strong",
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "python2"
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**"
+								}
+							]
+						},
+						{
+							"Type": "NodeText",
+							"Data": "后出现新报错，\n缺少"
+						},
+						{
+							"Type": "NodeStrong",
+							"Data": "strong",
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "libgconf.so.4"
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**"
+								}
+							]
+						},
+						{
+							"Type": "NodeText",
+							"Data": "\n安装gconf后，问题解决，正常启动"
+						}
+					]
+				},
+				{
+					"ID": "20211201101347-2h6ygb1",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20211201101347-2h6ygb1",
+						"updated": "20211201101347"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "由于electron—ssr原开发人员已停止维护，实际上我们在镜像源获取的electron-ssr已经不再更新。需要我们重新配置依赖关系。"
+						}
+					]
+				}
+			]
+		}
+	]
+}

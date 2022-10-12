@@ -1,0 +1,164 @@
+{
+	"ID": "20221011091252-abzsgp5",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221011091252-abzsgp5",
+		"title": "2022-10-11",
+		"updated": "20221011093046"
+	},
+	"Children": [
+		{
+			"ID": "20221011091257-54qaccm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011091257-54qaccm",
+				"updated": "20220928092159"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "日程："
+				}
+			]
+		},
+		{
+			"ID": "20221011091257-sm1a7ce",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221011091257-sm1a7ce",
+				"updated": "20221011093046"
+			},
+			"Children": [
+				{
+					"ID": "20221011091257-7xtf9h8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221011091257-7xtf9h8",
+						"updated": "20220928092205"
+					},
+					"Children": [
+						{
+							"ID": "20221011091257-gvbq6lc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221011091257-gvbq6lc",
+								"updated": "20221011091316"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "早上上算法课，看到了ccf会议周三"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221011091313-1v9qxby",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221011091313-1v9qxby"
+					},
+					"Children": [
+						{
+							"ID": "20221011091313-deqep6n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221011091313-deqep6n",
+								"updated": "20221011093027"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "下午上课，摸鱼"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221011093027-06ytsd3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221011093027-06ytsd3",
+						"updated": "20221011093046"
+					},
+					"Children": [
+						{
+							"ID": "20221011093027-uie2ymh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221011093027-uie2ymh",
+								"updated": "20221011093046"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "晚上解决读取区块中的nonce信息，做匹配"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221011091257-qahqtnf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011091257-qahqtnf",
+				"updated": "20220928092211"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "奇思妙想："
+				}
+			]
+		},
+		{
+			"ID": "20221011091257-sim41dr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011091257-sim41dr",
+				"updated": "20220928092217"
+			}
+		},
+		{
+			"ID": "20221011091257-8jcwhin",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011091257-8jcwhin",
+				"updated": "20220928092218"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "总结："
+				}
+			]
+		}
+	]
+}

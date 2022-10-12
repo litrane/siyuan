@@ -1,0 +1,2087 @@
+{
+	"ID": "20220729200605-73fhsp3",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220729200605-73fhsp3",
+		"title": "入口函数与包初始化：Go程序的执行次序",
+		"updated": "20220831150331"
+	},
+	"Children": [
+		{
+			"ID": "20220729200658-cz0qm92",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200658-cz0qm92",
+				"updated": "20220729200730"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220729200730-ueni4b8.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-j37dc5c",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"fold": "1",
+				"id": "20220729200608-j37dc5c",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "前言"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-86wfay5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-86wfay5",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我们可能经常会遇到这样一个问题：一个 Go 项目中有数十个 Go 包，每个包中又有若干常量、变量、各种函数和方法，那 Go 代码究竟是从哪里开始执行的呢？后续的执行顺序又是什么样的呢？"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-oysitjf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-oysitjf",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "事实上，了解这门语言编写应用的执行次序，对我们写出结构合理、逻辑清晰的程序大有裨益，无论你用的是归属为哪种编程范式（Paradigm）的编程语言，过程式的、面向对象的、函数式的，或是其他编程范式的，都建议你深入了解一下。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-wmryuzx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-wmryuzx",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "现在我们来了解一下 Go 程序的执行次序，这样在后续阅读和理解 Go 代码的时候，你就好比拥有了“通往宝藏的地图”，可以直接沿着 Go 代码执行次序这张“地图”去阅读和理解 Go 代码了，不会在庞大的代码库中迷失了。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-3gq4ch3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-3gq4ch3",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Go 程序由一系列 Go 包组成，代码的执行也是在各个包之间跳转。和其他语言一样，Go 也拥有自己的用户层入口：main 函数。我们从 main 函数入手，逐步展开，最终带你掌握 Go 程序的执行次序。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-9h80s8m",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"fold": "1",
+				"id": "20220729200608-9h80s8m",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "main.main 函数：Go 应用的入口函数"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-x06cb98",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-x06cb98",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Go 语言中有一个特殊的函数：main 包中的 main 函数，也就是 main.main，它是所有 Go 可执行程序的用户层执行逻辑的入口函数。Go 程序在用户层面的执行逻辑，会在这个函数内按照它的调用顺序展开。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-7q08lcg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-7q08lcg",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "main 函数的函数原型是这样的："
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-vhxiswm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-vhxiswm",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "复制代码"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-yd2srvu",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-yd2srvu",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "package main\n​\nfunc main() {\n    // 用户层执行逻辑\n    ... ...\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-qe8rlel",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-qe8rlel",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "你会发现，main 函数的函数原型非常简单，没有参数也没有返回值。而且，Go 语言要求： "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "可执行程序的 main 包必须定义 main 函数，否则 Go 编译器会报错。"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 在启动了多个 Goroutine的 Go 应用中，main.main 函数将在 Go 应用的主 Goroutine 中执行。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-k7qciwv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-k7qciwv",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在多 Goroutine 的 Go 应用中，相较于 main.main 作为 Go 应用的入口，main.main 函数返回的意义其实更大，因为 main 函数返回就意味着整个 Go 程序的终结，而且你也不用管这个时候是否还有其他子 Goroutine 正在执行。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-3wpvszg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-3wpvszg",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "另外还值得我们注意的是，除了 main 包外，其他包也可以拥有自己的名为 main 的函数或方法。但按照 Go 的可见性规则（小写字母开头的标识符为非导出标识符），非 main 包中自定义的 main 函数仅限于包内使用，就像下面代码这样，这是一段在非 main 包中定义 main 函数的代码片段："
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-siaeqdf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-siaeqdf",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "复制代码"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-ychzii9",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-ychzii9",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "package pkg1\n  \nimport \"fmt\"\n​\nfunc Main() {\n    main()\n}\n​\nfunc main() {\n    fmt.Println(\"main func for pkg1\")\n}  \n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-5uikxuv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-5uikxuv",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "你可以看到，这里 main 函数就主要是用来在包 pkg1 内部使用的，它是没法在包外使用的。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-9nhesq7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-9nhesq7",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "现在我们已经了解了 Go 应用的入口函数 main.main 的特性。不过对于 main 包的 main 函数来说，还需要明确一点，就是它虽然是用户层逻辑的入口函数，但它却不一定是用户层第一个被执行的函数。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-wke2sv8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-wke2sv8",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这是为什么呢？这跟 Go 语言的另一个函数 init 有关。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-zsxdtoz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"fold": "1",
+				"id": "20220729200608-zsxdtoz",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "init 函数：Go 包的初始化函数"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-2awg7ur",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-2awg7ur",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "除了前面讲过的 main.main 函数之外，Go 语言还有一个特殊函数，它就是用于"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "进行包初始化的 init 函数"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "了。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-7gvfi95",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-7gvfi95",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "和 main.main 函数一样，init 函数也是一个无参数无返回值的函数："
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-bznysos",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-bznysos",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "复制代码"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-xvs2r9u",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-xvs2r9u",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Y3NoYXJw"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "func init() {\n    // 包初始化逻辑\n    ... ...\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-yny4t9h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-yny4t9h",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "现在回到前面这个“main 函数不一定是用户层第一个被执行的函数”的问题，其实就是因为，如果 main 包依赖的包中定义了 init 函数，或者是 main 包自身定义了 init 函数，那么 Go 程序在这个包初始化的时候，就会自动调用它的 init 函数，因此这些 init 函数的执行就都会发生在 main 函数之前。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-sy2a8cp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-sy2a8cp",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "不过对于 init 函数来说，我们还需要注意一点，就是在 Go 程序中我们不能手工显式地调用 init，否则就会收到编译错误，就像下面这个示例，它表示的手工显式调用 init 函数的错误做法："
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-se0pjp6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-se0pjp6",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "复制代码"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-2xwaet1",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-2xwaet1",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "package main\n​\nimport \"fmt\"\n​\nfunc init() {\n  fmt.Println(\"init invoked\")\n}\n​\nfunc main() {\n   init()\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-duf11tl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-duf11tl",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这样，在构建并运行上面这些示例代码之后，Go 编译器会报下面这个错误："
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-rjjad3n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-rjjad3n",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "复制代码"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-s2p6m2u",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-s2p6m2u",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "$ go run call_init.go \n./call_init.go:10:2: undefined: init\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-c9m9ufe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-c9m9ufe",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实际上，Go 包可以拥有不止一个 init 函数，每个组成 Go 包的 Go 源文件中，也可以定义多个 init 函数。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-kb3ltxe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-kb3ltxe",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "所以说，在初始化 Go 包时，Go 会按照一定的次序，逐一、顺序地调用这个包的 init 函数。一般来说，先传递给 Go 编译器的源文件中的 init 函数，会先被执行；而同一个源文件中的多个 init 函数，会按声明顺序依次执行。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-6xivxb2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-6xivxb2",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "现在我们就知晓了 main.main 函数可能并不是第一个被执行的函数的原因了。所以，当我们要在 main.main 函数执行之前，执行一些函数或语句的时候，我们只需要将它放入 init 函数中就可以了。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-2v7oliz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-2v7oliz",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "了解了这两个函数的执行顺序之后，我们现在就来整体地看看，一个 Go 包的初始化是以何种次序和逻辑进行的。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-9f83apt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"fold": "1",
+				"id": "20220729200608-9f83apt",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Go 包的初始化次序"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-d1z3ahd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-d1z3ahd",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我们从程序逻辑结构角度来看，Go 包是程序逻辑封装的基本单元，每个包都可以理解为是一个“自治”的、封装良好的、对外部暴露有限接口的基本单元。一个 Go 程序就是由一组包组成的，程序的初始化就是这些包的初始化。每个 Go 包还会有自己的依赖包、常量、变量、init 函数（其中 main 包有 main 函数）等。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-2aonny3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-2aonny3",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在这里你要注意："
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "我们在阅读和理解代码的时候，需要知道这些元素在在程序初始化过程中的初始化顺序，这样便于我们确定在某一行代码处这些元素的当前状态。"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-2o13ayl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-2o13ayl",
+				"updated": "20220729200647"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "下面，我们就通过一张流程图，来了解学习下 Go 包的初始化次序：\n"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-g1ek4x0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-g1ek4x0",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这里，我们来看看具体的初始化步骤。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-poe6sts",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-poe6sts",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "首先，main 包依赖 pkg1 和 pkg4 两个包，所以第一步，Go 会根据包导入的顺序，先去初始化 main 包的第一个依赖包 pkg1。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-fgjnem7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-fgjnem7",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第二步，Go 在进行包初始化的过程中，会采用“深度优先”的原则，递归初始化各个包的依赖包。在上图里，pkg1 包依赖 pkg2 包，pkg2 包依赖 pkg3 包，pkg3 没有依赖包，于是 Go 在 pkg3 包中按照“常量 -\u003e 变量 -\u003e init 函数”的顺序先对 pkg3 包进行初始化；"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-q4j8y65",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-q4j8y65",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "紧接着，在 pkg3 包初始化完毕后，Go 会回到 pkg2 包并对 pkg2 包进行初始化，接下来再回到 pkg1 包并对 pkg1 包进行初始化。在调用完 pkg1 包的 init 函数后，Go 就完成了 main 包的第一个依赖包 pkg1 的初始化。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-q8ukg5n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-q8ukg5n",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "接下来，Go 会初始化 main 包的第二个依赖包 pkg4，pkg4 包的初始化过程与 pkg1 包类似，也是先初始化它的依赖包 pkg5，然后再初始化自身；"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-mu2b4cj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-mu2b4cj",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "然后，当 Go 初始化完 pkg4 包后也就完成了对 main 包所有依赖包的初始化，接下来初始化 main 包自身。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-hhj0w5s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-hhj0w5s",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "最后，在 main 包中，Go 同样会按照“常量 -\u003e 变量 -\u003e init 函数”的顺序进行初始化，执行完这些初始化工作后才正式进入程序的入口函数 main 函数。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-o6mey6l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-o6mey6l",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "现在，我们可以通过一段代码示例来验证一下 Go 程序启动后，Go 包的初始化次序是否是正确的，示例程序的结构如下："
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-6s2r587",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-6s2r587",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "复制代码"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-82shpjr",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-82shpjr",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "prog-init-order\n├── go.mod\n├── main.go\n├── pkg1\n│   └── pkg1.go\n├── pkg2\n│   └── pkg2.go\n└── pkg3\n    └── pkg3.go\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-fpc1mxn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-fpc1mxn",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我们设定的各个包的依赖关系如下："
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-6fab1jq",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-6fab1jq",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"ID": "20220729200608-m4jf5wi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220729200608-m4jf5wi"
+					},
+					"Children": [
+						{
+							"ID": "20220729200608-5omk29j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729200608-5omk29j"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "main 包依赖 pkg1 包和 pkg2 包；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729200608-rzfu4ne",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220729200608-rzfu4ne"
+					},
+					"Children": [
+						{
+							"ID": "20220729200608-7enhsjx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729200608-7enhsjx"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "pkg1 包和 pkg2 包都依赖 pkg3 包。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-7a1ft1k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-7a1ft1k",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这里只列出了 main 包的代码，pkg1、pkg2 和 pkg3 包的代码与 main 包都是类似的。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-8zz3uyl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-8zz3uyl",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "复制代码"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-7xp3lap",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-7xp3lap",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\npackage main\n​\nimport (\n    \"fmt\"\n​\n    _ \"github.com/bigwhite/prog-init-order/pkg1\"\n    _ \"github.com/bigwhite/prog-init-order/pkg2\"\n)\n​\nvar (\n    _  = constInitCheck()\n    v1 = variableInit(\"v1\")\n    v2 = variableInit(\"v2\")\n)\n​\nconst (\n    c1 = \"c1\"\n    c2 = \"c2\"\n)\n​\nfunc constInitCheck() string {\n    if c1 != \"\" {\n        fmt.Println(\"main: const c1 has been initialized\")\n    }\n    if c2 != \"\" {\n        fmt.Println(\"main: const c2 has been initialized\")\n    }\n    return \"\"\n}\n​\nfunc variableInit(name string) string {\n    fmt.Printf(\"main: var %s has been initialized\\n\", name)\n    return name\n}\n​\nfunc init() {\n    fmt.Println(\"main: first init func invoked\")\n}\n​\nfunc init() {\n    fmt.Println(\"main: second init func invoked\")\n}\n​\nfunc main() {\n    // do nothing\n}\n折叠 \n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-zn6rn2c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-zn6rn2c",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我们可以看到，在 main 包中其实并没有使用 pkg1 和 pkg2 中的函数或方法，而是直接通过空导入的方式“触发”pkg1 包和 pkg2 包的初始化（pkg2 包也是通过空导入的方式依赖 pkg3 包的），下面是这个程序的运行结果："
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-qacmgfg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-qacmgfg",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "复制代码"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-3d8lwyk",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-3d8lwyk",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dmJuZXQ="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\n$go run main.go\npkg3: const c has been initialized\npkg3: var v has been initialized\npkg3: init func invoked\npkg1: const c has been initialized\npkg1: var v has been initialized\npkg1: init func invoked\npkg2: const c has been initialized\npkg2: var v has been initialized\npkg2: init func invoked\nmain: const c1 has been initialized\nmain: const c2 has been initialized\nmain: var v1 has been initialized\nmain: var v2 has been initialized\nmain: first init func invoked\nmain: second init func invoked\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-n61mql8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-n61mql8",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "正如我们预期的那样，Go 运行时是按照“pkg3 -\u003e pkg1 -\u003e pkg2 -\u003e main”的顺序，来对 Go 程序的各个包进行初始化的，而在包内，则是以“常量 -\u003e 变量 -\u003e init 函数”的顺序进行初始化。此外，main 包的两个 init 函数，会按照在源文件 main.go 中的出现次序进行调用。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-sjxzqea",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-sjxzqea",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "还有一点，pkg1 包和 pkg2 包都依赖 pkg3 包，但根据 Go 语言规范，一个被多个包依赖的包仅会初始化一次，因此这里的 pkg3 包仅会被初始化了一次。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-ufd32rg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-ufd32rg",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "简而言之，记住 Go 包的初始化次序并不难，你只需要记住这三点就可以了："
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-31yc40b",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-31yc40b",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"ID": "20220729200608-3e2dibo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220729200608-3e2dibo"
+					},
+					"Children": [
+						{
+							"ID": "20220729200608-8sv1gki",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729200608-8sv1gki"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "依赖包按“深度优先”的次序进行初始化；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729200608-t5pwgij",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220729200608-t5pwgij"
+					},
+					"Children": [
+						{
+							"ID": "20220729200608-emcad8j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729200608-emcad8j"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "每个包内按以“常量 -\u003e 变量 -\u003e init 函数”的顺序进行初始化；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729200608-pejeyh4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220729200608-pejeyh4"
+					},
+					"Children": [
+						{
+							"ID": "20220729200608-noat8y9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729200608-noat8y9"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "包内的多个 init 函数按出现次序进行自动调用。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-aw3cxfk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220729200608-aw3cxfk",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "到这里，我们已经知道了 Go 程序中包的初始化次序，也了解了每个包中常量、变量以及 init 函数的运行次序，以及 init 函数作为包初始化函数的一些特性。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-pg0sjdc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220729200608-pg0sjdc",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "init 函数的用途"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-bfua5ms",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200608-bfua5ms",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "init 函数的这些常用用途，与 init 函数在 Go 包初始化过程中的次序密不可分。我们前面讲过，Go 包初始化时，init 函数的初始化次序在变量之后，这给了开发人员在 init 函数中对包级变量进行进一步检查与操作的机会。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-2s274as",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200608-2s274as",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "这里我们先来看 init 函数的第一个常用用途：重置包级变量值。"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-qut12ps",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200608-qut12ps",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "init 函数就好比 Go 包真正投入使用之前唯一的“质检员”，负责对包内部以及暴露到外部的包级数据（主要是包级变量）的初始状态进行检查。在 Go 标准库中，我们能发现很多 init 函数被用于检查包级变量的初始状态的例子，标准库 flag 包对 init 函数的使用就是其中的一个，这里我们简单来分析一下。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-06lbqm4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200608-06lbqm4",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "flag 包定义了一个导出的包级变量 CommandLine，如果用户没有通过 flag.NewFlagSet 创建新的代表命令行标志集合的实例，那么 CommandLine 就会作为 flag 包各种导出函数背后，默认的代表命令行标志集合的实例。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-w1xtvoz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200608-w1xtvoz",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "而在 flag 包初始化的时候，由于 init 函数初始化次序在包级变量之后，因此包级变量 CommandLine 会在 init 函数之前被初始化了，你可以看一下下面的代码："
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-0gtwuv3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200608-0gtwuv3",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "复制代码"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-omno4x9",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220729200608-omno4x9",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "var CommandLine = NewFlagSet(os.Args[0], ExitOnError)\n\nfunc NewFlagSet(name string, errorHandling ErrorHandling) *FlagSet {\n    f := \u0026FlagSet{\n        name:          name,\n        errorHandling: errorHandling,\n    }\n    f.Usage = f.defaultUsage\n    return f\n}\n\nfunc (f *FlagSet) defaultUsage() {\n    if f.name == \"\" {\n        fmt.Fprintf(f.Output(), \"Usage:\\n\")\n    } else {\n        fmt.Fprintf(f.Output(), \"Usage of %s:\\n\", f.name)\n    }\n    f.PrintDefaults()\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-1448kkr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200608-1448kkr",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我们可以看到，在通过 NewFlagSet 创建 CommandLine 变量绑定的 FlagSet 类型实例时，CommandLine 的 Usage 字段被赋值为 defaultUsage。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-qvhr1ov",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200608-qvhr1ov",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "也就是说，如果保持现状，那么使用 flag 包默认 CommandLine 的用户就无法自定义 usage 的输出了。于是，flag 包在 init 函数中重置了 CommandLine 的 Usage 字段："
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-asf37de",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200608-asf37de",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "复制代码"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-r5xbc9u",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220729200608-r5xbc9u",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "func init() {\n    CommandLine.Usage = commandLineUsage // 重置CommandLine的Usage字段\n}\n\nfunc commandLineUsage() {\n    Usage()\n}\n\nvar Usage = func() {\n    fmt.Fprintf(CommandLine.Output(), \"Usage of %s:\\n\", os.Args[0])\n    PrintDefaults()\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-faqsgai",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200608-faqsgai",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这个时候我们会发现，CommandLine 的 Usage 字段，设置为了一个 flag 包内的未导出函数 commandLineUsage，后者则直接使用了 flag 包的另外一个导出包变量 Usage。这样，就可以通过 init 函数，将 CommandLine 与包变量 Usage 关联在一起了。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-khd0jvc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200608-khd0jvc",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "然后，当用户将自定义的 usage 赋值给了 flag.Usage 后，就相当于改变了默认代表命令行标志集合的 CommandLine 变量的 Usage。这样当 flag 包完成初始化后，CommandLine 变量便处于一个合理可用的状态了。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-y77at5h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200608-y77at5h",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "init 函数的第二个常用用途，是实现对包级变量的复杂初始化。"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "\n有些包级变量需要一个比较复杂的初始化过程，有些时候，使用它的类型零值（每个 Go 类型都具有一个零值定义）或通过简单初始化表达式不能满足业务逻辑要求，而 init 函数则非常适合完成此项工作，标准库 http 包中就有这样一个典型示例："
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-5vht518",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200608-5vht518",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "复制代码"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-bzqzedx",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220729200608-bzqzedx",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "var (\n    http2VerboseLogs    bool // 初始化时默认值为false\n    http2logFrameWrites bool // 初始化时默认值为false\n    http2logFrameReads  bool // 初始化时默认值为false\n    http2inTests        bool // 初始化时默认值为false\n)\n\nfunc init() {\n    e := os.Getenv(\"GODEBUG\")\n    if strings.Contains(e, \"http2debug=1\") {\n        http2VerboseLogs = true // 在init中对http2VerboseLogs的值进行重置\n    }\n    if strings.Contains(e, \"http2debug=2\") {\n        http2VerboseLogs = true // 在init中对http2VerboseLogs的值进行重置\n        http2logFrameWrites = true // 在init中对http2logFrameWrites的值进行重置\n        http2logFrameReads = true // 在init中对http2logFrameReads的值进行重置\n    }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-3cq219y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200608-3cq219y",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我们可以看到，标准库 http 包定义了一系列布尔类型的特性开关变量，它们默认处于关闭状态（即值为 false），但我们可以通过 GODEBUG 环境变量的值，开启相关特性开关。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-gfibusz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200608-gfibusz",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可是这样一来，简单地将这些变量初始化为类型零值，就不能满足要求了，所以 http 包在 init 函数中，就根据环境变量 GODEBUG 的值，对这些包级开关变量进行了复杂的初始化，从而保证了这些开关变量在 http 包完成初始化后，可以处于合理状态。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-5qllunh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200608-5qllunh",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "说完了这个，现在来讲 init 函数的第三个常用用途：在 init 函数中实现“注册模式”。"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "\n为了更好地理解，首先我们来看一段使用 lib/pq 包访问 PostgreSQL 数据库的代码示例："
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-hp19o80",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200608-hp19o80",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "复制代码"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-t9udoc0",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220729200608-t9udoc0",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import (\n    \"database/sql\"\n    _ \"github.com/lib/pq\"\n)\n\nfunc main() {\n    db, err := sql.Open(\"postgres\", \"user=pqgotest dbname=pqgotest sslmode=verify-full\")\n    if err != nil {\n        log.Fatal(err)\n    }\n  \n    age := 21\n    rows, err := db.Query(\"SELECT name FROM users WHERE age = $1\", age)\n    ...\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-8kqzxdf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200608-8kqzxdf",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其实，这是一段“神奇”的代码，你可以看到示例代码是以空导入的方式导入 lib/pq 包的，main 函数中没有使用 pq 包的任何变量、函数或方法，这样就实现了对 PostgreSQL 数据库的访问。而这一切的奥秘，全在 pq 包的 init 函数中："
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-3xmt8cw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200608-3xmt8cw",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "复制代码"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-4jo6fdj",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220729200608-4jo6fdj",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Y3NoYXJw"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "func init() {\n    sql.Register(\"postgres\", \u0026Driver{})\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-n5k32h7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200608-n5k32h7",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这个奥秘就在，我们其实是利用了用空导入的方式导入 lib/pq 包时产生的一个“副作用”，也就是 lib/pq 包作为 main 包的依赖包，它的 init 函数会在 pq 包初始化的时候得以执行。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-m6ii61c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200608-m6ii61c",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "从上面代码中，我们可以看到在 pq 包的 init 函数中，pq 包将自己实现的 sql 驱动注册到了 sql 包中。这样只要应用层代码在 Open 数据库的时候，传入驱动的名字（这里是“postgres”)，那么通过 sql.Open 函数，返回的数据库实例句柄对数据库进行的操作，实际上调用的都是 pq 包中相应的驱动实现。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-kfr3znl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200608-kfr3znl",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实际上，这种 "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "通过在 init 函数中注册自己的实现的模式，就有效降低了 Go 包对外的直接暴露"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " ，尤其是包级变量的暴露，从而避免了外部通过包级变量对包状态的改动。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-5myuao0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200608-5myuao0",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "另外，从标准库 database/sql 包的角度来看，这种“注册模式”实质是一种工厂设计模式的实现，sql.Open 函数就是这个模式中的工厂方法，它根据外部传入的驱动名称“生产”出不同类别的数据库实例句柄。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-uzu9t3j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200608-uzu9t3j",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这种“注册模式”在标准库的其他包中也有广泛应用，比如说，使用标准库 image 包获取各种格式图片的宽和高："
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-cwp7ge5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200608-cwp7ge5",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "复制代码"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-2ot62wl",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220729200608-2ot62wl",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "package main\n\nimport (\n    \"fmt\"\n    \"image\"\n    _ \"image/gif\" // 以空导入方式注入gif图片格式驱动\n    _ \"image/jpeg\" // 以空导入方式注入jpeg图片格式驱动\n    _ \"image/png\" // 以空导入方式注入png图片格式驱动\n    \"os\"\n)\n\nfunc main() {\n    // 支持png, jpeg, gif\n    width, height, err := imageSize(os.Args[1]) // 获取传入的图片文件的宽与高\n    if err != nil {\n        fmt.Println(\"get image size error:\", err)\n        return\n    }\n    fmt.Printf(\"image size: [%d, %d]\\n\", width, height)\n}\n\nfunc imageSize(imageFile string) (int, int, error) {\n    f, _ := os.Open(imageFile) // 打开图文文件\n    defer f.Close()\n\n    img, _, err := image.Decode(f) // 对文件进行解码，得到图片实例\n    if err != nil {\n        return 0, 0, err\n    }\n\n    b := img.Bounds() // 返回图片区域\n    return b.Max.X, b.Max.Y, nil\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-o261r7c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200608-o261r7c",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "你可以看到，上面这个示例程序支持 png、jpeg、gif 三种格式的图片，而达成这一目标的原因，正是 image/png、image/jpeg 和 image/gif 包都在各自的 init 函数中，将自己“注册”到 image 的支持格式列表中了，你可以看看下面这个代码："
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-9hcspqo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200608-9hcspqo",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "复制代码"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-3luf9ou",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220729200608-3luf9ou",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Y3NoYXJw"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// $GOROOT/src/image/png/reader.go\nfunc init() {\n    image.RegisterFormat(\"png\", pngHeader, Decode, DecodeConfig)\n}\n\n// $GOROOT/src/image/jpeg/reader.go\nfunc init() {\n    image.RegisterFormat(\"jpeg\", \"\\xff\\xd8\", Decode, DecodeConfig)\n}\n\n// $GOROOT/src/image/gif/reader.go\nfunc init() {\n    image.RegisterFormat(\"gif\", \"GIF8?a\", Decode, DecodeConfig)\n}  \n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-wi3qvvj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200608-wi3qvvj",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "那么，现在我们了解了 init 函数的常见用途。init 函数之所以可以胜任这些工作，恰恰是因为它在 Go 应用初始化次序中的特殊“位次”，也就是 main 函数之前，常量和变量初始化之后。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-md0ae8x",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220729200608-md0ae8x",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "总结"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-attp5kz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200608-attp5kz",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我们了解了 Go 应用的用户层入口函数 main.main、包初始化函数 init，还有 Go 程序包的初始化次序和包内各种语法元素的初始化次序。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-f5leck3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200608-f5leck3",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其中，需要重点关注 init 函数具备的几种行为特征："
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-skj69lc",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220729200608-skj69lc",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"ID": "20220729200608-a7fo1vf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220729200608-a7fo1vf"
+					},
+					"Children": [
+						{
+							"ID": "20220729200608-e1ra2kz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729200608-e1ra2kz"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "执行顺位排在包内其他语法元素的后面；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729200608-egmip66",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220729200608-egmip66"
+					},
+					"Children": [
+						{
+							"ID": "20220729200608-3yamgby",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729200608-3yamgby"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "每个 init 函数在整个 Go 程序生命周期内仅会被执行一次；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729200608-wotrsny",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220729200608-wotrsny"
+					},
+					"Children": [
+						{
+							"ID": "20220729200608-jirv1cu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729200608-jirv1cu"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "init 函数是顺序执行的，只有当一个 init 函数执行完毕后，才会去执行下一个 init 函数。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-iz2rrri",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200608-iz2rrri",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "基于上面这些特征，init 函数十分适合做一些包级数据初始化工作以及包级数据初始状态的检查工作。"
+				}
+			]
+		},
+		{
+			"ID": "20220729200608-kvwt373",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729200608-kvwt373",
+				"updated": "20220729200608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "最后，大多 Go 程序都是并发程序，程序会启动多个 Goroutine 并发执行程序逻辑，这里一定要注意主 Goroutine 的优雅退出，也就是主 Goroutine 要根据实际情况来决定，是否要等待其他子 Goroutine 做完清理收尾工作退出后再行退出。"
+				}
+			]
+		}
+	]
+}

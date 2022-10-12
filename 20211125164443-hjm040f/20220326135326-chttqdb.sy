@@ -1,0 +1,212 @@
+{
+	"ID": "20220326135326-chttqdb",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220326135326-chttqdb",
+		"title": "以太坊POS",
+		"updated": "20220326141551"
+	},
+	"Children": [
+		{
+			"ID": "20220326141551-397u2b7",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220326141551-397u2b7",
+				"updated": "20220326141551"
+			},
+			"Children": [
+				{
+					"ID": "20220326141551-wl4i36a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220326141551-wl4i36a",
+						"updated": "20220326141551"
+					},
+					"Children": [
+						{
+							"ID": "20220326135326-aii6ruq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220326135326-aii6ruq",
+								"updated": "20220326141551"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "以太坊2.0测试网升级之处与实现 https://mp.weixin.qq.com/s/SigaIKWvE1ejHs6XBXh-rQ"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220326141551-07ool2j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220326141551-07ool2j",
+						"updated": "20220326141551"
+					},
+					"Children": [
+						{
+							"ID": "20220326140730-rljljbb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220326140730-rljljbb",
+								"updated": "20220326141551"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "以太坊2.0：Casper \u0026 信标链 https://mp.weixin.qq.com/s/ofTDl3SKA4zUdWSFj5PXcQ"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220326141551-y0rb03k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220326141551-y0rb03k",
+						"updated": "20220326141551"
+					},
+					"Children": [
+						{
+							"ID": "20220326141114-puq5jx3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220326141114-puq5jx3",
+								"updated": "20220326141551"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "科普 | 什么是以太坊Casper协议？ https://mp.weixin.qq.com/s/AxhHIrQKTYin1EC77xgyOg"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220326141551-wltwn6e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220326141551-wltwn6e",
+						"updated": "20220326141551"
+					},
+					"Children": [
+						{
+							"ID": "20220326140949-y0l1juf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220326140949-y0l1juf",
+								"updated": "20220326141551"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Casper机制详解 https://mp.weixin.qq.com/s/sCHL5xQq79jl15AJmbrHWg"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220326141551-uw2hrp6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220326141551-uw2hrp6",
+						"updated": "20220326141551"
+					},
+					"Children": [
+						{
+							"ID": "20220326141029-18943uc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220326141029-18943uc",
+								"updated": "20220326141551"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "干货 | 共识算法的比较：Casper vs Tendermint  https://mp.weixin.qq.com/s/U9JS2ZJPWQLrfjI60pLVJw"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220326141551-60juxxv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20220326141551-60juxxv",
+						"updated": "20220326141551"
+					},
+					"Children": [
+						{
+							"ID": "20220326141236-hmen790",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220326141236-hmen790",
+								"updated": "20220326141551"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "安全性 https://mp.weixin.qq.com/s/dapUzog0sSkg9tJ0j153Xw"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220326141334-0cwk5pn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220326141334-0cwk5pn",
+				"updated": "20220326141334"
+			}
+		}
+	]
+}

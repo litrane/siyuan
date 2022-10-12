@@ -1,0 +1,194 @@
+{
+	"ID": "20220409222003-mac7lqb",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220409222003-mac7lqb",
+		"title": "相关理论与技术",
+		"updated": "20220410144641"
+	},
+	"Children": [
+		{
+			"ID": "20220409222003-qmjomnt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220409222003-qmjomnt",
+				"updated": "20220410144156"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "区块链的理论基础"
+				}
+			]
+		},
+		{
+			"ID": "20220410144146-dj2r9h9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220410144146-dj2r9h9",
+				"updated": "20220410144620"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "区块链原理"
+				}
+			]
+		},
+		{
+			"ID": "20220410144622-7xbaib9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220410144622-7xbaib9",
+				"updated": "20220410164933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "区块链技术的概念源自于比特币系统的实现。在2008年，一个网名叫“中本聪”的人发表了一篇论文，名为《比特币：一个点对点的电子现金系统》。该系统结合网络、密码学、分布式等技术实现了一个去中心化的电子货币结算系统，各个地位对等的节点依赖共识算法进行各自账本的写入与同步，其记账的有效性不依赖于中央机构。为了替代中央权威机构对交易背书确认，比特币利用一种融合密码学的链式结构，节点验证正确性后将交易打包上链，通过POW(Proof Of Work)共识算法即以最长链作为最后交易结算结果进行背书确认。这套系统成为了目前区块链技术的雏形，日后不断出现了基于比特币思想的其他区块链系统，如以太坊以及Hyperledger Fabric。"
+				}
+			]
+		},
+		{
+			"ID": "20220410164935-5ejzk2d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220410164935-5ejzk2d",
+				"updated": "20220410164935"
+			}
+		},
+		{
+			"ID": "20220410144623-7zfy311",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220410144623-7zfy311",
+				"updated": "20220410144640"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "加密技术"
+				}
+			]
+		},
+		{
+			"ID": "20220410144641-2mdthof",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220410144641-2mdthof",
+				"style": "text-align: left;",
+				"updated": "20220410144641"
+			}
+		},
+		{
+			"ID": "20220410144641-woy2f8e",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220410144641-woy2f8e",
+				"updated": "20220410144709"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "共识原理"
+				}
+			]
+		},
+		{
+			"ID": "20220410144601-ekzrofd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220410144601-ekzrofd",
+				"updated": "20220410144601"
+			}
+		},
+		{
+			"ID": "20220410143956-uq0j0kd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220410143956-uq0j0kd",
+				"updated": "20220410143956"
+			}
+		},
+		{
+			"ID": "20220410143957-mwa5z6a",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220410143957-mwa5z6a",
+				"updated": "20220410144226"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Hyperledger设计架构与应用"
+				}
+			]
+		},
+		{
+			"ID": "20220410144035-vy3tcyx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220410144035-vy3tcyx",
+				"updated": "20220410144035"
+			}
+		},
+		{
+			"ID": "20220410144036-foz355t",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220410144036-foz355t",
+				"updated": "20220410144305"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "系统实现关键技术"
+				}
+			]
+		},
+		{
+			"ID": "20220410144306-jqarwmc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220410144306-jqarwmc",
+				"updated": "20220410144313"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Go服务器编程"
+				}
+			]
+		},
+		{
+			"ID": "20220410144313-00awpnf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220410144313-00awpnf",
+				"updated": "20220410144323"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "前端Vue框架"
+				}
+			]
+		},
+		{
+			"ID": "20220410200520-dxs36zr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220410200520-dxs36zr",
+				"updated": "20220410200520"
+			}
+		}
+	]
+}

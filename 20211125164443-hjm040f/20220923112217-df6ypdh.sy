@@ -1,0 +1,331 @@
+{
+	"ID": "20220923112217-df6ypdh",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220923112217-df6ypdh",
+		"title": "第一次研讨班",
+		"updated": "20220925104103"
+	},
+	"Children": [
+		{
+			"ID": "20220923112217-cdk0cy5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923112217-cdk0cy5",
+				"updated": "20220923112245"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "主题 Huang Lab（分片）研究"
+				}
+			]
+		},
+		{
+			"ID": "20220923153330-wpkw944",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923153330-wpkw944",
+				"updated": "20220923153400"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "四篇论文"
+				}
+			]
+		},
+		{
+			"ID": "20220923153344-7ohwb5z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923153344-7ohwb5z",
+				"updated": "20220923153347"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一个是"
+				}
+			]
+		},
+		{
+			"ID": "20220923153351-auep7u9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923153351-auep7u9",
+				"updated": "20220923153353"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一个是"
+				}
+			]
+		},
+		{
+			"ID": "20220923153353-e2gqexn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923153353-e2gqexn",
+				"updated": "20220923153355"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一个是"
+				}
+			]
+		},
+		{
+			"ID": "20220923153355-5145mgh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923153355-5145mgh",
+				"updated": "20220923153357"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一个是"
+				}
+			]
+		},
+		{
+			"ID": "20220923112248-vlqktj2",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220923112248-vlqktj2",
+				"updated": "20220923112254"
+			},
+			"Children": [
+				{
+					"ID": "20220923112254-g2j6726",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220923112254-g2j6726",
+						"updated": "20220923112254"
+					},
+					"Children": [
+						{
+							"ID": "20220923112254-cq72wzn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220923112254-cq72wzn",
+								"updated": "20220923112302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "分片的角度有三种"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220923112303-g7mzvtd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220923112303-g7mzvtd"
+					},
+					"Children": [
+						{
+							"ID": "20220923112303-fdudto8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220923112303-fdudto8",
+								"updated": "20220923112317"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "工作是基于monoxide"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220923113306-ghlwbid",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923113306-ghlwbid",
+				"updated": "20220923113309"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "个人思考："
+				}
+			]
+		},
+		{
+			"ID": "20220923113310-cv1dw7d",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220923113310-cv1dw7d",
+				"updated": "20220923113311"
+			},
+			"Children": [
+				{
+					"ID": "20220923113311-ccyrk7m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220923113311-ccyrk7m",
+						"updated": "20220923113311"
+					},
+					"Children": [
+						{
+							"ID": "20220923113311-t2tpj3j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220923113311-t2tpj3j",
+								"updated": "20220923113325"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "分片方向未来安全性与跨链区别"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220923113325-697r34d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220923113325-697r34d"
+					},
+					"Children": [
+						{
+							"ID": "20220923113325-z50i85o",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220923113325-z50i85o",
+								"updated": "20220923113356"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "经典工作（比如Monoxide）整理"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220923153411-mdycm1w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923153411-mdycm1w"
+			}
+		},
+		{
+			"ID": "20220923153412-g0ll93h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923153412-g0ll93h",
+				"updated": "20220923153424"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "综述性文章："
+				}
+			]
+		},
+		{
+			"ID": "20220923153424-vbo0n99",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923153424-vbo0n99"
+			}
+		},
+		{
+			"ID": "20220923160521-b1wp2iq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923160521-b1wp2iq"
+			}
+		},
+		{
+			"ID": "20220923160521-rdbruzg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923160521-rdbruzg",
+				"updated": "20220923160529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "针对分片链："
+				}
+			]
+		},
+		{
+			"ID": "20220923160845-rwt5rsq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923160845-rwt5rsq",
+				"updated": "20220923174104"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "负载均衡从交易角度、数据分发、状态、网络，细粒度组织（避免交易状态划分，智能合约）"
+				}
+			]
+		},
+		{
+			"ID": "20220925104038-vplbdyj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220925104038-vplbdyj",
+				"updated": "20220925104103"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "不平衡的交易、网络"
+				}
+			]
+		}
+	]
+}

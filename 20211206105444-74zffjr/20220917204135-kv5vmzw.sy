@@ -1,0 +1,55 @@
+{
+	"ID": "20220917204135-kv5vmzw",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220917204135-kv5vmzw",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220917204135-b4zocxk\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220917204153-h1tp0gx\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220917204135-b4zocxk\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:6,\u0026amp;quot;focusEnd\u0026amp;quot;:6}",
+		"title": "GO的学习网站",
+		"updated": "20220917204157"
+	},
+	"Children": [
+		{
+			"ID": "20220917204135-b4zocxk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220917204135-b4zocxk",
+				"updated": "20220917204157"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "高级框架教程"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.kancloud.cn/digest/batu-go/153533"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220917204153-h1tp0gx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220917204153-h1tp0gx"
+			}
+		}
+	]
+}

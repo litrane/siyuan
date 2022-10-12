@@ -1,0 +1,61 @@
+{
+	"ID": "20220329160700-30me5z1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220329160700-30me5z1",
+		"title": "Vue",
+		"updated": "20220330214437"
+	},
+	"Children": [
+		{
+			"ID": "20220329160700-rzr60cz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220329160700-rzr60cz",
+				"updated": "20220329160713"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对比思考"
+				}
+			]
+		},
+		{
+			"ID": "20220329160713-k78dwxc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220329160713-k78dwxc",
+				"updated": "20220329160721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "computed和methods区别"
+				}
+			]
+		},
+		{
+			"ID": "20220330214433-r8mbwn7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220330214433-r8mbwn7",
+				"updated": "20220330214437"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "then作用"
+				}
+			]
+		},
+		{
+			"ID": "20220329160722-jtscogh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220329160722-jtscogh",
+				"updated": "20220329160722"
+			}
+		}
+	]
+}

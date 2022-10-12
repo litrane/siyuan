@@ -1,0 +1,80 @@
+{
+	"ID": "20211212100439-hzzt3k0",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211212100439-hzzt3k0",
+		"title": "leecode",
+		"updated": "20211212100447"
+	},
+	"Children": [
+		{
+			"ID": "20211212100447-lsacniv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211212100447-lsacniv",
+				"updated": "20211212100447"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "leetcode"
+				}
+			]
+		},
+		{
+			"ID": "20211212100447-oxkrk9d",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211212100447-oxkrk9d",
+				"updated": "20211212100447"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "题目："
+				}
+			]
+		},
+		{
+			"ID": "20211212100447-wnrqsv4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211212100447-wnrqsv4",
+				"updated": "20211212100447"
+			}
+		},
+		{
+			"ID": "20211212100447-063wl3j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211212100447-063wl3j",
+				"updated": "20211212100447"
+			}
+		},
+		{
+			"ID": "20211212100447-8g7qlrm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211212100447-8g7qlrm",
+				"updated": "20211212100447"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "题解："
+				}
+			]
+		},
+		{
+			"ID": "20211212100447-bfttcfs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211212100447-bfttcfs",
+				"updated": "20211212100447"
+			}
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "装机手册",
+  "sort": 4,
+  "icon": "1f4bb",
+  "closed": true,
+  "refCreateSavePath": "",
+  "createDocNameTemplate": "",
+  "dailyNoteSavePath": "/daily note/{{now | date \"2006/01\"}}/{{now | date \"2006-01-02\"}}",
+  "dailyNoteTemplatePath": ""
+}

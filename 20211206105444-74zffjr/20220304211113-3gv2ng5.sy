@@ -1,0 +1,39 @@
+{
+	"ID": "20220304211113-3gv2ng5",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220304211113-3gv2ng5",
+		"title": "疑问",
+		"updated": "20220304211146"
+	},
+	"Children": [
+		{
+			"ID": "20220304211113-wvr84nv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220304211113-wvr84nv",
+				"updated": "20220304211137"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "go mod vendor"
+				}
+			]
+		},
+		{
+			"ID": "20220304211138-ru6sxm5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220304211138-ru6sxm5",
+				"updated": "20220304211146"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "与dep ensure"
+				}
+			]
+		}
+	]
+}

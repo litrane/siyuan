@@ -1,0 +1,186 @@
+{
+	"ID": "20220316135146-nq2yn5d",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220316135146-nq2yn5d",
+		"title": "编码理论",
+		"updated": "20220317100025"
+	},
+	"Children": [
+		{
+			"ID": "20220316135327-w9a33ob",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220316135327-w9a33ob",
+				"updated": "20220316135330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数学基础"
+				}
+			]
+		},
+		{
+			"ID": "20220316135331-77gvlfi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220316135331-77gvlfi",
+				"updated": "20220316135334"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "群环域"
+				}
+			]
+		},
+		{
+			"ID": "20220316135334-pg3jm3a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220316135334-pg3jm3a",
+				"updated": "20220316135334"
+			}
+		},
+		{
+			"ID": "20220316135146-sk5es01",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220316135146-sk5es01",
+				"updated": "20220316135222"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "循环码"
+				}
+			]
+		},
+		{
+			"ID": "20220316135223-ypmmi7v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220316135223-ypmmi7v",
+				"updated": "20220316135324"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一个码循环移位后仍然是合法码字，即为循环码"
+				}
+			]
+		},
+		{
+			"ID": "20220316135446-i790tv9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220316135446-i790tv9",
+				"updated": "20220316135832"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "deg(f(x))=最高项次数"
+				}
+			]
+		},
+		{
+			"ID": "20220316140022-47175bd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220316140022-47175bd",
+				"updated": "20220316140034"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "F(x)是个环"
+				}
+			]
+		},
+		{
+			"ID": "20220316140120-2l2nbj2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220316140120-2l2nbj2",
+				"updated": "20220316140128"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "deg相加不一定是最大的"
+				}
+			]
+		},
+		{
+			"ID": "20220316140259-3phor2r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220316140259-3phor2r",
+				"updated": "20220316140259"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220316140259-z67z42q.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220316141304-n2wkohx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220316141304-n2wkohx",
+				"updated": "20220317100025"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可约的多项式的构成的不是域没有乘法逆元"
+				}
+			]
+		},
+		{
+			"ID": "20220316141329-3agi8vq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220316141329-3agi8vq",
+				"updated": "20220316141347"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "判断是否可约如图判断两个素数成绩一样需要计算机"
+				}
+			]
+		}
+	]
+}

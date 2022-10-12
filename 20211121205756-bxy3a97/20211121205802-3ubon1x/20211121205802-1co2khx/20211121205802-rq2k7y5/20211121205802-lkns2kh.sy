@@ -1,0 +1,50 @@
+{
+	"ID": "20211121205802-lkns2kh",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211121205802-lkns2kh",
+		"title": "2021-11-21",
+		"updated": "20211122092923"
+	},
+	"Children": [
+		{
+			"ID": "20211121205802-lb3cw8z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211121205802-lb3cw8z",
+				"updated": "20211122092923"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockRef",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20211122092859-l85r401"
+						},
+						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefDynamicText",
+							"Data": "可可英语"
+						},
+						{
+							"Type": "NodeCloseParen"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

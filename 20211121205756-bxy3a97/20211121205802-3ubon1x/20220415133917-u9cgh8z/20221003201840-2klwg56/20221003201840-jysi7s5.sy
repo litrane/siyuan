@@ -1,0 +1,86 @@
+{
+	"ID": "20221003201840-jysi7s5",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221003201840-jysi7s5",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221003201840-qb2oy70\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221003201843-lhflr75\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221003204710-z5an2px\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"title": "2022-10-03",
+		"updated": "20221003201843"
+	},
+	"Children": [
+		{
+			"ID": "20221003201840-qb2oy70",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221003201840-qb2oy70",
+				"updated": "20221003201843"
+			},
+			"Children": [
+				{
+					"ID": "20221003201843-itrh25c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221003201843-itrh25c",
+						"updated": "20221003201843"
+					},
+					"Children": [
+						{
+							"ID": "20221003201843-vvo7p77",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221003201843-vvo7p77",
+								"updated": "20221003201843"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "读论文了解特定领域的进展，知道大家都在做什么问题，研究什么对象，这是有idea的起点。 2. 读论文了解特定领域的评价体系，知道\"敌人是谁\"(existing work)，如何正确地去做对比试验(evaluation). 3. 读论文了解特性领域的学术价值观，知道什么样的idea能发什么级别的会，大家value什么东西，小打小闹的东西别去浪费时间了。真有好的Idea也别浪费在烂会上。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221003204710-ljnx3fv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221003204710-ljnx3fv"
+					},
+					"Children": [
+						{
+							"ID": "20221003204710-z5an2px",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221003204710-z5an2px"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221003201843-lhflr75",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221003201843-lhflr75",
+				"updated": "20221003201846"
+			}
+		}
+	]
+}

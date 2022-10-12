@@ -1,0 +1,414 @@
+{
+	"ID": "20220917135151-9wqeb6x",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220917135151-9wqeb6x",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220917135151-k1sqzcr\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220917135151-k1sqzcr\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220917135151-k1sqzcr\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"title": "2022-09-17",
+		"updated": "20220917204226"
+	},
+	"Children": [
+		{
+			"ID": "20220917142640-s1wxcu9",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220917142640-s1wxcu9",
+				"updated": "20220917142702"
+			},
+			"Children": [
+				{
+					"ID": "20220917142648-9035jv3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220917142648-9035jv3",
+						"updated": "20220917142702"
+					},
+					"Children": [
+						{
+							"ID": "20220917142648-511x364",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220917142648-511x364",
+								"updated": "20220917142702"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "git 学习 "
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220917135151-k1sqzcr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220917135151-k1sqzcr",
+				"updated": "20220917194748"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "     "
+				},
+				{
+					"Type": "NodeBlockRef",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20220905094723-jtwh2u5"
+						},
+						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefDynamicText",
+							"Data": "git restore . 撤回修改"
+						},
+						{
+							"Type": "NodeCloseParen"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeBlockRef",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20220917142553-367zf6f"
+						},
+						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefDynamicText",
+							"Data": "git stash"
+						},
+						{
+							"Type": "NodeCloseParen"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeBlockRef",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20220905094711-g2b40b6"
+						},
+						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefDynamicText",
+							"Data": "git diff操作"
+						},
+						{
+							"Type": "NodeCloseParen"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220917142705-q51w3ue",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220917142705-q51w3ue",
+				"updated": "20220917142709"
+			},
+			"Children": [
+				{
+					"ID": "20220917142709-h3j9x3d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220917142709-h3j9x3d",
+						"updated": "20220917142709"
+					},
+					"Children": [
+						{
+							"ID": "20220917142709-sgn8ev3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220917142709-sgn8ev3",
+								"updated": "20220917142715"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "联邦学习入门"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220917142718-f3vse3f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220917142718-f3vse3f",
+				"updated": "20220917142730"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "      "
+				},
+				{
+					"Type": "NodeBlockRef",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20220917140956-e1qalnm"
+						},
+						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefDynamicText",
+							"Data": "联邦学习基本概念"
+						},
+						{
+							"Type": "NodeCloseParen"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220917142732-edb6pme",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220917142732-edb6pme",
+				"updated": "20220917204226"
+			},
+			"Children": [
+				{
+					"ID": "20220917142735-e7fp2c4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220917142735-e7fp2c4",
+						"updated": "20220917142735"
+					},
+					"Children": [
+						{
+							"ID": "20220917142735-9rdht50",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220917142735-9rdht50",
+								"updated": "20220917194556"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Theta 发现两个问题"
+								}
+							]
+						},
+						{
+							"ID": "20220917194601-0kjs80p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220917194601-0kjs80p",
+								"updated": "20220917194805"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "https://thetalabs-pku.slack.com/archives/C02SZ83T56J/p1663413587298829"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220917194558-6lyfglp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220917194558-6lyfglp",
+						"updated": "20220917204226"
+					},
+					"Children": [
+						{
+							"ID": "20220917194558-dnmoh6i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220917194558-dnmoh6i",
+								"updated": "20220917194829"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "修改TPS脚本"
+								}
+							]
+						},
+						{
+							"ID": "20220917201315-efy0coj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220917201315-efy0coj",
+								"updated": "20220917204226"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220917202656-v73cvpm"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "Go并发专栏"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " "
+								},
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220917204135-kv5vmzw"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "GO的学习网站"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " "
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

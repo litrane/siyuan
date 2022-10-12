@@ -1,0 +1,983 @@
+{
+	"ID": "20211124120100-dcg2yay",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211124120100-dcg2yay",
+		"title": "Ubuntu系统重装记录",
+		"updated": "20211201101327"
+	},
+	"Children": [
+		{
+			"ID": "20211124120100-clvmnsc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20211124120100-clvmnsc",
+				"updated": "20211124144709"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装Ubuntu20.04"
+				}
+			]
+		},
+		{
+			"ID": "20211124144709-fs8r86b",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211124144709-fs8r86b",
+				"updated": "20211124215920"
+			},
+			"Children": [
+				{
+					"ID": "20211124215920-8njx8ze",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20211124215920-8njx8ze"
+					},
+					"Children": [
+						{
+							"ID": "20211124215920-pz2vmbs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211124215920-pz2vmbs"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用磁盘管理软件进行分卷"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211124212306-fiewj3o",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211124212306-fiewj3o",
+				"updated": "20211124215934"
+			},
+			"Children": [
+				{
+					"ID": "20211124215921-q6o75eq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20211124215921-q6o75eq"
+					},
+					"Children": [
+						{
+							"ID": "20211124215921-a7jsi6x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211124215921-a7jsi6x"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用refus进行系统镜像U盘制作"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211124215923-dv478j2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20211124215923-dv478j2",
+						"updated": "20211124215934"
+					},
+					"Children": [
+						{
+							"ID": "20211124215923-ju4eiq4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211124215923-ju4eiq4",
+								"updated": "20211124215934"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "选择something else"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211124215545-qyuo1qz",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211124215545-qyuo1qz",
+				"updated": "20211201100512"
+			},
+			"Children": [
+				{
+					"ID": "20211124215939-iwxtqt1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20211124215939-iwxtqt1",
+						"updated": "20211201100512"
+					},
+					"Children": [
+						{
+							"ID": "20211124215939-mow1cnm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211124215939-mow1cnm"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "分区管理"
+								}
+							]
+						},
+						{
+							"ID": "20211124215553-ec07d7y",
+							"Type": "NodeTable",
+							"TableAligns": [
+								0,
+								0,
+								0
+							],
+							"Properties": {
+								"id": "20211124215553-ec07d7y",
+								"updated": "20211201100512"
+							},
+							"Children": [
+								{
+									"Type": "NodeTableHead",
+									"Data": "thead",
+									"Children": [
+										{
+											"Type": "NodeTableRow",
+											"Data": "tr",
+											"Children": [
+												{
+													"Type": "NodeTableCell",
+													"Data": "th",
+													"TableCellContentWidth": 3,
+													"TableCellContentMaxWidth": 9,
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "/"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableCell",
+													"Data": "th",
+													"TableCellContentWidth": 4,
+													"TableCellContentMaxWidth": 5,
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "大"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableCell",
+													"Data": "th",
+													"TableCellContentWidth": 10,
+													"TableCellContentMaxWidth": 14,
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "逻辑分区"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 9,
+											"TableCellContentMaxWidth": 9,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "/home"
+												},
+												{
+													"Type": "NodeBr",
+													"Data": "br"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 2,
+											"TableCellContentMaxWidth": 5
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 2,
+											"TableCellContentMaxWidth": 14
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 7,
+											"TableCellContentMaxWidth": 9,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "/swap"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 5,
+											"TableCellContentMaxWidth": 5,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "32G"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 8,
+											"TableCellContentMaxWidth": 14,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "主分区"
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 7,
+											"TableCellContentMaxWidth": 9,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "/boot"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 4,
+											"TableCellContentMaxWidth": 5,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "5G"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 2,
+											"TableCellContentMaxWidth": 14
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 6,
+											"TableCellContentMaxWidth": 9,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "/efi"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 2,
+											"TableCellContentMaxWidth": 5
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 14,
+											"TableCellContentMaxWidth": 14,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "用来磁盘引导"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211124215957-qikw7hl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20211124215957-qikw7hl"
+					},
+					"Children": [
+						{
+							"ID": "20211124215957-no6c4fx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211124215957-no6c4fx"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211124215916-g74b55b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211124215916-g74b55b"
+			}
+		},
+		{
+			"ID": "20211124215231-8olr4y3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211124215231-8olr4y3",
+				"updated": "20211124215231"
+			}
+		},
+		{
+			"ID": "20211124212202-2dxyd7s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211124212202-2dxyd7s",
+				"updated": "20211201100911"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Properties": {
+						"style": "color: var(--b3-font-color8);"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "nvidia-smi"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color8);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20211201100837-axu2qi3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211201100837-axu2qi3",
+				"updated": "20211201100837"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "之前捣鼓Ubuntu系统，老是失败，索性放弃。后来装了黑苹果后突发奇想想整一个三系统。偶然之下搜到了一个方法，可以解决之前遇到的问题。"
+				}
+			]
+		},
+		{
+			"ID": "20211201100837-ieqlln9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211201100837-ieqlln9",
+				"updated": "20211201100837"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1 解决显卡驱动问题"
+				}
+			]
+		},
+		{
+			"ID": "20211201100837-2t0erd8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211201100837-2t0erd8",
+				"updated": "20211201100837"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考文章"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "http://www."
+						},
+						{
+							"Type": "NodeStrong",
+							"Data": "strong",
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "cnblogs.com/huadongw/p/"
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**"
+								}
+							]
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "6505976.html"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://link.zhihu.com/?target=http%3A//www.cnblogs.com/huadongw/p/6505976.html"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211201100837-n7yeqq2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211201100837-n7yeqq2",
+				"updated": "20211201100837"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一般遇到的卡死、黑屏之类的问题都是英伟达开源显卡驱动搞的鬼。解决方法很简单。按照正常方法制作好按照U盘后来到选择界面"
+				}
+			]
+		},
+		{
+			"ID": "20211201100837-2ysi3nm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211201100837-2ysi3nm",
+				"updated": "20211201100837"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://pic3.zhimg.com/80/v2-555a4a12a2ff7bd93705387e43500e16_720w.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211201100837-hq1evyf",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20211201100837-hq1evyf",
+				"updated": "20211201100837"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20211201100837-c8s0jpx",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20211201100837-c8s0jpx"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "对着install Ubuntu按下e键，进入配置界面，找到 "
+						},
+						{
+							"Type": "NodeCodeSpan",
+							"Data": "code",
+							"Children": [
+								{
+									"Type": "NodeCodeSpanOpenMarker"
+								},
+								{
+									"Type": "NodeCodeSpanContent",
+									"Data": "\u003cspan\u003e\u003ca data-za-not-track-link=\"true\" href=\"https://www.zhihu.com/search?q=quiet+splash\u0026search_source=Entity\u0026hybrid_search_source=Entity\u0026hybrid_search_extra=%7B%22sourceType%22%3A%22article%22%2C%22sourceId%22%3A67830492%7D\" class=\"css-1occaib\"\u003equiet splash\u003csvg width=\"8px\" height=\"8px\" viewBox=\"0 0 15 15\" class=\"css-ukqak1\"\u003e\u003cpath d=\"M10.89 9.477l3.06 3.059a1 1 0 0 1-1.414 1.414l-3.06-3.06a6 6 0 1 1 1.414-1.414zM6 10a4 4 0 1 0 0-8 4 4 0 0 0 0 8z\" fill=\"currentColor\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003c/span\u003e\u003cspan\u003e \u003c/span\u003e---"
+								},
+								{
+									"Type": "NodeCodeSpanCloseMarker"
+								}
+							]
+						},
+						{
+							"Type": "NodeText",
+							"Data": "这个字符串，把后面的"
+						},
+						{
+							"Type": "NodeCodeSpan",
+							"Data": "code",
+							"Children": [
+								{
+									"Type": "NodeCodeSpanOpenMarker"
+								},
+								{
+									"Type": "NodeCodeSpanContent",
+									"Data": "---"
+								},
+								{
+									"Type": "NodeCodeSpanCloseMarker"
+								}
+							]
+						},
+						{
+							"Type": "NodeText",
+							"Data": "改成nomodeset，意思是禁用掉自带的显卡设置。然后按f10启动。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211201100837-bid9qtx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211201100837-bid9qtx",
+				"updated": "20211201100837"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "最新更新：改为nouveau.modeset=0，这个是禁止Linux系统的自带显卡驱动，进入系统后请立刻安装"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "英伟达显卡"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.zhihu.com/search?q=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E6%98%BE%E5%8D%A1\u0026search_source=Entity\u0026hybrid_search_source=Entity\u0026hybrid_search_extra=%7B%22sourceType%22%3A%22article%22%2C%22sourceId%22%3A67830492%7D"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "驱动（闭源），建议选择旧版本的，下面的步骤可以忽略"
+				}
+			]
+		},
+		{
+			"ID": "20211201100837-9fn29j6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211201100837-9fn29j6",
+				"updated": "20211201100837"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2 中文安装的坑"
+				}
+			]
+		},
+		{
+			"ID": "20211201100837-1key4ao",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211201100837-1key4ao",
+				"updated": "20211201100837"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "进入按照界面后，我遇到的问题是选择中文按照后画面显示不全，导致无法点击安装按钮。这里只需要在最开始的时候选择英文就可以了。"
+				}
+			]
+		},
+		{
+			"ID": "20211201100837-awhlbed",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211201100837-awhlbed",
+				"updated": "20211201100837"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3 安装完后的配置"
+				}
+			]
+		},
+		{
+			"ID": "20211201100837-daf3or4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211201100837-daf3or4",
+				"updated": "20211201100837"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装完后一般有两个问题，一个是分辨率的问题，第二个是grub启动模式的问题（也就是之前的nomodeset），这时你需要在终端输入"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "sudo vi /etc/default/grub"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，找到"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "GRUB_CMDLINE_LINUX_DEFAULT=\"quiet splash\""
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "这行字符，在"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "quiet splash"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "后面添加nomodeset，接着可以在附近找到分辨率的设置，它默认是800x600，改成1920x1080。注意！！！！如果前面有"
+				},
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "，记得把"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "去掉才能生效。然后保存并退出，输入"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "sudo update-grub"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "更新。重启之后就正常了。"
+				}
+			]
+		},
+		{
+			"ID": "20211201100840-2shp590",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211201100840-2shp590",
+				"updated": "20211201100840"
+			}
+		},
+		{
+			"ID": "20211201100840-ay2wg7s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211201100840-ay2wg7s",
+				"updated": "20211201100840"
+			}
+		},
+		{
+			"ID": "20211201100840-odfcncw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211201100840-odfcncw",
+				"updated": "20211201100840"
+			}
+		},
+		{
+			"ID": "20211201100840-m7chuub",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211201100840-m7chuub",
+				"updated": "20211201100840"
+			}
+		},
+		{
+			"ID": "20211124212204-5ap9c2j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211124212204-5ap9c2j",
+				"updated": "20211201101247"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Properties": {
+						"style": "color: var(--b3-font-color6);"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "搜狗输入法20不适配，改用百度输入法"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color6);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20211124212208-3gonxcb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211124212208-3gonxcb",
+				"updated": "20211124215106"
+			}
+		},
+		{
+			"ID": "20211124150232-1oi3l7y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211124150232-1oi3l7y",
+				"updated": "20211201100853"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "curl原理安装hyper fabric有奇效"
+				}
+			]
+		},
+		{
+			"ID": "20211124150319-s3ryq2b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211124150319-s3ryq2b",
+				"updated": "20211124150319"
+			}
+		},
+		{
+			"ID": "20211201101320-u1wipil",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211201101320-u1wipil",
+				"updated": "20211201101327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "timeshift用来备份"
+				}
+			]
+		}
+	]
+}

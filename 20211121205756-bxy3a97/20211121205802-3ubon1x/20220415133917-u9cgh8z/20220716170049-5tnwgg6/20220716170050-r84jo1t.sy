@@ -1,0 +1,53 @@
+{
+	"ID": "20220716170050-r84jo1t",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220716170050-r84jo1t",
+		"title": "2022-07-16",
+		"updated": "20220717004303"
+	},
+	"Children": [
+		{
+			"ID": "20220716170050-9rccs6g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220716170050-9rccs6g",
+				"updated": "20220716170118"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "git add 作用"
+				}
+			]
+		},
+		{
+			"ID": "20220716170119-g6a98wg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220716170119-g6a98wg",
+				"updated": "20220717004248"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "需要在config改主链合约地址"
+				}
+			]
+		},
+		{
+			"ID": "20220717004249-mg2gi2o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220717004249-mg2gi2o",
+				"updated": "20220717004303"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "之后脚本也需要迁移，重命名snapshot"
+				}
+			]
+		}
+	]
+}

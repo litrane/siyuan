@@ -1,0 +1,174 @@
+{
+	"ID": "20211125164504-4ixrbcs",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211125164504-4ixrbcs",
+		"title": "读沈向洋带你读论文视频 video imprint",
+		"updated": "20211125165050"
+	},
+	"Children": [
+		{
+			"ID": "20211125164654-pts8q3g",
+			"Type": "NodeIFrame",
+			"Data": "\u003ciframe src=\"//player.bilibili.com/player.html?aid=719290792\u0026amp;bvid=BV1CQ4y1U7ef\u0026amp;cid=447012267\u0026amp;page=1\" data-src=\"//player.bilibili.com/player.html?aid=719290792\u0026amp;bvid=BV1CQ4y1U7ef\u0026amp;cid=447012267\u0026amp;page=1\" scrolling=\"no\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 649px; height: 391px;\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20211125164654-pts8q3g",
+				"updated": "20211125164654"
+			}
+		},
+		{
+			"ID": "20211125164706-eihh78x",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211125164706-eihh78x",
+				"updated": "20211125165050"
+			},
+			"Children": [
+				{
+					"ID": "20211125164743-cf4w9ym",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20211125164743-cf4w9ym"
+					},
+					"Children": [
+						{
+							"ID": "20211125164743-9kbaq0n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211125164743-9kbaq0n",
+								"updated": "20211125164757"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "vision终极目的是vedio"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211125164758-egxu55t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20211125164758-egxu55t",
+						"updated": "20211125165040"
+					},
+					"Children": [
+						{
+							"ID": "20211125164758-amzf4zp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211125164758-amzf4zp",
+								"updated": "20211125165040"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "读论文要八卦，博览全书，链接dots"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211125164804-riwc2ds",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20211125164804-riwc2ds",
+						"updated": "20211125165027"
+					},
+					"Children": [
+						{
+							"ID": "20211125164804-1u3gkrt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211125164804-1u3gkrt",
+								"updated": "20211125165001"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "实验设计要全面，要针对的假设进行实验（对baseline以及sota），此外设计一个好的实验工具同样是一个创新，去发现新的知识点。"
+								}
+							]
+						},
+						{
+							"ID": "20211125165005-1w19d0a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211125165005-1w19d0a",
+								"updated": "20211125165027"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可以采用问卷调查形式进行说明"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211125165001-mxwm1d7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20211125165001-mxwm1d7",
+						"updated": "20211125165050"
+					},
+					"Children": [
+						{
+							"ID": "20211125165001-scnzwsu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211125165001-scnzwsu",
+								"updated": "20211125165050"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "科研是一个时间的积分"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211125165041-sp6ifnw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211125165041-sp6ifnw",
+				"updated": "20211125165041"
+			}
+		}
+	]
+}

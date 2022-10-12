@@ -1,0 +1,10 @@
+{
+  "name": "Hyperledger Fabric",
+  "sort": 3,
+  "icon": "1f517",
+  "closed": true,
+  "refCreateSavePath": "",
+  "createDocNameTemplate": "",
+  "dailyNoteSavePath": "/daily note/{{now | date \"2006/01\"}}/{{now | date \"2006-01-02\"}}",
+  "dailyNoteTemplatePath": ""
+}

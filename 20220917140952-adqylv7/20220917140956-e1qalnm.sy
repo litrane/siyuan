@@ -1,0 +1,212 @@
+{
+	"ID": "20220917140956-e1qalnm",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220917140956-e1qalnm",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220917141120-xlkfn1l\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220917141012-t11gfe3\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220917141211-ezeic0i\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:77,\u0026amp;quot;focusEnd\u0026amp;quot;:77}",
+		"title": "联邦学习基本概念",
+		"updated": "20220917142250"
+	},
+	"Children": [
+		{
+			"ID": "20220917141120-xlkfn1l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220917141120-xlkfn1l",
+				"updated": "20220917141208"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "主要是维护两个视角的数据模型，一个本地另一个是全局，互相之间平均迭代，迭代策略需要进一步研究。"
+				}
+			]
+		},
+		{
+			"ID": "20220917141211-ezeic0i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220917141211-ezeic0i",
+				"updated": "20220917142250"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "利用不同的设备之间获得的数据，先在自己设备中依靠自己数据训练出本地模型，之后在全局分享自己的模型参数，生成全局平均的模型，之后本地再根据全局模型进行更新。"
+				}
+			]
+		},
+		{
+			"ID": "20220917141012-bq27bcz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220917141012-bq27bcz",
+				"updated": "20220917141105"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "FL的挑战"
+				}
+			]
+		},
+		{
+			"ID": "20220917141047-rsghxpl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220917141047-rsghxpl"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "（1）参与方和中央服务器聚合服务器之间的通信链接可能是慢速并且不稳定的。"
+				}
+			]
+		},
+		{
+			"ID": "20220917141012-y4n2lxr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220917141012-y4n2lxr",
+				"updated": "20220917141012"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "（2）来自不同参与方的数据可能会导致出现非独立同分布的情况。"
+				}
+			]
+		},
+		{
+			"ID": "20220917141012-j2neck6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220917141012-j2neck6",
+				"updated": "20220917141012"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "（3）不同的参与方可能有数量不均的训练数据样本，这可能导致模型产生偏差，甚至会是联邦学习模型训练失败。"
+				}
+			]
+		},
+		{
+			"ID": "20220917141012-00pm0co",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220917141012-00pm0co",
+				"updated": "20220917141012"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "（4）由于参与方在地理上通常是非常分散的，所以难以被认证身份，这使得联邦学习模型容易遭受到恶意攻击。"
+				}
+			]
+		},
+		{
+			"ID": "20220917141012-cnuvobv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220917141012-cnuvobv",
+				"updated": "20220917141108"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "FL的分类"
+				}
+			]
+		},
+		{
+			"ID": "20220917141038-4vrfo85",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220917141038-4vrfo85"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "设矩阵  表示第  个参与方的数据；设矩阵  的每一行表示一个数据样本，每一列表示一个具体的数据特征。"
+				}
+			]
+		},
+		{
+			"ID": "20220917141012-2ibrtux",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220917141012-2ibrtux",
+				"updated": "20220917141012"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "将特征空间设为  ，数据标签（label）空间设为  、样本 ID 空间设为  ，这三个组成一个训练数据集（，，）。"
+				}
+			]
+		},
+		{
+			"ID": "20220917141012-baspg0p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220917141012-baspg0p",
+				"updated": "20220917141012"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "（1）横向联邦学习。适用于联邦学习的参与方的数据有重叠的数据特征（列重叠多），即数据特征在参与方之间是对齐的，但是参与方拥有的数据样本是不同的。例：参与方是两家服务于不同区域市场的银行，他们虽然可能只有很少的重叠客户，但是客户的数据可能因为相似的商业模式而有非常相似的特征空间。"
+				}
+			]
+		},
+		{
+			"ID": "20220917141012-u203wl0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220917141012-u203wl0",
+				"updated": "20220917141012"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "（2）纵向联邦学习。适用于联邦学习参与方的训练数据有重叠的数据样本（行重叠多），即参与方之间的数据样本是对齐的，但是在数据特征上有所不同。例：同一地区的一家银行和一家电子商务公司，提供不同的服务，但在客户群体上有非常大的交集时，他们可以在各自的不同特征空间上协作，为各自得到一个更好的机器学习模型。"
+				}
+			]
+		},
+		{
+			"ID": "20220917141012-42vi4ie",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220917141012-42vi4ie",
+				"updated": "20220917141012"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "（3）联邦迁移学习。适用于参与方的数据样本和数据特征重叠都很少的情况。"
+				}
+			]
+		},
+		{
+			"ID": "20220917141012-t11gfe3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220917141012-t11gfe3",
+				"updated": "20220917141021"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "（4）最近，有文献提出分割学习。可以看作纵向联邦学习的一种特殊形式。它在纵向联邦学习之上使用了深度神经网络（DNN）。也就是说，分割学习主要使用了联邦学习的设置，并在纵向划分的数据集上训练DNN。\n"
+				},
+				{
+					"Type": "NodeBr",
+					"Data": "br"
+				}
+			]
+		}
+	]
+}

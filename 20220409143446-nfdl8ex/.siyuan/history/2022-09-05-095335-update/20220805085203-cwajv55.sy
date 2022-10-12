@@ -1,0 +1,552 @@
+{
+	"ID": "20220805085203-cwajv55",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220805085203-cwajv55",
+		"title": "Git使用",
+		"updated": "20220905094732"
+	},
+	"Children": [
+		{
+			"ID": "20220806093256-caugsh9",
+			"Type": "NodeSuperBlock",
+			"Properties": {
+				"id": "20220806093256-caugsh9",
+				"updated": "20220806093844"
+			},
+			"Children": [
+				{
+					"Type": "NodeSuperBlockOpenMarker"
+				},
+				{
+					"Type": "NodeSuperBlockLayoutMarker",
+					"Data": "row"
+				},
+				{
+					"ID": "20220805085203-cjga8po",
+					"Type": "NodeHeading",
+					"HeadingLevel": 1,
+					"Properties": {
+						"fold": "1",
+						"id": "20220805085203-cjga8po",
+						"style": "text-align: left;",
+						"updated": "20220806093256"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "版本回退"
+						}
+					]
+				},
+				{
+					"ID": "20220806092540-wju7q2s",
+					"Type": "NodeList",
+					"ListData": {
+						"Typ": 1
+					},
+					"Properties": {
+						"heading-fold": "1",
+						"id": "20220806092540-wju7q2s",
+						"updated": "20220806093256"
+					},
+					"Children": [
+						{
+							"ID": "20220806092543-rfj5i0h",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 1,
+								"Delimiter": 46,
+								"Marker": "MS4=",
+								"Num": 1
+							},
+							"Properties": {
+								"id": "20220806092543-rfj5i0h"
+							},
+							"Children": [
+								{
+									"ID": "20220806092543-u7tixp6",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220806092543-u7tixp6",
+										"updated": "20220806092612"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "使用reset，强制更改head回去，受到回退的版本无法找回"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806092657-tx19skk",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"heading-fold": "1",
+						"id": "20220806092657-tx19skk",
+						"updated": "20220806093256"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrong",
+							"Data": "strong",
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "git reset --hard 目标版本号"
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806092723-e9ca8j9",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"heading-fold": "1",
+						"id": "20220806092723-e9ca8j9",
+						"updated": "20220806093256"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrong",
+							"Data": "strong",
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "git push -f"
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806092700-n0vt3z0",
+					"Type": "NodeList",
+					"ListData": {
+						"Typ": 1
+					},
+					"Properties": {
+						"heading-fold": "1",
+						"id": "20220806092700-n0vt3z0",
+						"updated": "20220806093256"
+					},
+					"Children": [
+						{
+							"ID": "20220806092701-w4045ax",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 1,
+								"Delimiter": 46,
+								"Marker": "Mi4=",
+								"Num": 2
+							},
+							"Properties": {
+								"id": "20220806092701-w4045ax"
+							},
+							"Children": [
+								{
+									"ID": "20220806092701-723cc0x",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220806092701-723cc0x",
+										"updated": "20220806092758"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "git revert用于反做之前的版本，可能需要解决冲突问题"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806092759-wx1el8l",
+					"Type": "NodeCodeBlock",
+					"IsFencedCodeBlock": true,
+					"Properties": {
+						"heading-fold": "1",
+						"id": "20220806092759-wx1el8l",
+						"updated": "20220806093256"
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeBlockFenceOpenMarker",
+							"Data": "```"
+						},
+						{
+							"Type": "NodeCodeBlockFenceInfoMarker",
+							"CodeBlockInfo": "Z2l0"
+						},
+						{
+							"Type": "NodeCodeBlockCode",
+							"Data": "git revert -n 8b89621019c9adc6fc4d242cd41daeb13aeb9861\n"
+						},
+						{
+							"Type": "NodeCodeBlockFenceCloseMarker",
+							"Data": "```"
+						}
+					]
+				},
+				{
+					"ID": "20220806092528-dulc17e",
+					"Type": "NodeCodeBlock",
+					"IsFencedCodeBlock": true,
+					"Properties": {
+						"heading-fold": "1",
+						"id": "20220806092528-dulc17e",
+						"updated": "20220806093256"
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeBlockFenceOpenMarker",
+							"Data": "```"
+						},
+						{
+							"Type": "NodeCodeBlockFenceInfoMarker",
+							"CodeBlockInfo": "Z2l0"
+						},
+						{
+							"Type": "NodeCodeBlockCode",
+							"Data": "git commit -m \"revert add text.txt\" \ngit push\n"
+						},
+						{
+							"Type": "NodeCodeBlockFenceCloseMarker",
+							"Data": "```"
+						}
+					]
+				},
+				{
+					"ID": "20220806092939-s04px0y",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"heading-fold": "1",
+						"id": "20220806092939-s04px0y",
+						"updated": "20220806093256"
+					},
+					"Children": [
+						{
+							"Type": "NodeLink",
+							"Data": "span",
+							"Children": [
+								{
+									"Type": "NodeOpenBracket"
+								},
+								{
+									"Type": "NodeLinkText",
+									"Data": "git CSDN练习题"
+								},
+								{
+									"Type": "NodeCloseBracket"
+								},
+								{
+									"Type": "NodeOpenParen"
+								},
+								{
+									"Type": "NodeLinkDest",
+									"Data": "https://edu.csdn.net/skill/gml/gml-5b37ae204b1f4183b1a2853f32698407?category=635\u0026typeId=20510"
+								},
+								{
+									"Type": "NodeCloseParen"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806093815-05z5mrx",
+					"Type": "NodeBlockquote",
+					"Properties": {
+						"heading-fold": "1",
+						"id": "20220806093815-05z5mrx",
+						"updated": "20220806093844"
+					},
+					"Children": [
+						{
+							"ID": "20220806093844-g8wkgde",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806093844-g8wkgde",
+								"updated": "20220806093844"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用reset命令，Git会把要回退版本之后提交的修改都删除掉。要从第四次修改回退到第一次修改，那么会删除第二、三、四次的修改。【注：这里并不是真正的物理删除】"
+								}
+							]
+						},
+						{
+							"ID": "20220806093844-nf5hynp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806093844-nf5hynp",
+								"updated": "20220806093844"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "那如果发现第三次修改有错误，想要恢复第三次修改，却要保留第四次修改呢？"
+								}
+							]
+						},
+						{
+							"ID": "20220806093844-ln9lus0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806093844-ln9lus0",
+								"updated": "20220806093844"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "这个时候就可以用revert命令："
+								}
+							]
+						},
+						{
+							"Type": "NodeBlockquoteMarker",
+							"Data": "\u003e"
+						},
+						{
+							"ID": "20220806093831-fg27ovi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806093831-fg27ovi",
+								"updated": "20220806093831"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在实际生产环境中，代码是基于master分支发布到线上的，会有多人进行提交。可能会碰到自己或团队其他成员开发的某个功能在上线之后有Bug,需要及时做代码回滚的操作。"
+								}
+							]
+						},
+						{
+							"ID": "20220806093831-xc4tphg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806093831-xc4tphg",
+								"updated": "20220806093831"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在确认要回滚的版本之后，如果别人没有最新提交，那么就可以直接用reset命令进行版本回退，否则，就可以考虑使用revert命令进行还原修改，不能影响到别人的提交。"
+								}
+							]
+						},
+						{
+							"ID": "20220806093831-y5jddnr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806093831-y5jddnr",
+								"updated": "20220806093831"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用reset还是revert，需要考虑实际的适用场景，没有绝对化。"
+								}
+							]
+						},
+						{
+							"ID": "20220806093831-z4kqn7k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806093831-z4kqn7k",
+								"updated": "20220806093831"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "上面提的 "
+								},
+								{
+									"Type": "NodeEmphasis",
+									"Data": "em",
+									"Children": [
+										{
+											"Type": "NodeEmA6kOpenMarker",
+											"Data": "*"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "并不是真正的物理删除"
+										},
+										{
+											"Type": "NodeEmA6kCloseMarker",
+											"Data": "*"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ，是因为Git会把分支的每次修改记录都会保留下来，比如有某次的commit,某次的reset等。而使用git reflog show命令,可以查看完整的提交历史，"
+								}
+							]
+						},
+						{
+							"ID": "20220806093831-12ncsu9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806093831-12ncsu9",
+								"updated": "20220806093831"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "只要有commit_id，我们就能恢复任意版本的代码，在各版本之间来回穿梭。"
+								}
+							]
+						},
+						{
+							"ID": "20220806093831-pao0oy2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806093831-pao0oy2",
+								"updated": "20220806093831"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "以上，就是我对Git回滚代码的一些使用心得，个人观点,仅供参考。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeSuperBlockCloseMarker"
+				}
+			]
+		},
+		{
+			"ID": "20220806093017-tqvzhfh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"fold": "1",
+				"id": "20220806093017-tqvzhfh",
+				"style": "text-align: left;",
+				"updated": "20220806093544"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "分支管理"
+				}
+			]
+		},
+		{
+			"ID": "20220905094601-oz7gjrm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220905094601-oz7gjrm",
+				"updated": "20220905094601"
+			}
+		},
+		{
+			"ID": "20220905094638-w2fhrcu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220905094638-w2fhrcu",
+				"updated": "20220905094645"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "merge操作"
+				}
+			]
+		},
+		{
+			"ID": "20220905094645-r8h4tcy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905094645-r8h4tcy",
+				"updated": "20220905094653"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "放弃merge且未提交"
+				}
+			]
+		},
+		{
+			"ID": "20220905094703-j8z6p5d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905094703-j8z6p5d",
+				"updated": "20220905094708"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "git merge --abort"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220905094711-g2b40b6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220905094711-g2b40b6",
+				"updated": "20220905094732"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "git diff操作"
+				}
+			]
+		},
+		{
+			"ID": "20220905094723-jtwh2u5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905094723-jtwh2u5",
+				"updated": "20220905094723"
+			}
+		}
+	]
+}

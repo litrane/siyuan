@@ -1,0 +1,1552 @@
+{
+	"ID": "20220730210335-vzs8uk5",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220730210335-vzs8uk5",
+		"title": "启动配置",
+		"updated": "20220808202547"
+	},
+	"Children": [
+		{
+			"ID": "20220730210343-vv7avta",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220730210343-vv7avta",
+				"updated": "20220730210424"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1 Prerequisite"
+				}
+			]
+		},
+		{
+			"ID": "20220803140343-kgnremt",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220803140343-kgnremt",
+				"updated": "20220803140403"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "1000000000000000000000000000000000000000000000000000000000000000 ----- 0x7B2419E0Ee0BD034F7Bf24874C12512AcAC6e21C\na249a82c42a282e87b2ddef63404d9dfcf6ea501dcaf5d447761765bd74f666d ----- 0x9F1233798E905E173560071255140b4A8aBd3Ec6\nd0d53ac0b4cd47d0ce0060dddc179d04145fea2ee2e0b66c3ee1699c6b492013 ----- 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B\n83f0bb8655139cef4657f90db64a7bb57847038a9bd0ccd87c9b0828e9cbf76d ----- 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-pz5d8az",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220730210343-pz5d8az",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.1 Compilation"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-s6sxunk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-s6sxunk",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "(notice that we should use the type2 branch of the subchain code)"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-6f4vjql",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220730210343-6f4vjql",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "git clone https://github.com/thetatoken/theta-protocol-ledger.git $GOPATH/src/github.com/thetatoken/theta\nexport THETA_HOME=$GOPATH/src/github.com/thetatoken/theta\ncd $THETA_HOME\ngit checkout sc-privatenet\ngit pull origin sc-privatenet\n\ngit clone -b type2 https://github.com/thetatoken/theta-protocol-subchain.git $GOPATH/src/github.com/thetatoken/thetasubchain\nexport SUBCHAIN_HOME=$GOPATH/src/github.com/thetatoken/thetasubchain\ncd $SUBCHAIN_HOME\n\nmake install\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-cbwsd29",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220730210343-cbwsd29",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.2 Start a single validator testnet"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-n5h9vd5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220730210343-n5h9vd5",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.2.1 Setup (run once)"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-edm6ak5",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220730210343-edm6ak5",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "cd $SUBCHAIN_HOME\nmkdir -p ../data/subchain/privatenet/node\nrm -rf ../data/subchain/privatenet/node/*\ncp -r integration/privatenet/node/* ../data/subchain/privatenet/node/\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-bzjq8b0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220730210343-bzjq8b0",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.2.2 Start the validator"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-xh6gr5y",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220730210343-xh6gr5y",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "cd $SUBCHAIN_HOME\nthetasubchain start --config=../data/subchain/privatenet/node --password=qwertyuiop\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-m8tfp7l",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220730210343-m8tfp7l",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.3 Start the subchain and mainchain Adaptor"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-58q1smc",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220730210343-58q1smc",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "wget https://theta-downloader.s3.amazonaws.com/ethrpc/theta_local_privatenet_linux.tar.gz\ntar -xvzf theta_local_privatenet_linux.tar.gz\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-owzws8z",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220730210343-owzws8z",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.3.1 Adding the subchain adaptor config"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-ouitjpc",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220730210343-ouitjpc",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "cd theta_local_privatenet_linux/bin\nmkdir ../privatenet/subchain_rpc_adaptor\nvim ../privatenet/subchain_rpc_adaptor/config.yaml\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-1kpg5q6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-1kpg5q6",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "adding the following content"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-bo82shp",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220730210343-bo82shp",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eWFtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "theta:\n  rpcEndpoint: \"http://127.0.0.1:16900/rpc\"\nrpc:\n  enabled: true\n  httpAddress: \"127.0.0.1\"\n  httpPort: 19888\n  wsAddress: \"127.0.0.1\"\n  wsPort: 19889\n  timeoutSecs: 600 \n  maxConnections: 2048\nlog:\n  levels: \"*:debug\"\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-bsvfykv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220730210343-bsvfykv",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.3.2 start adaptor and the mainchain"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-ybwivow",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220730210343-ybwivow",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "./theta start --config=../privatenet/validator --password=qwertyuiop\n# another terminal (or screen/tmux session)\n./theta-eth-rpc-adaptor start --config=../privatenet/eth_rpc_adaptor\n# another terminal (or screen/tmux session)\n./theta-eth-rpc-adaptor start --config=../privatenet/subchain_rpc_adaptor\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-0cc4wkq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-0cc4wkq",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "0000000000000000000000002e833968e5bb786ae419c4d13189fb081cc43bab00000000000000000000000000000000000000000000152d02c7e14af6800000\n0000000000000000000000002e833968e5bb786ae419c4d13189fb081cc43bab00000000000000000000000000000000000000000000152d02c7e14af6800000\n0000000000000000000000005b38da6a701c568545dcfcb03fcb875f56beddc4000000000000000000000000000000000000000000000000000000000001e240\n000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000400000000000000000000000002e833968e5bb786ae419c4d13189fb081cc43bab00000000000000000000000000000000000000000000152d02c7e14af6800000\n00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000\n000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000400000000000000000000000002e833968e5bb786ae419c4d13189fb081cc43bab00000000000000000000000000000000000000000000152d02c7e14af6800000\n000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000010000000000000000000000005b38da6a701c568545dcfcb03fcb875f56beddc4000000000000000000000000000000000000000000000000000000000001e240"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-cc3xs3w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-cc3xs3w",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000010000000000000000000000007f1c87bd3a22159b8a2e5d195b1a3283d10ea8950000000000000000000000000000000000000000000000000000000000000002"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-cza00cy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-cza00cy",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-jwhyj7r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-jwhyj7r",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000010000000000000000000000002e833968e5bb786ae419c4d13189fb081cc43bab00000000000000000000000000000000000000000000152d02c7e14af6800000"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-bae80dc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-bae80dc",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000010000000000000000000000002e833968e5bb786ae419c4d13189fb081cc43bab00000000000000000000000000000000000000000000152d02c7e14af6800000"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-l17nf6l",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220730210343-l17nf6l",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2 Smart Contract"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-jaiy6z1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220730210343-jaiy6z1",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.1 deploy"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-3tci6of",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220730210343-3tci6of",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# transfer enough tfuel to deploy the contract\nexport SEQ=`thetacli query account --address=0x2E833968E5bB786Ae419c4d13189fB081Cc43bab | grep sequence | grep -o '[[:digit:]]\\+'`\n\nthetacli tx send --chain=\"privatenet\" --from=0x2E833968E5bB786Ae419c4d13189fB081Cc43bab --to=0x19E7E376E7C213B7E7e7e46cc70A5dD086DAff2A --tfuel=10000 --password=qwertyuiop --seq=$(($SEQ+1))\n\ngit clone -b type2 https://github.com/thetatoken/theta-protocol-subchain-management.git\ncd theta-protocol-subchain-management\ntruffle deploy --network theta_privatenet --reset\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-lq98pzv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-lq98pzv",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "The following step is to get the deployed contract address, but I do not have a way to automatically set the contract address in the "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "$SUBCHAIN_HOME/integration/privatenet/config.yaml"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-5p09s00",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220730210343-5p09s00",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.2 deposit and send event"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-v3qzzbo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-v3qzzbo",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "In this step, there are many manually operations, sorry for the inconvenience."
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-xsq4bj3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-xsq4bj3",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "As we need to do more than one function call in one contract, and the execution order of these function calls has to be sequential, we can comment the code when it is not needed, and uncomment it when it is needed."
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-hjaxb3e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-hjaxb3e",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "The go scripts are in the "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "theta-protocol-subchain-management/go_scripts"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-sk9erfm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-sk9erfm",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "If you want to use the go scripts that are in this directory, you need to put some abi-gen go code in the GOROOT or GOPATH"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-kk08rxb",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220730210343-kk08rxb",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "cd theta-protocol-subchain-management\n\nmkdir /usr/local/go/src/contracts/\n\ncp subchainERC20.go /usr/local/go/src/contracts/\ncp subchainRegistrar.go /usr/local/go/src/contracts/\ncp mainchain_tFuel_token_bank.go /usr/local/go/src/contracts/\ncp mainchain_tnt20_token_bank.go  /usr/local/go/src/contracts/\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-2bqg1zo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-2bqg1zo",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "the generation of the above files need "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "abigen"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " command in truffle"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-brshbwq",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220730210343-brshbwq",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"ID": "20220730210343-ukezqef",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220730210343-ukezqef"
+					},
+					"Children": [
+						{
+							"ID": "20220730210343-plz9gds",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730210343-plz9gds"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Install the plugin with npm"
+								}
+							]
+						},
+						{
+							"ID": "20220730210343-rquarpx",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220730210343-rquarpx"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "npm install @chainsafe/truffle-plugin-abigen\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730210343-d98qp34",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220730210343-d98qp34"
+					},
+					"Children": [
+						{
+							"ID": "20220730210343-cbz6cme",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730210343-cbz6cme"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Add the plugin to your config"
+								}
+							]
+						},
+						{
+							"ID": "20220730210343-mw4gmwf",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220730210343-mw4gmwf"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "module.exports = {\n  /* ... rest of truffle-config */\n\n  plugins: [\n    \"@chainsafe/truffle-plugin-abigen\"\n  ]\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-37ihd0i",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220730210343-37ihd0i",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# Generate the ABI and BIN files (stored in abigenBindings/)\ntruffle run abigen\n\n# Create the Go binding with bytecode \n\n# 1 register\nabigen --bin=abigenBindings/bin/SubchainValidatorRegistrar.bin --abi=abigenBindings/abi/SubchainValidatorRegistrar.abi --type=SubchainRegister --pkg=contracts --out=subchainRegistrar.go\n\n# 2 subchain governance token\nabigen --bin=abigenBindings/bin/ERC20.bin --abi=abigenBindings/abi/ERC20.abi --type=subchainERC --pkg=contracts --out=subchainERC20.go\n\n# 3 mainchain tfuel\nabigen --bin=abigenBindings/bin/MainchainTFuelTokenBank.bin --abi=abigenBindings/abi/MainchainTFuelTokenBank.abi --type=MainchainTFuelTokenBank --pkg=contracts --out=mainchain_tFuel_token_bank.go\n\n# 4 mainchain tnt20\nabigen --bin=abigenBindings/bin/MainchainTNT20TokenBank.bin --abi=abigenBindings/abi/MainchainTNT20TokenBank.abi --type=MainchainTNT20TokenBank --pkg=contracts --out=mainchain_tnt20_token_bank.go\n\n# 5 subchain tfuel\nabigen --bin=abigenBindings/bin/SubchainTFuelTokenBank.bin --abi=abigenBindings/abi/SubchainTFuelTokenBank.abi --type=SubchainTFuelTokenBank --pkg=contracts --out=subchain_tFuel_token_bank.go\n\n\n# update the file \nrm /usr/local/go/src/contracts/*\ncp subchainERC20.go /usr/local/go/src/contracts/\ncp subchainRegistrar.go /usr/local/go/src/contracts/\ncp mainchain_tFuel_token_bank.go /usr/local/go/src/contracts/\ncp mainchain_tnt20_token_bank.go  /usr/local/go/src/contracts/\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-1192led",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220730210343-1192led",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.2.1 register contract"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-914itwf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-914itwf",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "First register the contract, then deposit"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-kq0c7wb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-kq0c7wb",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "theta-protocol-subchain-management/go_scripts/register_contract.go"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-f4pne67",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-f4pne67",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Before calling the script, remember to modify the address to the "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "SubchainValidatorRegistrar"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " contract address"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-7ra2gvc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-7ra2gvc",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "address := common.HexToAddress(\"0x2F9408A3848b15B87a2fbe88a131701C10148466\")"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-r2le4vv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-r2le4vv",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "And the  modify the erc20address to the "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "SubchainGovernanceToken"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " contract address"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-qux230v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-qux230v",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "erc20address := common.HexToAddress(\"0x19Ce1FEff967843152FB830e69f82d0Eadd1eB64\")"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-3uxnubs",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220730210343-3uxnubs",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "package main\n\nimport (\n \"context\"\n \"crypto/ecdsa\"\n \"fmt\"\n \"log\"\n \"math/big\"\n\n \"github.com/ethereum/go-ethereum/crypto\"\n\n \"github.com/ethereum/go-ethereum/accounts/abi/bind\"\n \"github.com/ethereum/go-ethereum/common\"\n \"github.com/ethereum/go-ethereum/ethclient\"\n\n // rg \"subchainRegistrar\" // for demo\n ct \"contracts\"\n)\n\nfunc main() {\n client, err := ethclient.Dial(\"http://localhost:18888/rpc\")\n if err != nil {\n  log.Fatal(err)\n }\n\n chainID, err := client.ChainID(context.Background())\n if err != nil {\n  log.Fatal(err)\n }\n // fmt.Println(\"chain id is !!!!!!!\", chainID)\n\n // privateKey, err := crypto.HexToECDSA(\"1111111111111111111111111111111111111111111111111111111111111111\")\n privateKey, err := crypto.HexToECDSA(\"93a90ea508331dfdf27fb79757d4250b4e84954927ba0073cd67454ac432c737\")\n if err != nil {\n  log.Fatal(err)\n }\n\n publicKey := privateKey.Public()\n publicKeyECDSA, ok := publicKey.(*ecdsa.PublicKey)\n if !ok {\n  log.Fatal(\"error casting public key to ECDSA\")\n }\n\n fromAddress := crypto.PubkeyToAddress(*publicKeyECDSA)\n nonce, err := client.PendingNonceAt(context.Background(), fromAddress)\n if err != nil {\n  log.Fatal(err)\n }\n\n gasPrice, err := client.SuggestGasPrice(context.Background())\n if err != nil {\n  log.Fatal(err)\n }\n\n auth, err := bind.NewKeyedTransactorWithChainID(privateKey, chainID)\n if err != nil {\n  log.Fatal(err)\n }\n auth.Nonce = big.NewInt(int64(nonce))\n auth.Value = big.NewInt(3131313) // in wei\n auth.GasLimit = uint64(3000000)  // in units\n auth.GasPrice = gasPrice\n\n address := common.HexToAddress(\"0x2F9408A3848b15B87a2fbe88a131701C10148466\")\n instance, err := ct.NewSubchainRegister(address, client)\n if err != nil {\n  log.Fatal(err)\n }\n subchainID := new(big.Int).SetUint64(uint64(3610001))\n\n // 1 register\n\n  erc20address := common.HexToAddress(\"0x19Ce1FEff967843152FB830e69f82d0Eadd1eB64\")\n  tx, err := instance.RegisterSubchainID(auth, subchainID, erc20address, \"hi\")\n  if err != nil {\n   log.Fatal(err)\n  }\n\n  fmt.Printf(\"tx sent: %s\\n\", tx.Hash().Hex())\n\n // 2 DepositCollateral\n // toaddress := common.HexToAddress(\"0x2E833968E5bB786Ae419c4d13189fB081Cc43bab\")\n // tx, err := instance.DepositCollateral(auth, toaddress, subchainID)\n // if err != nil {\n //  log.Fatal(err)\n // }\n\n // fmt.Printf(\"tx sent: %s\\n\", tx.Hash().Hex())\n\n}\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-ovpyz4s",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220730210343-ovpyz4s",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.2.2 governance token contract"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-uzh7olh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-uzh7olh",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "We only need to call the mint of the governance token contract"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-il6u2pz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-il6u2pz",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "theta-protocol-subchain-management/go_scripts/erc.go"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-f3ogzud",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-f3ogzud",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Before calling the script, remember to modify the address to the "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "SubchainGovernanceToken"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " contract address"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-ka872v7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-ka872v7",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "address := common.HexToAddress(\"0x19Ce1FEff967843152FB830e69f82d0Eadd1eB64\")"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-6i45q76",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220730210343-6i45q76",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "package main\n\nimport (\n \"context\"\n \"crypto/ecdsa\"\n \"fmt\"\n \"log\"\n \"math/big\"\n\n \"github.com/ethereum/go-ethereum/crypto\"\n\n ct \"contracts\"\n\n \"github.com/ethereum/go-ethereum/accounts/abi/bind\"\n \"github.com/ethereum/go-ethereum/common\"\n \"github.com/ethereum/go-ethereum/ethclient\"\n)\n\nfunc main() {\n client, err := ethclient.Dial(\"http://localhost:18888/rpc\")\n if err != nil {\n  log.Fatal(err)\n }\n\n chainID, err := client.ChainID(context.Background())\n if err != nil {\n  log.Fatal(err)\n }\n\n // privateKey, err := crypto.HexToECDSA(\"1111111111111111111111111111111111111111111111111111111111111111\")\n privateKey, err := crypto.HexToECDSA(\"93a90ea508331dfdf27fb79757d4250b4e84954927ba0073cd67454ac432c737\")\n\n // privateKey, err := crypto.HexToECDSA(\"2dad160420b1e9b6fc152cd691a686a7080a0cee41b98754597a2ce57cc5dab1\")\n if err != nil {\n  log.Fatal(err)\n }\n\n publicKey := privateKey.Public()\n publicKeyECDSA, ok := publicKey.(*ecdsa.PublicKey)\n if !ok {\n  log.Fatal(\"error casting public key to ECDSA\")\n }\n\n fromAddress := crypto.PubkeyToAddress(*publicKeyECDSA)\n nonce, err := client.PendingNonceAt(context.Background(), fromAddress)\n if err != nil {\n  log.Fatal(err)\n }\n\n gasPrice, err := client.SuggestGasPrice(context.Background())\n if err != nil {\n  log.Fatal(err)\n }\n\n auth, err := bind.NewKeyedTransactorWithChainID(privateKey, chainID)\n if err != nil {\n  log.Fatal(err)\n }\n auth.Nonce = big.NewInt(int64(nonce))\n auth.Value = big.NewInt(0)      // in wei\n auth.GasLimit = uint64(3000000) // in units\n auth.GasPrice = gasPrice\n\n address := common.HexToAddress(\"0x19Ce1FEff967843152FB830e69f82d0Eadd1eB64\")\n instance, err := ct.NewSubchainERC(address, client)\n if err != nil {\n  log.Fatal(err)\n }\n\n // 1 mint\n amount, suceess := new(big.Int).SetString(\"2000000000000000000000\", 10)\n if !suceess {\n  log.Fatal(\"Failed string\")\n }\n\n tx, err := instance.Mint(auth, amount)\n if err != nil {\n  log.Fatal(err)\n }\n\n fmt.Printf(\"tx sent: %s\\n\", tx.Hash().Hex())\n\n}\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-mflxsyh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220730210343-mflxsyh",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.2.3 token bank contract"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-pyedcxu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-pyedcxu",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "We only need to lock the tfuel"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-rm2a24h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-rm2a24h",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "theta-protocol-subchain-management/go_scripts/token_bank.go"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-58szwbn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-58szwbn",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Before calling the script, remember to modify the address to the "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "MainchainTFuelTokenBank"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " contract address"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-30hxhqb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-30hxhqb",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "address := common.HexToAddress(\"0x3526509F389696f3eFe55177936a57FbeE405797\")"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-znqw1xs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-znqw1xs",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "(PS: You can also call the unlock directly, but that is not the end-to-end test for type2)"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-w5w2i09",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220730210343-w5w2i09",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "package main\n\nimport (\n \"context\"\n \"crypto/ecdsa\"\n \"encoding/hex\"\n \"fmt\"\n \"log\"\n \"math/big\"\n\n \"github.com/ethereum/go-ethereum/crypto\"\n\n \"github.com/ethereum/go-ethereum/accounts/abi/bind\"\n \"github.com/ethereum/go-ethereum/common\"\n \"github.com/ethereum/go-ethereum/ethclient\"\n\n // rg \"subchainRegistrar\" // for demo\n ct \"contracts\"\n)\n\nconst wordSizeInBytes uint = 32\n\nfunc packAddressParam(param common.Address) []byte {\n paramBytes := common.LeftPadBytes(param.Bytes(), int(wordSizeInBytes))\n return paramBytes\n}\n\nfunc packUintParam(param uint) []byte {\n paramBytes, err := hex.DecodeString(fmt.Sprintf(\"%064x\", param))\n if err != nil {\n  panic(fmt.Sprintf(\"Failed to encode uint param %v: %v\", fmt.Sprintf(\"%x\", param), err)) // should never happen\n }\n paramBytes = common.LeftPadBytes(paramBytes, int(wordSizeInBytes))\n return paramBytes\n}\n\nfunc packBigIntParam(param *big.Int) []byte {\n paramBytes, err := hex.DecodeString(fmt.Sprintf(\"%064x\", param))\n if err != nil {\n  panic(fmt.Sprintf(\"Failed to encode *big.Int param %v: %v\", fmt.Sprintf(\"%x\", param), err)) // should never happen\n }\n paramBytes = common.LeftPadBytes(paramBytes, int(wordSizeInBytes))\n return paramBytes\n}\n\nfunc packStringParam(param string) ([]byte, uint) {\n hexParam := hex.EncodeToString([]byte(param))\n hexParamBytes, err := hex.DecodeString(hexParam)\n if err != nil {\n  panic(fmt.Sprintf(\"Failed to encode string param %v: %v\", param, err)) // should never happen\n }\n\n lenHexStr := uint(len(hexParam) / 2)\n\n // first pack the length of the string\n paramBytes := packUintParam(lenHexStr)\n\n // next, pack the string itself\n for i := uint(0); i*wordSizeInBytes \u003c lenHexStr; i++ {\n  start := i * wordSizeInBytes\n  end := (i + 1) * wordSizeInBytes\n  if end \u003e lenHexStr {\n   end = lenHexStr\n  }\n  paramBytes = append(paramBytes, common.RightPadBytes(hexParamBytes[start:end], int(wordSizeInBytes))...)\n }\n\n worldSize := uint(len(paramBytes)) / wordSizeInBytes\n if uint(len(paramBytes))%wordSizeInBytes != 0 {\n  worldSize++\n }\n\n return paramBytes, uint(worldSize * wordSizeInBytes)\n}\n\nfunc prepareTFuelCalldata(subchainID *big.Int, dynasty *big.Int, voucherOwner common.Address, mainchainTokenReceiver common.Address, amount *big.Int, nonce *big.Int, denom string) []byte {\n calldata := append([]byte{})\n denomData, _ := packStringParam(denom)\n denomParamOffset := 7 * wordSizeInBytes // 7: the offsets of seven parameters\n\n // offset\n calldata = append(calldata, packBigIntParam(subchainID)...)\n calldata = append(calldata, packBigIntParam(dynasty)...)\n calldata = append(calldata, packAddressParam(voucherOwner)...)\n calldata = append(calldata, packAddressParam(mainchainTokenReceiver)...)\n calldata = append(calldata, packBigIntParam(amount)...)\n calldata = append(calldata, packBigIntParam(nonce)...)\n calldata = append(calldata, packUintParam(denomParamOffset)...)\n calldata = append(calldata, denomData...)\n\n res := \"0x\" + hex.EncodeToString(calldata)\n fmt.Println(\"calldata bytes to string :\", res)\n return calldata\n}\n\nfunc main() {\n client, err := ethclient.Dial(\"http://localhost:18888/rpc\")\n if err != nil {\n  log.Fatal(err)\n }\n\n chainID, err := client.ChainID(context.Background())\n if err != nil {\n  log.Fatal(err)\n }\n\n // privateKey, err := crypto.HexToECDSA(\"1111111111111111111111111111111111111111111111111111111111111111\")\n privateKey, err := crypto.HexToECDSA(\"93a90ea508331dfdf27fb79757d4250b4e84954927ba0073cd67454ac432c737\")\n if err != nil {\n  log.Fatal(err)\n }\n\n publicKey := privateKey.Public()\n publicKeyECDSA, ok := publicKey.(*ecdsa.PublicKey)\n if !ok {\n  log.Fatal(\"error casting public key to ECDSA\")\n }\n\n fromAddress := crypto.PubkeyToAddress(*publicKeyECDSA)\n nonce, err := client.PendingNonceAt(context.Background(), fromAddress)\n if err != nil {\n  log.Fatal(err)\n }\n\n gasPrice, err := client.SuggestGasPrice(context.Background())\n if err != nil {\n  log.Fatal(err)\n }\n\n auth, err := bind.NewKeyedTransactorWithChainID(privateKey, chainID)\n if err != nil {\n  log.Fatal(err)\n }\n auth.Nonce = big.NewInt(int64(nonce))\n var success bool\n auth.Value, success = new(big.Int).SetString(\"3000000000000000000000\", 10)\n if !success {\n  log.Fatal(\"Failed string\")\n }\n // auth.Value = big.NewInt(20000000000000000000) // in wei\n auth.GasLimit = uint64(3000000) // in units\n auth.GasPrice = gasPrice\n\n address := common.HexToAddress(\"0x3526509F389696f3eFe55177936a57FbeE405797\")\n instance, err := ct.NewMainchainTFuelTokenBank(address, client)\n if err != nil {\n  log.Fatal(err)\n }\n subchainID := new(big.Int).SetUint64(uint64(3610001))\n\n // 1 SendToChain\n toAddress := common.HexToAddress(\"0x2E833968E5bB786Ae419c4d13189fB081Cc43bab\")\n tx, err := instance.SendToChain(auth, subchainID, toAddress)\n if err != nil {\n  log.Fatal(err)\n }\n\n fmt.Printf(\"tx sent: %s\\n\", tx.Hash().Hex())\n\n // 2 unlock\n\n // data := prepareTFuelCalldata(subchainID, big.NewInt(91556), fromAddress, fromAddress, big.NewInt(100), big.NewInt(1), \"hello\")\n\n // // keccak256\n // hash := crypto.Keccak256Hash(data)\n // fmt.Println(\"raw message hash:\", hash.Hex()) // 0x1c8aff950685c2ed4bc3174f3472287b56d9517b9c948127319a09a7a36deac8\n\n // // signature, err := NewEthereumSignature(hash.Bytes(), privateKey)\n // signature, err := crypto.Sign(hash.Bytes(), privateKey)\n // if err != nil {\n //  log.Fatal(err)\n // }\n // // fmt.Println(\"sig:\", hexutil.Encode(signature))\n\n // tx, err := instance.Unlock(auth, data, signature, fromAddress)\n // if err != nil {\n //  log.Fatal(err)\n // }\n\n // fmt.Printf(\"tx sent: %s\\n\", tx.Hash().Hex())\n\n}\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-yl8xoow",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220730210343-yl8xoow",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3 Running the subchain code (Type 1)"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-4ktkyq4",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220730210343-4ktkyq4",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "thetasubchain start --config=../subchain_privatenet/node --password=qwertyuiop |\u0026 tee ../node1.log\n\ncp -r ./integration/privatenet ../subchain_privatenet\nrm -rf ../subchain_privatenet\nrm ../node1.og\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-u3mv6p2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-u3mv6p2",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "notice that the subchain ID is 3610001 (360777 is illegal)"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-m3q32a0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-m3q32a0",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Afther the subchain witness see the event on mainchain, it will call the special transaction to mint the voucher. This is the end of type 1."
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-ok6kj0i",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220730210343-ok6kj0i",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4 Type 2"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-uws75ha",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-uws75ha",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "After the voucher is minted on subchian, we can use the following to see the balance of the address 2E833968E5bB786Ae419c4d13189fB081Cc43bab"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-y24e5yy",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220730210343-y24e5yy",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# Query the TFuel balance of an account. The TFuel balance of the following address should increase as we transfer TFuel from the main chain to the subchain.\nthetasubcli query account --address=2E833968E5bB786Ae419c4d13189fB081Cc43bab\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-2jdlid7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-2jdlid7",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Then we call the unlock with thetasubcli"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-ke0zviv",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220730210343-ke0zviv",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "thetasubcli tx smart_contract --chain=\"tsub_3610001\" --from=2E833968E5bB786Ae419c4d13189fB081Cc43bab --to=0xBd770416a3345F91E4B34576cb804a576fa48EB1 --gas_price=4000000000000wei --gas_limit=5000000 --data=d6c7e0d400000000000000000000000019e7e376e7c213b7e7e7e46cc70a5dd086daff2a00000000000000000000000019e7e376e7c213b7e7e7e46cc70a5dd086daff2a --password=qwertyuiop --seq=2 --value=300\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-mfkxlfy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730210343-mfkxlfy",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "To test, I use a function CallMintOnMainchain to call the mainchain smart contract as this is a very simple contract call compared to unlock. Since I use fatal, if the call on mainchain failed, the system should stop due to"
+				}
+			]
+		},
+		{
+			"ID": "20220730210343-lwo9yx4",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220730210343-lwo9yx4",
+				"updated": "20220730210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "theta RPC returns an error: -32000: Failed to get the account (the address has no Theta nor TFuel)\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

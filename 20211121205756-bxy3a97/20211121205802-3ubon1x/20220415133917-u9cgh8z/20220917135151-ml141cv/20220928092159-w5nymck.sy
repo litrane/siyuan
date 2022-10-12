@@ -1,0 +1,176 @@
+{
+	"ID": "20220928092159-w5nymck",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220928092159-w5nymck",
+		"title": "2022-09-28",
+		"updated": "20220928162326"
+	},
+	"Children": [
+		{
+			"ID": "20220928092159-nmv74is",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220928092159-nmv74is",
+				"updated": "20220928092203"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "日程："
+				}
+			]
+		},
+		{
+			"ID": "20220928092204-z62mg5u",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220928092204-z62mg5u",
+				"updated": "20220928092205"
+			},
+			"Children": [
+				{
+					"ID": "20220928092205-3iz4sck",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220928092205-3iz4sck",
+						"updated": "20220928092205"
+					},
+					"Children": [
+						{
+							"ID": "20220928092205-jrwu3zu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220928092205-jrwu3zu",
+								"updated": "20220928092310"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "上三维重建，看论文"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220928092310-2dxmts4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220928092310-2dxmts4"
+					},
+					"Children": [
+						{
+							"ID": "20220928092310-5tbd6yh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220928092310-5tbd6yh"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220928092211-9k1eg2n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220928092211-9k1eg2n",
+				"updated": "20220928092217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "奇思妙想："
+				}
+			]
+		},
+		{
+			"ID": "20220928092217-i5d4157",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220928092217-i5d4157",
+				"updated": "20220928162317"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.多核访问"
+				}
+			]
+		},
+		{
+			"ID": "20220928162317-r82dhmw",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220928162317-r82dhmw",
+				"updated": "20220928162326"
+			},
+			"Children": [
+				{
+					"ID": "20220928162319-0517qly",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220928162319-0517qly",
+						"updated": "20220928162326"
+					},
+					"Children": [
+						{
+							"ID": "20220928162319-28i1o9t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220928162319-28i1o9t",
+								"updated": "20220928162326"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "存算分离"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220928092218-3l7dr5p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220928092218-3l7dr5p",
+				"updated": "20220928092227"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "总结："
+				}
+			]
+		}
+	]
+}

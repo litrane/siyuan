@@ -1,0 +1,754 @@
+{
+	"ID": "20220323135744-ge3dsoi",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220323135744-ge3dsoi",
+		"title": "SNARK-friendly crypto primitives(补充）",
+		"updated": "20220323141425"
+	},
+	"Children": [
+		{
+			"ID": "20220323143032-nu29plq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220323143032-nu29plq",
+				"updated": "20220323143032"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Polynomial MACs"
+				}
+			]
+		},
+		{
+			"ID": "20220323143109-fcty9to",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220323143109-fcty9to",
+				"updated": "20220323143249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "多项式 MAC 在电路中非常有效：它们基本上只需要每个输入字段元素进行一次乘法运算，外加用于密钥推导的原语的成本。"
+				}
+			]
+		},
+		{
+			"ID": "20220323143104-0wbl1ut",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220323143104-0wbl1ut",
+				"updated": "20220323143105"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "论文"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://cr.yp.to/mac/poly1305-20050329.pdf"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://cr.yp.to/mac/poly1305-20050329.pdf"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220323143448-t2kutbw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220323143448-t2kutbw",
+				"updated": "20220323143448"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Pedersen Commitments"
+				}
+			]
+		},
+		{
+			"ID": "20220323143348-xn658ig",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220323143348-xn658ig",
+				"updated": "20220323143530"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "代码https://github.com/mimblewimble/rust-secp256k1-zkp"
+				}
+			]
+		},
+		{
+			"ID": "20220323143807-e58l7r3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220323143807-e58l7r3",
+				"updated": "20220323143808"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Poseidon Hashing algorithm."
+				}
+			]
+		},
+		{
+			"ID": "20220323143753-0lijp8a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220323143753-0lijp8a",
+				"updated": "20220323143813"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "代码https://github.com/dusk-network/Poseidon252"
+				}
+			]
+		},
+		{
+			"ID": "20220323141618-92g0vbn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220323141618-92g0vbn",
+				"updated": "20220323141621"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Signatures, keys and Pedersen hash on STARK friendly elliptic curve"
+				}
+			]
+		},
+		{
+			"ID": "20220323141605-elqjv19",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220323141605-elqjv19",
+				"updated": "20220323141606"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "https://github.com/starkware-libs/starkware-crypto-utils"
+				}
+			]
+		},
+		{
+			"ID": "20220323142643-w5t4xjp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220323142643-w5t4xjp",
+				"updated": "20220323142645"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Collection of ZKP-related cryptographic primitives"
+				}
+			]
+		},
+		{
+			"ID": "20220323142646-qdpg5yl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220323142646-qdpg5yl",
+				"updated": "20220323143543"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "代码https://github.com/ing-bank/zkkrypto"
+				}
+			]
+		},
+		{
+			"ID": "20220323142717-s0hylzp",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220323142717-s0hylzp",
+				"updated": "20220323142717"
+			},
+			"Children": [
+				{
+					"ID": "20220323142717-64kwl3t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220323142717-64kwl3t"
+					},
+					"Children": [
+						{
+							"ID": "20220323142717-44rf4op",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220323142717-44rf4op"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Pedersen hash"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220323142717-yct6xv3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220323142717-yct6xv3"
+					},
+					"Children": [
+						{
+							"ID": "20220323142717-u0jhpl6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220323142717-u0jhpl6"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "MiMC7 hash"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220323142717-jswycje",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220323142717-jswycje"
+					},
+					"Children": [
+						{
+							"ID": "20220323142717-lwdw03y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220323142717-lwdw03y"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Poseidon hash"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220323142717-pufstnz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220323142717-pufstnz"
+					},
+					"Children": [
+						{
+							"ID": "20220323142717-heufmzj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220323142717-heufmzj"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Edwards curve arithmetic"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220323142717-ykynwt7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220323142717-ykynwt7"
+					},
+					"Children": [
+						{
+							"ID": "20220323142717-l5c52yw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220323142717-l5c52yw"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Curves: Jubjub, BabyJubjub, AltBabyJubjub"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220323142230-qzv5qbb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220323142230-qzv5qbb",
+				"updated": "20220323142257"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "SAVER "
+				}
+			]
+		},
+		{
+			"ID": "20220323142257-hwf0lfb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220323142257-hwf0lfb",
+				"updated": "20220323142306"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "https://github.com/jiwonlee-dev/SAVER"
+				}
+			]
+		},
+		{
+			"ID": "20220323142317-zccjezs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220323142317-zccjezs",
+				"updated": "20220323142338"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "SNARK-friendly、加法同态、可验证的加密/解密和再随机化"
+				}
+			]
+		},
+		{
+			"ID": "20220323142330-gljmp88",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220323142330-gljmp88",
+				"updated": "20220323142331"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "论文"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://eprint.iacr.org/2019/1270.pdf"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://eprint.iacr.org/2019/1270.pdf"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220323140852-vti6g25",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220323140852-vti6g25",
+				"updated": "20220323140855"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "RedDSA"
+				}
+			]
+		},
+		{
+			"ID": "20220323143645-0tle6re",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220323143645-0tle6re",
+				"updated": "20220323143649"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "应用在https://github.com/ZcashFoundation/reddsa"
+				}
+			]
+		},
+		{
+			"ID": "20220323140909-fgg3065",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220323140909-fgg3065",
+				"updated": "20220323140910"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "BLAKE"
+				}
+			]
+		},
+		{
+			"ID": "20220323141059-gxk48ne",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220323141059-gxk48ne",
+				"updated": "20220323141100"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "BLAKE2s 是一个通用的散列函数，提供抗碰撞和抗原像，也适用于实例化随机预言机。"
+				}
+			]
+		},
+		{
+			"ID": "20220323141329-txgna5b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220323141329-txgna5b",
+				"updated": "20220323141330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "use of BLAKE2 as a general hash function, PRF, and commitment scheme"
+				}
+			]
+		},
+		{
+			"ID": "20220323141130-tidt1pa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220323141130-tidt1pa",
+				"updated": "20220323141425"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "仓库地址https://github.com/BLAKE2/libb2"
+				}
+			]
+		},
+		{
+			"ID": "20220323140911-524qkry",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220323140911-524qkry",
+				"updated": "20220323144446"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeImage",
+							"Data": "span",
+							"Children": [
+								{
+									"Type": "NodeBang"
+								},
+								{
+									"Type": "NodeOpenBracket"
+								},
+								{
+									"Type": "NodeLinkText",
+									"Data": "q1FJTU.png"
+								},
+								{
+									"Type": "NodeCloseBracket"
+								},
+								{
+									"Type": "NodeOpenParen"
+								},
+								{
+									"Type": "NodeLinkDest",
+									"Data": "https://s1.ax1x.com/2022/03/23/q1FJTU.png"
+								},
+								{
+									"Type": "NodeCloseParen"
+								}
+							]
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://imgtu.com/i/q1FJTU"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220323135920-9rcqszr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220323135920-9rcqszr",
+				"updated": "20220323140000"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "BLS聚合签名"
+				}
+			]
+		},
+		{
+			"ID": "20220323140045-7j0tv1a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220323140045-7j0tv1a",
+				"updated": "20220323140142"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "BLS签名+zk可以实现压缩，其中celo实现了对 SNARK 友好的 BLS 签名"
+				}
+			]
+		},
+		{
+			"ID": "20220323140143-kc98448",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220323140143-kc98448",
+				"updated": "20220323140151"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "仓库地址："
+				}
+			]
+		},
+		{
+			"ID": "20220323140151-rg7pue7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220323140151-rg7pue7",
+				"updated": "20220323140152"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "https://github.com/celo-org/celo-bls-snark-rs"
+				}
+			]
+		},
+		{
+			"ID": "20220323142913-7kss9w4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220323142913-7kss9w4",
+				"updated": "20220323142913"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "A Benchmarking Framework for (Zero-Knowledge) Proof Systems"
+				}
+			]
+		},
+		{
+			"ID": "20220323142914-83it6df",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220323142914-83it6df",
+				"updated": "20220323142919"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "https://hackmd.io/@HtwXZr-PTFCniCs7fWFSmQ/Skt613BYI"
+				}
+			]
+		},
+		{
+			"ID": "20220323142931-vc2yn54",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220323142931-vc2yn54",
+				"updated": "20220323142931"
+			}
+		},
+		{
+			"ID": "20220323135744-iv2edal",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220323135744-iv2edal",
+				"updated": "20220323135917"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考文献："
+				}
+			]
+		},
+		{
+			"ID": "20220323143006-ammu1to",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220323143006-ammu1to",
+				"updated": "20220323143007"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "https://hackmd.io/@workshop4/zcr-primitives#Primitive-4-BLAKE2s"
+				}
+			]
+		},
+		{
+			"ID": "20220323135823-s2b17tm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220323135823-s2b17tm",
+				"updated": "20220323135833"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "https://hackmd.io/@danib31/SyG6UdwF8"
+				}
+			]
+		},
+		{
+			"ID": "20220323141403-y9mpk9j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220323141403-y9mpk9j",
+				"updated": "20220323141414"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://github.com/daira/zkproof/blob/master/spec.pdf"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/daira/zkproof/blob/master/spec.pdf"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220323142934-czrf8h4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220323142934-czrf8h4",
+				"updated": "20220323142935"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "https://hackmd.io/@HtwXZr-PTFCniCs7fWFSmQ"
+				}
+			]
+		}
+	]
+}

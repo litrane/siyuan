@@ -1,0 +1,247 @@
+{
+	"ID": "20211212094318-0avcg4r",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211212094318-0avcg4r",
+		"title": "可可英语2021-11-12-09-43-06",
+		"updated": "20211212095246"
+	},
+	"Children": [
+		{
+			"ID": "20211212094333-dchpud7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211212094333-dchpud7",
+				"updated": "20211212094333"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可可英语"
+				}
+			]
+		},
+		{
+			"ID": "20211212094333-wvutogc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211212094333-wvutogc",
+				"updated": "20211212094333"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "生词"
+				}
+			]
+		},
+		{
+			"ID": "20211212094333-ych47hh",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0,
+				0
+			],
+			"Properties": {
+				"id": "20211212094333-ych47hh",
+				"style": "text-align: left;",
+				"updated": "20211212095246"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 14,
+									"TableCellContentMaxWidth": 14,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "susceptitble"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 2,
+									"TableCellContentMaxWidth": 2
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 14,
+									"TableCellContentMaxWidth": 14,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "易受外界影响"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 11,
+							"TableCellContentMaxWidth": 14,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "amputated"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 2,
+							"TableCellContentMaxWidth": 2
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 6,
+							"TableCellContentMaxWidth": 14,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "截肢"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 4,
+							"TableCellContentMaxWidth": 14,
+							"Children": [
+								{
+									"Type": "NodeBr",
+									"Data": "br"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 2,
+							"TableCellContentMaxWidth": 2
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 4,
+							"TableCellContentMaxWidth": 14,
+							"Children": [
+								{
+									"Type": "NodeBr",
+									"Data": "br"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211212094333-euakr6a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211212094333-euakr6a",
+				"updated": "20211212094333"
+			}
+		},
+		{
+			"ID": "20211212094333-k1h00lk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211212094333-k1h00lk",
+				"updated": "20211212094333"
+			}
+		},
+		{
+			"ID": "20211212094333-8ergdr2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211212094333-8ergdr2",
+				"updated": "20211212094333"
+			}
+		},
+		{
+			"ID": "20211212094333-kai22t4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211212094333-kai22t4",
+				"updated": "20211212094333"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "句式"
+				}
+			]
+		},
+		{
+			"ID": "20211212094333-n7tch0u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211212094333-n7tch0u",
+				"updated": "20211212095221"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "have sth done"
+				}
+			]
+		},
+		{
+			"ID": "20211212094333-r61xp2w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211212094333-r61xp2w",
+				"updated": "20211212094333"
+			}
+		},
+		{
+			"ID": "20211212094333-4w408tw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211212094333-4w408tw",
+				"updated": "20211212094333"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "感悟"
+				}
+			]
+		}
+	]
+}

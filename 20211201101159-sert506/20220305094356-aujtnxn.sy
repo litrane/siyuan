@@ -1,0 +1,354 @@
+{
+	"ID": "20220305094356-aujtnxn",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220305094356-aujtnxn",
+		"title": "chmod使用",
+		"updated": "20220729100925"
+	},
+	"Children": [
+		{
+			"ID": "20220305094437-vmr3j7u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220305094437-vmr3j7u",
+				"updated": "20220728163215"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Properties": {
+						"style": "color: var(--b3-font-color8);"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "综上chmod +x 是将文件状态改为可执行，而chmod 777 是改变文件读写权限。"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color8);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20220728163635-zuk56bq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220728163635-zuk56bq",
+				"updated": "20220728164137"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockRef",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20211125165856-xu55oxj"
+						},
+						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefDynamicText",
+							"Data": "论文十问"
+						},
+						{
+							"Type": "NodeCloseParen"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220728163900-j9wtvlv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220728163900-j9wtvlv",
+				"updated": "20220729100925"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image-20220108213824-9fg0pjb.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220108213824-9fg0pjb.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220305094402-tbxfsfl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220305094402-tbxfsfl",
+				"updated": "20220305094402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "那么根据上述得到的信息，chmod +x 与chmod 777究竟有啥区别呢？让我们先来了解一下这个：\nu User，即文件或目录的拥有者；g Group，即文件或目录的所属群组；o Other，除了文件或目录拥有者或所属群组之外，其他用户皆属于这个范围；a All，即全部的用户，包含拥有者，所属群组以及其他用户；\nmode : 权限设定字串，格式如下 : [ugoa…][[±=][rwxX]…][,…]\n其中+ : 表示增加权限、- 表示取消权限、= 表示唯一设定权限。\nr 读取权限，数字代号为“4”;w 写入权限，数字代号为“2”；x 执行或切换权限，数字代号为“1”；- 不具任何权限，数字代号为“0”；\ns 特殊功能说明：变更文件或目录的权限。\n命令中各选项的含义为：\n　-c : 若该档案权限确实已经更改，才显示其更改动作\n　-f : 若该档案权限无法被更改也不要显示错误讯息\n　-v : 显示权限变更的详细资料\n-R : 对目前目录下的所有档案与子目录进行相同的权限变更(即以递回的方式逐个变更)\n　 --help : 显示辅助说明\n　 --version : 显示版本\n操作对象who可是下述字母中的任一个或者它们的组合：\n　　u 表示“用户（user）”，即文件或目录的所有者。\n　　g 表示“同组（group）用户”，即与文件属主有相同组ID的所有用户。\n　　o 表示“其他（others）用户”。"
+				}
+			]
+		},
+		{
+			"ID": "20220305094402-54k9i7z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220305094402-54k9i7z",
+				"updated": "20220305094402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "linux下一般会发现有很多颜色不同的文件："
+				}
+			]
+		},
+		{
+			"ID": "20220305094402-um3fbap",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220305094402-um3fbap",
+				"updated": "20220305094402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "绿色文件： 可执行文件，可执行的程序\n红色文件：压缩文件或者包文件\n蓝色文件：目录\n白色文件：一般性文件，如文本文件，配置文件，源码文件等\n浅蓝色文件：链接文件，主要是使用ln命令建立的文件\n红色闪烁：表示链接的文件有问题\n黄色：表示设备文件\n灰色：表示其他文件"
+				}
+			]
+		},
+		{
+			"ID": "20220305094402-cl9uvtq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220305094402-cl9uvtq",
+				"updated": "20220305094402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对于chmod +x file 来说就是将file改为可执行状态，在linux因高亮语法，会让file文件显示绿色。对于灰色的文件来说，没有可执行的权限，这是若我们给它chmod +x后它将会变为可执行的绿色文件。"
+				}
+			]
+		},
+		{
+			"ID": "20220305094402-7prdy6m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220305094402-7prdy6m",
+				"updated": "20220305094402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "chmod 777的语法为：chmod abc file\n其中a,b,c各为一个数字，分别表示User、Group、及Other的权限。\nr=4，w=2，x=1\n若要rwx属性则4+2+1=7；\n若要rw-属性则4+2=6；\n若要r-x属性则4+1=5。"
+				}
+			]
+		},
+		{
+			"ID": "20220305094402-u0zu7cf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220305094402-u0zu7cf",
+				"updated": "20220305094402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "范例：\nchmod a=rwx file 和chmod 777 file效果相同\nchmod ug=rwx,o=x file和chmod 771 file效果相同\n若用chmod 4755 filename可使此程式具有root的权限"
+				}
+			]
+		},
+		{
+			"ID": "20220305094402-s12kgbd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220305094402-s12kgbd",
+				"updated": "20220305094423"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Properties": {
+						"style": "color: var(--b3-font-color8);"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "综上chmod +x 是将文件状态改为可执行，而chmod 777 是改变文件读写权限。"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color8);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "\n————————————————\n版权声明：本文为CSDN博主「一只心比天高的蚂蝗」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。\n原文链接：https://blog.csdn.net/qq_42982742/article/details/103690119"
+				}
+			]
+		},
+		{
+			"ID": "20220728164346-0o9high",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0,
+				0,
+				0
+			],
+			"Properties": {
+				"colgroup": "|||",
+				"id": "20220728164346-0o9high",
+				"updated": "20220728164648"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "col1"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "col2"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "col3"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,91 @@
+{
+	"ID": "20220724140236-z54nudq",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220724140236-z54nudq",
+		"title": "2022-07-24",
+		"updated": "20220727200327"
+	},
+	"Children": [
+		{
+			"ID": "20220727200318-o8sha14",
+			"Type": "NodeSuperBlock",
+			"Properties": {
+				"id": "20220727200318-o8sha14",
+				"updated": "20220727200318"
+			},
+			"Children": [
+				{
+					"Type": "NodeSuperBlockOpenMarker"
+				},
+				{
+					"Type": "NodeSuperBlockLayoutMarker",
+					"Data": "col"
+				},
+				{
+					"ID": "20220727200102-9c4nux3",
+					"Type": "NodeBlockQueryEmbed",
+					"Properties": {
+						"id": "20220727200102-9c4nux3",
+						"updated": "20220727200318"
+					},
+					"Children": [
+						{
+							"Type": "NodeOpenBrace"
+						},
+						{
+							"Type": "NodeOpenBrace"
+						},
+						{
+							"Type": "NodeBlockQueryEmbedScript",
+							"Data": "SELECT * FROM blocks WHERE content LIKE '%在思源中%' AND content LIKE '%核心概念%' AND path NOT LIKE '%嵌入内容块%'"
+						},
+						{
+							"Type": "NodeCloseBrace"
+						},
+						{
+							"Type": "NodeCloseBrace"
+						}
+					]
+				},
+				{
+					"ID": "20220727200115-8qo1nd2",
+					"Type": "NodeBlockQueryEmbed",
+					"Properties": {
+						"id": "20220727200115-8qo1nd2",
+						"updated": "20220727200318"
+					},
+					"Children": [
+						{
+							"Type": "NodeOpenBrace"
+						},
+						{
+							"Type": "NodeOpenBrace"
+						},
+						{
+							"Type": "NodeBlockQueryEmbedScript",
+							"Data": "SELECT * FROM blocks WHERE content LIKE '%在思源中%' AND content LIKE '%核心概念%' AND path NOT LIKE '%嵌入内容块%'\n"
+						},
+						{
+							"Type": "NodeCloseBrace"
+						},
+						{
+							"Type": "NodeCloseBrace"
+						}
+					]
+				},
+				{
+					"Type": "NodeSuperBlockCloseMarker"
+				}
+			]
+		},
+		{
+			"ID": "20220727200327-9973d6f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220727200327-9973d6f",
+				"updated": "20220727200327"
+			}
+		}
+	]
+}

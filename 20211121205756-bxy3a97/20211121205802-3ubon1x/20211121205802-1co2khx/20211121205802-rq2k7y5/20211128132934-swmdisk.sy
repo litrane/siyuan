@@ -1,0 +1,19 @@
+{
+	"ID": "20211128132934-swmdisk",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211128132934-swmdisk",
+		"title": "2021-11-28",
+		"updated": "20211128133950"
+	},
+	"Children": [
+		{
+			"ID": "20211128133341-xrvf88f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211128133341-xrvf88f",
+				"updated": "20211128133950"
+			}
+		}
+	]
+}

@@ -1,0 +1,89 @@
+{
+	"ID": "20211201154409-ric9q8t",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211201154409-ric9q8t",
+		"title": "毕业设计开题",
+		"updated": "20211201155204"
+	},
+	"Children": [
+		{
+			"ID": "20211201155143-fhvjeaz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211201155143-fhvjeaz",
+				"updated": "20211201155155"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "课题背景与意义"
+				}
+			]
+		},
+		{
+			"ID": "20211201155202-g9tyaup",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211201155202-g9tyaup",
+				"updated": "20211201155204"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "文献综述"
+				}
+			]
+		},
+		{
+			"ID": "20211201154409-q54tozl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211201154409-q54tozl",
+				"updated": "20211201154954"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "做到什么程度"
+				}
+			]
+		},
+		{
+			"ID": "20211201154955-1tmmuox",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211201154955-1tmmuox",
+				"updated": "20211201154958"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "怎么解决"
+				}
+			]
+		},
+		{
+			"ID": "20211201154958-6c0qjb6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211201154958-6c0qjb6",
+				"updated": "20211201155000"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "怎么验证"
+				}
+			]
+		},
+		{
+			"ID": "20211201155001-jwypzfx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211201155001-jwypzfx",
+				"updated": "20211201155001"
+			}
+		}
+	]
+}

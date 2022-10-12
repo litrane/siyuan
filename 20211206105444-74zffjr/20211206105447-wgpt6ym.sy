@@ -1,0 +1,1098 @@
+{
+	"ID": "20211206105447-wgpt6ym",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211206105447-wgpt6ym",
+		"title": "go基础语法",
+		"updated": "20211212194137"
+	},
+	"Children": [
+		{
+			"ID": "20211206105447-y531y5w",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211206105447-y531y5w",
+				"updated": "20211206105603"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "if-else语句"
+				}
+			]
+		},
+		{
+			"ID": "20211206105604-zal6uzh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211206105604-zal6uzh",
+				"updated": "20211206105616"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意点："
+				}
+			]
+		},
+		{
+			"ID": "20211206105616-fo3f6g6",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211206105616-fo3f6g6",
+				"updated": "20211206105621"
+			},
+			"Children": [
+				{
+					"ID": "20211206105621-52i237z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20211206105621-52i237z"
+					},
+					"Children": [
+						{
+							"ID": "20211206105621-0pg1lox",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211206105621-0pg1lox",
+								"updated": "20211206105701"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "}与else是同一行的，因为不是同一行的话编译器会在}后面加上；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211206105716-776vhzb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20211206105716-776vhzb"
+					},
+					"Children": [
+						{
+							"ID": "20211206105716-a1sd7u1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211206105716-a1sd7u1",
+								"updated": "20211206105809"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可以使用 if statement;condition{}进行编写，但statement初始化的是临时变量"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211206105927-kic2xnn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211206105927-kic2xnn",
+				"updated": "20211206105934"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "for循环"
+				}
+			]
+		},
+		{
+			"ID": "20211206110014-4ru9ghr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211206110014-4ru9ghr",
+				"updated": "20211206110017"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "语法"
+				}
+			]
+		},
+		{
+			"ID": "20211206105949-y8azf5a",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211206105949-y8azf5a",
+				"updated": "20211206110011"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "for initialisation; condition; post {  \n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211206105934-rbdkbww",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211206105934-rbdkbww",
+				"updated": "20211206105938"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意点："
+				}
+			]
+		},
+		{
+			"ID": "20211206105938-766k607",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211206105938-766k607",
+				"updated": "20211206110127"
+			},
+			"Children": [
+				{
+					"ID": "20211206105942-y0n64no",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20211206105942-y0n64no"
+					},
+					"Children": [
+						{
+							"ID": "20211206105942-wzdr0yw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211206105942-wzdr0yw",
+								"updated": "20211206110029"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在 for 循环中声明的变量只能在循环体内访问，因此 i 不能够在循环体外访问。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211206110126-ej4w7ry",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20211206110126-ej4w7ry",
+						"updated": "20211206110127"
+					},
+					"Children": [
+						{
+							"ID": "20211206110126-mogo2g1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211206110126-mogo2g1",
+								"updated": "20211206110127"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "分号也可以省略"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211206110034-6i4udpb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211206110034-6i4udpb",
+				"updated": "20211206110042"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "break"
+				}
+			]
+		},
+		{
+			"ID": "20211206110043-07czsdl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211206110043-07czsdl",
+				"updated": "20211206110045"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "continue"
+				}
+			]
+		},
+		{
+			"ID": "20211206110152-1g9llyr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211206110152-1g9llyr",
+				"updated": "20211206110158"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "无限循环"
+				}
+			]
+		},
+		{
+			"ID": "20211206110159-lmuqecd",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211206110159-lmuqecd",
+				"updated": "20211206110215"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "for {  \n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211206110216-5lyl53c",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211206110216-5lyl53c",
+				"updated": "20211206110232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "switch语句"
+				}
+			]
+		},
+		{
+			"ID": "20211206110232-4c8okmj",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211206110232-4c8okmj",
+				"updated": "20211212183935"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "package main\n\nimport (\n    \"fmt\"\n)\n\nfunc main() {\n    letter := \"i\"\n    switch letter {\n    case \"a\", \"e\", \"i\", \"o\", \"u\": // 一个选项多个表达式\n        fmt.Println(\"vowel\")\n    default:\n        fmt.Println(\"not a vowel\")\n    }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211212183959-uqarz9r",
+			"Type": "NodeSuperBlock",
+			"Properties": {
+				"id": "20211212183959-uqarz9r",
+				"updated": "20211212184009"
+			},
+			"Children": [
+				{
+					"Type": "NodeSuperBlockOpenMarker"
+				},
+				{
+					"Type": "NodeSuperBlockLayoutMarker",
+					"Data": "col"
+				},
+				{
+					"ID": "20211212183939-5eamhzc",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20211212183939-5eamhzc",
+						"updated": "20211212184009"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrong",
+							"Data": "strong",
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "fall through"
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211212183427-na9ou30",
+					"Type": "NodeCodeBlock",
+					"IsFencedCodeBlock": true,
+					"Properties": {
+						"id": "20211212183427-na9ou30",
+						"updated": "20211212183931"
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeBlockFenceOpenMarker",
+							"Data": "```"
+						},
+						{
+							"Type": "NodeCodeBlockFenceInfoMarker",
+							"CodeBlockInfo": "Z28="
+						},
+						{
+							"Type": "NodeCodeBlockCode",
+							"Data": "func main() {\n\n    switch num := number(); { // num is not a constant\n    case num \u003c 50:\n        fmt.Printf(\"%d is lesser than 50\\n\", num)\n        fallthrough\n    case num \u003c 100:\n        fmt.Printf(\"%d is lesser than 100\\n\", num)\n        fallthrough\n    case num \u003c 200:\n        fmt.Printf(\"%d is lesser than 200\", num)\n    }\n\n}\n"
+						},
+						{
+							"Type": "NodeCodeBlockFenceCloseMarker",
+							"Data": "```"
+						}
+					]
+				},
+				{
+					"Type": "NodeSuperBlockCloseMarker"
+				}
+			]
+		},
+		{
+			"ID": "20211212184011-flctj40",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211212184011-flctj40",
+				"updated": "20211212185059"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数组与切片"
+				}
+			]
+		},
+		{
+			"ID": "20211212185101-tvwi2pn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211212185101-tvwi2pn",
+				"updated": "20211212185138"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "var a [3]int vs [4]int"
+				}
+			]
+		},
+		{
+			"ID": "20211212185140-sc9bvz2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211212185140-sc9bvz2",
+				"updated": "20211212185159"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "a := [3]int {12,34}"
+				}
+			]
+		},
+		{
+			"ID": "20211212185202-99kmgjh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211212185202-99kmgjh",
+				"updated": "20211212185209"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "[...]int"
+				}
+			]
+		},
+		{
+			"ID": "20211212185210-70z3rl6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211212185210-70z3rl6",
+				"updated": "20211212185222"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "len()"
+				}
+			]
+		},
+		{
+			"ID": "20211212185223-hekqtp8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211212185223-hekqtp8",
+				"updated": "20211212185227"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "i,v=range a"
+				}
+			]
+		},
+		{
+			"ID": "20211212185255-vkea02n",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211212185255-vkea02n",
+				"updated": "20211212185258"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "a := [3][2]string{\n        {\"lion\", \"tiger\"},\n        {\"cat\", \"dog\"},\n        {\"pigeon\", \"peacock\"}, // this comma is necessary. The compiler will complain if you omit this comma\n    }\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211212185300-5u31t7u",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211212185300-5u31t7u",
+				"updated": "20211212185456"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "func printarray(a [3][2]string) {\n    for _, v1 := range a {\n        for _, v2 := range v1 {\n            fmt.Printf(\"%s \", v2)\n        }\n        fmt.Printf(\"\\n\")\n    }\n}\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211212191648-cvt2eg4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211212191648-cvt2eg4",
+				"updated": "20211212191703"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其是值类型"
+				}
+			]
+		},
+		{
+			"ID": "20211212191718-8kyjoqi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211212191718-8kyjoqi",
+				"updated": "20211212191726"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "切片"
+				}
+			]
+		},
+		{
+			"ID": "20211212191739-5gdlpef",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211212191739-5gdlpef",
+				"updated": "20211212191754"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "c:==[]int{7,8}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211212191756-90vbep3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211212191756-90vbep3",
+				"updated": "20211212191908"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其有len和cap两种属性，len是获取该切片的长度，cap则是获取其第一个元素到其映射的底层数组的最后一个元素的容量。"
+				}
+			]
+		},
+		{
+			"ID": "20211212191919-0voz6r3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211212191919-0voz6r3",
+				"updated": "20211212191936"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对切片的修改也会反映在数组中"
+				}
+			]
+		},
+		{
+			"ID": "20211212191936-8rqfp8n",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211212191936-8rqfp8n",
+				"updated": "20211212192644"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "func make（[]T，len，cap）\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211212192702-wjurtme",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211212192702-wjurtme",
+				"updated": "20211212192705"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "func main() {\n    cars := []string{\"Ferrari\", \"Honda\", \"Ford\"}\n    fmt.Println(\"cars:\", cars, \"has old length\", len(cars), \"and capacity\", cap(cars)) // capacity of cars is 3\n    cars = append(cars, \"Toyota\")\n    fmt.Println(\"cars:\", cars, \"has new length\", len(cars), \"and capacity\", cap(cars)) // capacity of cars is doubled to 6\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211212192715-2lkno24",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211212192715-2lkno24",
+				"updated": "20211212192733"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "names==nil(零值)"
+				}
+			]
+		},
+		{
+			"ID": "20211212192734-xkpy58n",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211212192734-xkpy58n",
+				"updated": "20211212192814"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "func main() {\n    veggies := []string{\"potatoes\", \"tomatoes\", \"brinjal\"}\n    fruits := []string{\"oranges\", \"apples\"}\n    food := append(veggies, fruits...)\n    fmt.Println(\"food:\",food)\n}\nfunc main() {  \n    var names []string //zero value of a slice is nil\n    if names == nil {\n        fmt.Println(\"slice is nil going to append\")\n        names = append(names, \"John\", \"Sebastian\", \"Vinay\")\n        fmt.Println(\"names contents:\",names)\n    }\n}\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211212192952-6qt8l1m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211212192952-6qt8l1m",
+				"updated": "20211212192952"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "因此，当切片作为参数传递给函数时，函数内所做的更改也会在函数外可见。"
+				}
+			]
+		},
+		{
+			"ID": "20211212193009-rs519jv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211212193009-rs519jv",
+				"updated": "20211212193010"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一种解决方法是使用 "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "copy"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://golang.org/pkg/builtin/#copy"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 函数 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "func copy(dst，src[]T)int"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 来生成一个切片的副本。这样我们可以使用新的切片，原始数组可以被垃圾回收。"
+				}
+			]
+		},
+		{
+			"ID": "20211212193205-ucyf9z4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211212193205-ucyf9z4",
+				"updated": "20211212193243"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数组与切片的区别在于切片由以下方法产生"
+				}
+			]
+		},
+		{
+			"ID": "20211212193215-q3c93dm",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211212193215-q3c93dm",
+				"updated": "20211212193343"
+			},
+			"Children": [
+				{
+					"ID": "20211212193217-rxpdnvq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20211212193217-rxpdnvq"
+					},
+					"Children": [
+						{
+							"ID": "20211212193217-u3eoai5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211212193217-u3eoai5",
+								"updated": "20211212193245"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通过数组创建一个切片"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211212193246-obfpnp8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20211212193246-obfpnp8",
+						"updated": "20211212193343"
+					},
+					"Children": [
+						{
+							"ID": "20211212193246-fopsvx6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211212193246-fopsvx6",
+								"updated": "20211212193343"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "直接声明一个切片a :=[]int {} vs数组的a:=[...]int{}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211212193300-ehbl2as",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20211212193300-ehbl2as"
+					},
+					"Children": [
+						{
+							"ID": "20211212193300-9285kei",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211212193300-9285kei",
+								"updated": "20211212193303"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通过make"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211212193304-bcnbf98",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20211212193304-bcnbf98",
+						"updated": "20211212193309"
+					},
+					"Children": [
+						{
+							"ID": "20211212193304-skjx4ke",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211212193304-skjx4ke",
+								"updated": "20211212193309"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "切片生切片"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211212193621-9444ffz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211212193621-9444ffz",
+				"updated": "20211212193628"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "切片删除"
+				}
+			]
+		},
+		{
+			"ID": "20211212193629-znsbwbd",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211212193629-znsbwbd",
+				"updated": "20211212193634"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//我们创建了一个切片，有四个元素，下标命名为0，1，2，3\nslice11 := []int{1,2,3,4} \n//假设我们要删除下标为0的元素，这段代码的含义是\n创建一个空的切片 slice11[:0]\n创建一个从下标1到末尾元素的切片 slice11[1:]\n给空切片添加元素并返回一个新的切片\nslice12 := append(slice11[:0],slice11[1:]...)\n//同上我们得出删除下标为i的元素的切片的公式时\nsliceTemp := append(slice11[:i],slice[i+1:]...)\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211212193636-h838d7p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211212193636-h838d7p",
+				"updated": "20211212193643"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20211212193643-pcano55.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211212193646-5ylujmd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211212193646-5ylujmd",
+				"updated": "20211212194137"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20211212194137-4e9l8on.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

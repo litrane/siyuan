@@ -1,0 +1,816 @@
+{
+	"ID": "20220803173020-s4k6htn",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220803173020-s4k6htn",
+		"title": "新文档",
+		"updated": "20220810135313"
+	},
+	"Children": [
+		{
+			"ID": "20220803173020-0qr9ojv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803173020-0qr9ojv",
+				"updated": "20220803173023"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220803173023-2xh6x8k.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220803173106-ievgjya",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803173106-ievgjya",
+				"updated": "20220803173106"
+			}
+		},
+		{
+			"ID": "20220803173108-lyyl5fn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803173108-lyyl5fn",
+				"updated": "20220803173108"
+			}
+		},
+		{
+			"ID": "20220803173108-l0b82xl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803173108-l0b82xl",
+				"updated": "20220803173113"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220803173113-9f253wd.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220803173325-4bup8le",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220803173325-4bup8le",
+				"updated": "20220803173327"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "[2022-08-03 17:31:18] DEBUG [ledger] witnessedValidatorSet: {Dynasty: 6038, Validators: [{ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 3507355164882977678334} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 1849899180494663040864} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1848958866851133031512}]}\n[2022-08-03 17:31:18] DEBUG [ledger] currentValidatorSet  : {Dynasty: 6033, Validators: [{ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 3507355164882977678334} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 1849899180494663040864} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1848958866851133031512}]}\n[2022-08-03 17:31:18] DEBUG [ledger] validatorSetInView   : {Dynasty: 6038, Validators: [{ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 3507355164882977678334} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 1849899180494663040864} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1848958866851133031512}]}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220803173328-rhheps6",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220803173328-rhheps6",
+				"updated": "20220803173427"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "[2022-08-03 17:28:58] DEBUG [ledger] witnessedValidatorSet: {Dynasty: 6033, Validators: [{ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 3507355164882977678334} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 1849899180494663040864} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1848958866851133031512}]}\n[2022-08-03 17:28:58] DEBUG [ledger] currentValidatorSet  : {Dynasty: 5692, Validators: [{ID: 0x2E833968E5bB786Ae419c4d13189fB081Cc43bab, Stake: 100000000000000000000000} {ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 1847970383094463086026} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 1849899180494663040864} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1848958866851133031512}]}\n[2022-08-03 17:28:58] DEBUG [ledger] validatorSetInView   : {Dynasty: 6033, Validators: [{ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 3507355164882977678334} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 1849899180494663040864} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1848958866851133031512}]}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220803174242-innpuxa",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220803174242-innpuxa",
+				"updated": "20220803174246"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "[2022-08-03 17:41:04] DEBUG [ledger] witnessedValidatorSet: {Dynasty: 6077, Validators: [{ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 3507355164882977678334} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 1849899180494663040864} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1848958866851133031512}]}\n[2022-08-03 17:41:04] DEBUG [ledger] currentValidatorSet  : {Dynasty: 6076, Validators: [{ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 3507355164882977678334} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 1849899180494663040864} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1848958866851133031512}]}\n[2022-08-03 17:41:04] DEBUG [ledger] validatorSetInView   : {Dynasty: 6076, Validators: [{ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 3507355164882977678334} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 1849899180494663040864} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1848958866851133031512}]}"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220803174810-1p1h982",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220803174810-1p1h982",
+				"updated": "20220803174813"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "[2022-08-03 17:42:48] DEBUG [ledger] witnessedValidatorSet: {Dynasty: 6080, Validators: [{ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 3507355164882977678334} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 1849899180494663040864} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1848958866851133031512}]}\n[2022-08-03 17:42:48] DEBUG [ledger] currentValidatorSet  : {Dynasty: 6079, Validators: [{ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 3507355164882977678334} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 1849899180494663040864} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1848958866851133031512}]}\n[2022-08-03 17:42:48] DEBUG [ledger] validatorSetInView   : {Dynasty: 6080, Validators: [{ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 3507355164882977678334} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 1849899180494663040864} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1848958866851133031512}]}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220803174816-we0zda7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220803174816-we0zda7",
+				"updated": "20220803174831"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "[2022-08-03 17:47:13] DEBUG [ledger] witnessedValidatorSet: {Dynasty: 6102, Validators: [{ID: 0x2E833968E5bB786Ae419c4d13189fB081Cc43bab, Stake: 110052126026706990695} {ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 3507355164882977678334} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 1849899180494663040864} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1848958866851133031512}]}\n[2022-08-03 17:47:13] DEBUG [ledger] currentValidatorSet  : {Dynasty: 6101, Validators: [{ID: 0x2E833968E5bB786Ae419c4d13189fB081Cc43bab, Stake: 110052126026706990695} {ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 3507355164882977678334} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 1849899180494663040864} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1848958866851133031512}]}\n[2022-08-03 17:47:13] DEBUG [ledger] validatorSetInView   : {Dynasty: 6102, Validators: [{ID: 0x2E833968E5bB786Ae419c4d13189fB081Cc43bab, Stake: 110052126026706990695} {ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 3507355164882977678334} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 1849899180494663040864} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1848958866851133031512}]}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220803175130-9htl1a8",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220803175130-9htl1a8",
+				"updated": "20220803175152"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "[2022-08-03 17:50:40] DEBUG [ledger] witnessedValidatorSet: {Dynasty: 6121, Validators: [{ID: 0x2E833968E5bB786Ae419c4d13189fB081Cc43bab, Stake: 110052126026706990695} {ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 3507355164882977678334} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 1849899180494663040864} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1848958866851133031512}]}\n[2022-08-03 17:50:40] DEBUG [ledger] currentValidatorSet  : {Dynasty: 6120, Validators: [{ID: 0x2E833968E5bB786Ae419c4d13189fB081Cc43bab, Stake: 110052126026706990695} {ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 3507355164882977678334} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 1849899180494663040864} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1848958866851133031512}]}\n[2022-08-03 17:50:40] DEBUG [ledger] validatorSetInView   : {Dynasty: 6120, Validators: [{ID: 0x2E833968E5bB786Ae419c4d13189fB081Cc43bab, Stake: 110052126026706990695} {ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 3507355164882977678334} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 1849899180494663040864} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1848958866851133031512}]}\n["
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220803213247-ta7k5r1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803213247-ta7k5r1",
+				"updated": "20220803213248"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220803213248-s9r97sl.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220804092132-28ubepp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220804092132-28ubepp",
+				"updated": "20220804092132"
+			}
+		},
+		{
+			"ID": "20220804100743-iqmpt6h",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220804100743-iqmpt6h",
+				"updated": "20220804100818"
+			},
+			"Children": [
+				{
+					"ID": "20220804100818-ic2vy31",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220804100818-ic2vy31",
+						"updated": "20220804100818"
+					},
+					"Children": [
+						{
+							"ID": "20220804100818-vshybi0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220804100818-vshybi0",
+								"updated": "20220804100818"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在同步不一致情况下变更"
+								}
+							]
+						},
+						{
+							"ID": "20220804101617-ibsj6h5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220804101617-ibsj6h5",
+								"updated": "20220804103624"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "node4保持，node3不一致启动"
+								}
+							]
+						},
+						{
+							"ID": "20220804102118-wh7bq4m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220804102118-wh7bq4m",
+								"updated": "20220804104555"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "node2不一致加入"
+								}
+							]
+						},
+						{
+							"ID": "20220804104539-54pb3e8",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220804104539-54pb3e8",
+								"updated": "20220804104601"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "Z28="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": " DEBUG [consensus] Received vote vote=Vote{ID: 0x2E833968E5bB786Ae419c4d13189fB081Cc43bab, block: 0x959ba42e567d6b2e8e0c018dbdf517ccc4c841ee4ec1c536183d7648ce961870,  Epoch: 123, MainchainHeight: 63028}\n[2022-08-04 10:44:37] DEBUG [consensus] Received vote vote=Vote{ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, block: 0x959ba42e567d6b2e8e0c018dbdf517ccc4c841ee4ec1c536183d7648ce961870,  Epoch: 123, MainchainHeight: 63027}\n[2022-08-04 10:44:37] DEBUG [consensus] Received vote vote=Vote{ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, block: 0x959ba42e567d6b2e8e0c018dbdf517ccc4c841ee4ec1c536183d7648ce961870,  Epoch: 123, MainchainHeight: 63029}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220804100822-nwd6mie",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220804100822-nwd6mie"
+					},
+					"Children": [
+						{
+							"ID": "20220804100822-d34lr3w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220804100822-d34lr3w"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "恶意行为"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220804100827-5epypre",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220804100827-5epypre"
+					},
+					"Children": [
+						{
+							"ID": "20220804100827-7edx529",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220804100827-7edx529"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "完全交接"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220804092802-7o14x0x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220804092802-7o14x0x",
+				"updated": "20220804100219"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "节点1,2退出"
+				}
+			]
+		},
+		{
+			"ID": "20220804100221-r7pncz6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220804100221-r7pncz6",
+				"updated": "20220804100227"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "节点1："
+				}
+			]
+		},
+		{
+			"ID": "20220804100227-kx9xoez",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220804100227-kx9xoez",
+				"updated": "20220804100246"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "[2022-08-04 09:50:44] DEBUG [ledger] witnessedValidatorSet: {Dynasty: 5980, Validators: [{ID: 0x2E833968E5bB786Ae419c4d13189fB081Cc43bab, Stake: 49848466578678760620} {ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 1477791685209099737} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 49840167428789013736} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1478029178576775458}]}\n[2022-08-04 09:50:44] DEBUG [ledger] currentValidatorSet  : {Dynasty: 5979, Validators: [{ID: 0x2E833968E5bB786Ae419c4d13189fB081Cc43bab, Stake: 49848466578678760620} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 49840167428789013736} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1478029178576775458}]}\n[2022-08-04 09:50:44] DEBUG [ledger] validatorSetInView   : {Dynasty: 5979, Validators: [{ID: 0x2E833968E5bB786Ae419c4d13189fB081Cc43bab, Stake: 49848466578678760620} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 49840167428789013736} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1478029178576775458}]}\n["
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220804100247-z2ej8v7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220804100247-z2ej8v7",
+				"updated": "20220804100258"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "[2022-08-04 09:50:47] DEBUG [ledger] witnessedValidatorSet: {Dynasty: 5980, Validators: [{ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 1477791685209099737} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 49840167428789013736} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1478029178576775458}]}\n[2022-08-04 09:50:47] DEBUG [ledger] currentValidatorSet  : {Dynasty: 5979, Validators: [{ID: 0x2E833968E5bB786Ae419c4d13189fB081Cc43bab, Stake: 49848466578678760620} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 49840167428789013736} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1478029178576775458}]}\n[2022-08-04 09:50:47] DEBUG [ledger] validatorSetInView   : {Dynasty: 5980, Validators: [{ID: 0x2E833968E5bB786Ae419c4d13189fB081Cc43bab, Stake: 49848466578678760620} {ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 1477791685209099737} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 49840167428789013736} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1478029178576775458}]}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220804100259-98ls3ok",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220804100259-98ls3ok",
+				"updated": "20220804100312"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "[2022-08-04 09:50:53] DEBUG [ledger] witnessedValidatorSet: {Dynasty: 5981, Validators: [{ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 1477791685209099737} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1478029178576775458}]}\n[2022-08-04 09:50:53] DEBUG [ledger] currentValidatorSet  : {Dynasty: 5980, Validators: [{ID: 0x2E833968E5bB786Ae419c4d13189fB081Cc43bab, Stake: 49848466578678760620} {ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 1477791685209099737} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 49840167428789013736} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1478029178576775458}]}\n[2022-08-04 09:50:53] DEBUG [ledger] validatorSetInView   : {Dynasty: 5980, Validators: [{ID: 0x2E833968E5bB786Ae419c4d13189fB081Cc43bab, Stake: 49848466578678760620} {ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 1477791685209099737} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 49840167428789013736} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1478029178576775458}]}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220804100313-ijvow52",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220804100313-ijvow52",
+				"updated": "20220804100316"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "节点2"
+				}
+			]
+		},
+		{
+			"ID": "20220804100356-i7jnhpn",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220804100356-i7jnhpn",
+				"updated": "20220804100407"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "[2022-08-04 09:50:32] DEBUG [ledger] witnessedValidatorSet: {Dynasty: 5979, Validators: [{ID: 0x2E833968E5bB786Ae419c4d13189fB081Cc43bab, Stake: 49848466578678760620} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 49840167428789013736} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1478029178576775458}]}\n[2022-08-04 09:50:32] DEBUG [ledger] currentValidatorSet  : {Dynasty: 5978, Validators: [{ID: 0x2E833968E5bB786Ae419c4d13189fB081Cc43bab, Stake: 49848466578678760620} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 49840167428789013736}]}\n[2022-08-04 09:50:32] DEBUG [ledger] validatorSetInView   : {Dynasty: 5978, Validators: [{ID: 0x2E833968E5bB786Ae419c4d13189fB081Cc43bab, Stake: 49848466578678760620} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 49840167428789013736}]}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220804100317-dc0ew7s",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220804100317-dc0ew7s",
+				"updated": "20220804100346"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "[2022-08-04 09:50:35] DEBUG [ledger] witnessedValidatorSet: {Dynasty: 5979, Validators: [{ID: 0x2E833968E5bB786Ae419c4d13189fB081Cc43bab, Stake: 49848466578678760620} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 49840167428789013736} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1478029178576775458}]}\n[2022-08-04 09:50:35] DEBUG [ledger] currentValidatorSet  : {Dynasty: 5978, Validators: [{ID: 0x2E833968E5bB786Ae419c4d13189fB081Cc43bab, Stake: 49848466578678760620} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 49840167428789013736}]}\n[2022-08-04 09:50:35] DEBUG [ledger] validatorSetInView   : {Dynasty: 5979, Validators: [{ID: 0x2E833968E5bB786Ae419c4d13189fB081Cc43bab, Stake: 49848466578678760620} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 49840167428789013736} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1478029178576775458}]}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220804100407-2e0kupp",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220804100407-2e0kupp",
+				"updated": "20220804100419"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "[2022-08-04 09:50:56] DEBUG [ledger] witnessedValidatorSet: {Dynasty: 5981, Validators: [{ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 1477791685209099737} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1478029178576775458}]}\n[2022-08-04 09:50:56] DEBUG [ledger] currentValidatorSet  : {Dynasty: 5980, Validators: [{ID: 0x2E833968E5bB786Ae419c4d13189fB081Cc43bab, Stake: 49848466578678760620} {ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 1477791685209099737} {ID: 0x9F1233798E905E173560071255140b4A8aBd3Ec6, Stake: 49840167428789013736} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1478029178576775458}]}\n[2022-08-04 09:50:56] DEBUG [ledger] validatorSetInView   : {Dynasty: 5981, Validators: [{ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 1477791685209099737} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1478029178576775458}]}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220804100420-mbm69iw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220804100420-mbm69iw",
+				"updated": "20220804100423"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "节点3"
+				}
+			]
+		},
+		{
+			"ID": "20220804100423-peuejr8",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220804100423-peuejr8",
+				"updated": "20220804100545"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "[2022-08-04 09:51:05] DEBUG [ledger] witnessedValidatorSet: {Dynasty: 5982, Validators: [{ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 1477791685209099737} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1478029178576775458}]}\n[2022-08-04 09:51:05] DEBUG [ledger] currentValidatorSet  : {Dynasty: 5981, Validators: [{ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 1477791685209099737} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1478029178576775458}]}\n[2022-08-04 09:51:05] DEBUG [ledger] validatorSetInView   : {Dynasty: 5982, Validators: [{ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 1477791685209099737} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1478029178576775458}]}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220804100546-llr4dkt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220804100546-llr4dkt",
+				"updated": "20220804100549"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "节点4"
+				}
+			]
+		},
+		{
+			"ID": "20220804100549-goplt33",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220804100549-goplt33",
+				"updated": "20220804100733"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "[2022-08-04 09:51:50] DEBUG [ledger] witnessedValidatorSet: {Dynasty: 5987, Validators: [{ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 1477791685209099737} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1478029178576775458}]}\n[2022-08-04 09:51:50] DEBUG [ledger] currentValidatorSet  : {Dynasty: 5986, Validators: [{ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 1477791685209099737} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1478029178576775458}]}\n[2022-08-04 09:51:50] DEBUG [ledger] validatorSetInView   : {Dynasty: 5986, Validators: [{ID: 0x7631958d57Cf6a5605635a5F06Aa2ae2e000820e, Stake: 1477791685209099737} {ID: 0xC15E24083152dD76Ae6FC2aEb5269FF23d70330B, Stake: 1478029178576775458}]}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220804100739-2tk72ah",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220804100739-2tk72ah",
+				"updated": "20220810100710"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z2l0"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "    // it('TNT20LockInvalidAmountTokens', async () =\u003e {\n    //     await registerAndStake()\n    //     await TNT20Token.mint(valGuarantor1, 30, { from: accounts[0] })\n    //     await TNT20Token.approve(TNT20TokenBank1.address, 30, { from: valGuarantor1 })\n    //     let txResult = await TNT20TokenBank1.lockTokens(9988, TNT20Token.address, valGuarantor1, 40, { from: valGuarantor1 })\n    //     truffleAssert.eventEmitted(txResult, 'TNT20TokenLocked', (ev) =\u003e {\n    //         return ev.symbol === '20';\n    //     })\n\n    // })\n\n0x627306090abaB3A6e1400e9345bC60c78a8BEf57',\n    '0xC5fdf4076b8F3A5357c5E395ab970B5B54098Fef',\n    '0x0d1d4e623D10F9FBA5Db95830F7d3839406C6AF2\ntruffle test test/integration/03-TNT20TokenBank.js --show-events  true  --compile-none\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220810095139-c15hfy7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220810095139-c15hfy7",
+				"updated": "20220810135313"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z2l0"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "    it('TNT20UnLockTokensNotValidatorVote', async () =\u003e {\n        await registerAndStake()\n        await TNT20Token.mint(valGuarantor1, 40, { from: accounts[0] })\n        await TNT20Token.approve(TNT20TokenBank1.address, 40, { from: valGuarantor1 })\n        await TNT20TokenBank1.lockTokens(9988, TNT20Token.address, valGuarantor1, 40, { from: valGuarantor1 })\n        blockHeight0 = await web3.eth.getBlockNumber()\n        dynasty0 = calcDynastyForHeight(blockHeight0)\n        let res0 = await chainRegistrarOnMainchain.getValidatorSet(subchainID, dynasty0)\n        console.log(bnsToString(res0[0]))\n        console.log(bnsToString(res0[1]))\n         await chainRegistrarOnMainchain.withdrawStake(subchainID, validator1, res0[1][0], { from: valStaker1 })\n    \n        mineBlocks(3 * numBlocksPerDynasty)\n        blockHeight0 = await web3.eth.getBlockNumber()\n        dynasty0 = calcDynastyForHeight(blockHeight0)\n        res0 = await chainRegistrarOnMainchain.getValidatorSet(subchainID, dynasty0)\n        console.log(bnsToString(res0[0]))\n        console.log(bnsToString(res0[1]))\n        await truffleAssert.fails(TNT20TokenBank1.unlockTokens(9988, \"1337/20/\" + TNT20Token.address, valGuarantor1, 20, dynasty0, 1, { from: accounts[5],gas:9900000000000 }))\n   \n        // achieve 2/3\n        let txResult = await TNT20TokenBank1.unlockTokens(9988, \"1337/20/\" + TNT20Token.address, valGuarantor1, 20, dynasty0, 1, { from: validator2 })\n        truffleAssert.eventNotEmitted(txResult, 'TNT20TokenUnlocked')\n        txResult = await TNT20TokenBank1.unlockTokens(9988, \"1337/20/\" + TNT20Token.address, valGuarantor1, 20, dynasty0, 1, { from:validator3 })\n        truffleAssert.eventEmitted(txResult, 'TNT20TokenUnlocked')\n     })\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220810135307-3rh184r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810135307-3rh184r",
+				"updated": "20220810135307"
+			}
+		}
+	]
+}

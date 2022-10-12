@@ -1,0 +1,385 @@
+{
+	"ID": "20211125165856-xu55oxj",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211125165856-xu55oxj",
+		"title": "论文十问",
+		"updated": "20220819202609"
+	},
+	"Children": [
+		{
+			"ID": "20211125165911-m5hwt5d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211125165911-m5hwt5d",
+				"updated": "20211125165911"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "论文十问是可以快速理解论文主旨的一套框架，是由之前的阅读者来提供的答案。书写自己的十问答案后，也有机会展示在这里。"
+				}
+			]
+		},
+		{
+			"ID": "20211125165911-hf89o9r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211125165911-hf89o9r",
+				"updated": "20211125165911"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Q1"
+				}
+			]
+		},
+		{
+			"ID": "20211125165911-rqzkohf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211125165911-rqzkohf",
+				"updated": "20211125165911"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "论文试图解决什么问题？"
+				}
+			]
+		},
+		{
+			"ID": "20211125165911-comuez2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211125165911-comuez2",
+				"updated": "20211125165911"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Q2"
+				}
+			]
+		},
+		{
+			"ID": "20211125165911-36a80fd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211125165911-36a80fd",
+				"updated": "20211125165911"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这是否是一个新的问题？"
+				}
+			]
+		},
+		{
+			"ID": "20211125165911-zh7dmdp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211125165911-zh7dmdp",
+				"updated": "20211125165911"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Q3"
+				}
+			]
+		},
+		{
+			"ID": "20211125165911-cyoy0by",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211125165911-cyoy0by",
+				"updated": "20211125165911"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这篇文章要验证一个什么科学假设？"
+				}
+			]
+		},
+		{
+			"ID": "20211125165911-98d1r2n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211125165911-98d1r2n",
+				"updated": "20211125165911"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Q4"
+				}
+			]
+		},
+		{
+			"ID": "20211125165911-7kawy8e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211125165911-7kawy8e",
+				"updated": "20211125165911"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "有哪些相关研究？如何归类？谁是这一课题在领域内值得关注的研究员？"
+				}
+			]
+		},
+		{
+			"ID": "20211125165911-ysm1fps",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211125165911-ysm1fps",
+				"updated": "20211125165911"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Q5"
+				}
+			]
+		},
+		{
+			"ID": "20211125165911-91n884p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211125165911-91n884p",
+				"updated": "20211125165911"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "论文中提到的解决方案之关键是什么？"
+				}
+			]
+		},
+		{
+			"ID": "20211125165911-pstir7g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211125165911-pstir7g",
+				"updated": "20211125165911"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Q6"
+				}
+			]
+		},
+		{
+			"ID": "20211125165911-fv115v2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211125165911-fv115v2",
+				"updated": "20211125165911"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "论文中的实验是如何设计的？"
+				}
+			]
+		},
+		{
+			"ID": "20211125165911-b750jzx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211125165911-b750jzx",
+				"updated": "20211125165911"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Q7"
+				}
+			]
+		},
+		{
+			"ID": "20211125165911-ps9ijl3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211125165911-ps9ijl3",
+				"updated": "20211125165911"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "用于定量评估的数据集是什么？代码有没有开源？"
+				}
+			]
+		},
+		{
+			"ID": "20211125165911-zmm3owy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211125165911-zmm3owy",
+				"updated": "20211125165911"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Q8"
+				}
+			]
+		},
+		{
+			"ID": "20211125165911-32roecs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211125165911-32roecs",
+				"updated": "20211125165911"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "论文中的实验及结果有没有很好地支持需要验证的科学假设？"
+				}
+			]
+		},
+		{
+			"ID": "20211125165911-q81aybl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211125165911-q81aybl",
+				"updated": "20211125165911"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Q9"
+				}
+			]
+		},
+		{
+			"ID": "20211125165911-c50tby4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211125165911-c50tby4",
+				"updated": "20211125165911"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这篇论文到底有什么贡献？"
+				}
+			]
+		},
+		{
+			"ID": "20211125165911-4vww2m5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211125165911-4vww2m5",
+				"updated": "20211125165911"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Q10"
+				}
+			]
+		},
+		{
+			"ID": "20211125165911-c4co5l9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211125165911-c4co5l9",
+				"updated": "20211125165911"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "下一步呢？有什么工作可以继续深入？"
+				}
+			]
+		},
+		{
+			"ID": "20220727202646-64sy0qe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220727202646-64sy0qe",
+				"updated": "20220727202654"
+			}
+		},
+		{
+			"ID": "20220818193125-yee2vi4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818193125-yee2vi4",
+				"updated": "20220818193125"
+			}
+		},
+		{
+			"ID": "20220818193125-46u86ij",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818193125-46u86ij",
+				"updated": "20220818193158"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "平等各条链，消除全局依赖。evm使用rpc"
+				}
+			]
+		},
+		{
+			"ID": "20220818193158-wnut9g1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818193158-wnut9g1",
+				"updated": "20220818193243"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "节点路由，网络"
+				}
+			]
+		},
+		{
+			"ID": "20220819202500-8cc1pfl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819202500-8cc1pfl",
+				"updated": "20220819202500"
+			}
+		},
+		{
+			"ID": "20220819202605-dvm1txj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819202605-dvm1txj",
+				"updated": "20220819202609"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "专业书籍"
+				}
+			]
+		},
+		{
+			"ID": "20220819202515-pdeowib",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819202515-pdeowib",
+				"updated": "20220819202544"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "看文献综述，做PPT，博士论文"
+				}
+			]
+		}
+	]
+}

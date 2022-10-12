@@ -1,0 +1,999 @@
+{
+	"ID": "20211122144209-nbmcmnd",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211122144209-nbmcmnd",
+		"title": "安装环境",
+		"updated": "20211122144829"
+	},
+	"Children": [
+		{
+			"ID": "20211122144209-zm2u0v3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20211122144209-zm2u0v3",
+				"updated": "20211122144233"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "配置系统环境"
+				}
+			]
+		},
+		{
+			"ID": "20211122144233-scug2i0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211122144233-scug2i0",
+				"updated": "20211122144244"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装go"
+				}
+			]
+		},
+		{
+			"ID": "20211122144244-l7fuj5d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211122144244-l7fuj5d",
+				"updated": "20211122144316"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "前往go语言中文网下载 "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://studygolang.com/dl"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://studygolang.com/dl"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211122144317-8va2jif",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211122144317-8va2jif",
+				"updated": "20211122144342"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "执行"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "go env"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "查看GOPATH，将其添加到"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": ".zshrc"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "或者你当前shell的配置文件中"
+				}
+			]
+		},
+		{
+			"ID": "20211122144344-5u4qz7d",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211122144344-5u4qz7d",
+				"updated": "20211122144403"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用nvm安装node js"
+				}
+			]
+		},
+		{
+			"ID": "20211122144619-qgv7aim",
+			"Type": "NodeSuperBlock",
+			"Properties": {
+				"id": "20211122144619-qgv7aim",
+				"updated": "20211122144533"
+			},
+			"Children": [
+				{
+					"Type": "NodeSuperBlockOpenMarker"
+				},
+				{
+					"Type": "NodeSuperBlockLayoutMarker",
+					"Data": "col"
+				},
+				{
+					"ID": "20211122144403-7vs2i1w",
+					"Type": "NodeBlockquote",
+					"Properties": {
+						"id": "20211122144403-7vs2i1w",
+						"updated": "20211122144533"
+					},
+					"Children": [
+						{
+							"Type": "NodeBlockquoteMarker",
+							"Data": "\u003e"
+						},
+						{
+							"ID": "20211122144533-q4ikxlw",
+							"Type": "NodeHeading",
+							"HeadingLevel": 2,
+							"Properties": {
+								"id": "20211122144533-q4ikxlw",
+								"updated": "20211122144533"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "安装nvm"
+								}
+							]
+						},
+						{
+							"ID": "20211122144533-we0m7sm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211122144533-we0m7sm",
+								"updated": "20211122144533"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "nvm是node version manager的简称。在安装nodejs之前先安装nvm，可以使前者的版本管理更加方便。"
+								}
+							]
+						},
+						{
+							"ID": "20211122144533-bs0bcya",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211122144533-bs0bcya",
+								"updated": "20211122144533"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "安装nvm只需要一行代码，首先进入home dir"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "~/"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，输入以下指令"
+								}
+							]
+						},
+						{
+							"ID": "20211122144533-minoavu",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20211122144533-minoavu",
+								"updated": "20211122144533"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20211122144533-19y2ho6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211122144533-19y2ho6",
+								"updated": "20211122144533"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "根据安装成功的指令，将以下字段复制入"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "~/.zshrc"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20211122144533-6lhn3f5",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20211122144533-6lhn3f5",
+								"updated": "20211122144533"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dGV4dA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "# nvm file init\nexport NVM_DIR=\"$HOME/.nvm\"\n[ -s \"$NVM_DIR/nvm.sh\" ] \u0026\u0026 \\. \"$NVM_DIR/nvm.sh\"  # This loads nvm\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20211122144533-4gbpbm1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211122144533-4gbpbm1",
+								"updated": "20211122144533"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "保存并退出，重启terminal，进行node安装."
+								}
+							]
+						},
+						{
+							"ID": "20211122144533-bip6zs1",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20211122144533-bip6zs1",
+								"updated": "20211122144612"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dGV4dA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "nvm install node\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeSuperBlockCloseMarker"
+				}
+			]
+		},
+		{
+			"ID": "20211122144553-qknt1dn",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20211122144553-qknt1dn",
+				"updated": "20211122144655"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20211122144640-he5oysg",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20211122144640-he5oysg",
+						"updated": "20211122144640"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "也可安装指定版本。先通过"
+						},
+						{
+							"Type": "NodeCodeSpan",
+							"Data": "code",
+							"Children": [
+								{
+									"Type": "NodeCodeSpanOpenMarker"
+								},
+								{
+									"Type": "NodeCodeSpanContent",
+									"Data": "nvm list-remote"
+								},
+								{
+									"Type": "NodeCodeSpanCloseMarker"
+								}
+							]
+						},
+						{
+							"Type": "NodeText",
+							"Data": "查看历史版本"
+						}
+					]
+				},
+				{
+					"ID": "20211122144640-1fognm4",
+					"Type": "NodeCodeBlock",
+					"IsFencedCodeBlock": true,
+					"Properties": {
+						"id": "20211122144640-1fognm4",
+						"updated": "20211122144640"
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeBlockFenceOpenMarker",
+							"Data": "```"
+						},
+						{
+							"Type": "NodeCodeBlockFenceInfoMarker",
+							"CodeBlockInfo": "dGV4dA=="
+						},
+						{
+							"Type": "NodeCodeBlockCode",
+							"Data": "        v16.5.0\n        v16.6.0\n        v16.6.1\n        v16.6.2\n        v16.7.0\n        v16.8.0\n        v16.9.0\n        v16.9.1\n       v16.10.0\n       v16.11.0\n       v16.11.1\n       v16.12.0\n       v16.13.0   (Latest LTS: Gallium)\n        v17.0.0\n-\u003e      v17.0.1 \n"
+						},
+						{
+							"Type": "NodeCodeBlockFenceCloseMarker",
+							"Data": "```"
+						}
+					]
+				},
+				{
+					"ID": "20211122144640-aki8f17",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20211122144640-aki8f17",
+						"updated": "20211122144640"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "再安装指定版本"
+						}
+					]
+				},
+				{
+					"ID": "20211122144640-3zjfq8e",
+					"Type": "NodeCodeBlock",
+					"IsFencedCodeBlock": true,
+					"Properties": {
+						"id": "20211122144640-3zjfq8e",
+						"updated": "20211122144640"
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeBlockFenceOpenMarker",
+							"Data": "```"
+						},
+						{
+							"Type": "NodeCodeBlockFenceInfoMarker",
+							"CodeBlockInfo": "dGV4dA=="
+						},
+						{
+							"Type": "NodeCodeBlockCode",
+							"Data": "nvm install v17.0.0\n"
+						},
+						{
+							"Type": "NodeCodeBlockFenceCloseMarker",
+							"Data": "```"
+						}
+					]
+				},
+				{
+					"ID": "20211122144640-l2w66rd",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20211122144640-l2w66rd",
+						"updated": "20211122144640"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "安装完成！"
+						}
+					]
+				},
+				{
+					"ID": "20211122144640-rihftpz",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20211122144640-rihftpz",
+						"updated": "20211122144640"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "查看node.js和npm版本"
+						}
+					]
+				},
+				{
+					"ID": "20211122144655-ht1erl0",
+					"Type": "NodeHeading",
+					"HeadingLevel": 2,
+					"Properties": {
+						"id": "20211122144655-ht1erl0",
+						"updated": "20211122144655"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "总结"
+						}
+					]
+				},
+				{
+					"ID": "20211122144655-zwvca0p",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20211122144655-zwvca0p",
+						"updated": "20211122144655"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "在mac上安装pro一共只需要两行指令"
+						}
+					]
+				},
+				{
+					"ID": "20211122144655-9i2dpw7",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20211122144655-9i2dpw7",
+						"updated": "20211122144655"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "第一条，安装node版本管理器"
+						},
+						{
+							"Type": "NodeCodeSpan",
+							"Data": "code",
+							"Children": [
+								{
+									"Type": "NodeCodeSpanOpenMarker"
+								},
+								{
+									"Type": "NodeCodeSpanContent",
+									"Data": "nvm"
+								},
+								{
+									"Type": "NodeCodeSpanCloseMarker"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211122144655-qhftb33",
+					"Type": "NodeCodeBlock",
+					"IsFencedCodeBlock": true,
+					"Properties": {
+						"id": "20211122144655-qhftb33",
+						"updated": "20211122144655"
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeBlockFenceOpenMarker",
+							"Data": "```"
+						},
+						{
+							"Type": "NodeCodeBlockFenceInfoMarker",
+							"CodeBlockInfo": "YmFzaA=="
+						},
+						{
+							"Type": "NodeCodeBlockCode",
+							"Data": "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash\n"
+						},
+						{
+							"Type": "NodeCodeBlockFenceCloseMarker",
+							"Data": "```"
+						}
+					]
+				},
+				{
+					"ID": "20211122144655-bbcxgr8",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20211122144655-bbcxgr8",
+						"updated": "20211122144655"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "第二条，安装最新版"
+						},
+						{
+							"Type": "NodeCodeSpan",
+							"Data": "code",
+							"Children": [
+								{
+									"Type": "NodeCodeSpanOpenMarker"
+								},
+								{
+									"Type": "NodeCodeSpanContent",
+									"Data": "node.js"
+								},
+								{
+									"Type": "NodeCodeSpanCloseMarker"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211122144655-c244tot",
+					"Type": "NodeCodeBlock",
+					"IsFencedCodeBlock": true,
+					"Properties": {
+						"id": "20211122144655-c244tot",
+						"updated": "20211122144655"
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeBlockFenceOpenMarker",
+							"Data": "```"
+						},
+						{
+							"Type": "NodeCodeBlockFenceInfoMarker",
+							"CodeBlockInfo": "YmFzaA=="
+						},
+						{
+							"Type": "NodeCodeBlockCode",
+							"Data": "nvm install node\n"
+						},
+						{
+							"Type": "NodeCodeBlockFenceCloseMarker",
+							"Data": "```"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211122144706-doya24y",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211122144706-doya24y",
+				"updated": "20211122144724"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "遇到nvm command not found 问题"
+				}
+			]
+		},
+		{
+			"ID": "20211122144726-z55xzxw",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20211122144726-z55xzxw",
+				"updated": "20211122144801"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20211122144743-f6ycee3",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20211122144743-f6ycee3",
+						"updated": "20211122144743"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrong",
+							"Data": "strong",
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "添加.bash_profile"
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211122144743-m46ecdv",
+					"Type": "NodeBlockquote",
+					"Properties": {
+						"id": "20211122144743-m46ecdv",
+						"updated": "20211122144743"
+					},
+					"Children": [
+						{
+							"Type": "NodeBlockquoteMarker",
+							"Data": "\u003e"
+						},
+						{
+							"ID": "20211122144743-a3avyqq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211122144743-a3avyqq"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "nvm command not found"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211122144743-wx61yqa",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20211122144743-wx61yqa",
+						"updated": "20211122144743"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "在Finder中的根目录下找到.nvm文件夹，这个文件夹是隐藏的。"
+						}
+					]
+				},
+				{
+					"ID": "20211122144743-arblcgf",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20211122144743-arblcgf",
+						"updated": "20211122144743"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "显示隐藏文件："
+						}
+					]
+				},
+				{
+					"ID": "20211122144743-5hdrqa7",
+					"Type": "NodeCodeBlock",
+					"IsFencedCodeBlock": true,
+					"Properties": {
+						"id": "20211122144743-5hdrqa7",
+						"updated": "20211122144743"
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeBlockFenceOpenMarker",
+							"Data": "```"
+						},
+						{
+							"Type": "NodeCodeBlockFenceInfoMarker",
+							"CodeBlockInfo": "dGV4dA=="
+						},
+						{
+							"Type": "NodeCodeBlockCode",
+							"Data": "defaults write com.apple.finder AppleShowAllFiles -bool true killall Finder\n"
+						},
+						{
+							"Type": "NodeCodeBlockFenceCloseMarker",
+							"Data": "```"
+						}
+					]
+				},
+				{
+					"ID": "20211122144743-7nu83gf",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20211122144743-7nu83gf",
+						"updated": "20211122144743"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "关闭隐藏文件："
+						}
+					]
+				},
+				{
+					"ID": "20211122144743-g7pu7qq",
+					"Type": "NodeCodeBlock",
+					"IsFencedCodeBlock": true,
+					"Properties": {
+						"id": "20211122144743-g7pu7qq",
+						"updated": "20211122144743"
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeBlockFenceOpenMarker",
+							"Data": "```"
+						},
+						{
+							"Type": "NodeCodeBlockFenceInfoMarker",
+							"CodeBlockInfo": "dGV4dA=="
+						},
+						{
+							"Type": "NodeCodeBlockCode",
+							"Data": "defaults write com.apple.finder AppleShowAllFiles -bool false killall Finder\n"
+						},
+						{
+							"Type": "NodeCodeBlockFenceCloseMarker",
+							"Data": "```"
+						}
+					]
+				},
+				{
+					"ID": "20211122144743-l4smtkz",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20211122144743-l4smtkz",
+						"updated": "20211122144743"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "在文件夹下右键打开终端并输入代码："
+						}
+					]
+				},
+				{
+					"ID": "20211122144743-qesth31",
+					"Type": "NodeCodeBlock",
+					"IsFencedCodeBlock": true,
+					"Properties": {
+						"id": "20211122144743-qesth31",
+						"updated": "20211122144743"
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeBlockFenceOpenMarker",
+							"Data": "```"
+						},
+						{
+							"Type": "NodeCodeBlockFenceInfoMarker",
+							"CodeBlockInfo": "dGV4dA=="
+						},
+						{
+							"Type": "NodeCodeBlockCode",
+							"Data": "touch .bash_profile\nopen .bash_profile\n"
+						},
+						{
+							"Type": "NodeCodeBlockFenceCloseMarker",
+							"Data": "```"
+						}
+					]
+				},
+				{
+					"ID": "20211122144743-sn6kjy7",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20211122144743-sn6kjy7",
+						"updated": "20211122144743"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "为什么要执行这个命令呢？因为你可以发现Finder并不支持新建文件。"
+						}
+					]
+				},
+				{
+					"ID": "20211122144801-xlsvs3p",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20211122144801-xlsvs3p",
+						"updated": "20211122144801"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "粘贴下面的内容："
+						}
+					]
+				},
+				{
+					"ID": "20211122144801-01tayf1",
+					"Type": "NodeCodeBlock",
+					"IsFencedCodeBlock": true,
+					"Properties": {
+						"id": "20211122144801-01tayf1",
+						"updated": "20211122144801"
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeBlockFenceOpenMarker",
+							"Data": "```"
+						},
+						{
+							"Type": "NodeCodeBlockFenceInfoMarker",
+							"CodeBlockInfo": "dGV4dA=="
+						},
+						{
+							"Type": "NodeCodeBlockCode",
+							"Data": "export NVM_DIR=\"$HOME/.nvm\"\n[ -s \"$NVM_DIR/nvm.sh\" ] \u0026\u0026 \\. \"$NVM_DIR/nvm.sh\" # This loads nvm\n"
+						},
+						{
+							"Type": "NodeCodeBlockFenceCloseMarker",
+							"Data": "```"
+						}
+					]
+				},
+				{
+					"ID": "20211122144801-bb5l891",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20211122144801-bb5l891",
+						"updated": "20211122144801"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "保存文件，继续执行命令："
+						}
+					]
+				},
+				{
+					"ID": "20211122144801-nh4hpvz",
+					"Type": "NodeCodeBlock",
+					"IsFencedCodeBlock": true,
+					"Properties": {
+						"id": "20211122144801-nh4hpvz",
+						"updated": "20211122144801"
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeBlockFenceOpenMarker",
+							"Data": "```"
+						},
+						{
+							"Type": "NodeCodeBlockFenceInfoMarker",
+							"CodeBlockInfo": "dGV4dA=="
+						},
+						{
+							"Type": "NodeCodeBlockCode",
+							"Data": "source .bash_profile\n"
+						},
+						{
+							"Type": "NodeCodeBlockFenceCloseMarker",
+							"Data": "```"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211122144805-hkf2p5i",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20211122144805-hkf2p5i",
+				"updated": "20211122144829"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装fabric框架"
+				}
+			]
+		},
+		{
+			"ID": "20211122144829-6gkdfot",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211122144829-6gkdfot",
+				"updated": "20211122144829"
+			}
+		}
+	]
+}

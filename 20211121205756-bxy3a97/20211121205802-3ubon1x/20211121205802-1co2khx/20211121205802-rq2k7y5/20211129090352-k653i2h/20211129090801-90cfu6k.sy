@@ -1,0 +1,509 @@
+{
+	"ID": "20211129090801-90cfu6k",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211129090801-90cfu6k",
+		"title": "2021-11-29 可可英语",
+		"updated": "20211129092434"
+	},
+	"Children": [
+		{
+			"ID": "20211129090810-wuqypb6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211129090810-wuqypb6",
+				"updated": "20211129090810"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可可英语"
+				}
+			]
+		},
+		{
+			"ID": "20211129090810-zl9obw7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211129090810-zl9obw7",
+				"updated": "20211129090810"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "生词"
+				}
+			]
+		},
+		{
+			"ID": "20211129090810-2mc7agi",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0,
+				0
+			],
+			"Properties": {
+				"id": "20211129090810-2mc7agi",
+				"style": "text-align: left;",
+				"updated": "20211129092430"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 10,
+									"TableCellContentMaxWidth": 13,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "tariff"
+										},
+										{
+											"Type": "NodeBr",
+											"Data": "br"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 6,
+									"TableCellContentMaxWidth": 10,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "关税"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 4,
+									"TableCellContentMaxWidth": 4,
+									"Children": [
+										{
+											"Type": "NodeBr",
+											"Data": "br"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 11,
+							"TableCellContentMaxWidth": 13,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "warehouse"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 6,
+							"TableCellContentMaxWidth": 10,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "仓库"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 2,
+							"TableCellContentMaxWidth": 4
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 10,
+							"TableCellContentMaxWidth": 13,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "mobilize"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 6,
+							"TableCellContentMaxWidth": 10,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "调集"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 2,
+							"TableCellContentMaxWidth": 4
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 9,
+							"TableCellContentMaxWidth": 13,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "stifled"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 10,
+							"TableCellContentMaxWidth": 10,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "窒息扼杀"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 4,
+							"TableCellContentMaxWidth": 4,
+							"Children": [
+								{
+									"Type": "NodeBr",
+									"Data": "br"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 10,
+							"TableCellContentMaxWidth": 13,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "molasses"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 6,
+							"TableCellContentMaxWidth": 10,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "糖蜜"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 2,
+							"TableCellContentMaxWidth": 4
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 13,
+							"TableCellContentMaxWidth": 13,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "nonsensical"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 8,
+							"TableCellContentMaxWidth": 10,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "无意义"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 2,
+							"TableCellContentMaxWidth": 4
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 10,
+							"TableCellContentMaxWidth": 13,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "inferior"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 6,
+							"TableCellContentMaxWidth": 10,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "劣质"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 2,
+							"TableCellContentMaxWidth": 4
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 9,
+							"TableCellContentMaxWidth": 13,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "pickled"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 6,
+							"TableCellContentMaxWidth": 10,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "腌制"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 2,
+							"TableCellContentMaxWidth": 4
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 8,
+							"TableCellContentMaxWidth": 13,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "logged"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 6,
+							"TableCellContentMaxWidth": 10,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "记录"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 2,
+							"TableCellContentMaxWidth": 4
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211129090810-a4j3yg9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211129090810-a4j3yg9",
+				"updated": "20211129092259"
+			}
+		},
+		{
+			"ID": "20211129090810-dutfr1f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211129090810-dutfr1f",
+				"updated": "20211129090810"
+			}
+		},
+		{
+			"ID": "20211129090810-4tjj87u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211129090810-4tjj87u",
+				"updated": "20211129090810"
+			}
+		},
+		{
+			"ID": "20211129090810-zilkzd5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211129090810-zilkzd5",
+				"updated": "20211129090810"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "句式"
+				}
+			]
+		},
+		{
+			"ID": "20211129092026-ml9guca",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211129092026-ml9guca",
+				"updated": "20211129092054"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "on the radar of 得到...关注"
+				}
+			]
+		},
+		{
+			"ID": "20211129092055-ux275ec",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211129092055-ux275ec",
+				"updated": "20211129092055"
+			}
+		},
+		{
+			"ID": "20211129092031-fvgmr8f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211129092031-fvgmr8f",
+				"updated": "20211129092031"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "odd 零头"
+				}
+			]
+		},
+		{
+			"ID": "20211129090810-n1u1l7d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211129090810-n1u1l7d",
+				"updated": "20211129090810"
+			}
+		},
+		{
+			"ID": "20211129090810-yu2h4mz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211129090810-yu2h4mz",
+				"updated": "20211129090810"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "感悟"
+				}
+			]
+		},
+		{
+			"ID": "20211129092434-z9etdcx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211129092434-z9etdcx",
+				"updated": "20211129092434"
+			}
+		}
+	]
+}

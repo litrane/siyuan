@@ -1,0 +1,1038 @@
+{
+	"ID": "20220919091231-az0j4bu",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220919091231-az0j4bu",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220919091529-t2ivz10\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220919091529-i9y671u\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:463,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220919091529-csgqdkm\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:202,\u0026amp;quot;focusEnd\u0026amp;quot;:202}",
+		"title": "Start For e2e TEST",
+		"updated": "20220919091529"
+	},
+	"Children": [
+		{
+			"ID": "20220919091529-t2ivz10",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220919091529-t2ivz10",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "End To End Tests"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-ys4yx18",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220919091529-ys4yx18",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. Setup (Run once)"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-qgvr0zj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919091529-qgvr0zj",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Please follow the instructions in "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "./e2e-setup.md#setup-for-the-end-to-end-tests",
+					"TextMarkTextContent": "this guide"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " to setup the testing environment. You only need to do it once."
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-xcdygni",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220919091529-xcdygni",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. Start the Private Theta Mainchain and the ETH RPC Server"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-av8zym1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220919091529-av8zym1",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.1 Start the private Main Chain and ETH RPC adapter"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-csgqdkm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919091529-csgqdkm",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Run the following commands to start the private Main Chain and the ETH RPC adapter. Note that the workspace directory "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "~/metachain_playground/privatenet/workspace"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " was created during the above "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "./e2e-setup.md#setup-for-the-end-to-end-tests",
+					"TextMarkTextContent": "setup step"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "."
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-400c2wu",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220919091529-400c2wu",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "cd ~/metachain_playground/privatenet/workspace\ntheta start --config=../mainchain/validator --password=qwertyuiop\n\n# Wait until the Theta validator **starts finalizing new blocks**. \n# Then, in another terminal (or screen/tmux session), run the following command.\ncd ~/metachain_playground/privatenet/workspace\ntheta-eth-rpc-adaptor start --config=../mainchain/eth_rpc_adaptor\n\n# Next, in another terminal, execute the following commands to send some TFuel to the wallets \n# needed for the testing (Run once, unless one of these accounts has run out of TFuel)\nthetacli tx send --chain=\"privatenet\" --from=0x2E833968E5bB786Ae419c4d13189fB081Cc43bab --to=0x19E7E376E7C213B7E7e7e46cc70A5dD086DAff2A --tfuel=1000000 --password=qwertyuiop --seq=1\nthetacli tx send --chain=\"privatenet\" --from=0x2E833968E5bB786Ae419c4d13189fB081Cc43bab --to=0x7564105E977516C53bE337314c7E53838967bDaC --tfuel=1000000 --password=qwertyuiop --seq=2\nthetacli tx send --chain=\"privatenet\" --from=0x2E833968E5bB786Ae419c4d13189fB081Cc43bab --to=0xAe72A48c1a36bd18Af168541c53037965d26e4A8 --tfuel=100000 --password=qwertyuiop --seq=3\nthetacli tx send --chain=\"privatenet\" --from=0x2E833968E5bB786Ae419c4d13189fB081Cc43bab --to=0x62f94E9AC9349BCCC61Bfe66ddAdE6292702EcB6 --tfuel=100000 --password=qwertyuiop --seq=4\nthetacli tx send --chain=\"privatenet\" --from=0x2E833968E5bB786Ae419c4d13189fB081Cc43bab --to=0x80F07d4E724303748129A173249fB9e63aCf1A9B --tfuel=100000 --password=qwertyuiop --seq=5\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-dh7276r",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220919091529-dh7276r",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3. Deploy the Contracts to the Mainchain"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-1pyob3c",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220919091529-1pyob3c",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "cd $GOPATH/src/github.com/thetatoken\ngit clone https://github.com/thetatoken/theta-protocol-subchain-management .\ncd theta-protocol-subchain-management\ntruffle deploy --network theta_privatenet --reset\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-ltk8qzu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919091529-ltk8qzu",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "Note:"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " Truffle will deploy the Mainchain contract using deployer wallet "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "0x19E7E376E7C213B7E7e7e46cc70A5dD086DAff2A"
+				},
+				{
+					"Type": "NodeText",
+					"Data": ". If the deployer wallet has never been used before, the deployed contract addresses should be the same as listed below. These addresses are hardcoded in the this file "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "integration/tools/subchain_e2e_test_tools/tools/single_register_and_stake.go"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " in the Theta Subchain repo:"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-rejzrh5",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220919091529-rejzrh5",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z29sYW5n"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "wthetaAddress = common.HexToAddress(\"0x7d73424a8256C0b2BA245e5d5a3De8820E45F390\")\nregistrarOnMainchainAddress = common.HexToAddress(\"0x08425D9Df219f93d5763c3e85204cb5B4cE33aAa\")\ngovernanceTokenAddress = common.HexToAddress(\"0x59AF421cB35fc23aB6C8ee42743e6176040031f4\")\n\nmainchainTFuelTokenBankAddress = common.HexToAddress(\"0xA10A3B175F0f2641Cf41912b887F77D8ef34FAe8\")\nsubchainTFuelTokenBankAddress = common.HexToAddress(\"0x5a443704dd4B594B382c22a083e2BD3090A6feF3\")\n\nmainchainTNT20TokenBankAddress = common.HexToAddress(\"0x6E05f58eEddA592f34DD9105b1827f252c509De0\")\nsubchainTNT20TokenBankAddress = common.HexToAddress(\"0x47e9Fbef8C83A1714F1951F142132E6e90F5fa5D\")\n\nmainchainTNT721TokenBankAddress = common.HexToAddress(\"0x79EaFd0B5eC8D3f945E6BB2817ed90b046c0d0Af\")\nsubchainTNT721TokenBankAddress = common.HexToAddress(\"0x8Be503bcdEd90ED42Eff31f56199399B2b0154CA\")\n\nmainchainTNT1155TokenBankAddress = common.HexToAddress(\"0x2Ce636d6240f8955d085a896e12429f8B3c7db26\")\nsubchainTNT1155TokenBankAddress = common.HexToAddress(\"0x47c5e40890bcE4a473A49D7501808b9633F29782\")\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-mk4n2t3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919091529-mk4n2t3",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Typically you don't need to make changes to this file. However, if they don't match the actual contract addresses printed by Truffle, Please update the addresses and recompile the Subchain code. This could happen if the deployer wallet was different or has been used before the contract deployment."
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-3c8opwh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220919091529-3c8opwh",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4. Subchain Registration and Validator Staking"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-otnl727",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919091529-otnl727",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "First, use the following command to register a subchain (chainID hardcoded to 360777)."
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-893td7a",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220919091529-893td7a",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "subchain_e2e_test_tools RegisterSubchain\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-o23lk4d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919091529-o23lk4d",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Next, deposit stake (hardcoded to "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "100000e18 Wei"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " TNT20 Governance Tokens) to the initial validator "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "0x2E833968E5bB786Ae419c4d13189fB081Cc43bab"
+				},
+				{
+					"Type": "NodeText",
+					"Data": ":"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-a5ugakt",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220919091529-a5ugakt",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# --accountID=1 means the staker is the 1st account from the pre-populated account list\n# --validator=0x2E833968E5bB786Ae419c4d13189fB081Cc43bab specifies the validator to be staked\nsubchain_e2e_test_tools AccountStake --accountID=1 --validator=0x2E833968E5bB786Ae419c4d13189fB081Cc43bab\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-xpp6t1g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220919091529-xpp6t1g",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5. Start the Subchain"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-2utugt4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220919091529-2utugt4",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5.1 Start the Subchain validator and ETH RPC Adapter"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-ohgg3tt",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220919091529-ohgg3tt",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# We need to run the ETH RPC Adapter before running the Subchain node, since \n# the Subchain node needs to query the ETH RPC APIs when it starts\ncd ~/metachain_playground/privatenet/workspace\ntheta-eth-rpc-adaptor start --config=../subchain/eth_rpc_adaptor\n\n# In another terminal (or screen/tmux session)\ncd ~/metachain_playground/privatenet/workspace\nthetasubchain start --config=../subchain/validator --password=qwertyuiop\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-7rbx2ob",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220919091529-7rbx2ob",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6. Cross-Chain Asset Transfer Tests"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-ch29nl7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220919091529-ch29nl7",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.1 TFuel transfer"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-qo15qwh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919091529-qo15qwh",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Please open a new terminal (or screen/tmux session), and use the following command to transfer TFuel from the Mainchain to the Subchain."
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-udugzd3",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220919091529-udugzd3",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# Transfer 10000 TFuel (10000e18 TFuelWei) from the Mainchain to the Subchain\n# Note: in addition to the 10000 TFuel transferred, 10 TFuel will be deducted from the sender as the fee for the subchain validators\nsubchain_e2e_test_tools MainchainTFuelLock --amount=10000000000000000000000\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-rlzwy59",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919091529-rlzwy59",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Next, use the following command the burn TFuel voucher on the subchain, in order to tranfer some TFuel back to the Mainchain"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-pla8fzv",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220919091529-pla8fzv",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# Note: in addition to the 1000 TFuelWei burned, 10 TFuel will be deducted from the sender as the fee for the subchain validators\nsubchain_e2e_test_tools SubchainTFuelBurn --amount=1000\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-ip6t8cc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919091529-ip6t8cc",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Both of the above commands should print out the TFuel balance of the relevant account before and after the transfer."
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-mguwuht",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220919091529-mguwuht",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.2 TNT20 transfer"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-sow3y4t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919091529-sow3y4t",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Before continue testing TNT20/TNT721 token transfers, we first need to deploy the token contracts to the subchain:"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-kgnap67",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220919091529-kgnap67",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "subchain_e2e_test_tools DeployTokens\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-sclnxzm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919091529-sclnxzm",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "The above command should print out the following token addresses. If the addresses you obtain do not match these address, chances are you may not have exactly followed the above steps (e.g. you might have transfer TFuel twice from the subchain to the mainchain). In this case, you'd need to restart the test from scratch."
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-una2nxi",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220919091529-una2nxi",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "Deploying Tokens to the subchain...\n\nDeploying mock TNT20 token...\nMock TNT20 token deployed, Address: 0x9572eCEA04Fe74B642400dBb04952E91049C9B3D\n\nDeploying mock TNT721 token...\nMock TNT721 token deployed, Address: 0x0293801741ceF9465b2cf717578e57255863E8B2\n\nDeploying mock TNT1155 token...\nMock TNT1155 token deployed, Address: 0xFfF2bb6198F181C412bb250825a5b3AfF1bB2d3a\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-a5f3ra2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220919091529-a5f3ra2",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.2.1 Transfer TNT20 Tokens originated in the Mainchain"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-jggjmx0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919091529-jggjmx0",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Use the following two commands to transfer TNT20 tokens originated in the Mainchain to the Subchain and back. Both commands should print out the TNT20 token balance of the relevant account before and after the transfer."
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-u7oxjcv",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220919091529-u7oxjcv",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# Lock TNT20 tokens on the Mainchain to transfer the TNT20 tokens to the Subchain\nsubchain_e2e_test_tools MainchainTNT20Lock --amount=30000\n\n# Burn TNT20 vouchers on the Subchain to transfer the TNT20 tokens back to the Mainchain\nsubchain_e2e_test_tools SubchainTNT20Burn --amount=200\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-2oihpk3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220919091529-2oihpk3",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.2.2 Transfer TNT20 Tokens originated in the Subchain"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-5yq0gfc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919091529-5yq0gfc",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Use the following two commands to transfer TNT20 tokens originated in the Subchain to the Mainchain and back. Both commands should print out the TNT20 token balance of the relevant account before and after the transfer."
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-i9y671u",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220919091529-i9y671u",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# Lock TNT20 tokens on the Subchain to transfer the TNT20 tokens to the Mainchain\nsubchain_e2e_test_tools SubchainTNT20Lock --amount=8888\n\n# Burn TNT20 vouchers on the Mainchain to transfer the TNT20 tokens back to the Subchain\nsubchain_e2e_test_tools MainchainTNT20Burn --amount=333\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-swxi7l7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220919091529-swxi7l7",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.3 TNT721 transfer"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-oan9cvu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220919091529-oan9cvu",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.3.1 Transfer TNT721 Tokens originated in the Mainchain"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-xr4syzk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919091529-xr4syzk",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Use the following two commands to transfer TNT721 tokens originated in the Mainchain to the Subchain and back."
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-a7wbmxf",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220919091529-a7wbmxf",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# Lock TNT721 token on the Mainchain to transfer the TNT721 token to the Subchain\n# Note: you can also try other tokenIDs, e.g. 2, 3, 4, ...\nsubchain_e2e_test_tools MainchainTNT721Lock --tokenID=1\n\n# Burn TNT721 vouchers on the Subchain to transfer the TNT721 token back to the Mainchain\n# Note: you can also try other tokenIDs, e.g. 2, 3, 4, ...\nsubchain_e2e_test_tools SubchainTNT721Burn --tokenID=1\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-4g6f8jh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220919091529-4g6f8jh",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.3.2 Transfer TNT721 Tokens originated in the Subchain"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-fcgkrwc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919091529-fcgkrwc",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Use the following two commands to transfer TNT721 tokens originated in the Subchain to the Mainchain and back."
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-hzeh2ws",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220919091529-hzeh2ws",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# Lock TNT721 token on the Subchain to transfer the TNT721 token to the Mainchain\n# Note: you can also try other tokenIDs, e.g. 1, 2, 3, ...\nsubchain_e2e_test_tools SubchainTNT721Lock --tokenID=789\n\n# Burn TNT721 vouchers on the Mainchain to transfer the TNT721 token back to the Subchain\n# Note: you can also try other tokenIDs, e.g. 1, 2, 3, ...\nsubchain_e2e_test_tools MainchainTNT721Burn --tokenID=789\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-pd9oc78",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220919091529-pd9oc78",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.4 TNT1155 transfer"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-ogqtagg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220919091529-ogqtagg",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.4.1 Transfer TNT1155 Tokens originated in the Mainchain"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-751tc7e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919091529-751tc7e",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Use the following two commands to transfer TNT1155 tokens originated in the Mainchain to the Subchain and back."
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-ierw4ij",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220919091529-ierw4ij",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# Lock TNT1155 token on the Mainchain to transfer the TNT1155 token to the Subchain\n# Note: you can also try other tokenIDs, e.g. 1, 2, 3, ...\nsubchain_e2e_test_tools MainchainTNT1155Lock --tokenID=8 --amount=9999\n\n# Burn TNT1155 vouchers on the Subchain to transfer the TNT1155 token back to the Mainchain\n# Note: you can also try other tokenIDs, e.g. 1, 2, 3, ...\nsubchain_e2e_test_tools SubchainTNT1155Burn --tokenID=8 --amount=77\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-pww1lsz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220919091529-pww1lsz",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.4.2 Transfer TNT1155 Tokens originated in the Subchain"
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-l3nyrgu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919091529-l3nyrgu",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Use the following two commands to transfer TNT1155 tokens originated in the Subchain to the Mainchain and back."
+				}
+			]
+		},
+		{
+			"ID": "20220919091529-kt9iv5x",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220919091529-kt9iv5x",
+				"updated": "20220919091529"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# Lock TNT1155 token on the Subchain to transfer the TNT1155 token to the Mainchain\n# Note: you can also try other tokenIDs, e.g. 1, 2, 3, ...\nsubchain_e2e_test_tools SubchainTNT1155Lock --tokenID=343 --amount=1234567\n\n# Burn TNT1155 vouchers on the Mainchain to transfer the TNT1155 token back to the Subchain\n# Note: you can also try other tokenIDs, e.g. 1, 2, 3, ...\nsubchain_e2e_test_tools MainchainTNT1155Burn --tokenID=343 --amount=111\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

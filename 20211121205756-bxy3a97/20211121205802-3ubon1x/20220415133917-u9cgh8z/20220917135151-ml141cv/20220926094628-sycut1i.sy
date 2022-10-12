@@ -1,0 +1,75 @@
+{
+	"ID": "20220926094628-sycut1i",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220926094628-sycut1i",
+		"title": "2022-09-26",
+		"updated": "20220926100606"
+	},
+	"Children": [
+		{
+			"ID": "20220926094628-zmfjgsz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220926094628-zmfjgsz",
+				"updated": "20220926094639"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "强化学习自组织"
+				}
+			]
+		},
+		{
+			"ID": "20220926094639-lwv7an7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220926094639-lwv7an7",
+				"updated": "20220926095645"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "发送交易选择"
+				}
+			]
+		},
+		{
+			"ID": "20220926095646-isyi9wx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220926095646-isyi9wx",
+				"updated": "20220926095648"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "流图"
+				}
+			]
+		},
+		{
+			"ID": "20220926100558-xhcio4o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220926100558-xhcio4o",
+				"updated": "20220926100605"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "强化学习资源调度"
+				}
+			]
+		},
+		{
+			"ID": "20220926100606-a0uxqxs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220926100606-a0uxqxs"
+			}
+		}
+	]
+}

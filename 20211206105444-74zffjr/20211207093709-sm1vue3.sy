@@ -1,0 +1,231 @@
+{
+	"ID": "20211207093709-sm1vue3",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211207093709-sm1vue3",
+		"title": "Grabimage",
+		"updated": "20211207095139"
+	},
+	"Children": [
+		{
+			"ID": "20211207094629-89ze9ob",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211207094629-89ze9ob",
+				"updated": "20211207094638"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "程序原理："
+				}
+			]
+		},
+		{
+			"ID": "20211207093709-hstk2xm",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211207093709-hstk2xm",
+				"updated": "20211207094212"
+			},
+			"Children": [
+				{
+					"ID": "20211207094212-mstj6ae",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20211207094212-mstj6ae"
+					},
+					"Children": [
+						{
+							"ID": "20211207094212-ckb32sp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211207094212-ckb32sp",
+								"updated": "20211207094303"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "首先通过启动719行的默认init方法，进行相机的初始化，并选择网络地址设备并获取其中的一帧"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211207094304-vjd2qbd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20211207094304-vjd2qbd"
+					},
+					"Children": [
+						{
+							"ID": "20211207094304-is2dnsu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211207094304-is2dnsu",
+								"updated": "20211207094449"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "回调image_show1函数传入image图像参数，首先输入至yolov5中，识别结果在255行出现。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211207094449-yr0gswk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20211207094449-yr0gswk"
+					},
+					"Children": [
+						{
+							"ID": "20211207094449-yokhjvp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211207094449-yokhjvp",
+								"updated": "20211207094510"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "之后将识别到的坐标文件缓存至以下地址"
+								}
+							]
+						},
+						{
+							"ID": "20211207094523-i2tcbws",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20211207094523-i2tcbws",
+								"updated": "20211207094537"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "Z28="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "./txt_1/\" + f'{(str(count))}.txt\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211207094530-f6cznay",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211207094530-f6cznay",
+				"updated": "20211207095135"
+			},
+			"Children": [
+				{
+					"ID": "20211207094540-vsa8z04",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20211207094540-vsa8z04",
+						"updated": "20211207095135"
+					},
+					"Children": [
+						{
+							"ID": "20211207095135-9tokdbs",
+							"Type": "NodeSuperBlock",
+							"Properties": {
+								"id": "20211207095135-9tokdbs",
+								"updated": "20211207095135"
+							},
+							"Children": [
+								{
+									"Type": "NodeSuperBlockOpenMarker"
+								},
+								{
+									"Type": "NodeSuperBlockLayoutMarker",
+									"Data": "col"
+								},
+								{
+									"ID": "20211207094540-o39ydyz",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20211207094540-o39ydyz",
+										"updated": "20211207094606"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "之后调用映射模块读取txt文件，进行映射"
+										}
+									]
+								},
+								{
+									"ID": "20211207095054-208qhzk",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20211207095054-208qhzk",
+										"updated": "20211207095128"
+									}
+								},
+								{
+									"Type": "NodeSuperBlockCloseMarker"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211207095139-u6axkrs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211207095139-u6axkrs",
+				"updated": "20211207095139"
+			}
+		}
+	]
+}

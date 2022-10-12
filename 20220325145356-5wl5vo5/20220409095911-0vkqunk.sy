@@ -1,0 +1,362 @@
+{
+	"ID": "20220409095911-0vkqunk",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220409095911-0vkqunk",
+		"title": "fabric",
+		"updated": "20220409101101"
+	},
+	"Children": [
+		{
+			"ID": "20220409095916-b1jw1kf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220409095916-b1jw1kf",
+				"updated": "20220409095916"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "transaction 的流程"
+				}
+			]
+		},
+		{
+			"ID": "20220409095916-zait00q",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220409095916-zait00q",
+				"updated": "20220409095916"
+			},
+			"Children": [
+				{
+					"ID": "20220409095916-2d72d3l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220409095916-2d72d3l"
+					},
+					"Children": [
+						{
+							"ID": "20220409095916-74avj67",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220409095916-74avj67"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "client 根据 endorsement policy 发送 transaction proposal 到各个 peer。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220409095916-znzqx5b",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220409095916-znzqx5b"
+					},
+					"Children": [
+						{
+							"ID": "20220409095916-v5ajkp3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220409095916-v5ajkp3"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "各个 peer 通过合约容器试算，生成 read-write-set。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220409095916-zxhazpr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220409095916-zxhazpr"
+					},
+					"Children": [
+						{
+							"ID": "20220409095916-v8mgnt1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220409095916-v8mgnt1"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "client 再根据读写集语义签真正的 transaction，如果不是查询的试算，会把 transaction 发给 orderer。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220409095916-oto9239",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220409095916-oto9239"
+					},
+					"Children": [
+						{
+							"ID": "20220409095916-u2lw94y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220409095916-u2lw94y"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "orderer只负责收集所有的 transaction 打包成区块。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220409095916-r4m6s2p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220409095916-r4m6s2p"
+					},
+					"Children": [
+						{
+							"ID": "20220409095916-6uh2fla",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220409095916-6uh2fla"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "区块发送给 peer，如果 read-write-set 语义还依然满足，则 transaction validate 通过，把区块添加到区块链上。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220409101101-wbva4v6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220409101101-wbva4v6",
+				"updated": "20220409101101"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "公私钥除了可以用来加解密信息，还可以用来做数字签名的签署和验证，"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "一个典型流程"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.cnblogs.com/videNote/p/4269889.html"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "大概是这样："
+				}
+			]
+		},
+		{
+			"ID": "20220409101101-tx2m2y3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220409101101-tx2m2y3",
+				"updated": "20220409101101"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "A 给 B 发信息："
+				}
+			]
+		},
+		{
+			"ID": "20220409101101-fq7mlex",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220409101101-fq7mlex",
+				"updated": "20220409101101"
+			},
+			"Children": [
+				{
+					"ID": "20220409101101-54bw2xx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220409101101-54bw2xx"
+					},
+					"Children": [
+						{
+							"ID": "20220409101101-c8kb8ua",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220409101101-c8kb8ua"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "首先 A 用 Hash 函数对要发送的数据实体生成摘要（digest），这个过程是不可逆的。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220409101101-icbleiu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220409101101-icbleiu"
+					},
+					"Children": [
+						{
+							"ID": "20220409101101-e04sh9u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220409101101-e04sh9u"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "A 使用自己的私钥对这个摘要进行加密，生成数字签名（signature），并将此签名连同要发送的数据实体一起发送给 B 。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220409101101-vzyw9h4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220409101101-vzyw9h4"
+					},
+					"Children": [
+						{
+							"ID": "20220409101101-h6ttv0m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220409101101-h6ttv0m"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "B 收到 A 发送过来的数据后，首先用 A 的公钥对数字签名进行解密，得到摘要，从而证明数据确实来自 A，因为只有 A 有私钥。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220409101101-93p8bvk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220409101101-93p8bvk"
+					},
+					"Children": [
+						{
+							"ID": "20220409101101-dj9w0pt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220409101101-dj9w0pt"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "B 再对接收到的数据实体进行 Hash 函数，如果得到的结果和上一步摘要一致，则证明数据实体没有被篡改过。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"ID": "20221009174633-v5g5x4g",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221009174633-v5g5x4g",
+		"title": "2022-10-09",
+		"updated": "20221009191745"
+	},
+	"Children": [
+		{
+			"ID": "20221009174633-gjkybyl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221009174633-gjkybyl",
+				"updated": "20221009174641"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第三方合约调用"
+				}
+			]
+		},
+		{
+			"ID": "20221009174641-4i6qfl0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221009174641-4i6qfl0",
+				"updated": "20221009174651"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "更加高效的构建方式"
+				}
+			]
+		},
+		{
+			"ID": "20221009191745-zvzadw9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221009191745-zvzadw9"
+			}
+		}
+	]
+}

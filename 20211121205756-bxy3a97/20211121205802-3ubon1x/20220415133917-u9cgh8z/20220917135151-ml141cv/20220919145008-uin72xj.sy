@@ -1,0 +1,286 @@
+{
+	"ID": "20220919145008-uin72xj",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220919145008-uin72xj",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220919145008-78rkonx\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220919145107-o23s2bo\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220920000123-e1pslmn\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:4,\u0026amp;quot;focusEnd\u0026amp;quot;:4}",
+		"title": "2022-09-19",
+		"updated": "20220920000142"
+	},
+	"Children": [
+		{
+			"ID": "20220919145008-78rkonx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919145008-78rkonx",
+				"updated": "20220920000043"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.完成延迟和冲突添加"
+				}
+			]
+		},
+		{
+			"ID": "20220920000043-dubygyr",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220920000043-dubygyr",
+				"updated": "20220920000142"
+			},
+			"Children": [
+				{
+					"ID": "20220920000044-oapyryx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220920000044-oapyryx",
+						"updated": "20220920000044"
+					},
+					"Children": [
+						{
+							"ID": "20220920000044-k364kan",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220920000044-k364kan",
+								"updated": "20220920000050"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "上肖老师课"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220920000051-1zw12i4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220920000051-1zw12i4"
+					},
+					"Children": [
+						{
+							"ID": "20220920000051-qlsgdst",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220920000051-qlsgdst",
+								"updated": "20220920000108"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "脚本探索延迟上限，发现需要进一步深入阅读theta代码"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220920000108-5calwh3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220920000108-5calwh3"
+					},
+					"Children": [
+						{
+							"ID": "20220920000108-6k3eoik",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220920000108-6k3eoik",
+								"updated": "20220920000123"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "完成三维人体重建资料以及基础知识"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220920000123-r6fcbii",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220920000123-r6fcbii"
+					},
+					"Children": [
+						{
+							"ID": "20220920000123-e1pslmn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220920000123-e1pslmn",
+								"updated": "20220920000136"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "上图论课"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220920000136-milw6tn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20220920000136-milw6tn"
+					},
+					"Children": [
+						{
+							"ID": "20220920000136-jzeuc77",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220920000136-jzeuc77",
+								"updated": "20220920000140"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "帮师兄debug"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220920000140-ce79wa3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20220920000140-ce79wa3",
+						"updated": "20220920000142"
+					},
+					"Children": [
+						{
+							"ID": "20220920000140-nvepjl4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220920000140-nvepjl4",
+								"updated": "20220920000142"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "打字"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220919145011-goxvxui",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919145011-goxvxui"
+			}
+		},
+		{
+			"ID": "20220919145012-c2nc6na",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919145012-c2nc6na"
+			}
+		},
+		{
+			"ID": "20220919145012-v8w8u7x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919145012-v8w8u7x",
+				"updated": "20220919145015"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "每日反思："
+				}
+			]
+		},
+		{
+			"ID": "20220919145015-66bkmam",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919145015-66bkmam",
+				"updated": "20220919145050"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "今天花了很大时间解决交易池冲突的问题，浮于表面，没有仔细阅读theta代码"
+				}
+			]
+		},
+		{
+			"ID": "20220919145050-j49lpa9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919145050-j49lpa9",
+				"updated": "20220919145107"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "以后要坚持刷题，注意回顾肖老师所讲"
+				}
+			]
+		},
+		{
+			"ID": "20220919145107-o23s2bo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220919145107-o23s2bo",
+				"updated": "20220919145323"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "补足区块链基础，接触系统并向虎师兄要学习资料。英文单词回顾，加大对英文的接触。共识算法进一步了解，做专栏。"
+				}
+			]
+		}
+	]
+}

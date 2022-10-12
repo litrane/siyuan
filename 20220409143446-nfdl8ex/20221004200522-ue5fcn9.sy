@@ -1,0 +1,48 @@
+{
+	"ID": "20221004200522-ue5fcn9",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221004200522-ue5fcn9",
+		"title": "SSH小结",
+		"updated": "20221004200549"
+	},
+	"Children": [
+		{
+			"ID": "20221004200527-2offwyv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221004200527-2offwyv",
+				"updated": "20221004200532"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ssh-copy-id"
+				}
+			]
+		},
+		{
+			"ID": "20221004200532-43cy2qk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221004200532-43cy2qk",
+				"updated": "20221004200549"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ssh设置以及密钥要放在对应账户的ssh文件夹中"
+				}
+			]
+		},
+		{
+			"ID": "20221004200522-kugbf6t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221004200522-kugbf6t",
+				"updated": "20221004200522"
+			}
+		}
+	]
+}

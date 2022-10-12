@@ -1,0 +1,113 @@
+{
+	"ID": "20220806091454-0y0mff4",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806091454-0y0mff4",
+		"title": "2022-08-06",
+		"updated": "20220807101532"
+	},
+	"Children": [
+		{
+			"ID": "20220806094016-27zqdbv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806094016-27zqdbv",
+				"updated": "20220806094030"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "论文阅读list"
+				}
+			]
+		},
+		{
+			"ID": "20220806094035-gd3etde",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806094035-gd3etde",
+				"updated": "20220806094035"
+			}
+		},
+		{
+			"ID": "20220806093603-e63y8g3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806093603-e63y8g3",
+				"updated": "20220806094022"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "沉淀"
+				}
+			]
+		},
+		{
+			"ID": "20220806093652-4q3nep5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806093652-4q3nep5",
+				"updated": "20220806093955"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockRef",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20220805085203-cjga8po"
+						},
+						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefDynamicText",
+							"Data": "版本回退"
+						},
+						{
+							"Type": "NodeCloseParen"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806224016-pj7kr9k",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220806224016-pj7kr9k",
+				"updated": "20220807101532"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z2l0"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "        await registerAndStake()\n        blockHeight0 = await web3.eth.getBlockNumber()\n        dynasty0 = calcDynastyForHeight(blockHeight0)\n        let txWrongResult=await TFuelTokenBank1.mintVouchers(\"9988/20/\" + wTheta.address, valGuarantor1, 20, dynasty0, 1, { from: validator1 })\n        truffleAssert.eventNotEmitted(txWrongResult, 'TFuelVoucherMinted')\n      \n        //test another dynasty\n        txWrongResult=await TFuelTokenBank1.mintVouchers(\"9988/20/\" + wTheta.address, valGuarantor1, 20, dynasty0+1, 1, { from: validator1 })\n        truffleAssert.eventNotEmitted(txWrongResult, 'TFuelVoucherMinted')\n        //test change the content in the same nonce\n        txWrongResult=await TFuelTokenBank1.mintVouchers(\"9988/20/\" + wTheta.address, validator1, 20, dynasty0, 1, { from: validator2 })\n        truffleAssert.eventEmitted(txWrongResult, 'TFuelVoucherMinted')\n        // test the same vote\n        await truffleAssert.fails(TFuelTokenBank1.mintVouchers(\"9988/20/\" + wTheta.address, valGuarantor1, 20, dynasty0, 1, { from: validator1 }))\n        // achieve 2/3\n        txWrongResult=await TFuelTokenBank1.mintVouchers(\"9988/20/\" + wTheta.address, valGuarantor1, 20, dynasty0, 1, { from: validator2 })\n        truffleAssert.eventEmitted(txWrongResult, 'TFuelVoucherMinted')\n        // test send  the same vote\n        txWrongResult=await TFuelTokenBank1.mintVouchers(\"9988/20/\" + wTheta.address, valGuarantor1, 20, dynasty0, 1, { from: validator2 })\n        truffleAssert.eventNotEmitted(txWrongResult, 'TFuelVoucherMinted')\n        //test all  validators vote\n        txWrongResult=await TFuelTokenBank1.mintVouchers(\"9988/20/\" + wTheta.address, valGuarantor1, 20, dynasty0, 1, { from: validator3 })\n        truffleAssert.eventNotEmitted(txWrongResult, 'TFuelVoucherMinted')\n        //test another dynasty\n        txWrongResult=await TFuelTokenBank1.mintVouchers(\"9988/20/\" + wTheta.address, valGuarantor1, 20, dynasty0+1, 1, { from: validator2 })\n        truffleAssert.eventNotEmitted(txWrongResult, 'TFuelVoucherMinted')\n      \n        // txWrongResult=await TFuelTokenBank1.test({ from: validator1 })\n        // console.log(txWrongResult)"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"ID": "20211219143214-mp9f2uj",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211219143214-mp9f2uj",
+		"title": "gossip",
+		"updated": "20211219144511"
+	},
+	"Children": [
+		{
+			"ID": "20211219143742-j6whdws",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219143742-j6whdws",
+				"updated": "20211219143742"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "基于 gossip 的数据传播协议在 Fabric 网络中有三个主要功能："
+				}
+			]
+		},
+		{
+			"ID": "20211219143742-gxpkgtb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219143742-gxpkgtb",
+				"updated": "20211219143742"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通过持续的识别可用的成员节点来管理节点发现和通道成员，还有检测离线节点。\n向通道中的所有节点传播账本数据。所有没有和当前通道的数据同步的节点会识别丢失的区块，并将正确的数据复制过来以使自己同步。\n通过点对点的数据传输方式，使新节点以最快速度连接到网络中并同步账本数据"
+				}
+			]
+		},
+		{
+			"ID": "20211219144511-zp3y633",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219144511-zp3y633",
+				"updated": "20211219144511"
+			}
+		}
+	]
+}

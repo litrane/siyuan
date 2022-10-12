@@ -1,0 +1,493 @@
+{
+	"ID": "20220415133936-yozrzaa",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220415133936-yozrzaa",
+		"title": "博士建议",
+		"updated": "20220415140641"
+	},
+	"Children": [
+		{
+			"ID": "20220415133936-hnveyyf",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220415133936-hnveyyf",
+				"updated": "20220415135252"
+			},
+			"Children": [
+				{
+					"ID": "20220415133958-zrj8nh6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220415133958-zrj8nh6"
+					},
+					"Children": [
+						{
+							"ID": "20220415133958-crkm7ip",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220415133958-crkm7ip",
+								"updated": "20220415134035"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不要花费精力去赚钱，可以投资指数基金因为你往往在股票市场处于劣势"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220415134036-82ep6ca",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220415134036-82ep6ca"
+					},
+					"Children": [
+						{
+							"ID": "20220415134036-5nj5gvm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220415134036-5nj5gvm",
+								"updated": "20220415135124"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "我养成了在所有存储库（供我个人使用）中创建非常彻底的 readme.txt 文件的习惯，作为未来自己关于代码如何工作、如何运行等的注释。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220415135125-ruaqy26",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220415135125-ruaqy26"
+					},
+					"Children": [
+						{
+							"ID": "20220415135125-y9w5983",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220415135125-y9w5983",
+								"updated": "20220415135148"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "多写，多记录，多保留参考文献"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220415135242-rikw84x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220415135242-rikw84x",
+						"updated": "20220415135252"
+					},
+					"Children": [
+						{
+							"ID": "20220415135242-ho6ifmk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220415135242-ho6ifmk",
+								"updated": "20220415135252"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "阅读保持随机阅读的能力"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220415135158-ypx0qb8",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220415135158-ypx0qb8",
+				"updated": "20220415140021"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220415135512-d6pbc6r",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220415135512-d6pbc6r",
+						"updated": "20220415135514"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "您长时间努力解决一个问题但没有成功:(\n然后您会发现其他人找到了解决方案。\n将此视为学习重要事物的绝佳机会。\n不要让它错过.\n问问自己：“我应该如何思考来解决这个问题？”\n我发现这样做是一个强有力的练习。\n丹尼·斯莱特告诉我，鲍勃·弗洛伊德独立地向他的学生推荐了这个练习。\n他会引导他们问他们自己：\n“我怎么可能让自己得到那个答案？”\n花点时间想一想。\n这很值得。"
+						}
+					]
+				},
+				{
+					"ID": "20220415135514-bbcw8ca",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220415135514-bbcw8ca",
+						"updated": "20220415135514"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "总有一天，你会长期努力地解决一个问题并且成功:)\n然后你会发现其他人已经发表了。:(\n虽然这对你来说可能很难接受，但你也必须将此视为一个很好的机会。\n不要关闭。阅读已发布的内容。"
+						}
+					]
+				},
+				{
+					"ID": "20220415135514-u1p3t81",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220415135514-u1p3t81",
+						"updated": "20220415135514"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "您会惊讶地发现，发表的论文在某些显着方面出现差异的频率有多高。大约\n50% 的时间，它与你所做的完全不同。\n25% 的时间，它是相同的，但不是那么好。\n25%的时间会更好。"
+						}
+					]
+				},
+				{
+					"ID": "20220415135514-ib021m2",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220415135514-ib021m2",
+						"updated": "20220415135514"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "这意味着 50% 或更多的时间，您仍然可以发布。"
+						}
+					]
+				},
+				{
+					"ID": "20220415135720-zqzvx5d",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220415135720-zqzvx5d",
+						"updated": "20220415135723"
+					}
+				},
+				{
+					"ID": "20220415135724-mx4z2lg",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220415135724-mx4z2lg",
+						"updated": "20220415135727"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "悖论和矛盾的重要性。"
+						}
+					]
+				},
+				{
+					"ID": "20220415135801-degmh2e",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220415135801-degmh2e",
+						"updated": "20220415135810"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "学会自主学习"
+						}
+					]
+				},
+				{
+					"ID": "20220415140006-c8fy5fk",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220415140006-c8fy5fk",
+						"updated": "20220415140007"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "在努力证明某个陈述 S 为真时，\n您应该至少花一些时间来证明它是假的。\n即使它是真的，试图证明它是假的也可以提供洞察力。"
+						}
+					]
+				},
+				{
+					"ID": "20220415140010-o7xmf7z",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220415140010-o7xmf7z",
+						"updated": "20220415140010"
+					}
+				},
+				{
+					"ID": "20220415140010-bv73f40",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220415140010-bv73f40",
+						"updated": "20220415140016"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "这是我经常不得不给自己的另一条建议，我在这里给你...\n当您将论文发送出去发表时，\n它被拒绝...\n不要被愚蠢的愚蠢反馈关闭\n让你得到你深思熟虑、写得漂亮的作品！\n做一个男人。使用反馈来改进您的论文！\n让它变得更好。并寄回。"
+						}
+					]
+				},
+				{
+					"ID": "20220415140017-f76ra3t",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220415140017-f76ra3t",
+						"updated": "20220415140021"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "https://www.cs.cmu.edu/~mblum/research/pdf/grad.html"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220415140008-7f55j8d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220415140008-7f55j8d",
+				"updated": "20220415140008"
+			}
+		},
+		{
+			"ID": "20220415135810-nvy8usn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220415135810-nvy8usn",
+				"updated": "20220415135810"
+			}
+		},
+		{
+			"ID": "20220415135717-wqlai1n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220415135717-wqlai1n",
+				"updated": "20220415135717"
+			}
+		},
+		{
+			"ID": "20220415135714-iwhmz69",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220415135714-iwhmz69",
+				"updated": "20220415140249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "慢慢阅读"
+				}
+			]
+		},
+		{
+			"ID": "20220415140249-imj8ot9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220415140249-imj8ot9",
+				"updated": "20220415140254"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://courses.cs.washington.edu/courses/cse590x/22wi/"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://courses.cs.washington.edu/courses/cse590x/22wi/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220415140635-r89u9af",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220415140635-r89u9af",
+				"updated": "20220415140641"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://www.cs.utexas.edu/users/dahlin/bookshelf/timetalk.htm#Introduction"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.cs.utexas.edu/users/dahlin/bookshelf/timetalk.htm#Introduction"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220415135159-5fjqkof",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220415135159-5fjqkof",
+				"updated": "20220415135202"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考文献："
+				}
+			]
+		},
+		{
+			"ID": "20220415135202-o9886a8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220415135202-o9886a8",
+				"updated": "20220415135215"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://github.com/pliang279/awesome-phd-advice#general-advice"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/pliang279/awesome-phd-advice#general-advice"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220415135209-i5gza1f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220415135209-i5gza1f",
+				"updated": "20220415135225"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://github.com/alirezasamar/awesome-phd"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/alirezasamar/awesome-phd"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

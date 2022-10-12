@@ -1,0 +1,1513 @@
+{
+	"ID": "20220813090306-6bzluq1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220813090306-6bzluq1",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220813090956-nhyqo4f\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220813094538-86m00w0\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:3698,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220813093445-tgsog5j\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:23,\u0026amp;quot;focusEnd\u0026amp;quot;:52}",
+		"title": "Test Document",
+		"updated": "20220813110447"
+	},
+	"Children": [
+		{
+			"ID": "20220813090956-nhyqo4f",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220813090956-nhyqo4f",
+				"updated": "20220813091017"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Start End To End Test"
+				}
+			]
+		},
+		{
+			"ID": "20220813091200-9phvl9w",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220813091200-9phvl9w",
+				"updated": "20220813093548"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "1.1 init theta  privatenet and deploy to the theta privatenet"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220813091316-bvw6q1u",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220813091316-bvw6q1u",
+				"updated": "20220813095150"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z2l0"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "wget https://theta-downloader.s3.amazonaws.com/ethrpc/theta_local_privatenet_linux.tar.gz\ntar -xvzf theta_local_privatenet_linux.tar.gz\n\ncd theta_local_privatenet_linux/bin\nmkdir ../privatenet/subchain_rpc_adaptor\nvim ../privatenet/subchain_rpc_adaptor/config.yaml\n\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220813091305-k6s07m9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220813091305-k6s07m9",
+				"updated": "20220813095250"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "the config.yaml in "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "../privatenet/subchain_rpc_adaptor/config.yaml"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " should be the code below"
+				}
+			]
+		},
+		{
+			"ID": "20220813091439-kvvefhh",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220813091439-kvvefhh",
+				"updated": "20220813093536"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z2l0"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "theta:\n  rpcEndpoint: \"http://127.0.0.1:16900/rpc\"\nrpc:\n  enabled: true\n  httpAddress: \"127.0.0.1\"\n  httpPort: 19888\n  wsAddress: \"127.0.0.1\"\n  wsPort: 19889\n  timeoutSecs: 600 \n  maxConnections: 2048\nlog:\n  levels: \"*:debug\"\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220813095154-7eh6cyn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220813095154-7eh6cyn",
+				"updated": "20220813100712"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.1.1  start the theta privatenet and adaptor"
+				}
+			]
+		},
+		{
+			"ID": "20220813095216-7xe9fkc",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220813095216-7xe9fkc",
+				"updated": "20220813095219"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z2l0"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "./theta start --config=../privatenet/validator --password=qwertyuiop\n# another terminal (or screen/tmux session)\n./theta-eth-rpc-adaptor start --config=../privatenet/eth_rpc_adaptor\n# another terminal (or screen/tmux session)\n./theta-eth-rpc-adaptor start --config=../privatenet/subchain_rpc_adaptor\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220813091515-kqy59yx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220813091515-kqy59yx",
+				"updated": "20220813100656"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.1.2 deploy contract to privatenet"
+				}
+			]
+		},
+		{
+			"ID": "20220813091546-n5urk8i",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220813091546-n5urk8i",
+				"updated": "20220813093536"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z2l0"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "cd theta-protocol-subchain-management\ngit checkout unified-cross-chain-merge\ntruffle deploy --network theta_privatenet --reset \n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220813091705-wmkbdy8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220813091705-wmkbdy8",
+				"updated": "20220813093536"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "the address should be the same as the config function in "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "single_main.go(subchain/integration/tools/subchain_e2e_test_tools/single_main.go)"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "."
+				}
+			]
+		},
+		{
+			"ID": "20220813092019-3rxjvls",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220813092019-3rxjvls",
+				"updated": "20220813093536"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Properties": {
+						"style": "background-color: var(--b3-font-background8);"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Note:"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"background-color: var(--b3-font-background8);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " when first deploying these contracts ,the address is already the same as the codes below in "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "func config() (subchain/integration/tools/subchain_e2e_test_tools/single_main.go)"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " which has no need to change"
+				}
+			]
+		},
+		{
+			"ID": "20220813091804-3xilohg",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220813091804-3xilohg",
+				"updated": "20220813093536"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z2l0"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\twthetaAddress = common.HexToAddress(\"0x7d73424a8256C0b2BA245e5d5a3De8820E45F390\")\n\tregisterOnMainchainAddress = common.HexToAddress(\"0x08425D9Df219f93d5763c3e85204cb5B4cE33aAa\")\n\tgovernanceTokenAddress = common.HexToAddress(\"0x6E05f58eEddA592f34DD9105b1827f252c509De0\")\n\ttnt20VoucherContractAddress = common.HexToAddress(\"0x59AF421cB35fc23aB6C8ee42743e6176040031f4\")\n\ttnt20TokenBankAddress = common.HexToAddress(\"0x2Ce636d6240f8955d085a896e12429f8B3c7db26\")\n\tsubchaintnt20TokenBankAddress = common.HexToAddress(\"0x47e9Fbef8C83A1714F1951F142132E6e90F5fa5D\")\n\n\ttnt721TokenBankAddress = common.HexToAddress(\"0xEd8d61f42dC1E56aE992D333A4992C3796b22A74\")\n\ttnt721VoucherContractAddress = common.HexToAddress(\"0x47eb28D8139A188C5686EedE1E9D8EDE3Afdd543\")\n\tSubchaintnt721TokenBankAddress = common.HexToAddress(\"0x8Be503bcdEd90ED42Eff31f56199399B2b0154CA\")\n\n\ttfuelTokenbankAddress = common.HexToAddress(\"0x7f1C87Bd3a22159b8a2E5D195B1a3283D10ea895\")\n\tsubchainTfuelTokenBank = common.HexToAddress(\"0x5a443704dd4B594B382c22a083e2BD3090A6feF3\")"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220813091841-5ydjh0x",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220813091841-5ydjh0x",
+				"updated": "20220813093620"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.2 use  the function in single_main.go"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "(subchain/integration/tools/subchain_e2e_test_tools/single_main.go). "
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "to register the subchain ID and deposit validator"
+				}
+			]
+		},
+		{
+			"ID": "20220813100749-mevcn2o",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220813100749-mevcn2o",
+				"updated": "20220813100813"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.2.1 use go sdk to register subchain and deposit"
+				}
+			]
+		},
+		{
+			"ID": "20220813092357-memmql8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220813092357-memmql8",
+				"updated": "20220813095000"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "cd subchain/integration/tools/subchain_e2e_test_tools/single_main.go"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220813094909-jkq20dk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220813094909-jkq20dk",
+				"updated": "20220813094917"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "then change the func main"
+				}
+			]
+		},
+		{
+			"ID": "20220813092420-i4p4on1",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220813092420-i4p4on1",
+				"updated": "20220813092437"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z2l0"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "func main() {\n\n\toneAccountRegister() //register subchain , its id is 360777\n\toneAcoountStake(1)   // use the 10th account to deposit and become validator\n}\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220813092501-ma3c5v4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220813092501-ma3c5v4",
+				"updated": "20220813093250"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "oneAccountRegister()"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " can register subchain , id of which  is 360777"
+				}
+			]
+		},
+		{
+			"ID": "20220813092538-vyjo3nh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220813092538-vyjo3nh",
+				"updated": "20220813093253"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "oneAcoountStake(accountID)"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " deposit some stakes to make accountID as validator"
+				}
+			]
+		},
+		{
+			"ID": "20220813092318-guq9q6y",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220813092318-guq9q6y",
+				"updated": "20220813092355"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z2l0"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "cd integration/tools/subchain_e2e_test_tools/\ngo run ."
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220813093058-5vebed5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220813093058-5vebed5",
+				"updated": "20220813093145"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "then we exec two functions to register and deposit correctly"
+				}
+			]
+		},
+		{
+			"ID": "20220813094928-wiptg6j",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220813094928-wiptg6j",
+				"updated": "20220813100759"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.2.2 the account info"
+				}
+			]
+		},
+		{
+			"ID": "20220813092615-waqf5sa",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220813092615-waqf5sa",
+				"updated": "20220813092756"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z2l0"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\tvar map1 []string\n\tmap1 = append(map1, \"1111111111111111111111111111111111111111111111111111111111111111\")\n\tmap1 = append(map1, \"93a90ea508331dfdf27fb79757d4250b4e84954927ba0073cd67454ac432c737\")\n\tmap1 = append(map1, \"3333333333333333333333333333333333333333333333333333333333333333\")\n\tmap1 = append(map1, \"4444444444444444444444444444444444444444444444444444444444444444\")\n\tmap1 = append(map1, \"5555555555555555555555555555555555555555555555555555555555555555\")\n\tmap1 = append(map1, \"6666666666666666666666666666666666666666666666666666666666666666\")\n\tmap1 = append(map1, \"7777777777777777777777777777777777777777777777777777777777777777\")\n\tmap1 = append(map1, \"8888888888888888888888888888888888888888888888888888888888888888\")\n\tmap1 = append(map1, \"9999999999999999999999999999999999999999999999999999999999999999\")\n\tmap1 = append(map1, \"1000000000000000000000000000000000000000000000000000000000000000\")\n\n\tmap1 = append(map1, \"a249a82c42a282e87b2ddef63404d9dfcf6ea501dcaf5d447761765bd74f666d\") //10\n\tmap1 = append(map1, \"d0d53ac0b4cd47d0ce0060dddc179d04145fea2ee2e0b66c3ee1699c6b492013\") //11\n\tmap1 = append(map1, \"83f0bb8655139cef4657f90db64a7bb57847038a9bd0ccd87c9b0828e9cbf76d\")\n\treturn map1"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220813092803-lgeo42k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220813092803-lgeo42k",
+				"updated": "20220813092858"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "the above code  is the accounts' private key"
+				}
+			]
+		},
+		{
+			"ID": "20220813092851-odbgfp0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220813092851-odbgfp0",
+				"updated": "20220813093311"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Properties": {
+						"style": "background-color: var(--b3-font-background8);"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Note:"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"background-color: var(--b3-font-background8);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "we should use "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "oneAcoountStake(1)"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " to make subchain node(address:"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "2e833968e5bb786ae419c4d13189fb081cc43bab"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": ") as validator ,otherwise the start of subchain can fail"
+				}
+			]
+		},
+		{
+			"ID": "20220813093146-wb1n1lw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220813093146-wb1n1lw",
+				"updated": "20220813093643"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.3 start subchain"
+				}
+			]
+		},
+		{
+			"ID": "20220813093453-gzn5c7s",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220813093453-gzn5c7s",
+				"updated": "20220813093647"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.3.1 Setup (run once)"
+				}
+			]
+		},
+		{
+			"ID": "20220813093656-fqik11d",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220813093656-fqik11d",
+				"updated": "20220813093824"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z2l0"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "git clone -b unified-cross-chain-merge https://github.com/thetatoken/theta-protocol-subchain.git $GOPATH/src/github.com/thetatoken/thetasubchain\nexport SUBCHAIN_HOME=$GOPATH/src/github.com/thetatoken/thetasubchain\ncd $SUBCHAIN_HOME\n\nmake install\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220813093920-2m8ixlj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220813093920-2m8ixlj",
+				"updated": "20220813094201"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "if you want to regenerate the genesis snapshot exec the code below"
+				}
+			]
+		},
+		{
+			"ID": "20220813093939-gc7fzze",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220813093939-gc7fzze",
+				"updated": "20220813095531"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z2l0"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "cd integration/privatenet/node\nsubchain_generate_genesis  -initValidatorSet=./data/init_validator_set.json -genesis=./snapshot\n\n#then copy the genessis hash to integration/privatenet/node/config.yaml \n#genesis:\n#  hash: \n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220813094108-1z6su57",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220813094108-1z6su57",
+				"updated": "20220813095355"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "then move the dir to "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "../data/subchain/privatenet/node"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220813093445-nyguvce",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220813093445-nyguvce",
+				"updated": "20220813093640"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "cd $SUBCHAIN_HOME\nmkdir -p ../data/subchain/privatenet/node\nrm -rf ../data/subchain/privatenet/node/*\ncp -r integration/privatenet/node/* ../data/subchain/privatenet/node/\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220813093445-mzne07t",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220813093445-mzne07t",
+				"updated": "20220813093650"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.3.2 Start the validator"
+				}
+			]
+		},
+		{
+			"ID": "20220813093445-tgsog5j",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220813093445-tgsog5j",
+				"updated": "20220813093640"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "cd $SUBCHAIN_HOME\nthetasubchain start --config=../data/subchain/privatenet/node --password=qwertyuiop\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220813093912-npuoiqv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220813093912-npuoiqv",
+				"updated": "20220813094230"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.4 test the transfer of tokens"
+				}
+			]
+		},
+		{
+			"ID": "20220813094230-m8cbrvm",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220813094230-m8cbrvm",
+				"updated": "20220813094541"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z2l0"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "cd integration/tools/subchain_e2e_test_tools\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220813094258-vunosuj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220813094258-vunosuj",
+				"updated": "20220813095410"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "let func main in "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "single_main.go"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " be the code below"
+				}
+			]
+		},
+		{
+			"ID": "20220813105334-e1ja15r",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220813105334-e1ja15r",
+				"updated": "20220813105349"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.4.1 Tfuel"
+				}
+			]
+		},
+		{
+			"ID": "20220813094323-ylgpwrb",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220813094323-ylgpwrb",
+				"updated": "20220813094345"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z2l0"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "func main() {\n\n\t//Tfuel\n\tmainchainTfuelLock(big.NewInt(10)) //lock some tfuel tokens on mainchain and transfer to subchain 360777\n\tsubchainTfuelBurn(big.NewInt(10))\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220813094346-aao8spt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220813094346-aao8spt",
+				"updated": "20220813105343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "then we can start end to end test  that lock and burn Tfuel"
+				}
+			]
+		},
+		{
+			"ID": "20220813105331-r1i0mq9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220813105331-r1i0mq9",
+				"updated": "20220813105356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.4.2 TNT20"
+				}
+			]
+		},
+		{
+			"ID": "20220813105356-jt53rqx",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220813105356-jt53rqx",
+				"updated": "20220813105439"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z2l0"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "func main() {\n\t//TNT20\n\tmainchainTNT20Lock(big.NewInt(100)) //mainchainTNT20Lock(tokenAmount) last address printed in console is subchain voucher contract address\n\tsubchainTNT20Lock(big.NewInt(10))   //last address printed in console is mainchain voucher contract address\n\tmainchainTNT20Burn(big.NewInt(10))\n\tsubchainTNT20Burn(big.NewInt(10))\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220813105445-dfn9sdp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220813105445-dfn9sdp",
+				"updated": "20220813105539"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "use this main function in "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "single_main.go"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " , we can:"
+				}
+			]
+		},
+		{
+			"ID": "20220813105539-o3wizut",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220813105539-o3wizut",
+				"updated": "20220813105541"
+			},
+			"Children": [
+				{
+					"ID": "20220813105541-kim170v",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220813105541-kim170v"
+					},
+					"Children": [
+						{
+							"ID": "20220813105541-ltir30x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220813105541-ltir30x",
+								"updated": "20220813105548"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "lock TNT20 on mainchain"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220813105550-bkrcpg7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220813105550-bkrcpg7"
+					},
+					"Children": [
+						{
+							"ID": "20220813105550-xo5yz3k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220813105550-xo5yz3k",
+								"updated": "20220813105808"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "lock TNT20 vouchers  which are from step 1 on subchain to mint vouchers on mianchain"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220813105700-l3yps8m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220813105700-l3yps8m"
+					},
+					"Children": [
+						{
+							"ID": "20220813105700-t4x4uoc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220813105700-t4x4uoc",
+								"updated": "20220813105748"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "burn TNT20 vouchers which are from step 2 on mainchain to unlock on subchain"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220813105749-dlawqgx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220813105749-dlawqgx"
+					},
+					"Children": [
+						{
+							"ID": "20220813105749-hzc1v9f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220813105749-hzc1v9f",
+								"updated": "20220813105821"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "burn TNT20 vouchers which are from step 1 on subchain to unlock on mainchain"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220813105832-2tj5yb0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220813105832-2tj5yb0",
+				"updated": "20220813105958"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Note: when we use mainchainTNT20Lock function, it will query the logs on subchain to confirm the mint event has been emited on subchain, and print the voucher contract address in the console"
+				}
+			]
+		},
+		{
+			"ID": "20220813105959-1jjmcxt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220813105959-1jjmcxt",
+				"updated": "20220813110006"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.4.3 TNT721"
+				}
+			]
+		},
+		{
+			"ID": "20220813110008-6bl5fys",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220813110008-6bl5fys",
+				"updated": "20220813110218"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z2l0"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "func main() {\n\t//TNT721\n\tmainchainTNT721Lock(big.NewInt(12)) //mainchainTNT721Lock(tokenid) last address printed in console is subchain voucher contract address\n\tsubchainTNT721Lock(big.NewInt(12)) //last address printed in console is mainchain voucher contract address\n\tmainchainTNT721Burn(big.NewInt(12))\n\tsubchainTNT721Burn(big.NewInt(12))\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220813110033-r9aw89o",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220813110033-r9aw89o",
+				"updated": "20220813110447"
+			},
+			"Children": [
+				{
+					"ID": "20220813110033-p4lg8z6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220813110033-p4lg8z6",
+						"updated": "20220813110447"
+					},
+					"Children": [
+						{
+							"ID": "20220813110033-5zkea9r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220813110033-5zkea9r",
+								"updated": "20220813110447"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "lock TNT721 on mainchain to mint vouchers on subchain"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220813110033-8099zze",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220813110033-8099zze",
+						"updated": "20220813110156"
+					},
+					"Children": [
+						{
+							"ID": "20220813110033-mmt7iu3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220813110033-mmt7iu3",
+								"updated": "20220813110156"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "lock TNT721 vouchers  which are from step 1 on subchain to mint vouchers on mianchain"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220813110033-u7av8ce",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220813110033-u7av8ce",
+						"updated": "20220813110430"
+					},
+					"Children": [
+						{
+							"ID": "20220813110033-3ruq0nl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220813110033-3ruq0nl",
+								"updated": "20220813110430"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "burn TNT721 vouchers which are from step 2 on mainchain to unlock on subchain"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220813110033-zycjuwt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220813110033-zycjuwt",
+						"updated": "20220813110434"
+					},
+					"Children": [
+						{
+							"ID": "20220813110033-ihgxsnn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220813110033-ihgxsnn",
+								"updated": "20220813110434"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "burn TNT721 vouchers which are from step 1 on subchain to unlock on mainchain"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220813110033-ve3fw99",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220813110033-ve3fw99",
+				"updated": "20220813110418"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Note: when we use mainchainTNT721Lock function, it will query the balance of TNT721 Token or query the logs on subchain to confirm the unlock/mint event has been emited on subchain, and print the voucher contract address in the console"
+				}
+			]
+		},
+		{
+			"ID": "20220813110142-0sbk45y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220813110142-0sbk45y",
+				"updated": "20220813110142"
+			}
+		},
+		{
+			"ID": "20220813105509-g8at2uj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220813105509-g8at2uj",
+				"updated": "20220813110136"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Properties": {
+						"style": "background-color: var(--b3-font-background8);"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Note:"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"background-color: var(--b3-font-background8);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "please be careful of the amount and tokeid we set to lock and burn, the voucher contract address is hard code in burn function like "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "subchainTfuelBurn()"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220813094538-86m00w0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220813094538-86m00w0",
+				"updated": "20220813094538"
+			}
+		}
+	]
+}

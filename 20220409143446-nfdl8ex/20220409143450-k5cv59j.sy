@@ -1,0 +1,283 @@
+{
+	"ID": "20220409143450-k5cv59j",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220409143450-k5cv59j",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220409143450-3ckxim1\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220409151443-idp4zap\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220409143450-3ckxim1\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"title": "Shell教程",
+		"updated": "20220409151443"
+	},
+	"Children": [
+		{
+			"ID": "20220409143450-3ckxim1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220409143450-3ckxim1",
+				"updated": "20220409143814"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "case使用"
+				}
+			]
+		},
+		{
+			"ID": "20220409143809-s3capdy",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220409143809-s3capdy",
+				"updated": "20220409143809"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "case 值 in\n模式1)\n    command1\n    command2\n    command3\n    ;;\n模式2）\n    command1\n    command2\n    command3\n    ;;\n*)\n    command1\n    command2\n    command3\n    ;;\nesac"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220409151443-ldk4zko",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220409151443-ldk4zko",
+				"updated": "20220409151443"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "set -e"
+				}
+			]
+		},
+		{
+			"ID": "20220409151443-v1qdd23",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220409151443-v1qdd23",
+				"updated": "20220409151443"
+			},
+			"Children": [
+				{
+					"ID": "20220409151443-vcpfp3s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220409151443-vcpfp3s"
+					},
+					"Children": [
+						{
+							"ID": "20220409151443-u4wc7wj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220409151443-u4wc7wj"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "根据返回值判断，命令是否运行失败。但是，某些命令的非0返回可能不表示失败，"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220409151443-lky486g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220409151443-lky486g"
+					},
+					"Children": [
+						{
+							"ID": "20220409151443-aokjw3a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220409151443-aokjw3a"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "亦或者，开发者在希望命令失败的情况下，让脚本继续执行下去，这时可以先关闭 set -e，该命令执行结束之后，再重新打开 set -e"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220409151443-529j11b",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220409151443-529j11b",
+				"updated": "20220409151443"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "set +e\ncommand1\ncommand2\nset -e\n1234\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220409151443-idp4zap",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220409151443-idp4zap",
+				"updated": "20220409151443"
+			},
+			"Children": [
+				{
+					"ID": "20220409151443-u3gwilf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220409151443-u3gwilf"
+					},
+					"Children": [
+						{
+							"ID": "20220409151443-jvb0fz6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220409151443-jvb0fz6"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "上例中，set +e 表示关闭 -e选项，即使出错也依然向下执行脚本"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220409151443-7hfmxyv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220409151443-7hfmxyv"
+					},
+					"Children": [
+						{
+							"ID": "20220409151443-o74qywe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220409151443-o74qywe"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "set -e 为打开 -e选项，脚本失败，即刻退出执行"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220409151443-q51m3ew",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220409151443-q51m3ew"
+					},
+					"Children": [
+						{
+							"ID": "20220409151443-ku8vsme",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220409151443-ku8vsme"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "等价写法"
+								}
+							]
+						},
+						{
+							"ID": "20220409151443-vzqyey7",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220409151443-vzqyey7"
+							},
+							"Children": [
+								{
+									"ID": "20220409151443-vvn6qmo",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220409151443-vvn6qmo"
+									},
+									"Children": [
+										{
+											"ID": "20220409151443-t1l59m0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220409151443-t1l59m0"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "set -o errexit"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"ID": "20211201103716-dz62cpt",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211201103716-dz62cpt",
+		"title": "2021-12-01",
+		"updated": "20211201103716"
+	},
+	"Children": [
+		{
+			"ID": "20211201103716-04ygu9a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211201103716-04ygu9a",
+				"updated": "20211201103716"
+			}
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"ID": "20220622113939-d3o5ij7",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220622113939-d3o5ij7",
+		"title": "Type4设计",
+		"updated": "20220622113948"
+	},
+	"Children": [
+		{
+			"ID": "20220622113939-rwln0zk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220622113939-rwln0zk",
+				"updated": "20220622113939"
+			}
+		}
+	]
+}

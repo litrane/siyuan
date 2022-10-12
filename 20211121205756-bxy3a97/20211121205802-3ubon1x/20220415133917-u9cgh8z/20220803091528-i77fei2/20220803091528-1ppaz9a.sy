@@ -1,0 +1,344 @@
+{
+	"ID": "20220803091528-1ppaz9a",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220803091528-1ppaz9a",
+		"title": "2022-08-03",
+		"updated": "20220803110928"
+	},
+	"Children": [
+		{
+			"ID": "20220803091528-izw0pav",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803091528-izw0pav",
+				"updated": "20220803091614"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "今日计划："
+				}
+			]
+		},
+		{
+			"ID": "20220803091640-m1wa0eg",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220803091640-m1wa0eg",
+				"updated": "20220803091847"
+			},
+			"Children": [
+				{
+					"ID": "20220803091705-ejg0owb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220803091705-ejg0owb"
+					},
+					"Children": [
+						{
+							"ID": "20220803091705-fm8qg8q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803091705-fm8qg8q",
+								"updated": "20220803091715"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "完成多节点运行"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220803091715-w1iugso",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220803091715-w1iugso",
+						"updated": "20220803091847"
+					},
+					"Children": [
+						{
+							"ID": "20220803091715-wh5zzo4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803091715-wh5zzo4",
+								"updated": "20220803091847"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "找出require跑不通的原因"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220803091614-ywjpkb4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803091614-ywjpkb4",
+				"updated": "20220803091620"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "愿望清单："
+				}
+			]
+		},
+		{
+			"ID": "20220803091620-zptx7oz",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220803091620-zptx7oz",
+				"updated": "20220803103536"
+			},
+			"Children": [
+				{
+					"ID": "20220803091626-jomo9l8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220803091626-jomo9l8"
+					},
+					"Children": [
+						{
+							"ID": "20220803091626-xyixcj0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803091626-xyixcj0",
+								"updated": "20220803091915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "看于老师论文写作视频一，并留下总结笔记"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220803091636-yln7ft8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220803091636-yln7ft8"
+					},
+					"Children": [
+						{
+							"ID": "20220803091636-mdk23ee",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803091636-mdk23ee",
+								"updated": "20220803091903"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "研究制定计划研究生英语"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220803092116-y16oga4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220803092116-y16oga4"
+					},
+					"Children": [
+						{
+							"ID": "20220803092116-wa8tfge",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803092116-wa8tfge",
+								"updated": "20220803092130"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "记得每天番茄TODO打卡"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220803103528-zk09tdr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220803103528-zk09tdr",
+						"updated": "20220803103536"
+					},
+					"Children": [
+						{
+							"ID": "20220803103528-syf7sce",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803103528-syf7sce",
+								"updated": "20220803103536"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "每日读论文，提升区块链技术"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220803091644-5nmm1fz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803091644-5nmm1fz",
+				"updated": "20220803091659"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "每日随想沉淀："
+				}
+			]
+		},
+		{
+			"ID": "20220803091652-4bcxh5z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803091652-4bcxh5z",
+				"updated": "20220803110125"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "需要看共识算法，DHT mesh，BFT"
+				}
+			]
+		},
+		{
+			"ID": "20220803110921-fh7wlor",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803110921-fh7wlor",
+				"updated": "20220803110928"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "性能排序算法"
+				}
+			]
+		},
+		{
+			"ID": "20220803104948-65oemtj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803104948-65oemtj",
+				"updated": "20220803110130"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "树算法"
+				}
+			]
+		},
+		{
+			"ID": "20220803110119-gftb5me",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803110119-gftb5me",
+				"updated": "20220803110315"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "max-width: 600px;",
+						"style": "width: 590px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220803110315-emzq75t.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 590px;\" parent-style=\"max-width: 600px;\"}"
+				}
+			]
+		}
+	]
+}

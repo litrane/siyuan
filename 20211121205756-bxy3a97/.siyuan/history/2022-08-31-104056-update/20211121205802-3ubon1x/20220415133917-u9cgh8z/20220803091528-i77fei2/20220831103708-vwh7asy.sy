@@ -1,0 +1,25 @@
+{
+	"ID": "20220831103708-vwh7asy",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220831103708-vwh7asy",
+		"title": "2022-08-31",
+		"updated": "20220831103714"
+	},
+	"Children": [
+		{
+			"ID": "20220831103708-2twq9ps",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220831103708-2twq9ps",
+				"updated": "20220831103714"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "打印全细节"
+				}
+			]
+		}
+	]
+}

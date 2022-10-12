@@ -1,0 +1,165 @@
+{
+	"ID": "20220920222259-78msvfh",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220920222259-78msvfh",
+		"title": "2022-09-20",
+		"updated": "20220921010112"
+	},
+	"Children": [
+		{
+			"ID": "20220921010033-1xq7eop",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220921010033-1xq7eop",
+				"updated": "20220921010112"
+			},
+			"Children": [
+				{
+					"ID": "20220921010035-h8id4xh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220921010035-h8id4xh",
+						"updated": "20220921010035"
+					},
+					"Children": [
+						{
+							"ID": "20220921010035-4abnupg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220921010035-4abnupg",
+								"updated": "20220921010039"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "组会"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220921010039-qmdefy3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220921010039-qmdefy3"
+					},
+					"Children": [
+						{
+							"ID": "20220921010039-228h2av",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220921010039-228h2av",
+								"updated": "20220921010045"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "调环境"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220921010045-i6rv9ps",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220921010045-i6rv9ps"
+					},
+					"Children": [
+						{
+							"ID": "20220921010045-saljoo5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220921010045-saljoo5",
+								"updated": "20220921010050"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "帮助师兄写代码"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220921010050-uxqr3ij",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220921010050-uxqr3ij",
+						"updated": "20220921010112"
+					},
+					"Children": [
+						{
+							"ID": "20220921010050-aj8iovg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220921010050-aj8iovg",
+								"updated": "20220921010112"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "调研huang区块链"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220921010056-0kb9ofb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220921010056-0kb9ofb"
+					},
+					"Children": [
+						{
+							"ID": "20220921010056-zvnf9qt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220921010056-zvnf9qt"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

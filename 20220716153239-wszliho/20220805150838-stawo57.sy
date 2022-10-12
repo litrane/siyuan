@@ -1,0 +1,162 @@
+{
+	"ID": "20220805150838-stawo57",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220805150838-stawo57",
+		"title": "chainid debug case",
+		"updated": "20220805173932"
+	},
+	"Children": [
+		{
+			"ID": "20220805150908-nze4o88",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220805150908-nze4o88",
+				"updated": "20220805160144"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "start mainchain in theta_local_privatenet_linux/bin"
+				}
+			]
+		},
+		{
+			"ID": "20220805160117-3y1bxla",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220805160117-3y1bxla",
+				"updated": "20220805160129"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z2l0"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " ./theta start --config=../privatenet/validator --password=qwertyuiop"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220805155920-y26seul",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220805155920-y26seul",
+				"updated": "20220805160150"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "in theta-protocol-subchain-management"
+				}
+			]
+		},
+		{
+			"ID": "20220805150838-hes5ig6",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220805150838-hes5ig6",
+				"updated": "20220805160011"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z2l0"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "git checkout contract-test\n\ntruffle deploy --network theta_privatenet --reset "
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220805150854-rw84z6w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220805150854-rw84z6w",
+				"updated": "20220805160155"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "in subchain"
+				}
+			]
+		},
+		{
+			"ID": "20220805160024-q9ce1nd",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220805160024-q9ce1nd",
+				"updated": "20220805160059"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z2l0"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "git checkout unified-cross-chain-nodes-test\nintegration/tools/go_new\ngo run . \n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220805160158-zdvkrf3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220805160158-zdvkrf3",
+				"updated": "20220805160248"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "we will see the result of calling test function which returns the value of chainid"
+				}
+			]
+		},
+		{
+			"ID": "20220805173348-8882606",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220805173348-8882606",
+				"updated": "20220805173932"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "北京大学课题组成员主要来自北京大学网络与信息系统研究所(北大网络所)的云计算组。北大网络所由原北京大学计算机科学技术系网络实验室、人工智能实验室和数据库实验室组成。北大网络所目前承担了50多项国家级与国际合作项目，发表了共计400多篇学术论文，获得近10项国家软件著作版权以及2项国家科技进步二等奖。本项目组，云计算组，在分布式系统、虚拟化、人工智能、区块链等领域已累计发表了数十篇国际顶级会议论文。其中最新研究成果Dino协议在区块压缩、提升传输效率领域取得了良好效果。在目前，云计算组在多区块链链性能扩展与可靠安全跨链协议、高效区块链网络数据分发与拓扑构建、细粒度共识协议领导者节点选择方法三大领域进行研究，目前部分项目已有原型系统、投稿论文产出。"
+				}
+			]
+		}
+	]
+}

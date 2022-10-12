@@ -1,0 +1,134 @@
+{
+	"ID": "20220415133918-lv9dtkx",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220415133918-lv9dtkx",
+		"title": "2022-04-15",
+		"updated": "20220728171905"
+	},
+	"Children": [
+		{
+			"ID": "20220415133918-cqaozo0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220415133918-cqaozo0",
+				"updated": "20220415140704"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockRef",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20220415133936-yozrzaa"
+						},
+						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefDynamicText",
+							"Data": "博士建议"
+						},
+						{
+							"Type": "NodeCloseParen"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220415140707-m8ss9qt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220415140707-m8ss9qt",
+				"updated": "20220415161723"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习同态应用"
+				}
+			]
+		},
+		{
+			"ID": "20220415161724-2iun1m3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220415161724-2iun1m3",
+				"updated": "20220415161810"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "开会/做核酸"
+				}
+			]
+		},
+		{
+			"ID": "20220728171904-3dn57xi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220728171904-3dn57xi",
+				"updated": "20220728171904"
+			}
+		},
+		{
+			"ID": "20220728171904-eum8zqf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220728171904-eum8zqf",
+				"updated": "20220728171905"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockRef",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20200812220555-lj3enxa"
+						},
+						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefDynamicText",
+							"Data": "0 请从这里开始"
+						},
+						{
+							"Type": "NodeCloseParen"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220415161810-fbxaamx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220415161810-fbxaamx",
+				"updated": "20220415161810"
+			}
+		}
+	]
+}

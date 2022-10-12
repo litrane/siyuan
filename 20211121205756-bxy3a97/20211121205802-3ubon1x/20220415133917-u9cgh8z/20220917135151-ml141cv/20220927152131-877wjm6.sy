@@ -1,0 +1,276 @@
+{
+	"ID": "20220927152131-877wjm6",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220927152131-877wjm6",
+		"title": "2022-09-27",
+		"updated": "20220928092153"
+	},
+	"Children": [
+		{
+			"ID": "20220927152131-pq9qucs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220927152131-pq9qucs",
+				"updated": "20220927152139"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "日程："
+				}
+			]
+		},
+		{
+			"ID": "20220927152139-ayopt3x",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220927152139-ayopt3x",
+				"updated": "20220928092127"
+			},
+			"Children": [
+				{
+					"ID": "20220927152140-wltej72",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220927152140-wltej72",
+						"updated": "20220927152140"
+					},
+					"Children": [
+						{
+							"ID": "20220927152140-bk3gi3q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220927152140-bk3gi3q",
+								"updated": "20220927152143"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "早上修电脑"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220927152144-r8yhyl5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220927152144-r8yhyl5"
+					},
+					"Children": [
+						{
+							"ID": "20220927152144-1mp8nho",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220927152144-1mp8nho",
+								"updated": "20220927152201"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "下午：写日报、写算法作业、交笔记"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220927152201-0nftiqm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220927152201-0nftiqm",
+						"updated": "20220928092127"
+					},
+					"Children": [
+						{
+							"ID": "20220927152201-1zl2qo2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220927152201-1zl2qo2",
+								"updated": "20220928092127"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "晚上：看书，看论文，准备肖老师PPT"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220927152220-ay9of6l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220927152220-ay9of6l",
+				"updated": "20220927152225"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "经验："
+				}
+			]
+		},
+		{
+			"ID": "20220927152225-up51k9y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220927152225-up51k9y",
+				"updated": "20220927220020"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "度与核度区块链组网，破坏性最小"
+				}
+			]
+		},
+		{
+			"ID": "20220927220020-n1pwmf1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220927220020-n1pwmf1",
+				"updated": "20220927220131"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220927220131-ht8z8hu.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220927224509-qs7pv3p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220927224509-qs7pv3p",
+				"updated": "20220927224513"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "背景意义"
+				}
+			]
+		},
+		{
+			"ID": "20220927224513-w0t5lwt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220927224513-w0t5lwt",
+				"updated": "20220927224517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "研究内容"
+				}
+			]
+		},
+		{
+			"ID": "20220927224517-1dnlevm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220927224517-1dnlevm",
+				"updated": "20220927224519"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "研究基础"
+				}
+			]
+		},
+		{
+			"ID": "20220927224520-1u7u8to",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220927224520-1u7u8to",
+				"updated": "20220927224522"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "任务名称"
+				}
+			]
+		},
+		{
+			"ID": "20220928092109-7ej1zyw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220928092109-7ej1zyw"
+			}
+		},
+		{
+			"ID": "20220928092133-40o6xdz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220928092133-40o6xdz",
+				"updated": "20220928092153"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "今天整体时间效率不够高，不够专注，需要沉浸式学习"
+				}
+			]
+		}
+	]
+}

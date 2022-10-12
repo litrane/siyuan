@@ -1,0 +1,1994 @@
+{
+	"ID": "20220108143340-ia0hary",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220108143340-ia0hary",
+		"title": "cosmos",
+		"updated": "20220108215702"
+	},
+	"Children": [
+		{
+			"ID": "20220108214701-yf99h43",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220108214701-yf99h43",
+				"updated": "20220108214701"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "cosmos的架构"
+				}
+			]
+		},
+		{
+			"ID": "20220108143404-id6v4mv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108143404-id6v4mv",
+				"updated": "20220108143404"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "cosmos目前仅支持资产的跨链，其网络拓扑架构可以分为Zone和hub两部分，Zone相当于polkadot里的平行链，hub相当于polkadot里的中继链。由 Hub 追踪记录各个 Zone 的状态，而每一个 Zone 有义务不停地把自身产出的新区块汇报给 Hub 。类似地，每一个 Zone 也需要同步 Hub 的状态，Zone与hub之间通过 IBC (inter-blockchain communication protocol) 协议进行通信。"
+				}
+			]
+		},
+		{
+			"ID": "20220108215417-nlg1xf9",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220108215417-nlg1xf9",
+				"updated": "20220108215419"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220108215419-atw9v4a",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220108215419-atw9v4a",
+						"updated": "20220108215419"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "Cosmos 也是一个多token 平台。Cosmos 中不仅有Atom（原子），这是Cosmos 的质押 token ，也有photon （光子），这是Cosmos 的手续费 token 。因此，一种代币用于整个共识机制，另一种代币用于支付交易。这些Photon 没有被质押，因此在交易所里有很强的流动性。"
+						}
+					]
+				},
+				{
+					"ID": "20220108215419-dpleefu",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220108215419-dpleefu",
+						"updated": "20220108215419"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "此外，Photon 也是Ethermint 网络的原生token ，而 Ethermint 是在Tendermint 上托管的以太坊。和以太坊的功能相同，但使用如上所述的共识。这解决了可扩展性问题的垂直部分。由于Cosmos 并不打算成为其他生态系统的竞争对手，因此Ethermint 的创建被称为「hard spoon」 。这意味着所有ETH 持有者都能获得Photon ，并能像使用以太坊一样使用Ethermint ，但手续费要少得多，而且它和Cosmos 网络是相连的。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220108215352-q0hh3ml",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108215352-q0hh3ml",
+				"updated": "20220108215432"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Tendermint"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 是一个 "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "共识引擎和BFT共识算法"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 。 在Tendermint之上可以使用任何编程语言构建一个状态机，Tendermint 将负责信息的（按照共识要求的一致性和安全性）复制。"
+				}
+			]
+		},
+		{
+			"ID": "20220108194244-9bd7msa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108194244-9bd7msa",
+				"updated": "20220108194244"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Cosmos SDK"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 是一个 "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "模块化框架"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " ，用来简化构建安全的区块链应用。"
+				}
+			]
+		},
+		{
+			"ID": "20220108194244-hxljnmf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108194244-hxljnmf",
+				"updated": "20220108194244"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "IBC"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "是区块链之间的 "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "通信协议"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " ，可以被认为是区块链的TCP/IP。 它允许快速最终性（fast-finality）的区块链以去中心化的方式相互交换价值和数据。"
+				}
+			]
+		},
+		{
+			"ID": "20220108214946-9m3y82l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108214946-9m3y82l",
+				"updated": "20220108214947"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220108214947-w817j9n.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220108143404-f8canh0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108143404-f8canh0",
+				"updated": "20220108143404"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://cdn.jsdelivr.net/gh/Rayleigh-Guan/imageshub@master/20211019/image.crg633zoxqo.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220108213522-vqjkn74",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220108213522-vqjkn74",
+				"updated": "20220108213528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Tendermint"
+				}
+			]
+		},
+		{
+			"ID": "20220108143404-3dbc21a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108143404-3dbc21a",
+				"updated": "20220108143404"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "为了方便zones平行链对开发，cosmos提供了tendermint和cosmos sdk，其中tendermint是对网络层和共识层的的封装，cosmos sdk则是对应用层的封装："
+				}
+			]
+		},
+		{
+			"ID": "20220108143404-z90vu7t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108143404-z90vu7t",
+				"updated": "20220108143404"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://cdn.jsdelivr.net/gh/Rayleigh-Guan/imageshub@master/20211019/image.12qd4uxqihts.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220108213632-f4vmuec",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108213632-f4vmuec",
+				"updated": "20220108213634"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Tendermint BFT引擎[8]通过使用 ABCI（Application Blockchain Interface）[9] 套接字（socket）协议连接到应用程序。 这个协议可以用任何编程语言进行封装，开发者可以选择适合他们适合的语言。"
+				}
+			]
+		},
+		{
+			"ID": "20220108213705-3bp9g33",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108213705-3bp9g33",
+				"updated": "20220108213705"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "max-width: 484px;",
+						"style": "width: 474px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220108213705-0r884yy.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 474px;\" parent-style=\"max-width: 484px;\"}"
+				}
+			]
+		},
+		{
+			"ID": "20220108213722-sdm4206",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108213722-sdm4206",
+				"updated": "20220108213722"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "公有链或私有链均可："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " Tendermint BFT只处理区块链"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "网络"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "和 "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "共识"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " ，它帮助节点传播交易和验证追加交易到区块链。 应用层的角色是定义如何构成验证者集合。 因此，开发人员可以在Tendermint BFT引擎之上构建公有链或私有链。 如果应用根据他们有多少Token来选取验证者，那么区块链就称为权益证明PoS（Proof-of-Stake）。 应用也可以只有经过许可或授权才能成为验证者，那么区块链则是许可或私有链。 开发人员可以自由定制区块链验证者集的规则。"
+				}
+			]
+		},
+		{
+			"ID": "20220108213722-mpjhasa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108213722-mpjhasa",
+				"updated": "20220108213722"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "高性能："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " Tendermint BFT 具有 1 秒数量级的出块时间，每秒处理数千个交易。"
+				}
+			]
+		},
+		{
+			"ID": "20220108213722-4b0bhvz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108213722-4b0bhvz",
+				"updated": "20220108213722"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "即时最终确定性："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " Tendermint共识算法的一个属性是即时最终确定性（Instant finality）。 只要三分之一以上验证者是诚实的（拜占庭下），就永远不会分叉。 用户可以确保他们的交易一旦创建到区块就是最终（确定）的（这不是比特币和以太坊等工作区块链的情况）。"
+				}
+			]
+		},
+		{
+			"ID": "20220108213722-klfg8d5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108213722-klfg8d5",
+				"updated": "20220108213731"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "安全："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " Tendermint 共识不仅是容错的，同时也有问责（accountable）。 如果发生分叉，有一种方法来确定责任（liability）。"
+				}
+			]
+		},
+		{
+			"ID": "20220108213804-f9vgvfe",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220108213804-f9vgvfe",
+				"updated": "20220108213805"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "cosmos sdk"
+				}
+			]
+		},
+		{
+			"ID": "20220108213809-geyd96l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108213809-geyd96l",
+				"updated": "20220108213824"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "max-width: 463px;",
+						"style": "width: 453px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220108213824-9fg0pjb.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 453px;\" parent-style=\"max-width: 463px;\"}"
+				}
+			]
+		},
+		{
+			"ID": "20220108213924-r8lqh3x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108213924-r8lqh3x",
+				"updated": "20220108213924"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "• "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "模块化"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " ：Cosmos SDK 的目标是创建一个模块生态系统，允许开发人员轻松地创建特定应用的区块链，而无需从头开始编写应用的每个功能。 任何人都可以在自己的区块链里为 Cosmos SDK 创建一个模块或利用现成的模块。 例如，Tendermint团队正在构建一组Cosmos Hub所需的基础模块。 这些模块可以在构建自己的应用时使用。 此外，开发人员可以创建新的模块来自定义其应用程序。 随着Cosmos网络的发展，SDK模块的生态系统将扩大，使得开发复杂的区块链应用程序变得越来越容易。"
+				}
+			]
+		},
+		{
+			"ID": "20220108213927-ezxln7y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108213927-ezxln7y",
+				"updated": "20220108213931"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "• "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "基于功能的安全性"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " ：功能约束模块之间的安全边界，使开发人员能够更好地了解模块的可组合性，并限制恶意或意外交互的范围。 要深入了解，点击这里。"
+				}
+			]
+		},
+		{
+			"ID": "20220108213924-4i75qzc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108213924-4i75qzc",
+				"updated": "20220108213924"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Cosmos SDK还附带了一组有用的"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "开发者工具"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://cloud.tencent.com/product/cclid?from=10680"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "：控制台命令行(CLI)、REST服务和各种其他常用工具库。"
+				}
+			]
+		},
+		{
+			"ID": "20220108213924-53er7vy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108213924-53er7vy",
+				"updated": "20220108213924"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "总结一句话：与所有其他的 Cosmos 工具一样，Cosmos SDK 也是模块化设计。 现在它允许开发者在 Tendermint BFT 共识引擎之上构建应用。以后也可以用于其他实现 ABCI 协议的共识引擎之上。 随着时间的推移，预计将出现多个不同的架构模型的SDK，与多个共识引擎兼容，所有这些都在Cosmos 网络生态系统中。"
+				}
+			]
+		},
+		{
+			"ID": "20220108213955-tfw0kr0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108213955-tfw0kr0",
+				"updated": "20220108214012"
+			},
+			"Children": [
+				{
+					"Type": "NodeMark",
+					"Data": "mark",
+					"Children": [
+						{
+							"Type": "NodeMark2OpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "例如，Ethermint是一个将以太坊虚拟机移植到 SDK 模块中的项目。 Ethermint的工作原理完全像以太坊，具有Tendermint BFT 的共识属性。 所有现有的以太坊工具（Truffle，Metamask等））与Ethermint兼容，很容易将已有智能合约移植过来。"
+						},
+						{
+							"Type": "NodeMark2CloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220108213955-lfzh5r6",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220108213955-lfzh5r6",
+				"updated": "20220108213955"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220108213955-hkp2a8s",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220108213955-hkp2a8s"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrong",
+							"Data": "strong",
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "Ethermint"
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**"
+								}
+							]
+						},
+						{
+							"Type": "NodeText",
+							"Data": " 将以太坊虚拟机转换为Cosmos-SDK模块。 该模块可以与其他SDK模块（如staking）相结合，能够运行以太坊智能合约的全功能的POS区块链。 Ethermint 链与 Comos 兼容。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220108213403-1ik9o8m",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220108213403-1ik9o8m",
+				"updated": "20220108213403"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "IBC 是怎么工作？"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220108213403-gqmel28",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108213403-gqmel28",
+				"updated": "20220108213403"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "IBC背后的原理相当简单。 我们以链A上的一个帐户想要发送10个Token（假设是ATOM）到链B为例介绍。"
+				}
+			]
+		},
+		{
+			"ID": "20220108213403-b368olk",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220108213403-b368olk",
+				"updated": "20220108213403"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220108213403-ax3rpia",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220108213403-ax3rpia"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "Atom 是 Cosmos Hub 的原生货币。 持有Atom可以获得投票权，可以委托给维护 Cosmos Hub 网络的验证者。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220108213403-av3xf7m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108213403-av3xf7m",
+				"updated": "20220108213403"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "跟踪（Tracking）"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220108213403-5863i0c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108213403-5863i0c",
+				"updated": "20220108213403"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "链B会不间断地接收链A的报头，反之亦然。 这允许每个链跟踪其他链的验证者集合。 从本质上讲，每个链运行一个其他链的轻客户端。"
+				}
+			]
+		},
+		{
+			"ID": "20220108213403-tl0xdwn",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220108213403-tl0xdwn",
+				"updated": "20220108213403"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220108213403-vvrd4t2",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220108213403-vvrd4t2"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "轻客户端是一个区块链客户端，只下载块头。 它通过Merkle Proof来验证查询结果。 这为用户提供了一个轻量级的替代全节点又具有良好的安全性的方案。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220108213403-kjie117",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108213403-kjie117",
+				"updated": "20220108213403"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "锁定（Bonding）"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220108213403-6zsbzu2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108213403-6zsbzu2",
+				"updated": "20220108213403"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当IBC转移被启动时，ATOM 被锁定（Bonding）在链A上。"
+				}
+			]
+		},
+		{
+			"ID": "20220108213403-h3cpw7i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108213403-h3cpw7i",
+				"updated": "20220108213403"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "中继证明（Proof Relay）"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220108213403-cvf8f06",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108213403-cvf8f06",
+				"updated": "20220108213403"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "然后，需要一个从链A转移到链B的 10个ATOM 被锁定的证明。"
+				}
+			]
+		},
+		{
+			"ID": "20220108213403-5t86b9f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108213403-5t86b9f",
+				"updated": "20220108213403"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "验证（Validation）"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220108213403-rkmk4da",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108213403-rkmk4da",
+				"updated": "20220108213403"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "链B上针对链A的区块头的证明进行验证，如果有效，则在链B上创建 10 个 ATOM 凭证（ATOM-vouchers）。"
+				}
+			]
+		},
+		{
+			"ID": "20220108213403-r7xko93",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108213403-r7xko93",
+				"updated": "20220108213403"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意, 在链 B 上创建的 ATOM 不是真正的 ATOM, 因为 ATOM 仅存在于链 A 上。它们是链 A 中 ATOM在 链 B 上的表示形式, 同时还证明了这些 ATOM 被冻结在链 A 上。"
+				}
+			]
+		},
+		{
+			"ID": "20220108213403-fg63vx2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108213403-fg63vx2",
+				"updated": "20220108213556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当他们回到其原始链时, 也使用类似的机制来解锁 ATOM。"
+				}
+			]
+		},
+		{
+			"ID": "20220108213556-ytl4018",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220108213556-ytl4018",
+				"updated": "20220108214252"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "与分片的区别"
+				}
+			]
+		},
+		{
+			"ID": "20220108214344-fez847i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108214344-fez847i",
+				"updated": "20220108214344"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "许多人可能听说过以太坊开发者正在开发的分片。这是不同的，分片会自动工作。对于Cosmos中枢和区，开发者必须坐下来手工构建。但分区的一大优势是每个区都可以独立构建。一个区可以有自己的经济模型，私有区块链也可以被连接起来。这已经表明了Cosmos项目的精神。它不是像许多其他项目声称的那样接管整个加密空间。"
+				}
+			]
+		},
+		{
+			"ID": "20220108214344-g8iu5hq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108214344-g8iu5hq",
+				"updated": "20220108214344"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "它只是把一切联系在一起。依靠单一区块链以最好的方式解决所有问题是没有未来的。未来将会有许多应用专属的区块链，以满足其用户和开发者的需求。Cosmos希望将这些区块链连接到现有的区块链。Tendermint希望给这些应用专属的区块链一个基底。这就是为什么Tendermint和Cosmos不能单独分开看的原因。两者都使另外一方更有价值。"
+				}
+			]
+		},
+		{
+			"ID": "20220108214456-3jaoo2d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108214456-3jaoo2d",
+				"updated": "20220108214456"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "当前，几乎所有的分片设计都依赖于某种随机性（randomness）源来为分配验证者"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 。链上随机数本身就是一个非常具有挑战性的话题，我还是以后单独出一篇文章来讨论吧。现在，先假设我们可以实现这种随机性。"
+				}
+			]
+		},
+		{
+			"ID": "20220108214456-af0yro6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108214456-af0yro6",
+				"updated": "20220108214456"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "随机性和验证者分配都需要计算，这些计算并不是专为某个特定片区而运行的。 "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "为了实现这种计算，实际上所有现有的设计都包含一条单独的区块链，负责执行维护整个网络所需的操作"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " ：除了生成随机数和将验证者分配到各个片区，还包括接收分片的信息更新（并创建快照）、处理权益证明（PoS）系统中验证者质押的押金及其罚没，并（在支持该功能之后）不断重划片区（rebalancing shards）。这条链在以太坊和 Near 中就是信标链（Beacon Chain），在 Cosmos 中就是 Cosmos Hub，在 PolkaDot 中就是一条中继链（Relay chain）。"
+				}
+			]
+		},
+		{
+			"ID": "20220108214523-rs4xwf1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108214523-rs4xwf1",
+				"updated": "20220108214558"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Properties": {
+						"style": "color: var(--b3-font-color8);"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "若一个系统中的所有链都具有不同的属性，但使用非常类似的共识协议，有着类似的区块结构且共享同一条信标链，那么这样的系统可以成为一个异构区块链生态系统，包含有可运作的互操作性子系统。但这样的系统不太可能实现验证者轮换的功能，因此需要采取一些额外的措施来保证安全。Cosmos 和 PolkaDot 本质上就是想做这样的系统。Cosmos 团队的 Zaki Manian 写的这篇文章对这两个项目之间的一些关键方面进行了概述了对比。"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color8);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20220108143404-6w860m2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220108143404-6w860m2",
+				"updated": "20220108214757"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安全性"
+				}
+			]
+		},
+		{
+			"ID": "20220108214706-0kmwijm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108214706-0kmwijm",
+				"updated": "20220108214706"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Cosmos与 Polkadot 和 Ethereum 相比，Cosmos 采取了「lightest」的跨链通信方式，将自身的安全性从整个系统的安全性中分割开来。Cosmos Hubs 只对连接的区块链之间的消息进行验证。"
+				}
+			]
+		},
+		{
+			"ID": "20220108214706-6tayctd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108214706-6tayctd",
+				"updated": "20220108214706"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Cosmos SDK 是一个用于构建特定应用区块链（或区域）的框架，这些区块链可与 Cosmos 生态系统的其余部分互操作。"
+				}
+			]
+		},
+		{
+			"ID": "20220108214706-jq0spnh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108214706-jq0spnh",
+				"updated": "20220108214706"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "max-width: 498px;",
+						"style": "width: 488px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "浅析以太坊 2.0、Polkadot、Cosmos 与 NEAR 等 Layer 1 扩容方案异同"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.fxajax.com/zb_users/upload/2021/05/20210516064415162111865541156.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 488px;\" parent-style=\"max-width: 498px;\"}"
+				}
+			]
+		},
+		{
+			"ID": "20220108214706-l5t0san",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108214706-l5t0san",
+				"updated": "20220108214706"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "连接到 Cosmos Hubs 的特定应用区块链（通过 IBC 协议）被设计为保持其完全主权。设计目标是，主权增加了 token 持有人对其协议的 决定 权力。如果发现了一个 bug 或者需要一个新的功能，可以不用说服另一条链 token 持有者就可以引入。"
+				}
+			]
+		},
+		{
+			"ID": "20220108214706-av459qt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108214706-av459qt",
+				"updated": "20220108214706"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "例如，如果 MakerDAO 今天被黑客攻击，MKR 持有者将不得不说服 ETH 所有者分叉区块链。与 MakerDAO 是自己的区块链相比，这样做的门槛要高得多。"
+				}
+			]
+		},
+		{
+			"ID": "20220108214706-qahiyp7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108214706-qahiyp7",
+				"updated": "20220108214706"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Cosmos 的特别之处在于增加了开发者的灵活性--他们可以完全控制自己想要的虚拟机、共识机制或治理方法。Cosmos 所需要的只是一个轻客户端证明。"
+				}
+			]
+		},
+		{
+			"ID": "20220108214706-yj95dde",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108214706-yj95dde",
+				"updated": "20220108214706"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "然而，Cosmos 模式要求市场在处理失败的风险方面承担更大的作用。例如，一个快速确认版本的锚定 token 可能与同一 token 的慢速版本有不同的价格。从本质上讲，安全性可以被定价为资产，而不是区块链的设计。"
+				}
+			]
+		},
+		{
+			"ID": "20220108214830-lz27uol",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220108214830-lz27uol",
+				"updated": "20220108214831"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "跨链"
+				}
+			]
+		},
+		{
+			"ID": "20220108143404-53g6hgb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108143404-53g6hgb",
+				"updated": "20220108213319"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "cosmos中各个平行链之间跨链必须要满足两个前置条件："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220108143404-fq7ijbu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108143404-fq7ijbu",
+				"updated": "20220108143404"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、快速确定性（fast finality）：该特性由tendermint中的共识算法保证，即 Cosmos 中的跨链不直接支持概率确定模型的区块链，比如基于POW算法的比特币和以太坊，这些区块链产生的新区块是概率最终性的，是有可能发生回滚的，因此不能直接使用cosmos中的跨链需要使用peg Zone作为中转。"
+				}
+			]
+		},
+		{
+			"ID": "20220108143404-b3ndv9s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108143404-b3ndv9s",
+				"updated": "20220108143404"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、强监管性（sovereignty）：每个平行链都具 备一组验证者能够决定其出块。"
+				}
+			]
+		},
+		{
+			"ID": "20220108143404-gjiglqi",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220108143404-gjiglqi",
+				"updated": "20220108213321"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "cosmos中同构链的跨链："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220108143404-nmd8nva",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108143404-nmd8nva",
+				"updated": "20220108143404"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、Zone1 发起一笔 IBC BlockCommitTx 交易，将其区块的头部信息 h 以及所有验证人的公钥信息传递到 Hub 上。"
+				}
+			]
+		},
+		{
+			"ID": "20220108143404-tucpti7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108143404-tucpti7",
+				"updated": "20220108143404"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、Zone1 执行该笔交易，将相关的资产进行销毁或锁定，并将该笔交易写入egress中，这一点类似于polkadot"
+				}
+			]
+		},
+		{
+			"ID": "20220108143404-sfkdcmg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108143404-sfkdcmg",
+				"updated": "20220108143404"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、Zone1 的中继程序将egress中的交易生成默克尔证明用于 Hub 对交易的验证，并作为 IBC PacketTx 的一部分发送到 Hub。"
+				}
+			]
+		},
+		{
+			"ID": "20220108143404-lnrzfyt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108143404-lnrzfyt",
+				"updated": "20220108143404"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4、Hub 中的验证者验证默克尔证明是否有效， 若有效则发送消息给 Zone2（Hub 给 Zone2 发送消息的过程重复上述步骤）。"
+				}
+			]
+		},
+		{
+			"ID": "20220108143404-bmn1na8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108143404-bmn1na8",
+				"updated": "20220108143404"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5、Zone2 在接收到 Hub 发送的跨链交易后，验证其为 Zone1 发起的真实有效交易，并发送消息给 Hub 确认可接收 Zone1 的资产。"
+				}
+			]
+		},
+		{
+			"ID": "20220108143404-5c6j2wo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108143404-5c6j2wo",
+				"updated": "20220108143404"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6、Hub 给 Zone2 发送消息，将资产发送给Zone2，本质上是跨了两次链（Zone1-hub，hub-Zone2）。"
+				}
+			]
+		},
+		{
+			"ID": "20220108143404-3sr1src",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108143404-3sr1src",
+				"updated": "20220108143404"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "cosmos中异构链的跨链："
+				}
+			]
+		},
+		{
+			"ID": "20220108143404-tczv48j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108143404-tczv48j",
+				"updated": "20220108143404"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "异构链跨链采用PegZone作为中转，PegZone本身是一条用Tendermint开发的区块链，可以实时跟踪原始链的状态，通过设定一个安全阀值，等待原始链区块增长数达到安全阀值时就认为原始链的状态达到了伪快速确定性（回滚概率小），这点和轻客户端钱包验证是相同的原理，例如比特币安全阀值通常设置为6，以太坊安全阀值可以设置为20或者100。而PegZone本身具备快速确定性，就可以通过IBC与Hub相连，从而实现跨链。"
+				}
+			]
+		},
+		{
+			"ID": "20220108143404-91nlgij",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108143404-91nlgij",
+				"updated": "20220108143404"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果以太坊中的用户要把资产转移到 Cosmos 中，首先需要在以太坊上部署一个用于资产托管的智能合约，在智能合约中可以编写跨链交互的规则与逻辑，并负责跨链交易的处理。当用户需要转账到 Cosmos 时，可以先将以太坊中的 ETH 转移到资产托管智能合约中，ETH 转移到合约后将被锁定，如果跨链交易失败，那么系统将被回退到交易执行前的状态。或者当资产托管智能合约检测到 Cosmos 有跨链交易时将资产转移到以太坊，那么合约中将解锁相应的资产。当跨链交易被 Peg Zone的验证节点接收时，将对以太坊发送给资产托管智能合约的交易进行验证。 验证通过后将在 Peg Zone 内生成对应的 CosmosETH（SPV 验证）。将 Cosmos-ETH 转移到以太坊的过程也类似，不过 Peg Zone 转到以太坊的 Cosmos-ETH 将被销毁，而冻结在资产托管智能合约中的 ETH 会被解锁，并转移到用户指定的账户。"
+				}
+			]
+		},
+		{
+			"ID": "20220108215000-p01m5cj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220108215000-p01m5cj",
+				"updated": "20220108215015"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "与Polkadot对比"
+				}
+			]
+		},
+		{
+			"ID": "20220108215009-aq9plmx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108215009-aq9plmx",
+				"updated": "20220108215010"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220108215010-s0erqkk.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220108215448-zvmm9m5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220108215448-zvmm9m5",
+				"updated": "20220108215500"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考资料"
+				}
+			]
+		},
+		{
+			"ID": "20220108215500-q04b8mj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108215500-q04b8mj",
+				"updated": "20220108215524"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://cloud.tencent.com/developer/article/1441474"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://cloud.tencent.com/developer/article/1441474"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220108215528-p9kjhdv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108215528-p9kjhdv",
+				"updated": "20220108215547"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://cointelegraphcn.com/news/is-cosmos-and-polkadots-cross-chain-the-same-thing"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://cointelegraphcn.com/news/is-cosmos-and-polkadots-cross-chain-the-same-thing"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220108215548-7plfdze",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108215548-7plfdze",
+				"updated": "20220108215638"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://ethfans.org/posts/the-authoritative-guide-to-blockchain-sharding-part-1"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://mp.weixin.qq.com/s?src=11\u0026timestamp=1641622207\u0026ver=3545\u0026signature=TMvOt9UalSB07UsZ6F451ArYzCs1QeqX8lHcWdLITuqk1wgZ2-lmbzXvxo38H*cu48Qf1-xopzsHHimnJ1XBXRj*XEs1aAJ5w2ZIrpJNYBhrPvcfTJiIJmfmTR0-k5ID\u0026new=1"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220108215611-5oxffhm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108215611-5oxffhm",
+				"updated": "20220108215635"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://mp.weixin.qq.com/s?src=11\u0026timestamp=1641622207\u0026ver=3545\u0026signature=hwVIkZ1H29S-oCAkeo2-NirfkjsWno9cptb71sI78VUcA75Bi2gsWQkAYnMOuZvuEG4YaFgAInODHdboNOCzLX0C0irRe644ASIVK6gttKmnu6kfrW9HIkYgrvnLnaWX\u0026new=1"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://mp.weixin.qq.com/s?src=11\u0026timestamp=1641622207\u0026ver=3545\u0026signature=TMvOt9UalSB07UsZ6F451ArYzCs1QeqX8lHcWdLITuqk1wgZ2-lmbzXvxo38H*cu48Qf1-xopzsHHimnJ1XBXRj*XEs1aAJ5w2ZIrpJNYBhrPvcfTJiIJmfmTR0-k5ID\u0026new=1"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220108215632-noftsa8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108215632-noftsa8",
+				"updated": "20220108215640"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://mp.weixin.qq.com/s?src=11\u0026timestamp=1641622207\u0026ver=3545\u0026signature=TMvOt9UalSB07UsZ6F451ArYzCs1QeqX8lHcWdLITuqk1wgZ2-lmbzXvxo38Hcu48Qf1-xopzsHHimnJ1XBXRjXEs1aAJ5w2ZIrpJNYBhrPvcfTJiIJmfmTR0-k5ID\u0026new=1"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://mp.weixin.qq.com/s?src=11\u0026timestamp=1641622207\u0026ver=3545\u0026signature=TMvOt9UalSB07UsZ6F451ArYzCs1QeqX8lHcWdLITuqk1wgZ2-lmbzXvxo38H*cu48Qf1-xopzsHHimnJ1XBXRj*XEs1aAJ5w2ZIrpJNYBhrPvcfTJiIJmfmTR0-k5ID\u0026new=1"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220108215658-20rd55p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108215658-20rd55p",
+				"updated": "20220108215701"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://zhuanlan.zhihu.com/p/441119782"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://zhuanlan.zhihu.com/p/441119782"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220108215702-50xikbq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108215702-50xikbq",
+				"updated": "20220108215702"
+			}
+		}
+	]
+}

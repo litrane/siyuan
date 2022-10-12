@@ -1,0 +1,20 @@
+{
+	"ID": "20211121205802-3ubon1x",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211121205802-3ubon1x",
+		"title": "daily note",
+		"updated": "20211121205802"
+	},
+	"Children": [
+		{
+			"ID": "20211121205802-oasfm9y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211121205802-oasfm9y",
+				"updated": "20211121205802"
+			}
+		}
+	]
+}

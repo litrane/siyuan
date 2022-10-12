@@ -1,0 +1,58 @@
+{
+	"ID": "20211129090352-k653i2h",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211129090352-k653i2h",
+		"title": "2021-11-29",
+		"updated": "20211129090801"
+	},
+	"Children": [
+		{
+			"ID": "20211129090352-ylwx8dv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211129090352-ylwx8dv",
+				"updated": "20211129090801"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockRef",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20211129090801-90cfu6k"
+						},
+						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefDynamicText",
+							"Data": "2021-11-29 可可英语"
+						},
+						{
+							"Type": "NodeCloseParen"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211129090512-s877dfs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211129090512-s877dfs",
+				"updated": "20211129090512"
+			}
+		}
+	]
+}

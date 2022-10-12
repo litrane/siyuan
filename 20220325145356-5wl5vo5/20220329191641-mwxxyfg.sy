@@ -1,0 +1,47 @@
+{
+	"ID": "20220329191641-mwxxyfg",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220329191641-mwxxyfg",
+		"title": "查看api",
+		"updated": "20220329191653"
+	},
+	"Children": [
+		{
+			"ID": "20220329191641-1n9k5ed",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220329191641-1n9k5ed",
+				"updated": "20220329191646"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "docker run -idt -p 8081:8080 --name swagger-ui swaggerapi/swagger-ui"
+				}
+			]
+		},
+		{
+			"ID": "20220329191651-xn5occ3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220329191651-xn5occ3",
+				"updated": "20220329191652"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " docker cp /home/dd/go/src/github.com/supplychain-blockchain/application/docs/swagger.json  swagger-ui:/usr/share/nginx\n/html/"
+				}
+			]
+		},
+		{
+			"ID": "20220329191653-bbyjdw6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220329191653-bbyjdw6",
+				"updated": "20220329191653"
+			}
+		}
+	]
+}

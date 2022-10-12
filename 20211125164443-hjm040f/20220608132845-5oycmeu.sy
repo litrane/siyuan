@@ -1,0 +1,8201 @@
+{
+	"ID": "20220608132845-5oycmeu",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220608132845-5oycmeu",
+		"title": "Web 3.0",
+		"updated": "20220608145345"
+	},
+	"Children": [
+		{
+			"ID": "20220608141214-94oeg15",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220608141214-94oeg15",
+				"updated": "20220608141219"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "组成元素"
+				}
+			]
+		},
+		{
+			"ID": "20220608132857-5bxe4vq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220608132857-5bxe4vq",
+				"updated": "20220608132857"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "技术栈"
+				}
+			]
+		},
+		{
+			"ID": "20220608132857-ieqfxm4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608132857-ieqfxm4",
+				"updated": "20220608132857"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "区块链脱胎于比特币系统，从本质上讲，它是一个共享数据库，存储于其中的数据或信息，具有“不可伪造”、“公开透明”、“集体维护”等特征，基于这些特征，区块链奠定了坚实的“信任”基础，创造了可靠的“合作”机制。"
+				}
+			]
+		},
+		{
+			"ID": "20220608132857-vwtsgaj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608132857-vwtsgaj",
+				"updated": "20220608132857"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Web3的基础设施基于区块链技术，Web 3.0 Foundation将Web3的技术栈定义为由L0~L4组成的5层架构系统，如下图所示："
+				}
+			]
+		},
+		{
+			"ID": "20220608132857-73v2loj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608132857-73v2loj",
+				"updated": "20220608132857"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeImage",
+							"Data": "span",
+							"Properties": {
+								"parent-style": "max-width: 650px; display: block;",
+								"style": "width: 640px;"
+							},
+							"Children": [
+								{
+									"Type": "NodeBang"
+								},
+								{
+									"Type": "NodeOpenBracket"
+								},
+								{
+									"Type": "NodeLinkText",
+									"Data": "Web3技术栈"
+								},
+								{
+									"Type": "NodeCloseBracket"
+								},
+								{
+									"Type": "NodeOpenParen"
+								},
+								{
+									"Type": "NodeLinkDest",
+									"Data": "https://oss.imzhanghao.com/img/202204141351015.png"
+								},
+								{
+									"Type": "NodeCloseParen"
+								}
+							]
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: style=\"width: 640px;\" parent-style=\"max-width: 650px; display: block;\"}"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://oss.imzhanghao.com/img/202204141351015.png"
+						},
+						{
+							"Type": "NodeLinkSpace"
+						},
+						{
+							"Type": "NodeLinkTitle",
+							"Data": "Web3技术栈"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608132857-f5driea",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220608132857-f5driea",
+				"updated": "20220608132857"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Layer 0"
+				}
+			]
+		},
+		{
+			"ID": "20220608132857-l2tvlxl",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220608132857-l2tvlxl",
+				"updated": "20220608132857"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220608132857-33ddep0",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220608132857-33ddep0"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "基础设施和网络层，提供了数据分发和互动能力"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608132857-9gadu13",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608132857-9gadu13",
+				"updated": "20220608132857"
+			},
+			"Children": [
+				{
+					"ID": "20220608132857-yisyj3v",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608132857-yisyj3v"
+					},
+					"Children": [
+						{
+							"ID": "20220608132857-1iolj6n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608132857-1iolj6n"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "P2P internet overlay protocols"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：点对点互联网覆盖协议，一个允许节点以分散的方式进行通信的网络套件。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220608132857-7yj0dln",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608132857-7yj0dln"
+					},
+					"Children": [
+						{
+							"ID": "20220608132857-7xmik7s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608132857-7xmik7s"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Platform-neutral computation description language"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：平台中立的计算描述语言，一种在不同物理平台（架构、操作系统等）上执行相同程序的方式。例子包括EVM（以太坊）、UTXOs（比特币）和Wasm。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608132857-1jy0wf0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220608132857-1jy0wf0",
+				"updated": "20220608132857"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Layer 1"
+				}
+			]
+		},
+		{
+			"ID": "20220608132857-73nnta3",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220608132857-73nnta3",
+				"updated": "20220608132857"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220608132857-xkyqb57",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220608132857-xkyqb57"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "协议层，提供了分发和互动数据的能力"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608132857-rz04l6r",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608132857-rz04l6r",
+				"updated": "20220608132857"
+			},
+			"Children": [
+				{
+					"ID": "20220608132857-bwnzvxr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608132857-bwnzvxr"
+					},
+					"Children": [
+						{
+							"ID": "20220608132857-amjmq3s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608132857-amjmq3s"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Data distribution protocols"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：数据分配协议，描述数据如何在去中心化系统的各个节点之间分配和交流的协议。例子包括IPFS、Swarm和BigchainDB。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220608132857-psorjw9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608132857-psorjw9"
+					},
+					"Children": [
+						{
+							"ID": "20220608132857-182lb7d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608132857-182lb7d"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Zero/Low-trust interaction platforms"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：零/低信任互动平台，比如Polkadot，是一种异构多链技术。它由许多具有潜在不同特征的平行链组成，可以更容易地实现匿名或形式验证。交易可以分散在链中，允许在同一时间段内处理更多交易。Polkadot确保这些区块链中的每一个都保持安全，并且它们之间的任何交易都得到忠实执行。可以创建称为桥的专用平行链来连接独立的链。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220608132857-1wwbltr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608132857-1wwbltr"
+					},
+					"Children": [
+						{
+							"ID": "20220608132857-ndn2kf6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608132857-ndn2kf6"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Zero/Low-trust interaction protocols"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：零/低信任度互动协议，描述不同节点如何相互作用并信任来自每个节点的计算和信息的协议。大多数加密货币，如比特币和ZCash，符合零/低信任交互协议的定义，它们描述了节点参与协议所需遵循的规则。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220608132857-6joijtt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608132857-6joijtt"
+					},
+					"Children": [
+						{
+							"ID": "20220608132857-lxfmm7w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608132857-lxfmm7w"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Transient data messaging"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：瞬时数据公共/子信息传递，描述不打算永久存储的数据（如状态更新）如何被传达以及如何让节点意识到其存在的协议。例子包括Whisper和Matrix。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608132857-o47tdkb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220608132857-o47tdkb",
+				"updated": "20220608132857"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Layer 2"
+				}
+			]
+		},
+		{
+			"ID": "20220608132857-h6mhymm",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220608132857-h6mhymm",
+				"updated": "20220608132857"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220608132857-irmeu1l",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220608132857-irmeu1l"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "中间件层，增强了L1层能力:进行提升扩展性、加密消息传递、分布式计算等功能。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608132857-0ib4z0o",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608132857-0ib4z0o",
+				"updated": "20220608132857"
+			},
+			"Children": [
+				{
+					"ID": "20220608132857-p5qv60h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608132857-p5qv60h"
+					},
+					"Children": [
+						{
+							"ID": "20220608132857-kypn8oc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608132857-kypn8oc"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "State channels"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：状态通道，区块链通过让节点在链外相互通信，通过在主链上 \"打开 \"和 \"关闭 \"通道，只写初始和最终结果，而不是在链上记录每个状态转换，从而提高可扩展性的一种方式。例子包括比特币的Lightning Network 和以太坊的Raiden Network。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220608132857-5253ov0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608132857-5253ov0"
+					},
+					"Children": [
+						{
+							"ID": "20220608132857-im1l1w7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608132857-im1l1w7"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Plasma protocols"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：Plasma协议，Plasma是通过创建区块链的 \"树 \"来提高可扩展性的另一种方式，主链是树的根，而 \"子 \"区块链尽可能少地与更高级别的链互动。例子包括Loom的PlasmaChain和OmigeGO Plasma。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220608132857-vb0brwc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608132857-vb0brwc"
+					},
+					"Children": [
+						{
+							"ID": "20220608132857-cv928vn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608132857-cv928vn"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Encrypted storage"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：加密存储，使用密码学对数据进行数学加密和解密，包括静态（即存储在特定的计算机上）和动态（即从一台计算机传输到另一台）。例如：静态指的是存储加密，动态指得是传输加密（HTTPS就是一种传输加密）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220608132857-6s9u2qu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608132857-6s9u2qu"
+					},
+					"Children": [
+						{
+							"ID": "20220608132857-m31m2ej",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608132857-m31m2ej"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Heavy computation"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：重型计算，可以理解为如果需要进行大量的计算，例如在数组中推送大量的对象 提供一种方法，允许计算分散在许多计算机中，并证明计算是正确进行的。这方面的例子包括以太坊的Golem和TrueBit。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220608132857-nbf6z8s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608132857-nbf6z8s"
+					},
+					"Children": [
+						{
+							"ID": "20220608132857-nogr6n3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608132857-nogr6n3"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Distributed secret management"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：分布式秘密管理，允许信息只被授权方访问，包括复杂的场景，如 \"解密此信息需要所有六个签名者使用他们的密钥 \"或 \"7个签名者中的任何5个必须同意\"等等。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220608132857-x637d0m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608132857-x637d0m"
+					},
+					"Children": [
+						{
+							"ID": "20220608132857-4hn4ftb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608132857-4hn4ftb"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Oracles"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " : 预言机，将链外数据（如天气结果或股票价格）注入区块链的一种方式，一般供智能合约使用。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608132857-chzkazq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220608132857-chzkazq",
+				"updated": "20220608132857"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Layer 3"
+				}
+			]
+		},
+		{
+			"ID": "20220608132857-r9b3e2h",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220608132857-r9b3e2h",
+				"updated": "20220608132857"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220608132857-k3vxdpa",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220608132857-k3vxdpa"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "中间件层，人类可读语言和库的层"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608132857-ryygzai",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608132857-ryygzai",
+				"updated": "20220608132857"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在这一层，开发人员和程序员们可以适当抽象，并进行程序开发。这一层包括可扩展协议的API和语言："
+				}
+			]
+		},
+		{
+			"ID": "20220608132857-pg54h3e",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608132857-pg54h3e",
+				"updated": "20220608132857"
+			},
+			"Children": [
+				{
+					"ID": "20220608132857-u02nb6c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608132857-u02nb6c"
+					},
+					"Children": [
+						{
+							"ID": "20220608132857-k140yov",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608132857-k140yov"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "各种语言可以用来开发应用程序，如Solidity和Vyper（Ethereum），Plutus（Cardano），和Rust（Substrate）。此外，还有各种框架。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220608132857-l5qwhsj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608132857-l5qwhsj"
+					},
+					"Children": [
+						{
+							"ID": "20220608132857-p1nekb1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608132857-p1nekb1"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使编程与区块链互动的应用更加容易，如ethers.js、web3.js和oo7.js。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608132857-tg3yul4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220608132857-tg3yul4",
+				"updated": "20220608132857"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Layer 4"
+				}
+			]
+		},
+		{
+			"ID": "20220608132857-hcep4v1",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220608132857-hcep4v1",
+				"updated": "20220608132857"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220608132857-3mz8yn0",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220608132857-3mz8yn0"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "技术栈顶层，DApps"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608132857-4mzn5tp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608132857-4mzn5tp",
+				"updated": "20220608132857"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参与者主要是普通用户（如同今天普通用户在浏览器前端和网页互动一样）用户们在这一层可以和单个或多个区块链（应用等）互动。例如状态、元掩码、MyCrypto、奇偶校验"
+				}
+			]
+		},
+		{
+			"ID": "20220608132857-a4vwotj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608132857-a4vwotj",
+				"updated": "20220608132955"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "协议可扩展的用户界面（“像浏览器一样”），用户用来直接与区块链互动的程序，而不需要知道如何让编程和实现细节：案例有Status、MetaMask、Parity、EtherWallet或MyCrypto"
+				}
+			]
+		},
+		{
+			"ID": "20220608132857-3d3g2fh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608132857-3d3g2fh",
+				"updated": "20220608132857"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeImage",
+							"Data": "span",
+							"Properties": {
+								"parent-style": "max-width: 456px; display: block;",
+								"style": "width: 446px;"
+							},
+							"Children": [
+								{
+									"Type": "NodeBang"
+								},
+								{
+									"Type": "NodeOpenBracket"
+								},
+								{
+									"Type": "NodeLinkText",
+									"Data": "Dapp架构图"
+								},
+								{
+									"Type": "NodeCloseBracket"
+								},
+								{
+									"Type": "NodeOpenParen"
+								},
+								{
+									"Type": "NodeLinkDest",
+									"Data": "https://oss.imzhanghao.com/img/202204150914276.png"
+								},
+								{
+									"Type": "NodeCloseParen"
+								}
+							]
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: style=\"width: 446px;\" parent-style=\"max-width: 456px; display: block;\"}"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://oss.imzhanghao.com/img/202204150914276.png"
+						},
+						{
+							"Type": "NodeLinkSpace"
+						},
+						{
+							"Type": "NodeLinkTitle",
+							"Data": "Dapp架构图"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608133020-6n3isy0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608133020-6n3isy0",
+				"updated": "20220608133030"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                                                                                                       Dapp架构"
+				}
+			]
+		},
+		{
+			"ID": "20220608133345-y4lmoip",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608133345-y4lmoip",
+				"updated": "20220608133346"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "display: block; max-width: 582px;",
+						"style": "width: 572px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220608133346-r2kd3ng.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 572px;\" parent-style=\"display: block; max-width: 582px;\"}"
+				}
+			]
+		},
+		{
+			"ID": "20220608133513-z8msx9y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608133513-z8msx9y",
+				"updated": "20220608133513"
+			}
+		},
+		{
+			"ID": "20220608142441-tltvlwb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220608142441-tltvlwb",
+				"updated": "20220608142500"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "核心栈（Core Stack）"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608142501-vnk63v4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608142501-vnk63v4",
+				"updated": "20220608142501"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "核心栈可以说是整个区块链生态运转必不可少的技术支撑，它们一类属于区块链的底层技术（基础设施），另一类是去中心化应用开发不可或缺的技术组件。"
+				}
+			]
+		},
+		{
+			"ID": "20220608142441-6eajlch",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608142441-6eajlch",
+				"updated": "20220608142441"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这里我们只挑出了最具影响力、最必不可少的技术组件，对它们的发展状况、去中心化的程度进行简要分析。"
+				}
+			]
+		},
+		{
+			"ID": "20220608142441-zb0wtuv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608142441-zb0wtuv",
+				"updated": "20220608142441"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我们所认为的核心栈主要组件有："
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "去中心化应用浏览器（Dapp Browser）、应用托管（Application Hosting）、查询图层（Query Layer）、状态转换机（State Transition Machine）、共识（Consensus）、对等网络层（P2P Layer）。"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608142441-vwzh6jx",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608142441-vwzh6jx",
+				"updated": "20220608142441"
+			},
+			"Children": [
+				{
+					"ID": "20220608142441-2eor50c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608142441-2eor50c"
+					},
+					"Children": [
+						{
+							"ID": "20220608142441-bx3kxuu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608142441-bx3kxuu"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "去中心化应用浏览器（Dapp Browser）"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：代表项目：Mist、MetaMask、Coinbase Wallet、Trust Wallet、imToken"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220608142441-uk8sr5g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608142441-uk8sr5g"
+					},
+					"Children": [
+						{
+							"ID": "20220608142441-se8lo0f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608142441-se8lo0f"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "应用托管（Application Hosting）"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：代表项目：IPFS, Swarm"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220608142441-kaxcye1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608142441-kaxcye1"
+					},
+					"Children": [
+						{
+							"ID": "20220608142441-lha80t3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608142441-lha80t3"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "查询层（Query Layer）"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：代表项目：Chainlink，Band Protocol"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220608142441-mw2nhli",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608142441-mw2nhli"
+					},
+					"Children": [
+						{
+							"ID": "20220608142441-jo6tv4u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608142441-jo6tv4u"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "状态转换机（State Transition ）"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：以太坊虚拟机（EVM） - 以太坊1.0，Ethermint，Hashgraph，WANchain等 网络装配虚拟机 (WASM) – Dfinity, EOS, Polkadot, 以太坊 2.0 Direct LLVM exposure – Cardano, Solana 自定义状态转换机（Custom state transition machines）：Kadena，Tezos，Rchain，Coda"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220608142441-703nseg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608142441-703nseg"
+					},
+					"Children": [
+						{
+							"ID": "20220608142441-dj4j1k6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608142441-dj4j1k6"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "共识层（Consensus Layer）"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：代表项目：POW, POS, DPOS"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220608142441-6zn49yv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608142441-6zn49yv"
+					},
+					"Children": [
+						{
+							"ID": "20220608142441-kfzze68",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608142441-kfzze68"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "对等网络层（P2P Layer）"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：代表项目：Libp2p, Devp2p"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608142441-qrfz4jz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608142441-qrfz4jz",
+				"updated": "20220608142441"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "潜在的核心栈——扩展核心栈（Extended Core Stack）"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "\n这些技术组件虽然不是底层链的一部分，也不是对DApp的开发必不可少的组件，但它们将很有可能成为未来开发堆栈的核心组件，这意味它们是非常值得投资机构关注的领域。"
+				}
+			]
+		},
+		{
+			"ID": "20220608142441-idw02ad",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608142441-idw02ad",
+				"updated": "20220608142441"
+			},
+			"Children": [
+				{
+					"ID": "20220608142441-eps71nc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608142441-eps71nc"
+					},
+					"Children": [
+						{
+							"ID": "20220608142441-l5rp9eq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608142441-l5rp9eq"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "侧链（Sidechains）"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：在BTC网络中最值得注意的用例是Drivechains 和Liquid。而在以太坊体系中，最重要的是 Plasma 框架内的SKALE和近期以太坊基金会推出的Roll up证明，以及Cosmos Ethermint。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220608142441-6fg8a0f",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608142441-6fg8a0f"
+					},
+					"Children": [
+						{
+							"ID": "20220608142441-6acoe1a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608142441-6acoe1a"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "支付通道和状态通道网络（Payment Channel and State Channel Network）"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：Blockstream 在2015年推出闪电网络，在以太坊生态系统中，则有Raiden、Loom和Celer。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220608142441-pfthjbk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608142441-pfthjbk"
+					},
+					"Children": [
+						{
+							"ID": "20220608142441-xks8nyt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608142441-xks8nyt"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "跨账本协议（Interledger Protocol ILP）"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：Ripple实验室使用跨账本协议跨界连接其产品中的银行系统。而Kava则使用跨账本协议技术在Cosmos基础上构建支持 XRP、BNB、ATOM 等资产的 DeFi 平台。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220608142441-v7z169h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608142441-v7z169h"
+					},
+					"Children": [
+						{
+							"ID": "20220608142441-381s8jq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608142441-381s8jq"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "不可变的结构化数据库（Immutable Structured Databases）"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：BigchainDB、OrbitDB 和 Bluezelle 等许多团队正在构建不可变的结构化数据库作为无需许可的独立链（Permissionless, Free Standing Chains）。鉴于使用结构化数据库可以提升性能，开发人员也许会选择原生地使用这些系统，比如像SKALE这样的团队也许会将这些开源系统作为Plasma链。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220608142441-slf5vqr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608142441-slf5vqr",
+						"updated": "20220608142441"
+					},
+					"Children": [
+						{
+							"ID": "20220608142441-dncbbu2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608142441-dncbbu2",
+								"updated": "20220608142441"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "零知识证明（Zero-knowledge Proof）"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：零知识证明最有代表性的两个技术为ZK-SNARK以及ZK-STARK。其代表项目分别为Coda和Starkware。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608133513-unw1cxp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220608133513-unw1cxp",
+				"updated": "20220608134254"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "另一个可选架构                                       The Layers of the Web 3.0 Architecture"
+				}
+			]
+		},
+		{
+			"ID": "20220608133527-5amz8lu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608133527-5amz8lu",
+				"updated": "20220608134237"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220608134237-8ab1km0.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608135117-ybkz5cl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220608135117-ybkz5cl",
+				"updated": "20220608141128"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.应用层"
+				}
+			]
+		},
+		{
+			"ID": "20220608135106-w12fidt",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608135106-w12fidt",
+				"updated": "20220608135106"
+			},
+			"Children": [
+				{
+					"ID": "20220608135826-4abb9gz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608135826-4abb9gz",
+						"updated": "20220608135106"
+					},
+					"Children": [
+						{
+							"ID": "20220608135826-rh86bm8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135826-rh86bm8"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "dApp浏览器"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n首先，Web 3.0区块链应用架构的第一层基础设施是dApp浏览器。那么，什么是dApp浏览器？"
+								}
+							]
+						},
+						{
+							"ID": "20220608135106-jzv72al",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135106-jzv72al",
+								"updated": "20220608135106"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一个dApp浏览器将使你能够访问去中心化的应用程序。像Firefox或Chrome这样的普通浏览器并不具备让你浏览正在占领世界的新的去中心化应用的基础设施。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135106-dqy8qoh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135106-dqy8qoh",
+								"updated": "20220608135106"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一些dApp浏览器给你提供了一个完整的桌面浏览器，如用户接口。唯一的区别是，你可以在访问常规网络的同时访问新的web3应用程序。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135106-cbyhqp8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135106-cbyhqp8",
+								"updated": "20220608135106"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "MetaMask是其中一个流行的浏览器。它实际上是一个插件，你可以添加到Mozilla、Chrome和Brave上。你不必运行一个完整的节点来使用它，这就是为什么它是如此高效。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135106-0a2bdzk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135106-0a2bdzk",
+								"updated": "20220608135106"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "其他浏览器是Trust浏览器和Cipher。在谈到web3浏览器时，这些也有很好的输出。Cipher是针对移动设备的，允许你浏览所有分散的应用程序并从中选择。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135106-php08yy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135106-php08yy",
+								"updated": "20220608135106"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "它有点像谷歌应用商店，但在这里你会在一个地方得到所有的分散的应用程序。Trust浏览器也是如此，但它提供了钱包服务，以跟踪你所有的加密货币来购买应用程序。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608135924-zu24df6",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608135924-zu24df6",
+				"updated": "20220608135924"
+			},
+			"Children": [
+				{
+					"ID": "20220608135924-2sy24ka",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608135924-2sy24ka"
+					},
+					"Children": [
+						{
+							"ID": "20220608135106-h0re0ke",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135106-h0re0ke",
+								"updated": "20220608135133"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "应用程序托管"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n这一层对于托管下一层（dApp）是绝对必要的。有没有想过你下载的所有这些应用程序，它们是如何实际运行的？那么，托管的作用是，它通过云存储使应用程序可用。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135930-k73ghib",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135930-k73ghib"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通过这种方式，应用程序将被托管在使用软件即服务（SaaS）的去中心化网络上。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135106-33zga03",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135106-33zga03"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "去中心化的应用程序需要这个层，因为这个层为用户提供很多支持。该层使所有的dApp易于访问并与任何设备整合。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135106-rcpu01t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135106-rcpu01t"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "它们的风险也非常小，维护状态也很低。因此，以各种方式帮助开发者。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608135941-mycbwg8",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608135941-mycbwg8",
+				"updated": "20220608135106"
+			},
+			"Children": [
+				{
+					"ID": "20220608135941-tht48am",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608135941-tht48am",
+						"updated": "20220608135106"
+					},
+					"Children": [
+						{
+							"ID": "20220608135106-fphobsz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135106-fphobsz",
+								"updated": "20220608135137"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "去中心化的应用程序"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\ndApps很可能是web3区块链栈的重要层之一。随着区块链技术的发展，这些dApps现在正在接管我们典型的集中式应用系统。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135106-u4igrfq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135106-u4igrfq"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "现在，人们可以使用区块链网络上的点对点服务器网络进行连接。在过去的几年里，dApps的社区经历了一些严重的变化。为了创建一个坚实的dApp，你需要有外部数据、计算、货币化、文件存储和支付系统。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135106-pclawyl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135106-pclawyl",
+								"updated": "20220608135106"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在过去的几年里，建立一个dApp真的很困难，但现在在2018年，这不再是一个大问题。web3区块链栈上的技术栈负责帮助这一层的发展。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608134534-jc0an5e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608134534-jc0an5e",
+				"updated": "20220608134534"
+			}
+		},
+		{
+			"ID": "20220608135220-3q1vmvl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220608135220-3q1vmvl",
+				"updated": "20220608141131"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.服务和可选组件"
+				}
+			]
+		},
+		{
+			"ID": "20220608140007-7uw09ur",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220608140007-7uw09ur",
+				"updated": "20220608140013"
+			},
+			"Children": [
+				{
+					"ID": "20220608135636-g4pp9w9",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220608135636-g4pp9w9",
+						"updated": "20220608140013"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "第二阶段的层基本上进入了技术层。这一层涵盖了创建和运行dApps层的所有重要工具。它通常涵盖数据馈送、链外计算、治理（DAO）、状态通道和侧链。"
+						}
+					]
+				},
+				{
+					"ID": "20220608135220-eibppcb",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220608135220-eibppcb",
+						"updated": "20220608140007"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "现在，让我们仔细看看这个问题。"
+						}
+					]
+				},
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20220608140019-0czx8t1",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608140019-0czx8t1",
+				"updated": "20220608140019"
+			},
+			"Children": [
+				{
+					"ID": "20220608140019-jpflt8e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608140019-jpflt8e"
+					},
+					"Children": [
+						{
+							"ID": "20220608135220-prwf70t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135220-prwf70t",
+								"updated": "20220608135742"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Date feeds"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n数据馈送也被称为网络馈送，是web3区块链栈的重要方面之一。它是一种用于接收来自可靠来源的最新数据信息的机制。在新的深层技术中，数据馈送显然将是分散的。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135220-q5esn7x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135220-q5esn7x",
+								"updated": "20220608135220"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "而且最重要的是用于节点相应地更新他们的信息。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608140043-t4aiuvt",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608140043-t4aiuvt",
+				"updated": "20220608140043"
+			},
+			"Children": [
+				{
+					"ID": "20220608140043-aglcrxp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "0",
+						"id": "20220608140043-aglcrxp"
+					},
+					"Children": [
+						{
+							"ID": "20220608135220-bjw0hc6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135220-bjw0hc6",
+								"updated": "20220608135220"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "链外计算\n链外计算不言自明。计算的过程是在区块链应用栈之外完成的。与链上计算相比，它的成本相对较低，而且节省时间。链外计算不仅能确保数值的可信度，而且还能确保它不能被逆转。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135220-8tb4gdu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135220-8tb4gdu",
+								"updated": "20220608135220"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "链外编译提供了一个额外的隐私层，是开发去中心化应用的完美备份。虚拟内存系统就是这部分的完美例子。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220608140043-dywqwuh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "0",
+						"id": "20220608140043-dywqwuh"
+					},
+					"Children": [
+						{
+							"ID": "20220608135220-pau1w0y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135220-pau1w0y",
+								"updated": "20220608135729"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "治理（Governance）\n你一定想知道一个去中心化的系统怎么会有一个治理部分在里面。然而，对于web3 IT堆栈的某些基础设施来说，它实际上是非常必要的。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135220-0ar30zh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135220-0ar30zh",
+								"updated": "20220608135220"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在这种情况下，将不需要任何人类管理角色。一个去中心化的自治组织对于开发者来说是完美的，可以利用他们的项目。这些组织处理的是智能合约。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135220-5scqxg5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135220-5scqxg5",
+								"updated": "20220608135220"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一个DAO最初运行在区块链技术栈的去中心化协议上。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608140123-v8j3bv2",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608140123-v8j3bv2",
+				"updated": "20220608140136"
+			},
+			"Children": [
+				{
+					"ID": "20220608140123-ub0w94n",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "0",
+						"id": "20220608140123-ub0w94n"
+					},
+					"Children": [
+						{
+							"ID": "20220608135220-42ezs6x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135220-42ezs6x",
+								"updated": "20220608135220"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "状态通道\n状态通道只是两个想通过交易手段相互沟通的对等人之间的双向通道。通道上的每个用户都必须用他们的私钥签署他们的交易，以确保它们是完全授权的，并且来自真正的用户。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135220-oz1rmbu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135220-oz1rmbu",
+								"updated": "20220608135220"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "这些通道也是只对参与者开放的私人通道。然而，这些渠道有一个有限的时间框架，这意味着它们将在一个预定的时间框架后消失。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220608140133-36fwz1q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608140133-36fwz1q",
+						"updated": "20220608140136"
+					},
+					"Children": [
+						{
+							"ID": "20220608140133-5nh5b7q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608140133-5nh5b7q",
+								"updated": "20220608140136"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "多重签名\n多重签名是网络3层架构的一个重要部分。这种签名通过提供一个独特的签名来实现交易的安全性。这些地址将要求任何用户在他/她传输包之前在网络内签署交易。你可以在创建地址之前决定你想要或被要求提供多少个签名。BitGo首先推出了这项新技术，现在正被广泛用于web 3.0区块链堆栈中。这就是为什么他们是web 3.0区块链应用架构中的必要条件之一。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608140204-1w8mz98",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608140204-1w8mz98",
+				"updated": "20220608140209"
+			},
+			"Children": [
+				{
+					"ID": "20220608140204-hynoz9a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608140204-hynoz9a",
+						"updated": "20220608140209"
+					},
+					"Children": [
+						{
+							"ID": "20220608135305-t3kmqhb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135305-t3kmqhb",
+								"updated": "20220608140154"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "预言机\n预言机是区块链网络中用于支持智能合约的一种数据源形式。它们作为一个代理，找出关于现实世界的信息，并将这些信息带到智能合约中。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135305-lf4v9fy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135305-lf4v9fy",
+								"updated": "20220608135305"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "为什么呢？嗯，这是因为区块链网络没有任何与外部世界的联系。所以，如果网络想运行智能合约或需要网络以外的任何类型的信息，它就必须通过其他方式获取信息。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135305-wpwi30v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135305-wpwi30v",
+								"updated": "20220608135305"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "为了解锁智能合约中的某些条件，它需要一定的价值。一旦它从Oracles那里得到所有的价值，它就可以按照指示进行。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135305-jufvd8f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135305-jufvd8f",
+								"updated": "20220608135305"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "所以，Oracles实际上是作为这些价值的提供者工作的。它可以是任何东西，某种市场评估，或支付，或任何东西。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135305-bc5p2iq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135305-bc5p2iq",
+								"updated": "20220608140209"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "是区块链网络3.0技术栈的重要组成部分之一。没有它，网络将无法正常运作。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608140302-qmgf7qq",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608140302-qmgf7qq",
+				"updated": "20220608135305"
+			},
+			"Children": [
+				{
+					"ID": "20220608140302-rujquas",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608140302-rujquas",
+						"updated": "20220608135305"
+					},
+					"Children": [
+						{
+							"ID": "20220608135305-xxxxt4p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135305-xxxxt4p",
+								"updated": "20220608135305"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "钱包\n区块链应用架构中的钱包，我指的是数字钱包或加密货币钱包。它们是存储用户的公钥和私钥并与其他区块链网络互动的程序。有了这些，你就可以监控你的数字资产，如比特币、以太坊、莱特币等等。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608140309-pte83vi",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608140309-pte83vi",
+				"updated": "20220608140309"
+			},
+			"Children": [
+				{
+					"ID": "20220608140309-kw6gt0d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608140309-kw6gt0d"
+					},
+					"Children": [
+						{
+							"ID": "20220608135305-52ri0z9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135305-52ri0z9",
+								"updated": "20220608135305"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数字资产\n数字资产可以是很多东西。但在这个区块链世界里，它现在变成了加密货币。新的网络3.0区块链栈提供了这些货币的利用。你也可以把图像、多媒体、文本合同视为数字资产。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135305-uov1iku",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135305-uov1iku",
+								"updated": "20220608135305"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "这些都是web 3.0区块链技术栈将提供的服务之一。网络3.0信息技术栈是数字网络3层架构的新革命。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608140314-l8ptto0",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608140314-l8ptto0",
+				"updated": "20220608140314"
+			},
+			"Children": [
+				{
+					"ID": "20220608140314-6ajqwgg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608140314-6ajqwgg"
+					},
+					"Children": [
+						{
+							"ID": "20220608135305-ncf6d35",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135305-ncf6d35",
+								"updated": "20220608135305"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "智能合约\n智能合约简单地说就是完全摆脱了中间人。你将不必处理信任问题，并能够以无冲突的方式交换你的贵重物品，如金钱、股票或财产，甚至代币。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135305-ilwvajx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135305-ilwvajx",
+								"updated": "20220608135305"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "智能合约的基础是各方的协议。规则是由之前设定的，在执行这些规则后，每个人都会得到他们公平的那份钱。这都是自动化的，所以没有任何更高权力的影响。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135305-vkmbhqy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135305-vkmbhqy",
+								"updated": "20220608135305"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通常情况下，典型的接触有很多缺陷，但在这里，托管的钱在完成这些任务后就会掉进团队成员的账户。这个过程是非常透明的。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608140251-1n3en2p",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608140251-1n3en2p",
+				"updated": "20220608140251"
+			},
+			"Children": [
+				{
+					"ID": "20220608140251-lgwnclq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608140251-lgwnclq"
+					},
+					"Children": [
+						{
+							"ID": "20220608135305-urzyh4m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135305-urzyh4m",
+								"updated": "20220608135305"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数字身份\n数字身份对于web 3.0区块链应用架构来说是非常关键的，因为每个人都会通过在线连接。因此，有必要拥有一个数字身份来定义你或在需要的地方授权给你。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135305-0ap1ce9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135305-0ap1ce9",
+								"updated": "20220608135305"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "你可以在各种需要的平台上拥有多个数字身份。然而，一个数字身份将完全确保你的安全和隐私。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135305-badtdhs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135305-badtdhs",
+								"updated": "20220608135305"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一个数字身份将有一些特定的属性，例如。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135305-vv9espl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135305-vv9espl",
+								"updated": "20220608135305"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "你的用户名和密码。\n出生日期。\n你的在线活动。\n社会安全号码。\n交易历史\n医疗记录。\n一个数字身份可以用来链接到其他资产，如域名、电子邮件、URL等。在这个世界上，网络犯罪正在上升，它绝对是一种必需品。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608140239-oekty9u",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608140239-oekty9u",
+				"updated": "20220608140239"
+			},
+			"Children": [
+				{
+					"ID": "20220608140239-cwtnngl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608140239-cwtnngl"
+					},
+					"Children": [
+						{
+							"ID": "20220608135305-47liv0a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135305-47liv0a",
+								"updated": "20220608135305"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "分布式文件存储\n分布式文件存储或系统是一个存储数据的服务器位置。你可以随心所欲地访问这些数据，就像你的电脑一样。不过这个过程更加方便。"
+								}
+							]
+						},
+						{
+							"ID": "20220608140243-feooq9g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608140243-feooq9g"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "服务器将需要认证才能访问，之后只给被授权的客户完全的控制权。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608135305-1fpkqdv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220608135305-1fpkqdv",
+				"updated": "20220608141135"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.协议层"
+				}
+			]
+		},
+		{
+			"ID": "20220608140346-p22syjo",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220608140346-p22syjo",
+				"updated": "20220608140347"
+			},
+			"Children": [
+				{
+					"ID": "20220608140341-ljzphif",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220608140341-ljzphif",
+						"updated": "20220608140347"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "网络层涵盖了不同的共识算法，参与要求，虚拟机和更多。让我们仔细看一下它们。"
+						}
+					]
+				},
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20220608140535-ifh00r0",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608140535-ifh00r0",
+				"updated": "20220608140535"
+			},
+			"Children": [
+				{
+					"ID": "20220608140535-gsazxvx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608140535-gsazxvx"
+					},
+					"Children": [
+						{
+							"ID": "20220608135305-ufgnm4i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135305-ufgnm4i",
+								"updated": "20220608135336"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "共识算法"
+								}
+							]
+						},
+						{
+							"ID": "20220608135346-w5zjnou",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135346-w5zjnou",
+								"updated": "20220608135346"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "区块链使用共识算法来确保各节点达成协议。这是一个很好的过程，可以使网络更有效率。为什么呢？嗯，他们增加了一个新的可靠性水平，即使是不可靠的节点。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135346-gu5ybap",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135346-gu5ybap",
+								"updated": "20220608135346"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "这里的问题是要解决已知的共识问题。主要是如果网络有多代理系统和分布式计算协议。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135346-8t1nfrc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135346-8t1nfrc",
+								"updated": "20220608135346"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "为了使之成为现实，该算法必须认为一些节点肯定是不可用的，网络会有数据损失。这使得算法成为一个容错机器。从一开始就使其具有容错性，将提高网络的效率，因为即使没有发生故障，它也会做好准备。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135346-vgopxgw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135346-vgopxgw",
+								"updated": "20220608135346"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "目前有许多开发者在不停地试验该算法。我们的目标是做出一个为用户提供最有效的算法。让我们看看现在的一些区块链技术提供了什么。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608135419-5a0axij",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608135419-5a0axij",
+				"updated": "20220608135419"
+			}
+		},
+		{
+			"ID": "20220608140558-wuim9o9",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608140558-wuim9o9",
+				"updated": "20220608140558"
+			},
+			"Children": [
+				{
+					"ID": "20220608140558-mg1np4k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608140558-mg1np4k"
+					},
+					"Children": [
+						{
+							"ID": "20220608135420-k4m5qzd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135420-k4m5qzd",
+								"updated": "20220608135420"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "侧链\n有些人把侧链和状态通道混淆了。然而，两者的区别是巨大的。侧链是一种独特的新兴机制，被引入到允许代币或其他资产从母区块链到一个单独的区块链，然后再返回。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135420-fb6yqtw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135420-fb6yqtw",
+								"updated": "20220608135420"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "侧链为开发者带来了巨大的潜力。开发者可以轻松地在侧链内开发去中心化的应用程序，而不以任何方式影响主链。然而，网络上的每个人都将能够利用应用程序的有效性。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135420-tjuqmcu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135420-tjuqmcu",
+								"updated": "20220608135420"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "他们是不同区块链网络的独立细胞，他们必须自己提供安全。因此，它们可以被黑客攻击。然而，如果一个侧链被破坏，它只会影响到这个侧链，而使其他侧链不受影响。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608140605-l0ecrwa",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608140605-l0ecrwa",
+				"updated": "20220608135420"
+			},
+			"Children": [
+				{
+					"ID": "20220608140605-7x8olz8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608140605-7x8olz8",
+						"updated": "20220608135420"
+					},
+					"Children": [
+						{
+							"ID": "20220608135420-nxejt34",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135420-nxejt34",
+								"updated": "20220608140554"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "许可\n这主要是指不同类型的区块链网络，这也将反映在web3的IT栈上。web3区块链的新去中心化平台主要有三种类型的基础设施。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135420-ojindfo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135420-ojindfo",
+								"updated": "20220608135420"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一种是公共或无许可区块链，任何用户都可以加入网络，而不需要满足任何条件。因此，他们可以下载网络提供的协议，没有任何麻烦。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135420-1xw3r5w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135420-1xw3r5w",
+								"updated": "20220608135420"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "另一方面，私人或许可网络将需要满足某些条款，以便作为成员加入并使用网络本身提供的协议或其他好处。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608140634-4mp4c4g",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608140634-4mp4c4g",
+				"updated": "20220608140634"
+			},
+			"Children": [
+				{
+					"ID": "20220608140634-ghvjvyr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "0",
+						"id": "20220608140634-ghvjvyr"
+					},
+					"Children": [
+						{
+							"ID": "20220608135420-zdtqbcx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135420-zdtqbcx",
+								"updated": "20220608140639"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "EVM虚拟机\n这是区块链应用架构的另一个重要因素。虚拟机或主要是Ethereum虚拟机现在在所有新的区块链技术系统中相当流行。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135420-tnovzm0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135420-tnovzm0",
+								"updated": "20220608135420"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "虚拟机的主要重点是维护安全和执行来自网络上所有计算机的不可靠的代码源。简单来说，EVM现在在这里，是为了防止加密货币世界最常见的威胁，也就是拒绝服务攻击。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135420-dbae23r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135420-dbae23r",
+								"updated": "20220608135420"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "这种网络攻击是相当致命的，因为它可以使用户无法使用网络的资源。它还可以确保没有程序可以干扰对方的任务，并确保一切都能顺利地运行。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135420-m3fpx1f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135420-m3fpx1f",
+								"updated": "20220608135420"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "这个环境的构建是为了实现智能合约的运行环境，使用户能够从服务中受益。你一定很清楚，如今智能合约已经疯狂地流行起来了。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135420-x2lqksb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135420-x2lqksb",
+								"updated": "20220608135420"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "为了使其更加安全，并在没有任何干扰的情况下进行交易，虚拟机真的很有帮助。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135420-h34q83u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135420-h34q83u",
+								"updated": "20220608135420"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "让我们看看不同区块链所使用的不同类型的虚拟机或状态转换机。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135420-gylv5sk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135420-gylv5sk",
+								"updated": "20220608135420"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "以太坊1.0，WANchain，Hashgraph，Ethermint和其他 - 以太坊虚拟机（EVM）\nSolana, Cardano - 直接接触LLVM\n以太坊2.0、EOS、Dfinity、Polkadot - 网络大会虚拟机（WASM）\nKadena、Corda、Tezos和Rchain使用他们自己定制的状态转换机。\n为什么这些平台使用他们定制的虚拟机？\n嗯，问题是，在谈到区块链和安全时，每个人都有不同的看法。Kadena认为智能合约是一种人类可读的技术，这就是为什么他们选择走这条路。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135420-0n3lxpb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135420-0n3lxpb",
+								"updated": "20220608135420"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "另一方面，Rchain允许智能合约在不同的DApps上运行，但它们需要先被验证。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135420-ko9dnr1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135420-ko9dnr1",
+								"updated": "20220608135420"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Tezos也遵循这一验证规则，才允许任何人创建合约或成为其中的一部分。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135420-xm1qpqw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135420-xm1qpqw",
+								"updated": "20220608135420"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Corda希望尽可能地确保最高水平的去中心化。这就是为什么他们每次都通过SNARKs运行，以保证完整的节点验证，并增加此后的完整性概率。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608135502-a6kea93",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608135502-a6kea93",
+				"updated": "20220608135502"
+			}
+		},
+		{
+			"ID": "20220608135503-oi5xbk9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220608135503-oi5xbk9",
+				"updated": "20220608141138"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.网络和传输层"
+				}
+			]
+		},
+		{
+			"ID": "20220608140723-9dylkk7",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220608140723-9dylkk7",
+				"updated": "20220608140723"
+			},
+			"Children": [
+				{
+					"ID": "20220608140653-eqhctw6",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220608140653-eqhctw6",
+						"updated": "20220608140723"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "网络层主要由RLPx、Roll your Own和Trusted Execution Environment（TEE）组成。让我们看看它们是什么。"
+						}
+					]
+				},
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20220608140731-w4zc5cg",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608140731-w4zc5cg",
+				"updated": "20220608140731"
+			},
+			"Children": [
+				{
+					"ID": "20220608140731-svg3yq6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608140731-svg3yq6"
+					},
+					"Children": [
+						{
+							"ID": "20220608135503-4rgyowz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135503-4rgyowz",
+								"updated": "20220608135503"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "RLPx\nRLPx是一个网络和协议套件，用于帮助两个对等体之间的通用运输。它还为应用程序提供了一个接口，使用户可以在网络内进行通信。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135503-bm7igdt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135503-bm7igdt",
+								"updated": "20220608135503"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "它是为去中心化的应用程序设计的，目前，以太坊正在使用它。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135503-8gfl6ws",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135503-8gfl6ws",
+								"updated": "20220608135503"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "较新版本的RLPx正在为以太坊提供一个网络层。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135503-1brszw0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135503-1brszw0",
+								"updated": "20220608135503"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "这项令人敬畏的技术的主要特点是发现节点并形成整体网络。除此以外，它还对两个用户之间的握手和传输进行加密。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135503-kdu2jh8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135503-kdu2jh8",
+								"updated": "20220608135503"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "它也被用来构建不同的协议并控制网络上的整体数据流。RLPx用于优先选择某些对等体进行决策和其他目的。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135503-616rjad",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135503-616rjad",
+								"updated": "20220608135503"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "它还实现了p2p网络内的真实连接。我们都知道区块链应用架构如何需要大量的安全来运行，这可能是最好的方式。由于网络3层架构是去中心化的，增加一个认证发现协议和加密传输通道肯定会受益匪浅。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135503-p06u5qx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135503-p06u5qx",
+								"updated": "20220608135503"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "随着RLPx的整合，对等人现在可以毫无问题地与新的网络3层架构无缝连接。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608140758-8xgbeuj",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608140758-8xgbeuj",
+				"updated": "20220608140758"
+			},
+			"Children": [
+				{
+					"ID": "20220608140758-4taxwyy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608140758-4taxwyy"
+					},
+					"Children": [
+						{
+							"ID": "20220608135503-jbahl5x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135503-jbahl5x",
+								"updated": "20220608140754"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Roll Your Own\n自主开发是一个只有在标准协议不能与你的基础设施一起使用的过程。这种方法使用户能够创建他们的自定义协议，以更好地适应他们的需求。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135503-eccoy4s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135503-eccoy4s",
+								"updated": "20220608135503"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对于普通用户来说，最好的做法是使用标准协议。然而，并不是每个协议都能与每个物理层配合，随着所有新的区块链技术的兴起，在网络上保持这种选择是一个加分点。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135503-2lfjrxl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135503-2lfjrxl",
+								"updated": "20220608135503"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "每个区块链网络都会带来新的东西。因此，创建自定义协议的选项将确保整个网络3层架构的创造力和潜在增长。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608140808-x2cmbnj",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608140808-x2cmbnj",
+				"updated": "20220608140814"
+			},
+			"Children": [
+				{
+					"ID": "20220608140808-zu4s8q9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608140808-zu4s8q9",
+						"updated": "20220608140814"
+					},
+					"Children": [
+						{
+							"ID": "20220608135503-j8kvi4t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135503-j8kvi4t",
+								"updated": "20220608140814"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可信的执行环境TEE\n可信的执行环境是这个网络3层架构的重要组成部分之一。为什么？因为区块链有可扩展性问题，为了克服这个问题，它需要增加一个系统，在很大程度上消除或减少这个问题。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135503-ro3yzsc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135503-ro3yzsc",
+								"updated": "20220608135503"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "实际上，TEE实际上是一个远离主网络或系统的孤立区域或服务器。TEE允许数据存储在网络上，并确保这些信息的安全。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135503-7z013aw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135503-7z013aw",
+								"updated": "20220608135503"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "由于网络3.0，IT堆栈有一个分散的基础设施，因此在系统上整合TEE，并为整个系统提供端到端的安全和保密性是非常合理的。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608140835-hpnq9jx",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608140835-hpnq9jx",
+				"updated": "20220608140853"
+			},
+			"Children": [
+				{
+					"ID": "20220608140835-602vs8a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608140835-602vs8a",
+						"updated": "20220608140853"
+					},
+					"Children": [
+						{
+							"ID": "20220608135503-wz7b4po",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135503-wz7b4po",
+								"updated": "20220608135503"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "区块交付网络\n区块交付网络是一个分布式的网络系统，它将网页或其他网络内容交付给任何请求的用户。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135503-rh9188m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135503-rh9188m",
+								"updated": "20220608135503"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "该系统根据网页的位置、服务器和来源来交付这些内容。这项服务对于那些流量非常大、全球公认的网站来说确实很方便。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135503-q3myntx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135503-q3myntx",
+								"updated": "20220608135503"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "这些服务器分布在世界各地，为用户提供备份支持。如果你靠近这些服务器，你可能会比那些在远处的人更快地获得所要求的数据。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135503-frdvfuu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135503-frdvfuu",
+								"updated": "20220608135503"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "区块交付网络对网站的内容进行缓存，然后在他们的一个服务器上交付给用户。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135503-nt81tom",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135503-nt81tom",
+								"updated": "20220608140853"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "它的一些功能是:"
+								}
+							]
+						},
+						{
+							"ID": "20220608135503-l028ruv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135503-l028ruv",
+								"updated": "20220608135503"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "外围访问中的安全 - 直接访问用户界面并确保其安全性，并为摄像头、指纹等提供额外支持。\n通信中的安全 - 加密操作、加密密钥。\n设备身份和认证程序--TEE摆脱了所有的安全循环，给你的设备一个独特的ID。任何来自其他设备的登录都会立即提醒系统。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608135542-1h44pas",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608135542-1h44pas",
+				"updated": "20220608135542"
+			}
+		},
+		{
+			"ID": "20220608135544-5d4qyvo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220608135544-5d4qyvo",
+				"updated": "20220608141142"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5.基础设施层"
+				}
+			]
+		},
+		{
+			"ID": "20220608140903-7c185b5",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608140903-7c185b5",
+				"updated": "20220608140903"
+			},
+			"Children": [
+				{
+					"ID": "20220608140903-3x9ocqe",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608140903-3x9ocqe"
+					},
+					"Children": [
+						{
+							"ID": "20220608140710-s1r1lan",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608140710-s1r1lan"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "采矿即服务\n挖矿是现在加密货币世界的一个大词。它首先来自比特币，现在已经蔓延到整个web3区块链栈系统。去中心化的网络现在需要这种机会作为一种服务。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135544-14yavcd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135544-14yavcd",
+								"updated": "20220608135544"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "现在有很多公司提供采矿服务。其中一个例子是DMG。他们向那些想以工业规模为目标的投资者或个人提供MaaS解决方案。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135544-oqk18be",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135544-oqk18be",
+								"updated": "20220608135544"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "他们会得到稳定的收入流，所有，矿工会得到他们公平的利润份额。现在的去中心化网络确保了这种新型的商业策略。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135544-2awdmnq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135544-2awdmnq",
+								"updated": "20220608140905"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608140915-2isi4n0",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608140915-2isi4n0",
+				"updated": "20220608140915"
+			},
+			"Children": [
+				{
+					"ID": "20220608140915-qnhcnzq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608140915-qnhcnzq"
+					},
+					"Children": [
+						{
+							"ID": "20220608135544-yt77n0p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135544-yt77n0p",
+								"updated": "20220608135544"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "网络\n主要的web 3.0 IT堆栈的网络是去中心化的。该网络不需要任何中央机构来维护该系统。因此，每个用户都会得到他们所希望的隐私。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135544-ltnfmu2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135544-ltnfmu2",
+								"updated": "20220608135544"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "这个过程与区块链网络完全一样，但增加了可扩展性。由于web3信息技术栈现在将在这种网络上运行，它将获得自己的web3浏览器。所有这些web3浏览器也将是去中心化的。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135544-al6uuja",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135544-al6uuja",
+								"updated": "20220608135544"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在网络上运行的区块链应用程序也将是去中心化的，但在初始阶段，它应该同时运行既定的中心化应用程序和去中心化的应用程序。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135544-za1h8zi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135544-za1h8zi",
+								"updated": "20220608135544"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "因此，区块链应用程序栈将具有与dApps相同的结构。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608140932-kk8ldf6",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608140932-kk8ldf6",
+				"updated": "20220608140932"
+			},
+			"Children": [
+				{
+					"ID": "20220608140932-nmc4o02",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608140932-nmc4o02"
+					},
+					"Children": [
+						{
+							"ID": "20220608135544-zkbhe19",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135544-zkbhe19",
+								"updated": "20220608135544"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "虚拟化\n虚拟化意味着创建一个虚拟资源，如桌面、服务器、操作系统、网络、存储等。它将改变传统的计算和管理工作负载比以前更可扩展。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135544-6osncfk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135544-6osncfk",
+								"updated": "20220608135544"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "它已经存在了几十年，并最终在新的网络3.0区块链结构中显示出其全部潜力。现在你可以把它应用到IT结构的几乎所有层面。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135544-57bu99l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135544-57bu99l",
+								"updated": "20220608135544"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "作为硬件层面、系统层面和服务器层面的运作，它可以真正改变我们现在看待事物的方式。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135544-bhpko2m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135544-bhpko2m",
+								"updated": "20220608135544"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "每一层都有自己的一套复杂性和授权，但它们是可以相互访问的。这项技术降低了部署成本、资源、运营成本等。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608140946-fcn2sxu",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608140946-fcn2sxu",
+				"updated": "20220608140946"
+			},
+			"Children": [
+				{
+					"ID": "20220608140946-vuz6tdi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608140946-vuz6tdi"
+					},
+					"Children": [
+						{
+							"ID": "20220608135544-ro0cusc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135544-ro0cusc",
+								"updated": "20220608135544"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "计算\n通过计算，我指的是分布式计算。这是一个概念，多台计算机在一个问题上工作来解决它。它节省了大量的时间，并使之比以前更容易。一个单一的问题可以被分成许多部分，然后分布在网络上。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135544-cut4bin",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135544-cut4bin",
+								"updated": "20220608135544"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "之后，一组参与的计算机将解决这个问题，并通过网络相互连接。因此，为了解决这些问题，所有的计算机将作为一个单一实体行事。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135544-2ixqyby",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135544-2ixqyby",
+								"updated": "20220608135544"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "他们是如何做到的呢？嗯，它们都是由一个轻量级的软件代理连接的。每当代理发现一个空闲的机器进行计算时，它就会向服务器发送数据，然后为其分配一个任务。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135544-umn1l4j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135544-umn1l4j",
+								"updated": "20220608135544"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "这与挖掘加密货币或比特币的过程相同。所有的矿工都可以像一个单位一样工作，并解决这个问题，然后在这之后获得奖励。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608140956-jnqx4zb",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608140956-jnqx4zb",
+				"updated": "20220608140956"
+			},
+			"Children": [
+				{
+					"ID": "20220608140956-b2scsoe",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608140956-b2scsoe"
+					},
+					"Children": [
+						{
+							"ID": "20220608135544-7yslc8d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135544-7yslc8d",
+								"updated": "20220608135544"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "节点\n什么是节点？一个去中心化的网络由成千上万的节点组成，所以很可能会引起这个问题。它是一个网络的互动点。在任何虚拟环境中，每个可访问的设备都将被称为节点。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135544-8vz83ym",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135544-8vz83ym",
+								"updated": "20220608135544"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "这些都是主要的中心点，互联网流量主要被路由到它们的目的地。在一个去中心化的网络上，他们跟踪交易并无缝地更新或做出决定。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135544-626jo81",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135544-626jo81",
+								"updated": "20220608135544"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "节点是去中心化网络得以建立的原因。这个想法来自分组交换理论，现在被确立为区块链网络平台或web 3.0区块链技术栈的根基。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135544-p46r6h6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135544-p46r6h6",
+								"updated": "20220608135544"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "然而，一些网络可能有更高权限的节点，这些节点被选来做出重大决定或在其他节点之间分配任务。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135544-nj0izp3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135544-nj0izp3",
+								"updated": "20220608135544"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "由于每个节点都有相同的信息，一个节点的损失不会对网络产生太大的影响。整个web3.0区块链技术栈就是这样设计的。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608141005-vaek1s7",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608141005-vaek1s7",
+				"updated": "20220608141005"
+			},
+			"Children": [
+				{
+					"ID": "20220608141005-4g229uc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608141005-4g229uc"
+					},
+					"Children": [
+						{
+							"ID": "20220608135544-6axwepj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135544-6axwepj",
+								"updated": "20220608135544"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "代币\n代币也是web 3.0信息技术栈基础设施的一部分。随着去中心化的网络系统，这些也将被包括在内，这是一个事实。代币，主要是加密代币是数字货币，在它们各自的区块链网络上工作。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135544-93nhnwn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135544-93nhnwn",
+								"updated": "20220608135544"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "它是一种资产，人们可以在网络上使用该资产来获得网络提供的功能。这些也被用于资助任何新项目，并初始化项目的发展。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135544-1hdqabv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135544-1hdqabv",
+								"updated": "20220608135544"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在新版本的去中心化网络中，将代币系统作为一种筹款方式是很正常的。代币可以代表一种新的加密货币，或者在系统上有完全不同的用途。"
+								}
+							]
+						},
+						{
+							"ID": "20220608135544-8zyrewy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135544-8zyrewy",
+								"updated": "20220608135544"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "你也可以用一些代币来买断其他加密货币。尽管如此，它是web 3.0区块链应用架构基础设施上的一种可交易和可转让的资产。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608141043-1v2dixb",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608141043-1v2dixb",
+				"updated": "20220608141157"
+			},
+			"Children": [
+				{
+					"ID": "20220608141043-e1m4woe",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608141043-e1m4woe",
+						"updated": "20220608141157"
+					},
+					"Children": [
+						{
+							"ID": "20220608135544-u4esd68",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608135544-u4esd68",
+								"updated": "20220608141157"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "存储"
+								}
+							]
+						},
+						{
+							"ID": "20220608141113-qsenn8k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608141113-qsenn8k",
+								"updated": "20220608141113"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "现在所有的存储设备大多是集中式的，它们的漏洞风险较高。黑客入侵这些集中式存储单元并窃取你的所有私人信息的情况并不少见。"
+								}
+							]
+						},
+						{
+							"ID": "20220608141113-wd2flot",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608141113-wd2flot",
+								"updated": "20220608141113"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "这就是为什么新的基础设施有一个分散的存储单元，确保一个更好和更安全的环境。"
+								}
+							]
+						},
+						{
+							"ID": "20220608141113-peycub3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608141113-peycub3",
+								"updated": "20220608141113"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "这是对所有问题的潜在解决方案。该系统将帮助你存储你的个人信息，而不必依赖不重视你信息隐私的第三方。"
+								}
+							]
+						},
+						{
+							"ID": "20220608141113-4pqqfjf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608141113-4pqqfjf",
+								"updated": "20220608141113"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "去中心化的云存储的想法是由区块链技术提出来的。与现有的云计算解决方案相比，它们的成本相对较低，抗风险能力强，而且是分布式的。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608140354-qq0szfx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608140354-qq0szfx",
+				"updated": "20220608140354"
+			}
+		},
+		{
+			"ID": "20220608145137-3ecmkba",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608145137-3ecmkba",
+				"updated": "20220608145138"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220608145138-vpzqye1.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608145204-y1e1vgi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608145204-y1e1vgi",
+				"updated": "20220608145205"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220608145205-qexkm38.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608145344-09vsw78",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608145344-09vsw78",
+				"updated": "20220608145345"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220608145345-twilixr.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608145138-0yrjmhk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608145138-0yrjmhk",
+				"updated": "20220608145138"
+			}
+		},
+		{
+			"ID": "20220608141232-htxyvpb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220608141232-htxyvpb",
+				"updated": "20220608142040"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "关于数字身份DID"
+				}
+			]
+		},
+		{
+			"ID": "20220608142718-uvqo8l2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608142718-uvqo8l2",
+				"updated": "20220608142718"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "隐私和数字基础设施是什么？"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "\n区块链网络局限性是设计透明，现在可以从数学上证明信息有效性而无需提供信息本身，这样用户证明自己知道自己的密码，但是网站不用存储，兼顾隐私和可扩展性。"
+				}
+			]
+		},
+		{
+			"ID": "20220608142718-2w1ijyp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608142718-2w1ijyp",
+				"updated": "20220608142718"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "隐私和数字基础设施为什么重要？"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608142718-jt2d5eo",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608142718-jt2d5eo",
+				"updated": "20220608142718"
+			},
+			"Children": [
+				{
+					"ID": "20220608142718-to5hfak",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608142718-to5hfak"
+					},
+					"Children": [
+						{
+							"ID": "20220608142718-7iqi3cj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608142718-7iqi3cj"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可以保护用户的个人数据，而且，它从根本上扩展了应用程序的设计空间。隐私基础设施的布局将促成一系列更具保护功能的应用程序。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220608142718-nj3laqj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608142718-nj3laqj"
+					},
+					"Children": [
+						{
+							"ID": "20220608142718-iran1wr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220608142718-iran1wr"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "有助于用户打消隐私顾虑，向特定主体披露信息但是防止信息被公开。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-n2n1g2w",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220608144414-n2n1g2w",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "什么是去中心化身份？"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-c7io0k5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144414-c7io0k5",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "好吧，对这个问题的简短回答是，不会有中央机构发布或拥有任何类型的身份。您的身份将完全由您来主张。此外，分散式安全性带来的额外安全级别真的会让您感到惊讶。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-73p732p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144414-73p732p",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "无论如何，任何第三方或任何其他机构都不能再滥用您的数字身份了。所以，你需要维护它。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-4suxtnb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220608144414-4suxtnb",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数字身份区块链：区块链如何提供帮助？"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-yqznm5r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144414-yqznm5r",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "区块链技术"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://101blockchains.com/blockchain-technology-explained/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "可以成为分散身份的绝佳解决方案。实际上，"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "企业区块链"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://101blockchains.com/blockchain-for-enterprise/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "可以轻松地为去中心化身份的框架提供动力。它不仅提供现成的基础设施，而且还为其提供安全性。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-ulew0t9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144414-ulew0t9",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "所以，如果企业开始使用它，一定会解决第三方公司滥用信息的问题。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-gbwu6lr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144414-gbwu6lr",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "那么，让我们看看区块链如何真正帮助这个领域？"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-bvjers2",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608144414-bvjers2",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"ID": "20220608144414-0ricezc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608144414-0ricezc"
+					},
+					"Children": [
+						{
+							"ID": "20220608144414-xtkag1u",
+							"Type": "NodeHeading",
+							"HeadingLevel": 4,
+							"Properties": {
+								"id": "20220608144414-xtkag1u"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "创建 DID"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-u8uwdrr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144414-u8uwdrr",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我想你已经知道区块链地址是非常独特的。您可以使用这些地址来制作 DID。此外，这些都是加密保护的，并且所有者自己生成它。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-05als92",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608144414-05als92",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"ID": "20220608144414-jli027j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608144414-jli027j"
+					},
+					"Children": [
+						{
+							"ID": "20220608144414-2eu4ah2",
+							"Type": "NodeHeading",
+							"HeadingLevel": 4,
+							"Properties": {
+								"id": "20220608144414-2eu4ah2"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "所有 DID 的注册表"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-sn9ia64",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144414-sn9ia64",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "另一个伟大的数字身份"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "区块链平台"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://101blockchains.com/best-blockchain-platforms/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "的用途是将其用作 DID 注册表。基本上，您可以将 ID 的所有信息存储到不可变的分类帐存储中。这样一来，任何人都无法随时访问您的 ID，甚至窃取信息。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-kj5k9oq",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608144414-kj5k9oq",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"ID": "20220608144414-gqla4k6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608144414-gqla4k6"
+					},
+					"Children": [
+						{
+							"ID": "20220608144414-6qychqr",
+							"Type": "NodeHeading",
+							"HeadingLevel": 4,
+							"Properties": {
+								"id": "20220608144414-6qychqr"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "证书公证"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-j1ohod6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144414-j1ohod6",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这类似于在您的身份证上盖章。在这里，平台可以提供在数字身份区块链平台上为该信息添加"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "哈希地址。"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://101blockchains.com/hashing-and-digital-signature-in-blockchain/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "但是，这并不意味着它只会将凭证存储在分类帐上。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-5frq2fm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144414-5frq2fm",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这意味着它将充当时间戳，此外，还提供电子印章。例如，假设一所大学会在学生毕业后在平台上提供文凭的哈希值。它将帮助学生知道何时颁发文凭以及他的证书证明。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-vtirekn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144414-vtirekn",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "因此，当他将证书用于工作或其他目的时，他可以证明这是具有大学哈希函数的证书。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-8onm1n4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144414-8onm1n4",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实际上，这可能是改变人们处理任何受人尊敬的大学认证的方式的好方法。此外，它消除了许多公司在雇用新员工时面临的伪造证书问题。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-oibi4ew",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608144414-oibi4ew",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"ID": "20220608144414-jh4tar6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608144414-jh4tar6"
+					},
+					"Children": [
+						{
+							"ID": "20220608144414-ycjhehl",
+							"Type": "NodeHeading",
+							"HeadingLevel": 4,
+							"Properties": {
+								"id": "20220608144414-ycjhehl"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "同意和访问权"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-edib6d6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144414-edib6d6",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "您还可以使用数字身份"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "区块链平台"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://101blockchains.com/best-blockchain-platforms/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "来控制谁可以访问您的凭据，谁不能。例如，您可能想在各种平台上分享您的一些信息，但可能需要一段时间。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-9ltcbfz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144414-9ltcbfz",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "您还可以授予您想要合作的公司的访问权限，以检查您是否拥有经过公证的凭据。无论如何，您可以通过具有到期日期的交易形式来做到这一点。所以，当它到期时，它会恢复到原来的样子。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-jlweir0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144414-jlweir0",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "另一方面，您授予访问权限的公司必须删除信息并在平台上证明他们这样做了。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-i7bfehb",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608144414-i7bfehb",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"ID": "20220608144414-af22z7i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608144414-af22z7i"
+					},
+					"Children": [
+						{
+							"ID": "20220608144414-6abrzgg",
+							"Type": "NodeHeading",
+							"HeadingLevel": 4,
+							"Properties": {
+								"id": "20220608144414-6abrzgg"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用智能合约功能"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-btg2lu1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144414-btg2lu1",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "智能合约"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://101blockchains.com/smart-contracts/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "有很多用途。此外，您每次都需要您的身份来签署任何形式的官方合同。例如，在"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "保险"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://101blockchains.com/blockchain-in-insurance/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "、"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "医疗保健"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://101blockchains.com/blockchain-for-healthcare/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "或任何形式的服务中。因此，您可以使用您的身份作为智能合约的证明，从而触发支付系统。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-mx7sms3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220608144414-mx7sms3",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "去中心化身份如何工作？"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-w4z72vj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144414-w4z72vj",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "好吧，您知道如何使用区块链使用去中心化身份，但该系统如何真正运作？实际上，有很多承诺可以交付并确保用户得到广告。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-8ep2sq1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144414-8ep2sq1",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "但是平台真的可以做到吗？通常，系统会有几个层，每个层都将在维护 DID 中发挥其作用。让我们看看这些是什么。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-o8tpfe7",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608144414-o8tpfe7",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"ID": "20220608144414-dgvn0b0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608144414-dgvn0b0"
+					},
+					"Children": [
+						{
+							"ID": "20220608144414-3z1wzyf",
+							"Type": "NodeHeading",
+							"HeadingLevel": 4,
+							"Properties": {
+								"id": "20220608144414-3z1wzyf"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "W3C 去中心化标识符"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-fckpspa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144414-fckpspa",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用它，用户可以创建自己的去中心化身份并对其进行控制，而无需任何中央或第三方限制。在这里，这些 DID 将链接到他们的去中心化"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "公钥"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://101blockchains.com/public-key-cryptography/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "基础设施元数据。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-wz9l6lk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144414-wz9l6lk",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通常，具有身份验证信息、公钥材料和服务端点的 JSON 文档构成元数据。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-l4iwunu",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608144414-l4iwunu",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"ID": "20220608144414-lsso94j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608144414-lsso94j"
+					},
+					"Children": [
+						{
+							"ID": "20220608144414-obe2yyt",
+							"Type": "NodeHeading",
+							"HeadingLevel": 4,
+							"Properties": {
+								"id": "20220608144414-obe2yyt"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "去中心化系统"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-ee8m8ld",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144414-ee8m8ld",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实际上，每个去中心化身份都将植根于数字身份区块链平台。此外，该平台将提供 DPKI 所需的机制和功能。在许多情况下，一个特定的 DID 可以支持多种类型的平台。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-29a9xze",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144414-29a9xze",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果他们想切换到另一种形式的分类帐系统，它将为用户提供更多的灵活性。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-rx39eym",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608144414-rx39eym",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"ID": "20220608144414-h5zey1d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608144414-h5zey1d"
+					},
+					"Children": [
+						{
+							"ID": "20220608144414-tgurzab",
+							"Type": "NodeHeading",
+							"HeadingLevel": 4,
+							"Properties": {
+								"id": "20220608144414-tgurzab"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用户代理"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-ad87b8l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144414-ad87b8l",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "主要是这些应用程序可以帮助您使用身份。用户代理将确保您可以以用户友好的方式创建、管理控件。此外，它还可以帮助您验证或签署任何与 DID 相关的声明。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-sofs92l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144414-sofs92l",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实际上，该应用程序还可以提供钱包功能，帮助您在数字身份区块链平台上付款。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-wcuvklm",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608144414-wcuvklm",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"ID": "20220608144414-i61r6aq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608144414-i61r6aq"
+					},
+					"Children": [
+						{
+							"ID": "20220608144414-7bme1yp",
+							"Type": "NodeHeading",
+							"HeadingLevel": 4,
+							"Properties": {
+								"id": "20220608144414-7bme1yp"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通用解析器"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-nxep1j3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144414-nxep1j3",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "它主要是一个服务器，它将使用一组 DID 驱动程序在数字身份区块链系统上提供解析和查找功能。此外，它将返回直接连接到 DPKI 的 DID 文档对象。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-xsbv767",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608144414-xsbv767",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"ID": "20220608144414-tfjmy8i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608144414-tfjmy8i"
+					},
+					"Children": [
+						{
+							"ID": "20220608144414-oi1pr8g",
+							"Type": "NodeHeading",
+							"HeadingLevel": 4,
+							"Properties": {
+								"id": "20220608144414-oi1pr8g"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "身份中心"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-5v2yy3z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144414-5v2yy3z",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这只是一种猜测，但它也应该提供由边缘实例和云存储组成的身份中心。基本上，这些将充当智能设备的存储，例如个人电脑、手机和智能扬声器。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-1kykbnp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220608144414-1kykbnp",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "示例场景"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-1zx4i9e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144414-1zx4i9e",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "让我们看一个示例，它可以帮助您了解这种新的身份形式如何在现实生活中发挥作用。想象一下，你最近从任何一所大学毕业。在去中心化身份的帮助下，您可以向大学索取证书的数字副本。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-6353ipv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144414-6353ipv",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实际上，大学会根据您的 DID 发布此数字副本。现在，您可以使用它向任何人展示它，例如向雇主展示。然后，雇主可以使用发行时间和状态来验证数字副本是否真实。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-r2ju49m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144414-r2ju49m",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "所以，基本上，有几个步骤可以让它工作。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-icffimr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144414-icffimr",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "步骤 1："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 大学签署证书的数字副本并使用用户代理将其连接到学生的各自身份。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-fr3zto7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144414-fr3zto7",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "第 2 步："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 用户代理然后将数据存储到学生的个人数据保险库。此外，学生还可以使用代理访问信息、身份中心和通用解析器。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-fqmpsfj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144414-fqmpsfj",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Step-3："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 如果学生需要出示证书，他/她可以通过代理将其出示给其他方。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144414-kp2tc5k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144414-kp2tc5k",
+				"updated": "20220608144414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Step-4："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 其他方可以从平台本身验证证书的可信度。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141749-57xrvz5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141749-57xrvz5",
+				"updated": "20220608141749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "因此，如果企业开始使用它，它肯定会解决第三方公司滥用信息带来的问题。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141749-zvfl444",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141749-zvfl444",
+				"updated": "20220608141749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建DID\n我想你已经知道，区块链地址是非常独特的。而你可以使用这些地址来制作DIDs。此外，这些都是加密的，所有者自己生成的。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141749-k70yyyq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141749-k70yyyq",
+				"updated": "20220608141749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "所有DID的注册处\n另一个伟大的数字身份区块链平台的用处是将其作为DID注册处。基本上，你可以将所有的ID信息存储到不可变的分类账存储。这样一来，没有人可以随时访问你的ID，甚至窃取信息。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141749-s3h8q2h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141749-s3h8q2h",
+				"updated": "20220608141749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "凭证公证\n这类似于在你的身份证上盖章。在这里，平台可以提供将该信息的哈希地址放到数字身份区块链平台上。然而，这并不意味着它将只在账本上存储凭证。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141749-ul6efq9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141749-ul6efq9",
+				"updated": "20220608141749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这将意味着它将作为一个时间戳，此外，提供一个电子印章。例如，假设一所大学将在学生毕业后在平台上提供文凭的哈希值。这将帮助学生知道文凭是什么时候颁发的，以及他的证书的证明。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141749-4nmi9ou",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141749-4nmi9ou",
+				"updated": "20220608141749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "因此，当他将证书用于工作或其他目的时，他可以证明这是有大学的哈希函数的证书。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141749-7em1ot0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141749-7em1ot0",
+				"updated": "20220608141749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在现实中，它可以成为改变人们处理来自任何受人尊敬的大学的证书的一个好方法。此外，它摆脱了许多公司在雇用新员工时面临的伪造证书问题。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141749-ef6nj87",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141749-ef6nj87",
+				"updated": "20220608141749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "同意和访问权\n你也可以使用数字身份区块链平台来控制谁可以访问你的证书，谁不可以。例如，你可能想在各种平台上分享你的一些信息，但可能在一定的时间内。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141749-d1gf3t7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141749-d1gf3t7",
+				"updated": "20220608141749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "你也可以让你想合作的公司访问，以检查你是否有公证的凭证。不管怎么说，你可以以带有有效期的交易形式进行。因此，当它过期时，就会恢复到原来的样子。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141749-nekrqam",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141749-nekrqam",
+				"updated": "20220608141749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "另一方面，你授予访问权的公司就必须删除这些信息，并在平台上证明他们这样做了。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141749-yh71wq4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141749-yh71wq4",
+				"updated": "20220608141749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用智能合约功能\n智能合约有很多用途。此外，对于任何种类的官方合同，你每次都需要你的身份。例如，在保险，医疗，或任何形式的服务。所以，你可以在智能合约中使用你的身份作为证明，顺便触发一个支付系统。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141749-up3xfxr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141749-up3xfxr",
+				"updated": "20220608141749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "去中心化的身份如何工作？\n好吧，你知道你如何使用区块链的去中心化身份，但该系统如何真正运作？在现实中，有很多承诺要兑现，确保用户得到广告中的内容。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141749-698bv88",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141749-698bv88",
+				"updated": "20220608141749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "但平台真的能做到这一点吗？通常情况下，系统会有几个层次，每个层次都会在维护DID中发挥其作用。让我们看看这些是什么。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141749-hesn0bh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141749-hesn0bh",
+				"updated": "20220608141749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "W3C 分散式标识符\n利用这一点，用户可以创建自己的分散身份，并在没有任何中央或第三方限制的情况下控制它们。在这里，这些DID将被链接到他们的分散的公钥基础设施元数据。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141749-25dcqt3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141749-25dcqt3",
+				"updated": "20220608141749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通常，带有认证信息、公钥材料和服务端点的JSON文档构成了元数据。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141749-ncocpif",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141749-ncocpif",
+				"updated": "20220608141749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "分散式系统\n在现实中，每一个去中心化的身份都将扎根于数字身份区块链平台。此外，该平台将提供DPKI所需的机制和功能。在许多情况下，一个特定的DID可以支持多种类型的平台。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141749-q7y0emi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141749-q7y0emi",
+				"updated": "20220608141749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果用户想切换到另一种形式的分类账系统，这将给他们带来更多的灵活性。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141749-e309i8n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141749-e309i8n",
+				"updated": "20220608141749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "用户代理\n这些主要是帮助你使用身份的应用程序。用户代理将确保你能以一种用户友好的方式创建、管理控制。此外，它还可以帮助你验证或签署任何与DID有关的索赔。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141749-u6bfsih",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141749-u6bfsih",
+				"updated": "20220608141749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在现实中，这个应用程序还可以提供一个钱包功能，帮助你在数字身份区块链平台上支付。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141749-q33sl3f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141749-q33sl3f",
+				"updated": "20220608141749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通用解析器\n这主要是一个服务器，它将使用一套DID驱动程序，在数字身份区块链系统上提供一个解析和查询功能。此外，它将返回直接连接到DPKI的DID文件对象。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141841-vfcv3i3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141841-vfcv3i3",
+				"updated": "20220608141841"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "身份枢纽\n这只是一种猜测，但它还应该提供由边缘实例和云存储组成的身份中心。基本上，这些将作为个人电脑、手机和智能扬声器等智能设备的存储。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141841-fc9xpi0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141841-fc9xpi0",
+				"updated": "20220608141841"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一个示例场景\n让我们看一个例子，这将有助于你看到这种新的身份形式如何在现实生活中发挥作用。想象一下，你最近从任何一所大学毕业。在去中心化身份的帮助下，你可以向大学索要一份你的证书的数字副本。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141841-ug1lfpk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141841-ug1lfpk",
+				"updated": "20220608141841"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在现实中，大学会根据你的DID签发这个数字副本。现在，利用这一点，你可以向任何人出示它，例如，向一个雇主。然后，雇主可以通过签发的时间和状态来验证该数字副本是否真实。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141841-ejedwnn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141841-ejedwnn",
+				"updated": "20220608141841"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "所以，基本上，有几个步骤可以使它发挥作用。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141841-1ui045a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141841-1ui045a",
+				"updated": "20220608141841"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第一步：大学签署证书的数字副本，并使用用户代理连接到学生的各自身份。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141841-5kmn7vp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141841-5kmn7vp",
+				"updated": "20220608141841"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第2步：然后，用户代理将数据存储到学生的个人数据库中。此外，学生也可以使用该代理访问信息、身份枢纽和通用解析器。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141841-ar5uw30",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141841-ar5uw30",
+				"updated": "20220608141841"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第三步：在学生需要出示证书的情况下，他/她可以通过代理向其他各方出示。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141909-l9p1ggz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141909-l9p1ggz",
+				"updated": "20220608141909"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第四步：其他各方可以从平台本身验证证书的可信度。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141953-iqyky1f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141953-iqyky1f",
+				"updated": "20220608141953"
+			}
+		},
+		{
+			"ID": "20220608141953-we3pmrj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141953-we3pmrj",
+				"updated": "20220608141953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第五章：去中心化数字身份的使用案例\n银行业\n好吧，银行业是你能找到的第一个去中心化数字身份用例。在现实中，银行业处理了很多基于身份的问题，如虚假身份、身份盗窃、重复的KYC协议等等。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141953-642qppo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141953-642qppo",
+				"updated": "20220608141953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "另一方面，如果他们开始使用去中心化的数字身份，那么他们几乎所有的问题都会得到一个简单的解决方案。因此，当你想开一个账户时，你将不必处理很多问题。相反，你只需授予银行访问你的身份，他们就可以从中验证你的所有凭证。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141953-5sfwens",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141953-5sfwens",
+				"updated": "20220608141953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "电子商务\n在电子商务中，你需要有一个适当的身份证明来防止欺诈。在现实中，电子商务部分处理了很多欺诈产品销售问题。许多用户花钱购买正宗产品。但相反，他们得到的是假货，或与广告中的完全不同的产品。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141953-ka3szux",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141953-ka3szux",
+				"updated": "20220608141953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这种情况的发生是由于在该电子商务中注册时缺乏适当的协议。因此，去中心化的识别基础可以确保保障这个行业所需的适当验证。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141953-umt990d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141953-umt990d",
+				"updated": "20220608141953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "博彩业\n游戏行业是巨大的。但我想你现在可能已经知道了。无论如何，这个行业处理了很多游戏者的身份。然而，在许多情况下，该行业未能向游戏玩家提供安全保障。"
+				}
+			]
+		},
+		{
+			"ID": "20220608141953-cfplfyg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141953-cfplfyg",
+				"updated": "20220608141953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "此外，许多应用程序有应用内购买功能，这需要安全，因为它要求信用卡号码。因此，去中心化的数字身份可以利用去中心化身份基础的规定来塑造它。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144504-7urq76f",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220608144504-7urq76f",
+				"updated": "20220608145220"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第 5 章：去中心化数字身份的业务"
+				}
+			]
+		},
+		{
+			"ID": "20220608144504-mpeammv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220608144504-mpeammv",
+				"updated": "20220608144504"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "银行业"
+				}
+			]
+		},
+		{
+			"ID": "20220608144504-ja72pvm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144504-ja72pvm",
+				"updated": "20220608144504"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "好吧，银行业务是您可以找到的第一个去中心化数字身份用例。实际上，银行业处理许多基于身份的问题，例如虚假身份、身份盗窃、重复的 KYC 协议等等。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144504-vlbmz1o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144504-vlbmz1o",
+				"updated": "20220608144504"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "另一方面，如果他们开始使用去中心化的数字身份，那么他们几乎所有的问题都会得到一个简单的解决方案。因此，当您想开户时，您不必处理很多问题。相反，您只需授予银行访问您身份的权限，他们就可以从中验证您的所有凭据。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144504-s1aevvy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220608144504-s1aevvy",
+				"updated": "20220608144504"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "电子商务"
+				}
+			]
+		},
+		{
+			"ID": "20220608144504-o9r97mh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144504-o9r97mh",
+				"updated": "20220608144504"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在电子商务中，您需要有适当的身份证明以防止欺诈。实际上，电子商务部门处理了许多欺诈产品销售问题。许多用户花钱购买正品。但相反，他们得到的是假的或与广告完全不同的。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144504-a96qir2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144504-a96qir2",
+				"updated": "20220608144504"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "发生这种情况是由于在该电子商务中注册时缺乏适当的协议。因此，去中心化识别基金会可以确保保护该部门所需的适当验证。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144504-cx7gppa",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220608144504-cx7gppa",
+				"updated": "20220608144504"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "赌博"
+				}
+			]
+		},
+		{
+			"ID": "20220608144504-jc2x6fe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144504-jc2x6fe",
+				"updated": "20220608144504"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "游戏"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "产业"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://101blockchains.com/games-and-blockchain-an-emerging-trend/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "是巨大的。但我想你现在可能已经知道了。总之，这个行业涉及到很多游戏玩家的身份。然而，在许多情况下，该行业未能为游戏玩家提供安全保障。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144504-x0o3z60",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144504-x0o3z60",
+				"updated": "20220608144504"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "此外，许多应用程序具有应用程序内购买功能，这需要安全性，因为它要求提供信用卡号码。因此，去中心化数字身份可以使用去中心化身份基础的规定来塑造它。"
+				}
+			]
+		},
+		{
+			"ID": "20220608142028-0knmylh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608142028-0knmylh",
+				"updated": "20220608142028"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第六章：适合去中心化身份的企业平台\n市场上有一些企业区块链平台适合去中心化的身份管理平台。实际上，这些企业平台为任何身份问题提供最好的服务。"
+				}
+			]
+		},
+		{
+			"ID": "20220608142028-rw0rga3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608142028-rw0rga3",
+				"updated": "20220608142028"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "想提升你的区块链知识和在企业界的地位？现在就报名参加企业区块链基础知识--免费课程!"
+				}
+			]
+		},
+		{
+			"ID": "20220608144533-up53his",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220608144533-up53his",
+				"updated": "20220608144542"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "适合去中心化身份的企业平台"
+				}
+			]
+		},
+		{
+			"ID": "20220608142028-toiosfq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608142028-toiosfq",
+				"updated": "20220608142028"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Corda R3\nR3有两个版本的Corda - 一个是企业版，另一个是普通版。基本上，Corda企业版会更适合你的去中心化的身份管理系统。即使Corda企业版是一个商业版本，但它仍然与Corda完全兼容。"
+				}
+			]
+		},
+		{
+			"ID": "20220608142028-sr3eix5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608142028-sr3eix5",
+				"updated": "20220608142028"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实际上，Corda为任何一种平台提供了更高水平的质量和强大的基础设施。由于它也是一个许可平台，它将是你去中心化身份管理系统的一个完美选择。"
+				}
+			]
+		},
+		{
+			"ID": "20220608142028-zou7fyb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608142028-zou7fyb",
+				"updated": "20220608142028"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "尽管很多人可能认为Corda只适合金融行业，但它也可以为其他行业提供一个非常不同的区块链模式。"
+				}
+			]
+		},
+		{
+			"ID": "20220608142028-avd6ydl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608142028-avd6ydl",
+				"updated": "20220608142028"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "让我们看看Corda平台为你准备了什么 -"
+				}
+			]
+		},
+		{
+			"ID": "20220608142028-1ee3qwt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608142028-1ee3qwt",
+				"updated": "20220608142028"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Corda的应用区块链防火墙将保护你所有的敏感信息不受任何外部影响。\n它还配备了高可用性和治理功能来帮助你。\n如果有任何灾难发生，你会得到实时报告，并有选择地迅速修复它们。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144547-yddbipq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144547-yddbipq",
+				"updated": "20220608144547"
+			}
+		},
+		{
+			"ID": "20220608144547-iqyvuko",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144547-iqyvuko",
+				"updated": "20220608144547"
+			}
+		},
+		{
+			"ID": "20220608141357-4mq2uwt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220608141357-4mq2uwt",
+				"updated": "20220608141402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "关于安全机制"
+				}
+			]
+		},
+		{
+			"ID": "20220608145317-8dpllss",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220608145317-8dpllss",
+				"updated": "20220608145318"
+			},
+			"Children": [
+				{
+					"ID": "20220608145303-9457s9s",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220608145303-9457s9s",
+						"updated": "20220608145318"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrong",
+							"Data": "strong",
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "可信计算和隐私计算"
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220608145303-klidd53",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220608145303-klidd53",
+						"updated": "20220608145318"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "拿可信计算来讲，可信计算（Trusted Computing，简称TC）与传统数据计算的差别就在于“可信”两字，所谓可信就是指计算机运算的同时进行安全防护，使计算结果与预期一样，操作或过程在任意的条件下是可预测的，可信计算与传统数据计算不同的是一种运算和防护并存的主动免疫的新计算模式。"
+						}
+					]
+				},
+				{
+					"ID": "20220608145303-srw8p76",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220608145303-srw8p76",
+						"updated": "20220608145318"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "这项技术在Web 3.0的未来发展中将起到平衡大规模加密数据处理导致计算性能下降和数据非加密处理导致隐私泄露两者之间的矛盾，作为“一人为本”、“数据为王”的Web 3.0未来时一定要兼顾性能和隐私数据安全的。而如今，区块链在可信计算这个技术上发挥了自身的价值，即去中心化的反作弊中立环境 、不可篡改性等等，让隐私计算能够作为一种成熟的底层技术组件纳入到Web 3.0的栈中。"
+						}
+					]
+				},
+				{
+					"ID": "20220608145303-jac0j4q",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220608145303-jac0j4q",
+						"updated": "20220608145318"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "以医疗区块链项目为例，法律上讲，医院不允许泄露任何病患者的数据，更不⽤说在未被授权情况下对外交换或者买卖数据。但是为了医学研究，肯定是数据多多益善。如何解决这个⽭盾呢？这⾥就是可信计算的⽤武之地。通过多⽅安全计算技术，可以在互不泄露可识别数据内容的前提下，进⾏数据统计、分类分析等计算⼯作。"
+						}
+					]
+				},
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20220608142750-fno2fdg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220608142750-fno2fdg",
+				"updated": "20220608144807"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可信执行环境TEE"
+				}
+			]
+		},
+		{
+			"ID": "20220608144820-1ldeo5c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144820-1ldeo5c",
+				"updated": "20220608144956"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "基于可信硬件方面技术，即通过硬件技术来对数据进行隔离保护。通用的应用方法包括安全屋，可信执行计算环境等。安全屋主要依赖芯片制造工业和系统架构，山路凶险，易守难攻，对独立第三方来说，好处是不用深入研究算法和密码学，缺点是受限制较多，数据需要先集中后处理。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144808-xhwkbz1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220608144808-xhwkbz1",
+				"updated": "20220608145024"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "联邦学习"
+				}
+			]
+		},
+		{
+			"ID": "20220608144549-2f61tfu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144549-2f61tfu",
+				"updated": "20220608145026"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "联邦学习是后起之秀，就像武当派从少林派得到很多启发一样，联邦学习结合密码学和分布式计算，实现了多方协作的机器学习，在人工智能领域开辟了新天地。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144832-k62o7g7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220608144832-k62o7g7",
+				"updated": "20220608144836"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "多方安全计算"
+				}
+			]
+		},
+		{
+			"ID": "20220608144936-f3bye5h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144936-f3bye5h",
+				"updated": "20220608144945"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "多方安全计算(Secure Multi-Party Computation)是指在无可信第三方情况下，通过多方共同参与，安全地完成某种协同计算。即在一个分布式的网络中，每个参与者都各自持有秘密输入，希望共同完成对某个函数的计算，但要求每个参与者除计算结果外均不能得到其他参与实体的任何输入信息。也就是参与者各自完成运算的一部份，最后的计算结果由部分参与者掌握或公开共享。多方安全计算主要基于密码学的一些隐私技术，包括有同态加密(Homomorpgic Encryption)，不经意传输(Oblivious Transfer)，混淆电路(Garbled Circuit)，秘密共享(Secret Sharing)等。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144549-nowu95h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144549-nowu95h",
+				"updated": "20220608145046"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "还有差分隐私、K匿名算法、L多样性等隐私相关的技术，这些技术不是相互替代关系，而是可以相互结合，产生更强大的威力。"
+				}
+			]
+		},
+		{
+			"ID": "20220608145105-wtz7ly5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608145105-wtz7ly5",
+				"updated": "20220608145105"
+			}
+		},
+		{
+			"ID": "20220608145303-fl1q6c8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220608145303-fl1q6c8",
+				"updated": "20220608145303"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实际项目：Phala"
+				}
+			]
+		},
+		{
+			"ID": "20220608145303-m9r8bza",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608145303-m9r8bza",
+				"updated": "20220608145303"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Phala是波卡隐私计算基础设施，同时也是波卡上的隐私计算平⾏链。项目的主要目标是创造真正能够快速商⽤的机密数据计算协议，弥补传统互联网数据隐私保护产品的不足。当时项目方发现Web3.0生态的智能合约，虽然可以实现去信任化，但付出的代价就是所有数据必须公开透明，这显然是一个很大的障碍，很多应用没办法“去中心化”。"
+				}
+			]
+		},
+		{
+			"ID": "20220608145303-5nkqqbc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608145303-5nkqqbc",
+				"updated": "20220608145303"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在这里区块链+可信计算（隐私计算）所要做到就是 “一组互不信任的参与方之间在保护隐私信息以及没有可信第三方的前提下的协同计算问题”。通常用密码学+分布式系统的方法来解决，这是比较理想的方法。另外一个就是在硬件内植入一个可信的第三方来营造可信执行环境。"
+				}
+			]
+		},
+		{
+			"ID": "20220608145303-mjrsjn4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608145303-mjrsjn4",
+				"updated": "20220608145303"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "另外像国内微众银行、金融壹账通、慢雾科技、同盾科技等这种涉及重要金融及客户隐私数据数据的企业也在积极拥抱这项技术。微众银行的场景式隐私保护高效技术解决方案WeDPR，除了常规的金融产品外，还可用于隐匿支付、匿名投票、匿名竞拍和选择性披露等场景，做到让数据隐私回归属主"
+				}
+			]
+		},
+		{
+			"ID": "20220608145105-ddvfao9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608145105-ddvfao9",
+				"updated": "20220608145105"
+			}
+		},
+		{
+			"ID": "20220608142750-3t0u6u1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220608142750-3t0u6u1",
+				"updated": "20220608142755"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "关于数字资产"
+				}
+			]
+		},
+		{
+			"ID": "20220608142840-0o3xyf5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608142840-0o3xyf5",
+				"updated": "20220608142840"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数字资产可以是很多东西。但在这个区块链世界中，它现在转向了"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "加密货币"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://101blockchains.com/what-is-a-cryptocurrency/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。新的 web 3.0 区块链堆栈提供了这些货币的使用。您还可以将图像、多媒体、文本合同视为数字资产。"
+				}
+			]
+		},
+		{
+			"ID": "20220608142840-fcbv5t9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608142840-fcbv5t9",
+				"updated": "20220608142840"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这些是 web 3.0 区块链技术栈将提供的服务之一。Web 3.0 IT 堆栈是数字 Web 3 层架构的新革命。"
+				}
+			]
+		},
+		{
+			"ID": "20220608143155-o3io6ar",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220608143155-o3io6ar",
+				"updated": "20220608143155"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "NFT 和 JPEG 一样吗？"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608143155-dl6gdvw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608143155-dl6gdvw",
+				"updated": "20220608143155"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "NFT 与 JPEG比较中 NFT 最重要的亮点是“不可替代性”方面。不可替代性意味着 NFT 所代表的资产是独一无二的，不可互换的。例如，您可以用 10 美元的钞票换取 10 张 1 美元的钞票。但是，您不能将一张独特的交易卡换成另一张卡，因为这会改变收藏家的收藏价值。  "
+				}
+			]
+		},
+		{
+			"ID": "20220608143155-ed5pvtx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608143155-ed5pvtx",
+				"updated": "20220608143155"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "此外，NFT 还可以提供区块链带来的额外优势，因为它们基本上是区块链网络上的"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "智能合约。"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://101blockchains.com/what-is-a-smart-contract/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "以太坊"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://101blockchains.com/ultimate-ethereum-guide/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "是目前开发 NFT 的最受欢迎的选择，并支持独特的资产。您可以将独特的"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "加密"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://101blockchains.com/blockchain-cryptography/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "令牌存储在不同的虚拟"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "加密钱包"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://101blockchains.com/crypto-wallets/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "中，并根据您的方便访问它们。 "
+				}
+			]
+		},
+		{
+			"ID": "20220608143226-xw7qkfc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220608143226-xw7qkfc",
+				"updated": "20220608143226"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "为什么现在考虑 NFT 很重要？"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608143226-z63vojr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608143226-z63vojr",
+				"updated": "20220608143226"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "不可替代的代币是区块链"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://101blockchains.com/blockchain-technology-explained/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "和"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "加密"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://101blockchains.com/what-is-cryptocurrency/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "空间中最有趣的改进之一。区块链技术一直在为"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "数字资产"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://101blockchains.com/digital-assets-in-finance/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "的设计、使用和转移引入新的视角。NFT 引入了一种有前途的数字标准，用于对艺术品和房地产等有形资产行使所有权。 "
+				}
+			]
+		},
+		{
+			"ID": "20220608143226-8fexhv2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608143226-8fexhv2",
+				"updated": "20220608143226"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "换句话说，不可替代的代币正在为区块链网络上简单而安全的实物资产交易创造可行的前景。"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "最重要的是，NFT 是新兴web3"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://101blockchains.com/web-3-0-blockchain-technology-stack/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "领域不可或缺的亮点，在metaverse 中具有重要"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "应用"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://101blockchains.com/nfts-and-metaverse/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。所有这些方面都清楚地说明了NFT在价值方面如何超过 JPEG 。"
+				}
+			]
+		},
+		{
+			"ID": "20220608143226-vn4hr1j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608143226-vn4hr1j",
+				"updated": "20220608143226"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "有关不可替代令牌的一些数字可以向您展示它们如何比 JPEG 更重要。"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "到 2021 年底， NFT 市场"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://101blockchains.com/nft-marketplace/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "的总销售额已超过 400 亿美元。你能相信名人会花费数百万美元购买花​​式猿的头像吗？好吧，"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Bored Ape Yacht Club"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://101blockchains.com/bored-ape-yacht-club-nfts/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "证明了 NFT 是如何成为一种强大的文化现象的。 "
+				}
+			]
+		},
+		{
+			"ID": "20220608143331-2wy8s5o",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608143331-2wy8s5o",
+				"updated": "20220608143337"
+			},
+			"Children": [
+				{
+					"ID": "20220608143331-n3reg5o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608143331-n3reg5o",
+						"updated": "20220608143337"
+					},
+					"Children": [
+						{
+							"ID": "20220608143331-7bvzkeb",
+							"Type": "NodeHeading",
+							"HeadingLevel": 4,
+							"Properties": {
+								"id": "20220608143331-7bvzkeb",
+								"updated": "20220608143337"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "稀缺"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608143331-domcz17",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608143331-domcz17",
+				"updated": "20220608143331"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "将它们与 JPEG 区分开来的不可替代令牌的第一个特征是稀缺性选项。NFT 开发者或艺术家只能在 NFT 收藏中创作少数选定的艺术品，从而增加稀缺性。 "
+				}
+			]
+		},
+		{
+			"ID": "20220608143331-jebk14h",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608143331-jebk14h",
+				"updated": "20220608143331"
+			},
+			"Children": [
+				{
+					"ID": "20220608143331-32e2618",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608143331-32e2618"
+					},
+					"Children": [
+						{
+							"ID": "20220608143331-q5227ow",
+							"Type": "NodeHeading",
+							"HeadingLevel": 4,
+							"Properties": {
+								"id": "20220608143331-q5227ow"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "所有权"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608143331-7af8408",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608143331-7af8408",
+				"updated": "20220608143331"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "NFT 与 JPEG比较的最显着方面也将参考所有权。不可替代代币在"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "分布式账本技术上"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://101blockchains.com/what-is-dlt/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "运行，原始创建者控制区块链上 NFT 的私钥。如果您拥有 NFT，则只有您可以将 NFT 转移到任何其他账户或将其出售。"
+				}
+			]
+		},
+		{
+			"ID": "20220608143331-dk9klny",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608143331-dk9klny",
+				"updated": "20220608143331"
+			},
+			"Children": [
+				{
+					"ID": "20220608143331-whn9wq9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608143331-whn9wq9"
+					},
+					"Children": [
+						{
+							"ID": "20220608143331-f3d9go7",
+							"Type": "NodeHeading",
+							"HeadingLevel": 4,
+							"Properties": {
+								"id": "20220608143331-f3d9go7"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "不可互换"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608143331-62spdrl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608143331-62spdrl",
+				"updated": "20220608143331"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "由于 NFT 的不可互换性，NFT 在实用性方面表现强劲。虽然"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "DAO"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://101blockchains.com/decentralized-autonomous-organization-dao/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "正在为 NFT 的集体所有权开放范围，但有一种方法可以将 NFT 分成两个不同的部分进行出售。NFT 是不可互换的，这是其不可替代性的一个基本方面。"
+				}
+			]
+		},
+		{
+			"ID": "20220608143331-aiutyox",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608143331-aiutyox",
+				"updated": "20220608143331"
+			},
+			"Children": [
+				{
+					"ID": "20220608143331-jby227q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608143331-jby227q"
+					},
+					"Children": [
+						{
+							"ID": "20220608143331-ef8ou58",
+							"Type": "NodeHeading",
+							"HeadingLevel": 4,
+							"Properties": {
+								"id": "20220608143331-ef8ou58"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "独特资产"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608143331-vywo43c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608143331-vywo43c",
+				"updated": "20220608143331"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "NFT 和 JPEG 比较的最后一个方面是 NFT 的唯一性。不可替代的代币具有唯一的元数据，几乎不可能修改元数据。因此，在可验证真实性的支持下，您可以理解“ NFT 与 JPEG 有何不同”。"
+				}
+			]
+		},
+		{
+			"ID": "20220608143331-se8zg9j",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608143331-se8zg9j",
+				"updated": "20220608143331"
+			},
+			"Children": [
+				{
+					"ID": "20220608143331-xx6o1i9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608143331-xx6o1i9"
+					},
+					"Children": [
+						{
+							"ID": "20220608143331-37eufje",
+							"Type": "NodeHeading",
+							"HeadingLevel": 4,
+							"Properties": {
+								"id": "20220608143331-37eufje"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "互操作性"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608143331-sxw3cpe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608143331-sxw3cpe",
+				"updated": "20220608143331"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "不可替代代币"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://101blockchains.com/non-fungible-tokens-nft/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "也与 JPEG 不同，因为您可以在不同"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "的基于区块链的平台"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://101blockchains.com/blockchain-platforms/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "上交易它们。您可以不受任何限制地在所有基于以太坊的平台上"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "交易 NFT"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://101blockchains.com/buy-and-sell-nfts/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " ，从而为NFT 投资者探索新前景提供了灵活性。 "
+				}
+			]
+		},
+		{
+			"ID": "20220608143331-c0zaosa",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220608143331-c0zaosa",
+				"updated": "20220608143331"
+			},
+			"Children": [
+				{
+					"ID": "20220608143331-a9wanbx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220608143331-a9wanbx"
+					},
+					"Children": [
+						{
+							"ID": "20220608143331-lir46nr",
+							"Type": "NodeHeading",
+							"HeadingLevel": 4,
+							"Properties": {
+								"id": "20220608143331-lir46nr"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "透明度"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608143331-lbxn79q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608143331-lbxn79q",
+				"updated": "20220608143331"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "将 NFT 与 JPEG 区分开来的另一个重要亮点是透明度。区块链上 NFT 的基础确保访问分散且不可变的公共分布式账本，并提供有关 NFT 的详细信息。因此，不可替代的代币为公开验证与发行代币以及其他活动和转移相关的记录提供了更好的设施。因此，NFT 交易的透明度以及可验证的真实性保证将它们与常见的数字图像区分开来。"
+				}
+			]
+		},
+		{
+			"ID": "20220608144316-p7q0q03",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144316-p7q0q03",
+				"updated": "20220608144316"
+			}
+		},
+		{
+			"ID": "20220608133527-rl73ejl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220608133527-rl73ejl",
+				"updated": "20220608134531"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考文献："
+				}
+			]
+		},
+		{
+			"ID": "20220608140524-1gig9gd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608140524-1gig9gd",
+				"updated": "20220608141247"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://101blockchains.com/web-3-0-blockchain-technology-stack/prettyPhoto"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://101blockchains.com/web-3-0-blockchain-technology-stack/#prettyPhoto"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608141248-qc57jlz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608141248-qc57jlz",
+				"updated": "20220608141308"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://imzhanghao.com/2022/04/16/web3/%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://imzhanghao.com/2022/04/16/web3/#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608142055-8pxe68b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608142055-8pxe68b",
+				"updated": "20220608142102"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://101blockchains.com/digital-identity/"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://101blockchains.com/digital-identity/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608142058-vuqwd04",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608142058-vuqwd04",
+				"updated": "20220608144258"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://learnblockchain.cn/article/3936"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://learnblockchain.cn/article/3936"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608144305-iy0nk7h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608144305-iy0nk7h",
+				"updated": "20220608144309"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://mp.weixin.qq.com/s?__biz=Mzg5Mjc3MjIyMA==\u0026mid=2247544668\u0026idx=1\u0026sn=c15abbac2e3deb5d68901e8b3a1caa9a\u0026source=41#wechat_redirect"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://mp.weixin.qq.com/s?__biz=Mzg5Mjc3MjIyMA==\u0026mid=2247544668\u0026idx=1\u0026sn=c15abbac2e3deb5d68901e8b3a1caa9a\u0026source=41#wechat_redirect"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220608145233-nm74pof",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220608145233-nm74pof",
+				"updated": "20220608145235"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://www.webxlab.net/article/detail/OmAEWNGwar"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.webxlab.net/article/detail/OmAEWNGwar"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}
