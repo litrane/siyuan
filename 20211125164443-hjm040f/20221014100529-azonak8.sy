@@ -1,0 +1,20 @@
+{
+	"ID": "20221014100529-azonak8",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221014100529-azonak8",
+		"title": "科研Topic·Idea思考",
+		"updated": "20221014100542"
+	},
+	"Children": [
+		{
+			"ID": "20221014100529-6q2bz4k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014100529-6q2bz4k",
+				"updated": "20221014100529"
+			}
+		}
+	]
+}

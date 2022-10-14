@@ -1,5 +1,6 @@
 {
 	"ID": "20220108143340-ia0hary",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220108143340-ia0hary",
@@ -87,44 +88,18 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "Tendermint"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "Tendermint"
 				},
 				{
 					"Type": "NodeText",
 					"Data": " 是一个 "
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "共识引擎和BFT共识算法"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "共识引擎和BFT共识算法"
 				},
 				{
 					"Type": "NodeText",
@@ -141,44 +116,18 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "Cosmos SDK"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "Cosmos SDK"
 				},
 				{
 					"Type": "NodeText",
 					"Data": " 是一个 "
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "模块化框架"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "模块化框架"
 				},
 				{
 					"Type": "NodeText",
@@ -195,44 +144,18 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "IBC"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "IBC"
 				},
 				{
 					"Type": "NodeText",
 					"Data": "是区块链之间的 "
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "通信协议"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "通信协议"
 				},
 				{
 					"Type": "NodeText",
@@ -456,66 +379,27 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "公有链或私有链均可："
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "公有链或私有链均可："
 				},
 				{
 					"Type": "NodeText",
 					"Data": " Tendermint BFT只处理区块链"
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "网络"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "网络"
 				},
 				{
 					"Type": "NodeText",
 					"Data": "和 "
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "共识"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "共识"
 				},
 				{
 					"Type": "NodeText",
@@ -532,22 +416,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "高性能："
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "高性能："
 				},
 				{
 					"Type": "NodeText",
@@ -564,22 +435,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "即时最终确定性："
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "即时最终确定性："
 				},
 				{
 					"Type": "NodeText",
@@ -596,22 +454,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "安全："
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "安全："
 				},
 				{
 					"Type": "NodeText",
@@ -694,22 +539,9 @@
 					"Data": "• "
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "模块化"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "模块化"
 				},
 				{
 					"Type": "NodeText",
@@ -730,22 +562,9 @@
 					"Data": "• "
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "基于功能的安全性"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "基于功能的安全性"
 				},
 				{
 					"Type": "NodeText",
@@ -766,30 +585,10 @@
 					"Data": "Cosmos SDK还附带了一组有用的"
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "开发者工具"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://cloud.tencent.com/product/cclid?from=10680"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://cloud.tencent.com/product/cclid?from=10680",
+					"TextMarkTextContent": "开发者工具"
 				},
 				{
 					"Type": "NodeText",
@@ -820,20 +619,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeMark",
-					"Data": "mark",
-					"Children": [
-						{
-							"Type": "NodeMark2OpenMarker"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "例如，Ethermint是一个将以太坊虚拟机移植到 SDK 模块中的项目。 Ethermint的工作原理完全像以太坊，具有Tendermint BFT 的共识属性。 所有现有的以太坊工具（Truffle，Metamask等））与Ethermint兼容，很容易将已有智能合约移植过来。"
-						},
-						{
-							"Type": "NodeMark2CloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "mark",
+					"TextMarkTextContent": "例如，Ethermint是一个将以太坊虚拟机移植到 SDK 模块中的项目。 Ethermint的工作原理完全像以太坊，具有Tendermint BFT 的共识属性。 所有现有的以太坊工具（Truffle，Metamask等））与Ethermint兼容，很容易将已有智能合约移植过来。"
 				}
 			]
 		},
@@ -857,22 +645,9 @@
 					},
 					"Children": [
 						{
-							"Type": "NodeStrong",
-							"Data": "strong",
-							"Children": [
-								{
-									"Type": "NodeStrongA6kOpenMarker",
-									"Data": "**"
-								},
-								{
-									"Type": "NodeText",
-									"Data": "Ethermint"
-								},
-								{
-									"Type": "NodeStrongA6kCloseMarker",
-									"Data": "**"
-								}
-							]
+							"Type": "NodeTextMark",
+							"TextMarkType": "strong",
+							"TextMarkTextContent": "Ethermint"
 						},
 						{
 							"Type": "NodeText",
@@ -892,22 +667,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "IBC 是怎么工作？"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "IBC 是怎么工作？"
 				}
 			]
 		},
@@ -961,22 +723,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "跟踪（Tracking）"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "跟踪（Tracking）"
 				}
 			]
 		},
@@ -1030,22 +779,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "锁定（Bonding）"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "锁定（Bonding）"
 				}
 			]
 		},
@@ -1072,22 +808,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "中继证明（Proof Relay）"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "中继证明（Proof Relay）"
 				}
 			]
 		},
@@ -1114,22 +837,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "验证（Validation）"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "验证（Validation）"
 				}
 			]
 		},
@@ -1231,22 +941,9 @@
 					"Data": " "
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "当前，几乎所有的分片设计都依赖于某种随机性（randomness）源来为分配验证者"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "当前，几乎所有的分片设计都依赖于某种随机性（randomness）源来为分配验证者"
 				},
 				{
 					"Type": "NodeText",
@@ -1267,22 +964,9 @@
 					"Data": "随机性和验证者分配都需要计算，这些计算并不是专为某个特定片区而运行的。 "
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "为了实现这种计算，实际上所有现有的设计都包含一条单独的区块链，负责执行维护整个网络所需的操作"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "为了实现这种计算，实际上所有现有的设计都包含一条单独的区块链，负责执行维护整个网络所需的操作"
 				},
 				{
 					"Type": "NodeText",
@@ -1299,25 +983,12 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"style": "color: var(--b3-font-color8);"
 					},
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "若一个系统中的所有链都具有不同的属性，但使用非常类似的共识协议，有着类似的区块结构且共享同一条信标链，那么这样的系统可以成为一个异构区块链生态系统，包含有可运作的互操作性子系统。但这样的系统不太可能实现验证者轮换的功能，因此需要采取一些额外的措施来保证安全。Cosmos 和 PolkaDot 本质上就是想做这样的系统。Cosmos 团队的 Zaki Manian 写的这篇文章对这两个项目之间的一些关键方面进行了概述了对比。"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "若一个系统中的所有链都具有不同的属性，但使用非常类似的共识协议，有着类似的区块结构且共享同一条信标链，那么这样的系统可以成为一个异构区块链生态系统，包含有可运作的互操作性子系统。但这样的系统不太可能实现验证者轮换的功能，因此需要采取一些额外的措施来保证安全。Cosmos 和 PolkaDot 本质上就是想做这样的系统。Cosmos 团队的 Zaki Manian 写的这篇文章对这两个项目之间的一些关键方面进行了概述了对比。"
 				},
 				{
 					"Type": "NodeKramdownSpanIAL",
@@ -1495,22 +1166,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "cosmos中各个平行链之间跨链必须要满足两个前置条件："
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "cosmos中各个平行链之间跨链必须要满足两个前置条件："
 				}
 			]
 		},
@@ -1552,22 +1210,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "cosmos中同构链的跨链："
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "cosmos中同构链的跨链："
 				}
 			]
 		},
@@ -1775,30 +1420,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://cloud.tencent.com/developer/article/1441474"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://cloud.tencent.com/developer/article/1441474"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://cloud.tencent.com/developer/article/1441474",
+					"TextMarkTextContent": "https://cloud.tencent.com/developer/article/1441474"
 				}
 			]
 		},
@@ -1811,30 +1436,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://cointelegraphcn.com/news/is-cosmos-and-polkadots-cross-chain-the-same-thing"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://cointelegraphcn.com/news/is-cosmos-and-polkadots-cross-chain-the-same-thing"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://cointelegraphcn.com/news/is-cosmos-and-polkadots-cross-chain-the-same-thing",
+					"TextMarkTextContent": "https://cointelegraphcn.com/news/is-cosmos-and-polkadots-cross-chain-the-same-thing"
 				}
 			]
 		},
@@ -1847,30 +1452,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://ethfans.org/posts/the-authoritative-guide-to-blockchain-sharding-part-1"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://mp.weixin.qq.com/s?src=11\u0026timestamp=1641622207\u0026ver=3545\u0026signature=TMvOt9UalSB07UsZ6F451ArYzCs1QeqX8lHcWdLITuqk1wgZ2-lmbzXvxo38H*cu48Qf1-xopzsHHimnJ1XBXRj*XEs1aAJ5w2ZIrpJNYBhrPvcfTJiIJmfmTR0-k5ID\u0026new=1"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://mp.weixin.qq.com/s?src=11\u0026timestamp=1641622207\u0026ver=3545\u0026signature=TMvOt9UalSB07UsZ6F451ArYzCs1QeqX8lHcWdLITuqk1wgZ2-lmbzXvxo38H*cu48Qf1-xopzsHHimnJ1XBXRj*XEs1aAJ5w2ZIrpJNYBhrPvcfTJiIJmfmTR0-k5ID\u0026new=1",
+					"TextMarkTextContent": "https://ethfans.org/posts/the-authoritative-guide-to-blockchain-sharding-part-1"
 				}
 			]
 		},
@@ -1883,30 +1468,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://mp.weixin.qq.com/s?src=11\u0026timestamp=1641622207\u0026ver=3545\u0026signature=hwVIkZ1H29S-oCAkeo2-NirfkjsWno9cptb71sI78VUcA75Bi2gsWQkAYnMOuZvuEG4YaFgAInODHdboNOCzLX0C0irRe644ASIVK6gttKmnu6kfrW9HIkYgrvnLnaWX\u0026new=1"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://mp.weixin.qq.com/s?src=11\u0026timestamp=1641622207\u0026ver=3545\u0026signature=TMvOt9UalSB07UsZ6F451ArYzCs1QeqX8lHcWdLITuqk1wgZ2-lmbzXvxo38H*cu48Qf1-xopzsHHimnJ1XBXRj*XEs1aAJ5w2ZIrpJNYBhrPvcfTJiIJmfmTR0-k5ID\u0026new=1"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://mp.weixin.qq.com/s?src=11\u0026timestamp=1641622207\u0026ver=3545\u0026signature=TMvOt9UalSB07UsZ6F451ArYzCs1QeqX8lHcWdLITuqk1wgZ2-lmbzXvxo38H*cu48Qf1-xopzsHHimnJ1XBXRj*XEs1aAJ5w2ZIrpJNYBhrPvcfTJiIJmfmTR0-k5ID\u0026new=1",
+					"TextMarkTextContent": "https://mp.weixin.qq.com/s?src=11\u0026amp;timestamp=1641622207\u0026amp;ver=3545\u0026amp;signature=hwVIkZ1H29S-oCAkeo2-NirfkjsWno9cptb71sI78VUcA75Bi2gsWQkAYnMOuZvuEG4YaFgAInODHdboNOCzLX0C0irRe644ASIVK6gttKmnu6kfrW9HIkYgrvnLnaWX\u0026amp;new=1"
 				}
 			]
 		},
@@ -1919,30 +1484,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://mp.weixin.qq.com/s?src=11\u0026timestamp=1641622207\u0026ver=3545\u0026signature=TMvOt9UalSB07UsZ6F451ArYzCs1QeqX8lHcWdLITuqk1wgZ2-lmbzXvxo38Hcu48Qf1-xopzsHHimnJ1XBXRjXEs1aAJ5w2ZIrpJNYBhrPvcfTJiIJmfmTR0-k5ID\u0026new=1"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://mp.weixin.qq.com/s?src=11\u0026timestamp=1641622207\u0026ver=3545\u0026signature=TMvOt9UalSB07UsZ6F451ArYzCs1QeqX8lHcWdLITuqk1wgZ2-lmbzXvxo38H*cu48Qf1-xopzsHHimnJ1XBXRj*XEs1aAJ5w2ZIrpJNYBhrPvcfTJiIJmfmTR0-k5ID\u0026new=1"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://mp.weixin.qq.com/s?src=11\u0026timestamp=1641622207\u0026ver=3545\u0026signature=TMvOt9UalSB07UsZ6F451ArYzCs1QeqX8lHcWdLITuqk1wgZ2-lmbzXvxo38H*cu48Qf1-xopzsHHimnJ1XBXRj*XEs1aAJ5w2ZIrpJNYBhrPvcfTJiIJmfmTR0-k5ID\u0026new=1",
+					"TextMarkTextContent": "https://mp.weixin.qq.com/s?src=11\u0026amp;timestamp=1641622207\u0026amp;ver=3545\u0026amp;signature=TMvOt9UalSB07UsZ6F451ArYzCs1QeqX8lHcWdLITuqk1wgZ2-lmbzXvxo38Hcu48Qf1-xopzsHHimnJ1XBXRjXEs1aAJ5w2ZIrpJNYBhrPvcfTJiIJmfmTR0-k5ID\u0026amp;new=1"
 				}
 			]
 		},
@@ -1955,30 +1500,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://zhuanlan.zhihu.com/p/441119782"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://zhuanlan.zhihu.com/p/441119782"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://zhuanlan.zhihu.com/p/441119782",
+					"TextMarkTextContent": "https://zhuanlan.zhihu.com/p/441119782"
 				}
 			]
 		},

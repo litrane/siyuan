@@ -1,0 +1,441 @@
+{
+	"ID": "20221014100306-22lccsx",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221014100306-22lccsx",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221014101750-ievydmm\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221014101727-4x2alb9\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:1548,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221014102211-zjpfz47\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"title": "论文写作积累",
+		"updated": "20221014102211"
+	},
+	"Children": [
+		{
+			"ID": "20221014101750-ievydmm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221014101750-ievydmm",
+				"updated": "20221014101808"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "余水老师讲座"
+				}
+			]
+		},
+		{
+			"ID": "20221014101808-mgjc8jg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221014101808-mgjc8jg",
+				"updated": "20221014101819"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "审稿人视角"
+				}
+			]
+		},
+		{
+			"ID": "20221014100306-nmrkzoq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014100306-nmrkzoq",
+				"updated": "20221014100922"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "说服审稿人才是指导方针，做好黄金十五分钟"
+				}
+			]
+		},
+		{
+			"ID": "20221014101838-iuz9tq2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014101838-iuz9tq2",
+				"updated": "20221014101843"
+			}
+		},
+		{
+			"ID": "20221014100923-7ecy8e7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014100923-7ecy8e7",
+				"updated": "20221014101440"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "写论文按照会议特色去投，知己知彼。干货放前面。smoothly，comfortably，逻辑"
+				}
+			]
+		},
+		{
+			"ID": "20221014101502-alhb3uv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014101502-alhb3uv",
+				"updated": "20221014101511"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一段话总分结构"
+				}
+			]
+		},
+		{
+			"ID": "20221014101000-56lue3f",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221014101000-56lue3f",
+				"updated": "20221014101109"
+			},
+			"Children": [
+				{
+					"ID": "20221014101114-7r7kk3f",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221014101114-7r7kk3f",
+						"updated": "20221014101114"
+					},
+					"Children": [
+						{
+							"ID": "20221014101114-x5l6bpj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221014101114-x5l6bpj",
+								"updated": "20221014101124"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "和期刊方向要对"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221014101124-lrmf2ti",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221014101124-lrmf2ti"
+					},
+					"Children": [
+						{
+							"ID": "20221014101124-yq9xbff",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221014101124-yq9xbff",
+								"updated": "20221014101134"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新颖性与创新性"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221014101134-vbjestt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221014101134-vbjestt"
+					},
+					"Children": [
+						{
+							"ID": "20221014101134-gcngmkh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221014101134-gcngmkh",
+								"updated": "20221014101145"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "正确性"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221014101145-p0siggv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221014101145-p0siggv"
+					},
+					"Children": [
+						{
+							"ID": "20221014101145-4gt5s01",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221014101145-4gt5s01",
+								"updated": "20221014101214"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "易读，图表"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221014101217-qdursqt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221014101217-qdursqt"
+					},
+					"Children": [
+						{
+							"ID": "20221014101217-4viqbka",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221014101217-4viqbka",
+								"updated": "20221014101221"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "引用"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221014101659-o7ugii2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014101659-o7ugii2",
+				"updated": "20221014101700"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "63ec533f30cf8e21c570963e26d7e56"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/63ec533f30cf8e21c570963e26d7e56-20221014101700-01nec6f.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221014101712-6z0dks8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014101712-6z0dks8",
+				"updated": "20221014101713"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "8d5c782cbba104a7e40420a3dd41a33"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/8d5c782cbba104a7e40420a3dd41a33-20221014101713-lynpooe.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221014100329-n4sr1sa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014100329-n4sr1sa",
+				"updated": "20221014100809"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "工程思维要区分开，不能广，需要在某个点上深入去做"
+				}
+			]
+		},
+		{
+			"ID": "20221014100849-3qh8ips",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014100849-3qh8ips",
+				"updated": "20221014102055"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "项目解决今天的问题，解决明天的问题"
+				}
+			]
+		},
+		{
+			"ID": "20221014101722-x0c1v77",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014101722-x0c1v77"
+			}
+		},
+		{
+			"ID": "20221014102154-vp915pj",
+			"Type": "NodeIFrame",
+			"Data": "\u003ciframe src=\"//player.bilibili.com/player.html?aid=219122925\u0026amp;bvid=BV1a8411s7Nr\u0026amp;cid=859801000\u0026amp;page=2\" data-src=\"//player.bilibili.com/player.html?aid=219122925\u0026amp;bvid=BV1a8411s7Nr\u0026amp;cid=859801000\u0026amp;page=2\" scrolling=\"no\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 742px; height: 406px;\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20221014102154-vp915pj",
+				"updated": "20221014102154"
+			}
+		},
+		{
+			"ID": "20221014102211-7n3tn0i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014102211-7n3tn0i"
+			}
+		},
+		{
+			"ID": "20221014102211-zjpfz47",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014102211-zjpfz47"
+			}
+		},
+		{
+			"ID": "20221014101722-ywd0vl3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014101722-ywd0vl3",
+				"updated": "20221014101727"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "引用文献："
+				}
+			]
+		},
+		{
+			"ID": "20221014101727-4x2alb9",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221014101727-4x2alb9",
+				"updated": "20221014101736"
+			},
+			"Children": [
+				{
+					"ID": "20221014101728-2or4rsm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221014101728-2or4rsm",
+						"updated": "20221014101736"
+					},
+					"Children": [
+						{
+							"ID": "20221014101728-oyrj7ux",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221014101728-oyrj7ux",
+								"updated": "20221014101736"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "【如何进行高质量科研论文的写作：Shui Yu 悉尼科技大学-哔哩哔哩】 https://b23.tv/1P1vJRE"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

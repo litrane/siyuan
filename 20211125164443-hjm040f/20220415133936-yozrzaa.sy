@@ -1,8 +1,10 @@
 {
 	"ID": "20220415133936-yozrzaa",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220415133936-yozrzaa",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220415133936-hnveyyf\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220415135209-i5gza1f\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220415133958-crkm7ip\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
 		"title": "博士建议",
 		"updated": "20220415140641"
 	},
@@ -340,30 +342,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://courses.cs.washington.edu/courses/cse590x/22wi/"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://courses.cs.washington.edu/courses/cse590x/22wi/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://courses.cs.washington.edu/courses/cse590x/22wi/",
+					"TextMarkTextContent": "https://courses.cs.washington.edu/courses/cse590x/22wi/"
 				}
 			]
 		},
@@ -376,30 +358,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://www.cs.utexas.edu/users/dahlin/bookshelf/timetalk.htm#Introduction"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://www.cs.utexas.edu/users/dahlin/bookshelf/timetalk.htm#Introduction"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.cs.utexas.edu/users/dahlin/bookshelf/timetalk.htm#Introduction",
+					"TextMarkTextContent": "https://www.cs.utexas.edu/users/dahlin/bookshelf/timetalk.htm#Introduction"
 				}
 			]
 		},
@@ -426,30 +388,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://github.com/pliang279/awesome-phd-advice#general-advice"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://github.com/pliang279/awesome-phd-advice#general-advice"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/pliang279/awesome-phd-advice#general-advice",
+					"TextMarkTextContent": "https://github.com/pliang279/awesome-phd-advice#general-advice"
 				}
 			]
 		},
@@ -462,30 +404,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://github.com/alirezasamar/awesome-phd"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://github.com/alirezasamar/awesome-phd"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/alirezasamar/awesome-phd",
+					"TextMarkTextContent": "https://github.com/alirezasamar/awesome-phd"
 				}
 			]
 		}

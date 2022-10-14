@@ -1,0 +1,20 @@
+{
+	"ID": "20221014100544-scuo4jv",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221014100544-scuo4jv",
+		"title": "如何读论文",
+		"updated": "20221014102633"
+	},
+	"Children": [
+		{
+			"ID": "20221014100545-abqnahc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014100545-abqnahc",
+				"updated": "20221014102633"
+			}
+		}
+	]
+}

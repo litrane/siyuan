@@ -1,5 +1,6 @@
 {
 	"ID": "20220218151948-g56jmob",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220218151948-g56jmob",
@@ -31,22 +32,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "FSA: Fronthaul Slicing Architecture for 5G using dataplane programmable switches"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "FSA: Fronthaul Slicing Architecture for 5G using dataplane programmable switches"
 				}
 			]
 		},
@@ -77,20 +65,9 @@
 					"Data": "在本文中，我们设计并实现了前传切片架构（FSA），据我们所知，这是前传网络的第一个切片架构。FSA 在交换机数据平面中运行，并使用来自无线调度的信息以线速识别前传数据包的切片。它支持多点到多点路由以及数据包优先级划分，以在前传和 C-RAN 中提供多路复用增益，从而使系统更具可扩展性。我们使用放大的 LTE 跟踪的测试台评估表明，FSA 可以支持准确的多点到多点路由，用于 80 Gbps 的前传流量。此外，FSA 的数据包优先级启用的切片感知数据包调度减少了 95"
 				},
 				{
-					"Type": "NodeSup",
-					"Data": "sup",
-					"Children": [
-						{
-							"Type": "NodeSupOpenMarker"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "个"
-						},
-						{
-							"Type": "NodeSupCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "sup",
+					"TextMarkTextContent": "个"
 				},
 				{
 					"Type": "NodeText",
@@ -139,30 +116,10 @@
 									"TableCellContentMaxWidth": 104,
 									"Children": [
 										{
-											"Type": "NodeLink",
-											"Data": "span",
-											"Children": [
-												{
-													"Type": "NodeOpenBracket"
-												},
-												{
-													"Type": "NodeLinkText",
-													"Data": "A hyperlocal mobile web for the next 3 billion users"
-												},
-												{
-													"Type": "NodeCloseBracket"
-												},
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeLinkDest",
-													"Data": "https://dl.acm.org/doi/10.1145/3372224.3417316"
-												},
-												{
-													"Type": "NodeCloseParen"
-												}
-											]
+											"Type": "NodeTextMark",
+											"TextMarkType": "a",
+											"TextMarkAHref": "https://dl.acm.org/doi/10.1145/3372224.3417316",
+											"TextMarkTextContent": "A hyperlocal mobile web for the next 3 billion users"
 										}
 									]
 								}
@@ -226,30 +183,10 @@
 									"TableCellContentMaxWidth": 122,
 									"Children": [
 										{
-											"Type": "NodeLink",
-											"Data": "span",
-											"Children": [
-												{
-													"Type": "NodeOpenBracket"
-												},
-												{
-													"Type": "NodeLinkText",
-													"Data": "The implementation of stigmergy in network-assisted multi-agent system"
-												},
-												{
-													"Type": "NodeCloseBracket"
-												},
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeLinkDest",
-													"Data": "https://dl.acm.org/doi/10.1145/3372224.3417318"
-												},
-												{
-													"Type": "NodeCloseParen"
-												}
-											]
+											"Type": "NodeTextMark",
+											"TextMarkType": "a",
+											"TextMarkAHref": "https://dl.acm.org/doi/10.1145/3372224.3417318",
+											"TextMarkTextContent": "The implementation of stigmergy in network-assisted multi-agent system"
 										}
 									]
 								}
@@ -327,30 +264,10 @@
 									"TableCellContentMaxWidth": 126,
 									"Children": [
 										{
-											"Type": "NodeLink",
-											"Data": "span",
-											"Children": [
-												{
-													"Type": "NodeOpenBracket"
-												},
-												{
-													"Type": "NodeLinkText",
-													"Data": "Slicing-enabled private 4G/5G network for industrial wireless applications"
-												},
-												{
-													"Type": "NodeCloseBracket"
-												},
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeLinkDest",
-													"Data": "https://dl.acm.org/doi/10.1145/3372224.3417325"
-												},
-												{
-													"Type": "NodeCloseParen"
-												}
-											]
+											"Type": "NodeTextMark",
+											"TextMarkType": "a",
+											"TextMarkAHref": "https://dl.acm.org/doi/10.1145/3372224.3417325",
+											"TextMarkTextContent": "Slicing-enabled private 4G/5G network for industrial wireless applications"
 										}
 									]
 								}
@@ -414,30 +331,10 @@
 									"TableCellContentMaxWidth": 120,
 									"Children": [
 										{
-											"Type": "NodeLink",
-											"Data": "span",
-											"Children": [
-												{
-													"Type": "NodeOpenBracket"
-												},
-												{
-													"Type": "NodeLinkText",
-													"Data": "Performance bottlenecks identification in cloudified mobile networks"
-												},
-												{
-													"Type": "NodeCloseBracket"
-												},
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeLinkDest",
-													"Data": "https://dl.acm.org/doi/10.1145/3372224.3418158"
-												},
-												{
-													"Type": "NodeCloseParen"
-												}
-											]
+											"Type": "NodeTextMark",
+											"TextMarkType": "a",
+											"TextMarkAHref": "https://dl.acm.org/doi/10.1145/3372224.3418158",
+											"TextMarkTextContent": "Performance bottlenecks identification in cloudified mobile networks"
 										}
 									]
 								}
@@ -501,30 +398,10 @@
 									"TableCellContentMaxWidth": 112,
 									"Children": [
 										{
-											"Type": "NodeLink",
-											"Data": "span",
-											"Children": [
-												{
-													"Type": "NodeOpenBracket"
-												},
-												{
-													"Type": "NodeLinkText",
-													"Data": "A reliable intelligent routing mechanism in 5G core networks"
-												},
-												{
-													"Type": "NodeCloseBracket"
-												},
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeLinkDest",
-													"Data": "https://dl.acm.org/doi/10.1145/3372224.3418167"
-												},
-												{
-													"Type": "NodeCloseParen"
-												}
-											]
+											"Type": "NodeTextMark",
+											"TextMarkType": "a",
+											"TextMarkAHref": "https://dl.acm.org/doi/10.1145/3372224.3418167",
+											"TextMarkTextContent": "A reliable intelligent routing mechanism in 5G core networks"
 										}
 									]
 								}
@@ -603,30 +480,10 @@
 									"TableCellContentMaxWidth": 125,
 									"Children": [
 										{
-											"Type": "NodeLink",
-											"Data": "span",
-											"Children": [
-												{
-													"Type": "NodeOpenBracket"
-												},
-												{
-													"Type": "NodeLinkText",
-													"Data": "MuSher: An Agile Multipath-TCP Scheduler for Dual-Band 802.11ad/ac Wireless LANs"
-												},
-												{
-													"Type": "NodeCloseBracket"
-												},
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeLinkDest",
-													"Data": "https://doi.org/10.1145/3300061.3345435"
-												},
-												{
-													"Type": "NodeCloseParen"
-												}
-											]
+											"Type": "NodeTextMark",
+											"TextMarkType": "a",
+											"TextMarkAHref": "https://doi.org/10.1145/3300061.3345435",
+											"TextMarkTextContent": "MuSher: An Agile Multipath-TCP Scheduler for Dual-Band 802.11ad/ac Wireless LANs"
 										}
 									]
 								}
@@ -690,30 +547,10 @@
 									"TableCellContentMaxWidth": 144,
 									"Children": [
 										{
-											"Type": "NodeLink",
-											"Data": "span",
-											"Children": [
-												{
-													"Type": "NodeOpenBracket"
-												},
-												{
-													"Type": "NodeLinkText",
-													"Data": "Poster: SeamFarm — Distributed Data Analytic for Precision Agriculture based on Seamless Computing"
-												},
-												{
-													"Type": "NodeCloseBracket"
-												},
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeLinkDest",
-													"Data": "https://doi.org/10.1145/3300061.3343400"
-												},
-												{
-													"Type": "NodeCloseParen"
-												}
-											]
+											"Type": "NodeTextMark",
+											"TextMarkType": "a",
+											"TextMarkAHref": "https://doi.org/10.1145/3300061.3343400",
+											"TextMarkTextContent": "Poster: SeamFarm — Distributed Data Analytic for Precision Agriculture based on Seamless Computing"
 										}
 									]
 								}
@@ -792,30 +629,10 @@
 									"TableCellContentMaxWidth": 110,
 									"Children": [
 										{
-											"Type": "NodeLink",
-											"Data": "span",
-											"Children": [
-												{
-													"Type": "NodeOpenBracket"
-												},
-												{
-													"Type": "NodeLinkText",
-													"Data": "FoggyCache: Cross-Device Approximate Computation Reuse"
-												},
-												{
-													"Type": "NodeCloseBracket"
-												},
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeLinkDest",
-													"Data": "https://dl.acm.org/doi/abs/10.1145/3241539.3241557"
-												},
-												{
-													"Type": "NodeCloseParen"
-												}
-											]
+											"Type": "NodeTextMark",
+											"TextMarkType": "a",
+											"TextMarkAHref": "https://dl.acm.org/doi/abs/10.1145/3241539.3241557",
+											"TextMarkTextContent": "FoggyCache: Cross-Device Approximate Computation Reuse"
 										}
 									]
 								}
@@ -852,22 +669,9 @@
 					"Data": "移动和物联网场景越来越多地涉及交互式和计算密集型上下文识别。现有的优化通常求助于计算卸载或简化的设备上处理。相反，我们观察到同一个应用程序经常在靠近的多个设备上调用。此外，应用程序实例通常处理映射到相同结果的 "
 				},
 				{
-					"Type": "NodeEmphasis",
-					"Data": "em",
-					"Children": [
-						{
-							"Type": "NodeEmA6kOpenMarker",
-							"Data": "*"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "类似上下文数据。"
-						},
-						{
-							"Type": "NodeEmA6kCloseMarker",
-							"Data": "*"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "em",
+					"TextMarkTextContent": "类似上下文数据。"
 				},
 				{
 					"Type": "NodeText",
@@ -901,30 +705,10 @@
 									"TableCellContentMaxWidth": 136,
 									"Children": [
 										{
-											"Type": "NodeLink",
-											"Data": "span",
-											"Children": [
-												{
-													"Type": "NodeOpenBracket"
-												},
-												{
-													"Type": "NodeLinkText",
-													"Data": "ECHO: A Reliable Distributed Cellular Core Network for Hyper-scale Public Clouds"
-												},
-												{
-													"Type": "NodeCloseBracket"
-												},
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeLinkDest",
-													"Data": "https://dl.acm.org/doi/abs/10.1145/3241539.3241564"
-												},
-												{
-													"Type": "NodeCloseParen"
-												}
-											]
+											"Type": "NodeTextMark",
+											"TextMarkType": "a",
+											"TextMarkAHref": "https://dl.acm.org/doi/abs/10.1145/3241539.3241564",
+											"TextMarkTextContent": "ECHO: A Reliable Distributed Cellular Core Network for Hyper-scale Public Clouds"
 										}
 									]
 								}
@@ -971,30 +755,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "How Should I Slice My Network?: A Multi-Service Empirical Evaluation of Resource Sharing Efficiency"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://dl.acm.org/doi/abs/10.1145/3241539.3241567"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://dl.acm.org/doi/abs/10.1145/3241539.3241567",
+					"TextMarkTextContent": "How Should I Slice My Network?: A Multi-Service Empirical Evaluation of Resource Sharing Efficiency"
 				}
 			]
 		},
@@ -1052,30 +816,10 @@
 									"TableCellContentMaxWidth": 143,
 									"Children": [
 										{
-											"Type": "NodeLink",
-											"Data": "span",
-											"Children": [
-												{
-													"Type": "NodeOpenBracket"
-												},
-												{
-													"Type": "NodeLinkText",
-													"Data": "Adaptive Codebook Optimization for Beam Training on Off-the-Shelf IEEE 802.11ad Devices"
-												},
-												{
-													"Type": "NodeCloseBracket"
-												},
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeLinkDest",
-													"Data": "https://dl.acm.org/doi/abs/10.1145/3241539.3241576"
-												},
-												{
-													"Type": "NodeCloseParen"
-												}
-											]
+											"Type": "NodeTextMark",
+											"TextMarkType": "a",
+											"TextMarkAHref": "https://dl.acm.org/doi/abs/10.1145/3241539.3241576",
+											"TextMarkTextContent": "Adaptive Codebook Optimization for Beam Training on Off-the-Shelf IEEE 802.11ad Devices"
 										}
 									]
 								}
@@ -1108,30 +852,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "An SDN Based Content Cache at the WiFi Edge"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://dl.acm.org/doi/abs/10.1145/3241539.3267752"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://dl.acm.org/doi/abs/10.1145/3241539.3267752",
+					"TextMarkTextContent": "An SDN Based Content Cache at the WiFi Edge"
 				}
 			]
 		},
@@ -1175,30 +899,10 @@
 									"TableCellContentMaxWidth": 100,
 									"Children": [
 										{
-											"Type": "NodeLink",
-											"Data": "span",
-											"Children": [
-												{
-													"Type": "NodeOpenBracket"
-												},
-												{
-													"Type": "NodeLinkText",
-													"Data": "Scalable Network Slicing Architecture for 5G"
-												},
-												{
-													"Type": "NodeCloseBracket"
-												},
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeLinkDest",
-													"Data": "https://dl.acm.org/doi/abs/10.1145/3241539.3267762"
-												},
-												{
-													"Type": "NodeCloseParen"
-												}
-											]
+											"Type": "NodeTextMark",
+											"TextMarkType": "a",
+											"TextMarkAHref": "https://dl.acm.org/doi/abs/10.1145/3241539.3267762",
+											"TextMarkTextContent": "Scalable Network Slicing Architecture for 5G"
 										}
 									]
 								}
@@ -1262,30 +966,10 @@
 									"TableCellContentMaxWidth": 157,
 									"Children": [
 										{
-											"Type": "NodeLink",
-											"Data": "span",
-											"Children": [
-												{
-													"Type": "NodeOpenBracket"
-												},
-												{
-													"Type": "NodeLinkText",
-													"Data": "Joint Data Latency and Packet Loss Optimization for Relay-Node Selection in Time-Varying IoT Networks"
-												},
-												{
-													"Type": "NodeCloseBracket"
-												},
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeLinkDest",
-													"Data": "https://dl.acm.org/doi/abs/10.1145/3241539.3267758"
-												},
-												{
-													"Type": "NodeCloseParen"
-												}
-											]
+											"Type": "NodeTextMark",
+											"TextMarkType": "a",
+											"TextMarkAHref": "https://dl.acm.org/doi/abs/10.1145/3241539.3267758",
+											"TextMarkTextContent": "Joint Data Latency and Packet Loss Optimization for Relay-Node Selection in Time-Varying IoT Networks"
 										}
 									]
 								}
@@ -1364,30 +1048,10 @@
 									"TableCellContentMaxWidth": 150,
 									"Children": [
 										{
-											"Type": "NodeLink",
-											"Data": "span",
-											"Children": [
-												{
-													"Type": "NodeOpenBracket"
-												},
-												{
-													"Type": "NodeLinkText",
-													"Data": "Orion: RAN Slicing for a Flexible and Cost-Effective Multi-Service Mobile Network Architecture"
-												},
-												{
-													"Type": "NodeCloseBracket"
-												},
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeLinkDest",
-													"Data": "https://dl.acm.org/doi/abs/10.1145/3117811.3117831"
-												},
-												{
-													"Type": "NodeCloseParen"
-												}
-											]
+											"Type": "NodeTextMark",
+											"TextMarkType": "a",
+											"TextMarkAHref": "https://dl.acm.org/doi/abs/10.1145/3117811.3117831",
+											"TextMarkTextContent": "Orion: RAN Slicing for a Flexible and Cost-Effective Multi-Service Mobile Network Architecture"
 										}
 									]
 								}
@@ -1451,30 +1115,10 @@
 									"TableCellContentMaxWidth": 124,
 									"Children": [
 										{
-											"Type": "NodeLink",
-											"Data": "span",
-											"Children": [
-												{
-													"Type": "NodeOpenBracket"
-												},
-												{
-													"Type": "NodeLinkText",
-													"Data": "Accelerating Multipath Transport Through Balanced Subflow Completion"
-												},
-												{
-													"Type": "NodeCloseBracket"
-												},
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeLinkDest",
-													"Data": "https://dl.acm.org/doi/abs/10.1145/3117811.3117829"
-												},
-												{
-													"Type": "NodeCloseParen"
-												}
-											]
+											"Type": "NodeTextMark",
+											"TextMarkType": "a",
+											"TextMarkAHref": "https://dl.acm.org/doi/abs/10.1145/3117811.3117829",
+											"TextMarkTextContent": "Accelerating Multipath Transport Through Balanced Subflow Completion"
 										}
 									]
 								}
@@ -1538,30 +1182,10 @@
 									"TableCellContentMaxWidth": 134,
 									"Children": [
 										{
-											"Type": "NodeLink",
-											"Data": "span",
-											"Children": [
-												{
-													"Type": "NodeOpenBracket"
-												},
-												{
-													"Type": "NodeLinkText",
-													"Data": "Demo: DEMS: DEcoupled Multipath Scheduler for Accelerating Multipath Transport"
-												},
-												{
-													"Type": "NodeCloseBracket"
-												},
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeLinkDest",
-													"Data": "https://dl.acm.org/doi/abs/10.1145/3117811.3119869"
-												},
-												{
-													"Type": "NodeCloseParen"
-												}
-											]
+											"Type": "NodeTextMark",
+											"TextMarkType": "a",
+											"TextMarkAHref": "https://dl.acm.org/doi/abs/10.1145/3117811.3119869",
+											"TextMarkTextContent": "Demo: DEMS: DEcoupled Multipath Scheduler for Accelerating Multipath Transport"
 										}
 									]
 								}

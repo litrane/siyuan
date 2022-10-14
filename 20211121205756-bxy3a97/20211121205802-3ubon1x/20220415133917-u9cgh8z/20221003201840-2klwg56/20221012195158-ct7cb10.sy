@@ -1,0 +1,242 @@
+{
+	"ID": "20221012195158-ct7cb10",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221012195158-ct7cb10",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221012195158-0qunspe\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221012220258-cfc2esh\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:377}",
+		"title": "2022-10-12",
+		"updated": "20221012220320"
+	},
+	"Children": [
+		{
+			"ID": "20221012195158-0qunspe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012195158-0qunspe",
+				"updated": "20221012195211"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "熟悉问题、读懂方法、了解实验"
+				}
+			]
+		},
+		{
+			"ID": "20221012195211-jnjxncx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012195211-jnjxncx",
+				"updated": "20221012195214"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "dblp查会议"
+				}
+			]
+		},
+		{
+			"ID": "20221012200516-fusj49l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012200516-fusj49l",
+				"updated": "20221012200517"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221012200517-85ekec3.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221012204425-zwvpmlh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012204425-zwvpmlh",
+				"updated": "20221012204433"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "反复读，后看引文"
+				}
+			]
+		},
+		{
+			"ID": "20221012204434-s2yecvv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012204434-s2yecvv",
+				"updated": "20221012204450"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "利用同年级同学，师兄交流"
+				}
+			]
+		},
+		{
+			"ID": "20221012205230-0egkzo3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012205230-0egkzo3",
+				"updated": "20221012205302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "稳扎稳打一步一步规划来"
+				}
+			]
+		},
+		{
+			"ID": "20221012205302-s9vgtww",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012205302-s9vgtww",
+				"updated": "20221012205313"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "还是要每天看论文"
+				}
+			]
+		},
+		{
+			"ID": "20221012220258-cfc2esh",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221012220258-cfc2esh",
+				"updated": "20221012220320"
+			},
+			"Children": [
+				{
+					"ID": "20221012220300-7a48uhd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221012220300-7a48uhd",
+						"updated": "20221012220300"
+					},
+					"Children": [
+						{
+							"ID": "20221012220300-uerkpy2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012220300-uerkpy2",
+								"updated": "20221012220304"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "早上pre"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221012220304-opwcm5k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221012220304-opwcm5k"
+					},
+					"Children": [
+						{
+							"ID": "20221012220304-2t863am",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012220304-2t863am",
+								"updated": "20221012220306"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "下午上课"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221012220307-xou0vcn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221012220307-xou0vcn",
+						"updated": "20221012220320"
+					},
+					"Children": [
+						{
+							"ID": "20221012220307-77y91k5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012220307-77y91k5",
+								"updated": "20221012220320"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "晚上参加会议，搜寻论文，写新闻稿"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
