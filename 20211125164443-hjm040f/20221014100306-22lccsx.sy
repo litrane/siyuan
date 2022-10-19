@@ -4,9 +4,9 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20221014100306-22lccsx",
-		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221014101750-ievydmm\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221014101727-4x2alb9\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:1548,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221014102211-zjpfz47\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221014101750-ievydmm\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221019202039-diqjlfx\u0026quot;,\u0026quot;scrollTop\u0026quot;:2044,\u0026quot;focusId\u0026quot;:\u0026quot;20221019202057-swdoysf\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
 		"title": "论文写作积累",
-		"updated": "20221014102211"
+		"updated": "20221019202139"
 	},
 	"Children": [
 		{
@@ -375,9 +375,34 @@
 		},
 		{
 			"ID": "20221014102211-zjpfz47",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221014102211-zjpfz47",
+				"updated": "20221019202057"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "程明明的课"
+				}
+			]
+		},
+		{
+			"ID": "20221019202136-w4rcxi1",
+			"Type": "NodeIFrame",
+			"Data": "\u003ciframe src=\"//player.bilibili.com/player.html?aid=853350017\u0026amp;bvid=BV1GL4y1V7NS\u0026amp;cid=581116778\u0026amp;page=1\" data-src=\"//player.bilibili.com/player.html?aid=853350017\u0026amp;bvid=BV1GL4y1V7NS\u0026amp;cid=581116778\u0026amp;page=1\" scrolling=\"no\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20221019202136-w4rcxi1",
+				"updated": "20221019202136"
+			}
+		},
+		{
+			"ID": "20221019202057-swdoysf",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221014102211-zjpfz47"
+				"id": "20221019202057-swdoysf",
+				"updated": "20221019202139"
 			}
 		},
 		{
@@ -434,6 +459,20 @@
 							]
 						}
 					]
+				}
+			]
+		},
+		{
+			"ID": "20221019202039-diqjlfx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019202039-diqjlfx",
+				"updated": "20221019202041"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2."
 				}
 			]
 		}

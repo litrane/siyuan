@@ -4,9 +4,9 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220920221633-8pspwu3",
-		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220920221638-oi6dilv\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220920222240-0zhqthu\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:1502,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220920222240-0zhqthu\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20220920221638-oi6dilv\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221018161056-z1oi51n\u0026quot;,\u0026quot;scrollTop\u0026quot;:1931,\u0026quot;focusId\u0026quot;:\u0026quot;20221018161056-z1oi51n\u0026quot;,\u0026quot;focusStart\u0026quot;:165,\u0026quot;focusEnd\u0026quot;:165}",
 		"title": "区块链方向",
-		"updated": "20220920222240"
+		"updated": "20221018161057"
 	},
 	"Children": [
 		{
@@ -282,11 +282,133 @@
 			]
 		},
 		{
-			"ID": "20220920222240-0zhqthu",
+			"ID": "20221014144640-vgmxtfo",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221014144640-vgmxtfo",
+				"updated": "20221014144640"
+			},
+			"Children": [
+				{
+					"ID": "20221014144640-fu8hr1l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221014144640-fu8hr1l",
+						"updated": "20221014144640"
+					},
+					"Children": [
+						{
+							"ID": "20221014144640-jvrs33f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221014144640-jvrs33f",
+								"updated": "20221014144640"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "跨链协议"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221014144640-nqbokrt",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220920222240-0zhqthu"
+				"id": "20221014144640-nqbokrt",
+				"updated": "20221014144640"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "包括跨链数据检索和跨链资产交换。跨链数据检索可以为监管方在多链的条件下提供更强大的监管能力；跨链资产交换是去中心信任的原子交换。"
+				}
+			]
+		},
+		{
+			"ID": "20221014144701-pz282bd",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221014144701-pz282bd",
+				"updated": "20221014144701"
+			},
+			"Children": [
+				{
+					"ID": "20221014144701-sfb3rzv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221014144701-sfb3rzv",
+						"updated": "20221014144701"
+					},
+					"Children": [
+						{
+							"ID": "20221014144701-htq5aha",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221014144701-htq5aha",
+								"updated": "20221014144701"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "共识协议"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221014144701-yoa7b19",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014144701-yoa7b19",
+				"updated": "20221014144701"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "针对混合共识方案、新型共识协议的工程实践、共识协议的性能提升等。混合共识方案主要基于学术界的最新成果提出创新与改进。新型共识协议的工程实践包括基于随机化算法的共识协议和基于DAG模式的共识协议。共识协议的性能提升，是指通过并行化处理传统共识协议，在维持协议正确性与活性的同时，高效利用多核机器的性能，进而使得传统BFT协议的性能获得提升，并适用于其他共识协议。"
+				}
+			]
+		},
+		{
+			"ID": "20221018161055-y6q56ew",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018161055-y6q56ew"
 			}
+		},
+		{
+			"ID": "20221018161056-z1oi51n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018161056-z1oi51n",
+				"updated": "20221018161057"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Blockchain: Blockchain Made Wireless, Cloud-Based Blockchain, Blockchain Storage Optimization, DAG-Based Blockchain, Cross-Chain Interoperability, Off-Chain Channel."
+				}
+			]
 		}
 	]
 }

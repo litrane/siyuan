@@ -4,8 +4,9 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20221014100544-scuo4jv",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221014100545-abqnahc\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221019212929-n2rmvpk\u0026quot;,\u0026quot;scrollTop\u0026quot;:493.5,\u0026quot;focusId\u0026quot;:\u0026quot;20221019213553-ers96b1\u0026quot;,\u0026quot;focusStart\u0026quot;:23,\u0026quot;focusEnd\u0026quot;:23}",
 		"title": "如何读论文",
-		"updated": "20221014102633"
+		"updated": "20221019213553"
 	},
 	"Children": [
 		{
@@ -13,8 +14,202 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20221014100545-abqnahc",
-				"updated": "20221014102633"
-			}
+				"updated": "20221019203312"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "what,novelty,motivation,significant"
+				}
+			]
+		},
+		{
+			"ID": "20221019213301-povn5lb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019213301-povn5lb",
+				"updated": "20221019213301"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "下面主要通过时间顺序，分析一些领域的一些代表性工作是如何一个接一个涌现出来的，是什么基础启发了这些工作？这些想法是如何转化为实际的成果。对于新的科研工作者，特别是一二年级的学生，不妨假设我们也是曾经的“当事人”。如果能够顺着这几条脉络走下去，在每个论文出来之后，想一想如果我是当时从事这些工作的人，我会从之前的工作中得到什么启发 ？我会如何开展下一步研究？对于低年级的新手，开始的时候这种锻炼会非常辛苦。最初的“启发”很可能是“又一个软柿子被人捏过了”，“貌似能做的都已经被做了”，“貌似只剩难啃的硬骨头了”，“这家伙从事科研的时间点怎么这么幸运”。我们可以想想如果是自己，站在当时那个位置，会做什么后续工作。当确实充分的思考完一个工作之后，我们可以看一看下一个同领域的重要工作。如果你发现自己很多时候可以“预测”这些发展了，那么非常恭喜你，这篇小总结可能对你没太大用处了。如果我们又一次陷入那个觉得只恨又一个容易做的工作被别人做掉了的怪圈，那么还是再认真锻炼，仔细琢磨这些新的工作是怎么一个接一个在在相似的topic上层出不穷的。"
+				}
+			]
+		},
+		{
+			"ID": "20221019212919-h8w7ubg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019212919-h8w7ubg",
+				"updated": "20221019212929"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考文献："
+				}
+			]
+		},
+		{
+			"ID": "20221019212929-n2rmvpk",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221019212929-n2rmvpk",
+				"updated": "20221019213553"
+			},
+			"Children": [
+				{
+					"ID": "20221019212933-skwlh6h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221019212933-skwlh6h",
+						"updated": "20221019212933"
+					},
+					"Children": [
+						{
+							"ID": "20221019212933-eu9a45e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221019212933-eu9a45e",
+								"updated": "20221019212933"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "https://chinese.freecodecamp.org/news/building-a-habit-of-reading-research-papers"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221019212935-s6ei2sl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221019212935-s6ei2sl"
+					},
+					"Children": [
+						{
+							"ID": "20221019212935-3or2zhl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221019212935-3or2zhl",
+								"updated": "20221019213013"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "https://mmcheng.net/paperreading/comment-page-6/"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221019213030-17zvz3k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221019213030-17zvz3k"
+					},
+					"Children": [
+						{
+							"ID": "20221019213030-xwi94zo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221019213030-xwi94zo",
+								"updated": "20221019213030"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "http://home.ustc.edu.cn/~zzy0929/Home/How%20to%20research.pdf"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221019213536-u6qi60s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221019213536-u6qi60s"
+					},
+					"Children": [
+						{
+							"ID": "20221019213536-l5zq9mu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221019213536-l5zq9mu",
+								"updated": "20221019213536"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "https://tech.sina.cn/csj/2020-07-25/doc-iivhuipn5023500.d.html"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221019213553-2jpye89",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20221019213553-2jpye89",
+						"updated": "20221019213553"
+					},
+					"Children": [
+						{
+							"ID": "20221019213553-ers96b1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221019213553-ers96b1",
+								"updated": "20221019213553"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "https://scientist-with-logic.github.io/%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9A%84idea%E6%98%AF%E6%80%8E%E4%B9%88%E6%8F%90%E5%87%BA%E6%9D%A5%E7%9A%84-%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%A0%E7%A0%94%E7%A9%B6%E4%BA%86%E5%A5%BD%E5%87%A0%E5%B9%B4%E5%8D%B4%E4%BB%80%E4%B9%88%E4%B9%9F%E6%B2%A1%E6%8F%90%E5%87%BA%E6%9D%A5/"
+								}
+							]
+						}
+					]
+				}
+			]
 		}
 	]
 }

@@ -1,20 +1,20 @@
 {
-	"ID": "20221014100529-azonak8",
+	"ID": "20221019210914-p0olxka",
 	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
-		"id": "20221014100529-azonak8",
-		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221014100529-6q2bz4k\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221014100529-6q2bz4k\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221014100529-6q2bz4k\u0026quot;,\u0026quot;focusStart\u0026quot;:3,\u0026quot;focusEnd\u0026quot;:3}",
-		"title": "科研Topic·Idea思考",
-		"updated": "20221019210945"
+		"id": "20221019210914-p0olxka",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221019210914-dmic4nq\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221019210914-dmic4nq\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221019210914-dmic4nq\u0026quot;,\u0026quot;focusStart\u0026quot;:3,\u0026quot;focusEnd\u0026quot;:3}",
+		"title": "写作句式",
+		"updated": "20221019210922"
 	},
 	"Children": [
 		{
-			"ID": "20221014100529-6q2bz4k",
+			"ID": "20221019210914-dmic4nq",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221014100529-6q2bz4k",
-				"updated": "20221019210945"
+				"id": "20221019210914-dmic4nq",
+				"updated": "20221019210922"
 			},
 			"Children": [
 				{
@@ -39,7 +39,7 @@
 						},
 						{
 							"Type": "NodeLinkDest",
-							"Data": "assets/image-20221019210945-hq7kir2.png"
+							"Data": "assets/image-20221019210922-96vtwqa.png"
 						},
 						{
 							"Type": "NodeCloseParen"

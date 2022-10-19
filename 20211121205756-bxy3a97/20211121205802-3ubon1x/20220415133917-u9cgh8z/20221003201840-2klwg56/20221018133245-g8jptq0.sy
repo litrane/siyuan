@@ -1,0 +1,70 @@
+{
+	"ID": "20221018133245-g8jptq0",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221018133245-g8jptq0",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221018133245-um4fa0a\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221018133328-9wj1lks\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221018133328-9wj1lks\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"title": "2022-10-18",
+		"updated": "20221018133328"
+	},
+	"Children": [
+		{
+			"ID": "20221018133245-um4fa0a",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221018133245-um4fa0a",
+				"updated": "20221018133247"
+			},
+			"Children": [
+				{
+					"ID": "20221018133247-pg0npjt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221018133247-pg0npjt",
+						"updated": "20221018133247"
+					},
+					"Children": [
+						{
+							"ID": "20221018133247-snszwhm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221018133247-snszwhm",
+								"updated": "20221018133324"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "今天上午看牙了，然后配置cosmos的key不变的环境，此外掉眼泪专利以及进一步思考可行性"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221018133324-2z5o1f3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018133324-2z5o1f3"
+			}
+		},
+		{
+			"ID": "20221018133328-9wj1lks",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018133328-9wj1lks"
+			}
+		}
+	]
+}

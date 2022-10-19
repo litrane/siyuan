@@ -1,5 +1,6 @@
 {
 	"ID": "20200828105441-r76vmu5",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20200828105441-r76vmu5",
@@ -22,22 +23,9 @@
 					"Data": "### "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "--workspace"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "--workspace"
 				}
 			]
 		},
@@ -54,22 +42,9 @@
 					"Data": "用于指定工作空间文件夹路径，不指定时的默认值是 "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "~/Documents/SiYuan/"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "~/Documents/SiYuan/"
 				},
 				{
 					"Type": "NodeText",
@@ -90,22 +65,9 @@
 					"Data": "### "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "--wd"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "--wd"
 				}
 			]
 		},
@@ -135,22 +97,9 @@
 					"Data": "### "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "--servePath"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "--servePath"
 				}
 			]
 		},
@@ -167,20 +116,9 @@
 					"Data": "用于指定伺服路径（host:port），默认值为 "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "window.location.hostname+\":6806\""
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "window.location.hostname+\u0026quot;:6806\u0026quot;"
 				},
 				{
 					"Type": "NodeText",
@@ -201,20 +139,9 @@
 					"Data": "例如需要通过域名访问时，请将该值设置为 "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "yourdomain.com"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "yourdomain.com"
 				},
 				{
 					"Type": "NodeText",
@@ -235,22 +162,9 @@
 					"Data": "### "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "--resident"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "--resident"
 				}
 			]
 		},
@@ -266,44 +180,18 @@
 					"Data": "使用 "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "--resident=true"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "--resident=true"
 				},
 				{
 					"Type": "NodeText",
 					"Data": " 指定后内核将常驻内存，默认 "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "true"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "true"
 				},
 				{
 					"Type": "NodeText",
@@ -323,22 +211,9 @@
 					"Data": "设置为 "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "false"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "false"
 				},
 				{
 					"Type": "NodeText",
@@ -359,22 +234,9 @@
 					"Data": "### "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "--readonly"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "--readonly"
 				}
 			]
 		},
@@ -390,22 +252,9 @@
 					"Data": "使用 "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "--readonly=true"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "--readonly=true"
 				},
 				{
 					"Type": "NodeText",
@@ -423,20 +272,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "--accessAuthCode"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "--accessAuthCode"
 				}
 			]
 		},
@@ -498,22 +336,9 @@
 					"Data": "### "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "--ssl"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "--ssl"
 				}
 			]
 		},
@@ -529,22 +354,9 @@
 					"Data": "使用 "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "--ssl=true"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "--ssl=true"
 				},
 				{
 					"Type": "NodeText",

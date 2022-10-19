@@ -1,5 +1,6 @@
 {
 	"ID": "20200915214115-42b8zma",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20200915214115-42b8zma",
@@ -175,66 +176,27 @@
 					"Data": "“引用”指的是通过超链接、插入图片或者 HTML 标签（例如 "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "\u003cimg\u003e"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "\u0026lt;img\u0026gt;"
 				},
 				{
 					"Type": "NodeText",
 					"Data": " 、"
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "\u003ciframe\u003e"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "\u0026lt;iframe\u0026gt;"
 				},
 				{
 					"Type": "NodeText",
 					"Data": "）的属性 "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "src"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "src"
 				},
 				{
 					"Type": "NodeText",
@@ -319,44 +281,18 @@
 									"Data": "引用资源文件夹（在 assets 文件夹下的子文件夹），必须以 "
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "/"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "/"
 								},
 								{
 									"Type": "NodeText",
 									"Data": " 结尾，比如 "
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "[foo](assets/bar/)"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "[foo](assets/bar/)"
 								}
 							]
 						}
@@ -390,38 +326,18 @@
 					"Data": "在 "
 				},
 				{
-					"Type": "NodeKbd",
-					"Children": [
-						{
-							"Type": "NodeKbdOpenMarker"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "设置"
-						},
-						{
-							"Type": "NodeKbdCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "kbd",
+					"TextMarkTextContent": "设置"
 				},
 				{
 					"Type": "NodeText",
 					"Data": " - "
 				},
 				{
-					"Type": "NodeKbd",
-					"Children": [
-						{
-							"Type": "NodeKbdOpenMarker"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "资源"
-						},
-						{
-							"Type": "NodeKbdCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "kbd",
+					"TextMarkTextContent": "资源"
 				},
 				{
 					"Type": "NodeText",
@@ -470,21 +386,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeTag",
-					"Children": [
-						{
-							"Type": "NodeTagOpenMarker",
-							"Data": "#"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "注意"
-						},
-						{
-							"Type": "NodeTagCloseMarker",
-							"Data": "#"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "tag",
+					"TextMarkTextContent": "注意"
 				},
 				{
 					"Type": "NodeText",

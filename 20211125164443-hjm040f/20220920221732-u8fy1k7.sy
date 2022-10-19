@@ -1,9 +1,10 @@
 {
 	"ID": "20220920221732-u8fy1k7",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220920221732-u8fy1k7",
-		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220920221739-8gc9lhi\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220920221739-e05i4fp\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220920221739-g15z9dx\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:92,\u0026amp;quot;focusEnd\u0026amp;quot;:92}",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20220920221739-8gc9lhi\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20220920221739-e05i4fp\u0026quot;,\u0026quot;scrollTop\u0026quot;:3600,\u0026quot;focusId\u0026quot;:\u0026quot;20220920221739-g15z9dx\u0026quot;,\u0026quot;focusStart\u0026quot;:92,\u0026quot;focusEnd\u0026quot;:92}",
 		"title": "发表文章的经验",
 		"updated": "20220920221739"
 	},
@@ -315,36 +316,9 @@
 					"Data": "I am sorry to make you in trouble. It takes too long for reviewing my manuscript ("
 				},
 				{
-					"Type": "NodeEmphasis",
-					"Data": "em",
-					"Children": [
-						{
-							"Type": "NodeEmA6kOpenMarker",
-							"Data": "*"
-						},
-						{
-							"Type": "NodeStrong",
-							"Data": "strong",
-							"Children": [
-								{
-									"Type": "NodeStrongA6kOpenMarker",
-									"Data": "**"
-								},
-								{
-									"Type": "NodeText",
-									"Data": ") which was submitted to Journal \""
-								},
-								{
-									"Type": "NodeStrongA6kCloseMarker",
-									"Data": "**"
-								}
-							]
-						},
-						{
-							"Type": "NodeEmA6kCloseMarker",
-							"Data": "*"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "em strong",
+					"TextMarkTextContent": ") which was submitted to Journal \u0026quot;"
 				},
 				{
 					"Type": "NodeText",
@@ -1108,30 +1082,10 @@
 					"Data": "⑥ 使用代理\n国外各大学都有自己的电子数据库，有些是免费，对于有限制的则只好使用代理，一般这种代理需要到专业相关的bbs才可以找到，国内比较好的文献查询资源bbs有：网上读书园地www.readfree.ne和零点花园"
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "http://ldbbs.512j.com/bbs/"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "http://ldbbs.512j.com/bbs/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "http://ldbbs.512j.com/bbs/",
+					"TextMarkTextContent": "http://ldbbs.512j.com/bbs/"
 				},
 				{
 					"Type": "NodeText",
@@ -1251,30 +1205,10 @@
 					"Data": "1.1.4  SCI收录期刊分区\n   随SCI在国内的普遍使用，高影响因子期刊的论文刊发量逐渐成为学术评价的关注重点。但是一个刊物的影响引子每年有变动，各个领域刊物影响引子也不具可比性。因此，中科院根据影响因子大小，按学科对SCI收录期刊进行年度分区，水平从高到低分为1234四个区。这样对一个刊物水平高低的认定维持在相对稳定的定义上。不论什么领域，只要论文发表的刊物在同一分区上，就可以认为这些论文水平相当。2004年版SCI分区目录"
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "http://10.11.32.135/cglw/scie_2004FQ.asp"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "http://10.11.32.135/cglw/scie_2004FQ.asp"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "http://10.11.32.135/cglw/scie_2004FQ.asp",
+					"TextMarkTextContent": "http://10.11.32.135/cglw/scie_2004FQ.asp"
 				}
 			]
 		},
@@ -1389,30 +1323,10 @@
 					"Data": "比较有用的LN系列\n? 德国Springer出版社的LNCS（Lecture Notes in Computer Science）和荷兰的Brill Academic出版社的LSCCS (Lecture Series on Computer and Computational Sciences)都确定被SCI全收。\n? 注意：同一个出版社的其他会议论文集系列不一定会被SCI收！例如Springer的Lecture Notes in Computational Intelligence。\n推荐的一些国际会议\n? 周围同学和一些老师公认的评价原则（重要性依次递减）：针对性、届数、录用篇数、录用率、特邀嘉宾的影响力。\n? 网络上大家公认新加坡南洋理工的一个帖子，网址如下：\n? "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "http://www.ntu.edu.sg/home/assourav/crank.htm"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "http://www.ntu.edu.sg/home/assourav/crank.htm"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "http://www.ntu.edu.sg/home/assourav/crank.htm",
+					"TextMarkTextContent": "http://www.ntu.edu.sg/home/assourav/crank.htm"
 				},
 				{
 					"Type": "NodeText",

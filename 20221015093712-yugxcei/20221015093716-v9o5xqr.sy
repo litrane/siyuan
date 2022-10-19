@@ -1,0 +1,21 @@
+{
+	"ID": "20221015093716-v9o5xqr",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221015093716-v9o5xqr",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221015093716-zu5o9hd\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221015093716-zu5o9hd\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221015093716-zu5o9hd\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"title": "贪心",
+		"updated": "20221015093723"
+	},
+	"Children": [
+		{
+			"ID": "20221015093716-zu5o9hd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221015093716-zu5o9hd",
+				"updated": "20221015093716"
+			}
+		}
+	]
+}

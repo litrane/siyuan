@@ -1,5 +1,6 @@
 {
 	"ID": "20200813013559-sgbzl5k",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20200813013559-sgbzl5k",
@@ -40,22 +41,9 @@
 					"Data": "输入 "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "(("
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "(("
 				},
 				{
 					"Type": "NodeText",
@@ -75,109 +63,45 @@
 					"Data": "内容块引用的完整语法是："
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": " ((id \"text\"))"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": " ((id \u0026quot;text\u0026quot;))"
 				},
 				{
 					"Type": "NodeText",
 					"Data": "，其中 "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "id"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "id"
 				},
 				{
 					"Type": "NodeText",
 					"Data": " 形如： "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "202008250000-a1b2c3d"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "202008250000-a1b2c3d"
 				},
 				{
 					"Type": "NodeText",
 					"Data": "，由时间和 7 位随机字符组成，内容块 id 是在创建内容块时就会自动生成的；后面的 "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "text"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "text"
 				},
 				{
 					"Type": "NodeText",
 					"Data": " 是在引用处对该内容块的自定义锚文本。建立好内容块引用后，鼠标悬浮在锚文本上后将弹出预览浮层，展现被引用的内容块。"
 				},
 				{
-					"Type": "NodeTag",
-					"Children": [
-						{
-							"Type": "NodeTagOpenMarker",
-							"Data": "#"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "内容块/引用"
-						},
-						{
-							"Type": "NodeTagCloseMarker",
-							"Data": "#"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "tag",
+					"TextMarkTextContent": "内容块/引用"
 				}
 			]
 		},

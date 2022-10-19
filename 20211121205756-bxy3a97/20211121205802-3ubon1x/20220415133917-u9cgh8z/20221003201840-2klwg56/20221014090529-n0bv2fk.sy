@@ -4,17 +4,118 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20221014090529-n0bv2fk",
-		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221014090529-oejrhg2\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221014090529-oejrhg2\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221014090529-oejrhg2\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221014090529-oejrhg2\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221015093519-e2x8ahf\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221014183555-rxc6xs1\u0026quot;,\u0026quot;focusStart\u0026quot;:4,\u0026quot;focusEnd\u0026quot;:4}",
 		"title": "2022-10-14",
-		"updated": "20221014090529"
+		"updated": "20221015093527"
 	},
 	"Children": [
 		{
 			"ID": "20221014090529-oejrhg2",
-			"Type": "NodeParagraph",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
 			"Properties": {
 				"id": "20221014090529-oejrhg2",
-				"updated": "20221014090529"
+				"updated": "20221015093527"
+			},
+			"Children": [
+				{
+					"ID": "20221014183544-laafwus",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221014183544-laafwus",
+						"updated": "20221014183544"
+					},
+					"Children": [
+						{
+							"ID": "20221014183544-9bchr40",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221014183544-9bchr40",
+								"updated": "20221014183605"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "早上整理看的论文，开始搭建配置环境脚本"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221014183555-ytli4pg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221014183555-ytli4pg"
+					},
+					"Children": [
+						{
+							"ID": "20221014183555-rxc6xs1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221014183555-rxc6xs1",
+								"updated": "20221014183618"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "配置环境脚本完成，p2p通信失败"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221014183618-ugqi883",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221014183618-ugqi883",
+						"updated": "20221015093527"
+					},
+					"Children": [
+						{
+							"ID": "20221014183618-26zbz3t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221014183618-26zbz3t",
+								"updated": "20221015093527"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "晚上修改tps代码"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221015093519-e2x8ahf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221015093519-e2x8ahf"
 			}
 		}
 	]
