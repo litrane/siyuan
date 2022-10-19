@@ -5,7 +5,7 @@
 	"Properties": {
 		"id": "20221019110351-kha84nr",
 		"title": "2022-10-19",
-		"updated": "20221019212128"
+		"updated": "20221020005506"
 	},
 	"Children": [
 		{
@@ -46,6 +46,171 @@
 									"Data": "今天早上上课"
 								}
 							]
+						}
+					]
+				},
+				{
+					"ID": "20221020005239-inax9ee",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221020005239-inax9ee"
+					},
+					"Children": [
+						{
+							"ID": "20221020005239-p9wv4na",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020005239-p9wv4na",
+								"updated": "20221020005246"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "下午数据库课，就是"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221020005247-wawn79v",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221020005247-wawn79v"
+					},
+					"Children": [
+						{
+							"ID": "20221020005247-o5nhthv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020005247-o5nhthv",
+								"updated": "20221020005453"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "晚上看论文讲座，记录方法，跑实验，结论是需要调整一些设置参数"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020005506-atz20e5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020005506-atz20e5",
+				"updated": "20221020005514"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "待处理事项："
+				}
+			]
+		},
+		{
+			"ID": "20221020005506-uom8fpk",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221020005506-uom8fpk",
+				"updated": "20221020005506"
+			},
+			"Children": [
+				{
+					"ID": "20221020005454-fdsx5dv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221020005454-fdsx5dv"
+					},
+					"Children": [
+						{
+							"ID": "20221020005454-pujjxpz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020005454-pujjxpz",
+								"updated": "20221020005517"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "那个微软论文待处理阅读"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221020005517-agfyth7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221020005517-agfyth7"
+					},
+					"Children": [
+						{
+							"ID": "20221020005517-qlwiy25",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020005517-qlwiy25",
+								"updated": "20221020005522"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "马克思论文和拍照"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221020005522-rm6e4oy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221020005522-rm6e4oy"
+					},
+					"Children": [
+						{
+							"ID": "20221020005522-zi5x8sl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020005522-zi5x8sl"
+							}
 						}
 					]
 				}
