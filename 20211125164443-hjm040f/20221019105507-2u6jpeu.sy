@@ -4,9 +4,9 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20221019105507-2u6jpeu",
-		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221019105507-cy94jfj\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221019105603-aok5rnw\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221019105603-aok5rnw\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221019105507-cy94jfj\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221021190933-bejn2ui\u0026quot;,\u0026quot;scrollTop\u0026quot;:100,\u0026quot;focusId\u0026quot;:\u0026quot;20221019105507-cy94jfj\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
 		"title": "笔记备份",
-		"updated": "20221019213925"
+		"updated": "20221021191414"
 	},
 	"Children": [
 		{
@@ -15,7 +15,7 @@
 			"IsFencedCodeBlock": true,
 			"Properties": {
 				"id": "20221019105507-cy94jfj",
-				"updated": "20221019105520"
+				"updated": "20221021191414"
 			},
 			"Children": [
 				{
@@ -27,7 +27,7 @@
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "cd siyuan\ngit pull\ncd ..\ndocker stop 7adde2abf3aa\ncp -r siyuan/* data/\ndocker start 7adde2abf3aa\n"
+					"Data": "cd siyuan\ngit pull\ncd ..\ndocker stop $(docker ps -a |  grep \"b3log\"  | awk '{print $1}')\ncp -r siyuan/* data/\ndocker start $(docker ps -a |  grep \"b3log\"  | awk '{print $1}')"
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
@@ -94,6 +94,46 @@
 				{
 					"Type": "NodeCodeBlockCode",
 					"Data": "cd  /mnt/d/SiYuan/data\ngit add .\nlog=$(date -d \"now\" +%Y-%m-%d)\ngit commit -m \"${log}\"\ngit push\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221021190919-23n1bvl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021190919-23n1bvl",
+				"updated": "20221021190932"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Ngnix 反向代理+301"
+				}
+			]
+		},
+		{
+			"ID": "20221021190933-bejn2ui",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221021190933-bejn2ui",
+				"updated": "20221021190935"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "#配置一个代理即tomcat1服务器\nupstream tomcat_server1 {\n    server 192.168.78.134:8080;\n}\n#配置一个代理即tomcat2服务器\nupstream tomcat_server2 {\n    server 192.168.78.135:8080;\n}\n#配置一个虚拟主机\nserver {\n    listen 80;\n    server_name rss.litrane.top;\n    location / {\n        #域名aaa.test.com的请求全部转发到tomcat_server1即tomcat1服务上\n        proxy_pass http://91.200.242.129:6789;\n        #欢迎页面，按照从左到右的顺序查找页面\n\n    }\n}\nserver {\n    listen 80;\n    server_name siyuan.litrane.top;\n    location / {\n        #域名bbb.test.com的请求全部转发到tomcat_server2即tomcat2服务上\n        return 301 http://91.200.242.129:6806;\n    }\n}\n"
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",

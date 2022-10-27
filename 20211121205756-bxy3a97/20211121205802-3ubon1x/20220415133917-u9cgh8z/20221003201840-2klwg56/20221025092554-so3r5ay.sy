@@ -1,0 +1,218 @@
+{
+	"ID": "20221025092554-so3r5ay",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221025092554-so3r5ay",
+		"title": "2022-10-25",
+		"updated": "20221025230944"
+	},
+	"Children": [
+		{
+			"ID": "20221025092554-ovcopzj",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221025092554-ovcopzj",
+				"updated": "20221025093101"
+			},
+			"Children": [
+				{
+					"ID": "20221025093056-uxrhvbj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221025093056-uxrhvbj",
+						"updated": "20221025093101"
+					},
+					"Children": [
+						{
+							"ID": "20221025093056-g5cift3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025093056-g5cift3",
+								"updated": "20221025225409"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "今天早上完善TPS脚本的TNT20调用"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221025225410-l43v69m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221025225410-l43v69m"
+					},
+					"Children": [
+						{
+							"ID": "20221025225410-szhi5o2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025225410-szhi5o2",
+								"updated": "20221025225429"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "今天下午理发+坐班车回去+快递+对性能进行测试"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221025225430-jjsc3q1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221025225430-jjsc3q1"
+					},
+					"Children": [
+						{
+							"ID": "20221025225430-ty7608l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025225430-ty7608l",
+								"updated": "20221025225454"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "晚上针对mempool进行修改，实现了部分bug消失，丢交易情况解决"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221025225500-esc7pk0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025225500-esc7pk0"
+			}
+		},
+		{
+			"ID": "20221025225543-qrj2crl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025225543-qrj2crl",
+				"updated": "20221025225606"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "针对跨链 一致性哈希"
+				}
+			]
+		},
+		{
+			"ID": "20221025230834-kzmf5vd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025230834-kzmf5vd"
+			}
+		},
+		{
+			"ID": "20221025230834-dtrovc2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025230834-dtrovc2",
+				"updated": "20221025230838"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "周五展示："
+				}
+			]
+		},
+		{
+			"ID": "20221025230838-535au3q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025230838-535au3q",
+				"updated": "20221025230847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "subchain的TNT20 lock负载"
+				}
+			]
+		},
+		{
+			"ID": "20221025230847-acbfy4x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025230847-acbfy4x",
+				"updated": "20221025230856"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "mainchain TNT20 lock负载"
+				}
+			]
+		},
+		{
+			"ID": "20221025230856-8zt9z8a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025230856-8zt9z8a",
+				"updated": "20221025230916"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "子链间交易"
+				}
+			]
+		},
+		{
+			"ID": "20221025230916-m76id1s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025230916-m76id1s",
+				"updated": "20221025230944"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "主子链间交易"
+				}
+			]
+		},
+		{
+			"ID": "20221025093748-11rytvb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025093748-11rytvb"
+			}
+		}
+	]
+}

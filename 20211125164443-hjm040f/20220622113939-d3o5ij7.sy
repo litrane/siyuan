@@ -1,8 +1,10 @@
 {
 	"ID": "20220622113939-d3o5ij7",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220622113939-d3o5ij7",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20220622113939-rwln0zk\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20220622113939-rwln0zk\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20220622113939-rwln0zk\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
 		"title": "Type4设计",
 		"updated": "20220622113948"
 	},

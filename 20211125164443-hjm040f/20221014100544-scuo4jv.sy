@@ -4,9 +4,9 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20221014100544-scuo4jv",
-		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221014100545-abqnahc\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221019212929-n2rmvpk\u0026quot;,\u0026quot;scrollTop\u0026quot;:493.5,\u0026quot;focusId\u0026quot;:\u0026quot;20221019213553-ers96b1\u0026quot;,\u0026quot;focusStart\u0026quot;:23,\u0026quot;focusEnd\u0026quot;:23}",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221014100545-abqnahc\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221019212929-n2rmvpk\u0026quot;,\u0026quot;scrollTop\u0026quot;:400,\u0026quot;focusId\u0026quot;:\u0026quot;20221024161702-yfgeo66\u0026quot;,\u0026quot;focusStart\u0026quot;:22,\u0026quot;focusEnd\u0026quot;:22}",
 		"title": "如何读论文",
-		"updated": "20221019213553"
+		"updated": "20221024161814"
 	},
 	"Children": [
 		{
@@ -36,6 +36,257 @@
 					"Data": "下面主要通过时间顺序，分析一些领域的一些代表性工作是如何一个接一个涌现出来的，是什么基础启发了这些工作？这些想法是如何转化为实际的成果。对于新的科研工作者，特别是一二年级的学生，不妨假设我们也是曾经的“当事人”。如果能够顺着这几条脉络走下去，在每个论文出来之后，想一想如果我是当时从事这些工作的人，我会从之前的工作中得到什么启发 ？我会如何开展下一步研究？对于低年级的新手，开始的时候这种锻炼会非常辛苦。最初的“启发”很可能是“又一个软柿子被人捏过了”，“貌似能做的都已经被做了”，“貌似只剩难啃的硬骨头了”，“这家伙从事科研的时间点怎么这么幸运”。我们可以想想如果是自己，站在当时那个位置，会做什么后续工作。当确实充分的思考完一个工作之后，我们可以看一看下一个同领域的重要工作。如果你发现自己很多时候可以“预测”这些发展了，那么非常恭喜你，这篇小总结可能对你没太大用处了。如果我们又一次陷入那个觉得只恨又一个容易做的工作被别人做掉了的怪圈，那么还是再认真锻炼，仔细琢磨这些新的工作是怎么一个接一个在在相似的topic上层出不穷的。"
 				}
 			]
+		},
+		{
+			"ID": "20221024161704-o8j8dfj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221024161704-o8j8dfj",
+				"updated": "20221024161721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "论文阅读模板"
+				}
+			]
+		},
+		{
+			"ID": "20221024161305-pato4ru",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20221024161305-pato4ru",
+				"updated": "20221024161814"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20221024161702-phnwiyz",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221024161702-phnwiyz",
+						"updated": "20221024161702"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "1.摘要："
+						}
+					]
+				},
+				{
+					"ID": "20221024161702-3c1vsht",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221024161702-3c1vsht",
+						"updated": "20221024161702"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "\t实际需求："
+						}
+					]
+				},
+				{
+					"ID": "20221024161702-u0ipoak",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221024161702-u0ipoak",
+						"updated": "20221024161702"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "\t科学问题："
+						}
+					]
+				},
+				{
+					"ID": "20221024161702-6saqfqg",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221024161702-6saqfqg",
+						"updated": "20221024161702"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "\t核心方法："
+						}
+					]
+				},
+				{
+					"ID": "20221024161702-yhbyk4l",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221024161702-yhbyk4l",
+						"updated": "20221024161742"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "2.本文贡献："
+						}
+					]
+				},
+				{
+					"ID": "20221024161702-fu03tqg",
+					"Type": "NodeList",
+					"ListData": {
+						"Typ": 1
+					},
+					"Properties": {
+						"id": "20221024161702-fu03tqg",
+						"updated": "20221024161702"
+					},
+					"Children": [
+						{
+							"ID": "20221024161702-1ldy9bm",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 1,
+								"Delimiter": 46,
+								"Marker": "MS4=",
+								"Num": 1
+							},
+							"Properties": {
+								"id": "20221024161702-1ldy9bm",
+								"updated": "20221024161702"
+							},
+							"Children": [
+								{
+									"ID": "20221024161702-ct0a2hd",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20221024161702-ct0a2hd",
+										"updated": "20221024161702"
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221024161702-dnenwex",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 1,
+								"Delimiter": 46,
+								"Marker": "Mi4=",
+								"Num": 2
+							},
+							"Properties": {
+								"id": "20221024161702-dnenwex",
+								"updated": "20221024161702"
+							},
+							"Children": [
+								{
+									"ID": "20221024161702-vzzsqqf",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20221024161702-vzzsqqf",
+										"updated": "20221024161702"
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221024161702-9nnla9j",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221024161702-9nnla9j",
+						"updated": "20221024161749"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "3.问题是什么，是否是一个新问题，主要挑战，解决问题的关键。如果是我，我会去怎么做。"
+						}
+					]
+				},
+				{
+					"ID": "20221024161702-unpcbb9",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221024161702-unpcbb9",
+						"updated": "20221024161702"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "这个问题的本质是："
+						}
+					]
+				},
+				{
+					"ID": "20221024161702-zcshv8h",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221024161702-zcshv8h",
+						"updated": "20221024161802"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "4.技术思路是什么？"
+						}
+					]
+				},
+				{
+					"ID": "20221024161702-xk8pkcp",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221024161702-xk8pkcp",
+						"updated": "20221024161812"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "5.实验设计与验证？"
+						}
+					]
+				},
+				{
+					"ID": "20221024161702-89ybdrn",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221024161702-89ybdrn",
+						"updated": "20221024161810"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "6.下一步工作，或者是否可以深入？"
+						}
+					]
+				},
+				{
+					"ID": "20221024161702-yfgeo66",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221024161702-yfgeo66",
+						"updated": "20221024161814"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "7.优势劣势，自己遇到的问题，以及个人看法？"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221024161305-pm3utn2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024161305-pm3utn2"
+			}
 		},
 		{
 			"ID": "20221019212919-h8w7ubg",

@@ -4,9 +4,9 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20221014100529-azonak8",
-		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221014100529-6q2bz4k\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221014100529-6q2bz4k\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221014100529-6q2bz4k\u0026quot;,\u0026quot;focusStart\u0026quot;:3,\u0026quot;focusEnd\u0026quot;:3}",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221014100529-6q2bz4k\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221022092044-pbvgaq2\u0026quot;,\u0026quot;scrollTop\u0026quot;:998,\u0026quot;focusId\u0026quot;:\u0026quot;20221022094227-9qzely6\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
 		"title": "科研Topic·Idea思考",
-		"updated": "20221019210945"
+		"updated": "20221022094227"
 	},
 	"Children": [
 		{
@@ -45,12 +45,800 @@
 							"Type": "NodeCloseParen"
 						}
 					]
+				}
+			]
+		},
+		{
+			"ID": "20221022092046-0fo7px8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221022092046-0fo7px8",
+				"updated": "20221022092118"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "关于网安的idea思考与挖掘（顶会idea如何而来）"
+				}
+			]
+		},
+		{
+			"ID": "20221022093020-zldtd6w",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221022093020-zldtd6w",
+				"updated": "20221022094145"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "去追踪工作，别人的话题"
+				}
+			]
+		},
+		{
+			"ID": "20221022092124-5t390l3",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221022092124-5t390l3",
+				"updated": "20221022092803"
+			},
+			"Children": [
+				{
+					"ID": "20221022092545-pjrkatt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221022092545-pjrkatt",
+						"updated": "20221022092545"
+					},
+					"Children": [
+						{
+							"ID": "20221022092545-opo690x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221022092545-opo690x",
+								"updated": "20221022092550"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "follow他人的想法"
+								}
+							]
+						},
+						{
+							"ID": "20221022092552-667cuwf",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20221022092552-667cuwf"
+							},
+							"Children": [
+								{
+									"ID": "20221022092551-ldyorou",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20221022092551-ldyorou"
+									},
+									"Children": [
+										{
+											"ID": "20221022092551-qfpzmld",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221022092551-qfpzmld",
+												"updated": "20221022092602"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "什么还是未做的"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221022092602-ljuxub4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20221022092602-ljuxub4"
+									},
+									"Children": [
+										{
+											"ID": "20221022092602-xzpiwa0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221022092602-xzpiwa0",
+												"updated": "20221022092612"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "他们有什么不切实际的假设"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221022092615-olq1sgp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20221022092615-olq1sgp"
+									},
+									"Children": [
+										{
+											"ID": "20221022092615-3phmrg9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221022092615-3phmrg9",
+												"updated": "20221022092628"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "能否用理论角度禅师他们的发现的现象"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221022092631-llaot1v",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221022092631-llaot1v"
+					},
+					"Children": [
+						{
+							"ID": "20221022092631-sy7w3m2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221022092631-sy7w3m2",
+								"updated": "20221022092711"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "读一个position paper，例如一个框架，如何去改进这个框架"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221022092711-wxerbnb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221022092711-wxerbnb"
+					},
+					"Children": [
+						{
+							"ID": "20221022092711-ktvi9ce",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221022092711-ktvi9ce",
+								"updated": "20221022092724"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "读综述论文，去发现问题"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221022092725-p10rt6i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221022092725-p10rt6i",
+						"updated": "20221022092803"
+					},
+					"Children": [
+						{
+							"ID": "20221022092725-e5k3p54",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221022092725-e5k3p54",
+								"updated": "20221022092733"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "读论文"
+								}
+							]
+						},
+						{
+							"ID": "20221022092734-bu5gh7b",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20221022092734-bu5gh7b",
+								"updated": "20221022092803"
+							},
+							"Children": [
+								{
+									"ID": "20221022092733-rbt0owh",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20221022092733-rbt0owh"
+									},
+									"Children": [
+										{
+											"ID": "20221022092733-elqq87c",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221022092733-elqq87c",
+												"updated": "20221022092738"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "发现其中的错误"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221022092739-o5za7mg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20221022092739-o5za7mg"
+									},
+									"Children": [
+										{
+											"ID": "20221022092739-yckp4yf",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221022092739-yckp4yf",
+												"updated": "20221022092747"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "或者贡献被夸大了"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221022092747-z6iivom",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20221022092747-z6iivom",
+										"updated": "20221022092803"
+									},
+									"Children": [
+										{
+											"ID": "20221022092747-nhuem4b",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221022092747-nhuem4b",
+												"updated": "20221022092955"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "或者有限条件下的效果"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221022093032-opd4x71",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221022093032-opd4x71",
+				"updated": "20221022094218"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "注意："
 				},
 				{
 					"Type": "NodeText",
-					"Data": "​"
+					"Data": "但要注意，其有可能会被认为是增量工作，其效果一定要有大幅提升。对于热门话题要加快速度。做这个方向的研究可能没有多少前进空间。"
 				}
 			]
+		},
+		{
+			"ID": "20221022093217-3hw81i7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221022093217-3hw81i7",
+				"updated": "20221022093227"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "找现实世界的问题"
+				}
+			]
+		},
+		{
+			"ID": "20221022093228-38nlukn",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221022093228-38nlukn",
+				"updated": "20221022094157"
+			},
+			"Children": [
+				{
+					"ID": "20221022094157-py8u8ro",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221022094157-py8u8ro",
+						"updated": "20221022094157"
+					},
+					"Children": [
+						{
+							"ID": "20221022094157-z8vbz4l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221022094157-z8vbz4l",
+								"updated": "20221022094157"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "与领域内人们交流"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221022093242-32b6hyj",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221022093242-32b6hyj",
+				"updated": "20221022094159"
+			},
+			"Children": [
+				{
+					"ID": "20221022094159-zs875wn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221022094159-zs875wn",
+						"updated": "20221022094159"
+					},
+					"Children": [
+						{
+							"ID": "20221022094159-pxx4xsv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221022094159-pxx4xsv",
+								"updated": "20221022094159"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "建模问题"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221022093247-tee0ebr",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221022093247-tee0ebr",
+				"updated": "20221022094201"
+			},
+			"Children": [
+				{
+					"ID": "20221022094201-bvy1ww0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221022094201-bvy1ww0",
+						"updated": "20221022094201"
+					},
+					"Children": [
+						{
+							"ID": "20221022094201-5v195x6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221022094201-5v195x6",
+								"updated": "20221022094201"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "调查问题是否已经被解决了"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221022093257-y1t1qt8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221022093257-y1t1qt8",
+				"updated": "20221022094212"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "注意："
+				},
+				{
+					"Type": "NodeText",
+					"Data": "有可能这里面可挖掘的东西很少，或者很困难。或者很easy的field已经卷成麻花了"
+				}
+			]
+		},
+		{
+			"ID": "20221022093333-9oknvpm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221022093333-9oknvpm",
+				"updated": "20221022093703"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "寻找终极问题"
+				}
+			]
+		},
+		{
+			"ID": "20221022093703-kuuy3ku",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221022093703-kuuy3ku",
+				"updated": "20221022094222"
+			},
+			"Children": [
+				{
+					"ID": "20221022094222-kss65nm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221022094222-kss65nm",
+						"updated": "20221022094222"
+					},
+					"Children": [
+						{
+							"ID": "20221022094222-11orw36",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221022094222-11orw36",
+								"updated": "20221022094222"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不同层次（教育、区块链检测）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221022093932-3bjahcr",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221022093932-3bjahcr",
+				"updated": "20221022094225"
+			},
+			"Children": [
+				{
+					"ID": "20221022094225-t0c21iu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221022094225-t0c21iu",
+						"updated": "20221022094225"
+					},
+					"Children": [
+						{
+							"ID": "20221022094225-or4fuj5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221022094225-or4fuj5",
+								"updated": "20221022094225"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "很高层出发"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221022093951-iph5hgn",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221022093951-iph5hgn",
+				"updated": "20221022094227"
+			},
+			"Children": [
+				{
+					"ID": "20221022094227-wqfxe60",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221022094227-wqfxe60",
+						"updated": "20221022094227"
+					},
+					"Children": [
+						{
+							"ID": "20221022094227-9qzely6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221022094227-9qzely6",
+								"updated": "20221022094227"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "think big"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221022092124-6mct3y3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221022092124-6mct3y3",
+				"updated": "20221022092132"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考文献："
+				}
+			]
+		},
+		{
+			"ID": "20221022092136-ye32c4g",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221022092136-ye32c4g",
+				"updated": "20221022092543"
+			},
+			"Children": [
+				{
+					"ID": "20221022092137-9obfaan",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221022092137-9obfaan",
+						"updated": "20221022092543"
+					},
+					"Children": [
+						{
+							"ID": "20221022092137-2f81qg9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221022092137-2f81qg9",
+								"updated": "20221022092543"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221022092039-8292mab",
+			"Type": "NodeIFrame",
+			"Data": "\u003ciframe src=\"//player.bilibili.com/player.html?aid=559001027\u0026amp;bvid=BV1Le4y1S7uw\u0026amp;cid=860766181\u0026amp;page=1\" data-src=\"//player.bilibili.com/player.html?aid=559001027\u0026amp;bvid=BV1Le4y1S7uw\u0026amp;cid=860766181\u0026amp;page=1\" scrolling=\"no\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 576px; height: 375px;\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20221022092039-8292mab",
+				"updated": "20221022092039"
+			}
+		},
+		{
+			"ID": "20221022092140-l4rfuu6",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221022092140-l4rfuu6",
+				"updated": "20221022092159"
+			},
+			"Children": [
+				{
+					"ID": "20221022092141-4dwwbq8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221022092141-4dwwbq8",
+						"updated": "20221022092159"
+					},
+					"Children": [
+						{
+							"ID": "20221022092141-3yunw0n",
+							"Type": "NodeIFrame",
+							"Data": "\u003ciframe src=\"https://mp.weixin.qq.com/s/50aCxXk6dB9ZIW2mjJN2Qw\" data-src=\"\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 484px; height: 376px;\"\u003e\u003c/iframe\u003e",
+							"Properties": {
+								"id": "20221022092141-3yunw0n",
+								"updated": "20221022092159"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221022092044-pbvgaq2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221022092044-pbvgaq2"
+			}
 		}
 	]
 }

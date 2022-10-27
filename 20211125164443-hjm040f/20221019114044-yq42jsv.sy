@@ -4,8 +4,9 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20221019114044-yq42jsv",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221019114051-36yf784\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221019114044-jkn0gr6\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221019114051-36yf784\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
 		"title": "RSS订阅管理",
-		"updated": "20221019114053"
+		"updated": "20221026194015"
 	},
 	"Children": [
 		{
@@ -104,11 +105,29 @@
 		},
 		{
 			"ID": "20221019114044-jkn0gr6",
-			"Type": "NodeParagraph",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
 			"Properties": {
 				"id": "20221019114044-jkn0gr6",
-				"updated": "20221019114044"
-			}
+				"updated": "20221026194015"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "{\n  \"expected_update_period_in_days\": \"2\",\n  \"url\": \"https://dblp.org/search/publ/api?q=stream%3Astreams%2Fconf%2Ficdcs%3A\u0026h=1000\u0026format=xml\",\n  \"type\": \"xml\",\n  \"mode\": \"on_change\",\n  \"extract\": {\n    \"title\": {\n      \"xpath\": \"//hits/hit[*]/info/title/text()\",\n      \"value\": \".\"\n    },\n    \"link\": {\n      \"xpath\": \"//hits/hit[*]/info/url/text()\",\n      \"value\": \".\"\n    },\n    \"date\": {\n      \"xpath\": \"//hits/hit[*]/info/year/text()\",\n      \"value\": \".\"\n    }\n  }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
 		}
 	]
 }

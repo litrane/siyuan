@@ -1,0 +1,144 @@
+{
+	"ID": "20221024145608-wvx4xni",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221024145608-wvx4xni",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221024145608-6458k1d\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221024145608-6458k1d\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221025093033-2dmh36q\u0026quot;,\u0026quot;focusStart\u0026quot;:14,\u0026quot;focusEnd\u0026quot;:14}",
+		"title": "2022-10-24",
+		"updated": "20221025093051"
+	},
+	"Children": [
+		{
+			"ID": "20221024145608-6458k1d",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221024145608-6458k1d",
+				"updated": "20221025093051"
+			},
+			"Children": [
+				{
+					"ID": "20221025092829-khhucn2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221025092829-khhucn2",
+						"updated": "20221025092829"
+					},
+					"Children": [
+						{
+							"ID": "20221025092829-6h70t27",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025092829-6h70t27",
+								"updated": "20221025092839"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "昨天早上上课拿显示器"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221025092839-d7z5bk8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221025092839-d7z5bk8"
+					},
+					"Children": [
+						{
+							"ID": "20221025092839-e9fnzyo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025092839-e9fnzyo",
+								"updated": "20221025092846"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "早上上算法课"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221025092847-xhipeug",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221025092847-xhipeug"
+					},
+					"Children": [
+						{
+							"ID": "20221025092847-2w9ift3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025092847-2w9ift3",
+								"updated": "20221025093033"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "下午安装显示器之后对TNT20实验代码，进行调整；看了一部分论文"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221025093033-6ie54pm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221025093033-6ie54pm",
+						"updated": "20221025093051"
+					},
+					"Children": [
+						{
+							"ID": "20221025093033-2dmh36q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025093033-2dmh36q",
+								"updated": "20221025093051"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "晚上上课+挑选会议+回去看书"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

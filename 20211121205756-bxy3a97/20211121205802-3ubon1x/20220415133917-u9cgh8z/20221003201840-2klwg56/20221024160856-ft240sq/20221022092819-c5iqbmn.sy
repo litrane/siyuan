@@ -1,0 +1,107 @@
+{
+	"ID": "20221022092819-c5iqbmn",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221022092819-c5iqbmn",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221022092819-v6t2crn\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221022092904-cgu14h0\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221022092941-5lc5woq\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"title": "2022-10-22",
+		"updated": "20221022092941"
+	},
+	"Children": [
+		{
+			"ID": "20221022092819-v6t2crn",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221022092819-v6t2crn",
+				"updated": "20221022092940"
+			},
+			"Children": [
+				{
+					"ID": "20221022092940-stpss63",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221022092940-stpss63",
+						"updated": "20221022092940"
+					},
+					"Children": [
+						{
+							"ID": "20221022092940-fwm5xxl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221022092940-fwm5xxl",
+								"updated": "20221022092940"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对昨天的阅读做了总结 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "block-ref",
+									"TextMarkBlockRefID": "20221022092046-0fo7px8",
+									"TextMarkBlockRefSubtype": "d",
+									"TextMarkTextContent": "关于网安的idea思考与挖掘（顶会idea如何而来）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221022092937-q3savpz",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221022092937-q3savpz",
+				"updated": "20221022092941"
+			},
+			"Children": [
+				{
+					"ID": "20221022092941-lbheldh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221022092941-lbheldh",
+						"updated": "20221022092941"
+					},
+					"Children": [
+						{
+							"ID": "20221022092941-5lc5woq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221022092941-5lc5woq",
+								"updated": "20221022092941"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221022092904-cgu14h0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221022092904-cgu14h0"
+			}
+		}
+	]
+}

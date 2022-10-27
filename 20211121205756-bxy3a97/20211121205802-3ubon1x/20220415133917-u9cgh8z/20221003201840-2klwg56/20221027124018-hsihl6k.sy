@@ -1,0 +1,85 @@
+{
+	"ID": "20221027124018-hsihl6k",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221027124018-hsihl6k",
+		"title": "2022-10-27",
+		"updated": "20221027124118"
+	},
+	"Children": [
+		{
+			"ID": "20221027124018-lr2gc9t",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221027124018-lr2gc9t",
+				"updated": "20221027124118"
+			},
+			"Children": [
+				{
+					"ID": "20221027124021-y6yuymc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221027124021-y6yuymc",
+						"updated": "20221027124113"
+					},
+					"Children": [
+						{
+							"ID": "20221027124021-4e06688",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221027124021-4e06688",
+								"updated": "20221027124113"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "早上对数据进行测量，生成图。收集了区块链的部分科研参考资料，以及测量类的论文。对专利进行思考。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221027124035-ze6e0lg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221027124035-ze6e0lg",
+						"updated": "20221027124118"
+					},
+					"Children": [
+						{
+							"ID": "20221027124035-t8l8asj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221027124035-t8l8asj",
+								"updated": "20221027124118"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "下午对"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

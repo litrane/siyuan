@@ -1,0 +1,106 @@
+{
+	"ID": "20221026141028-uvjwhat",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221026141028-uvjwhat",
+		"title": "2022-10-26",
+		"updated": "20221026141029"
+	},
+	"Children": [
+		{
+			"ID": "20221026141028-gwlio75",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221026141028-gwlio75",
+				"updated": "20221026141029"
+			},
+			"Children": [
+				{
+					"ID": "20221026141029-gul91i4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221026141029-gul91i4",
+						"updated": "20221026141029"
+					},
+					"Children": [
+						{
+							"ID": "20221026141029-rshksdl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221026141029-rshksdl",
+								"updated": "20221026141108"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "早上完成跨链部分的调试，就是问题是速度跟不上，需要准确生成nonce"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221026144324-y1uyqxt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221026144324-y1uyqxt"
+					},
+					"Children": [
+						{
+							"ID": "20221026144324-gxbisap",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221026144324-gxbisap",
+								"updated": "20221026144348"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "下午看来huginn怎么做rss"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221026144349-kfbjz8d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221026144349-kfbjz8d"
+					},
+					"Children": [
+						{
+							"ID": "20221026144349-fjqg4az",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221026144349-fjqg4az"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

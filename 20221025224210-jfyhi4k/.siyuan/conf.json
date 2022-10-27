@@ -1,8 +1,8 @@
 {
-  "name": "毕业设计",
-  "sort": 6,
-  "icon": "1f4d5",
-  "closed": true,
+  "name": "读书笔记",
+  "sort": 0,
+  "icon": "",
+  "closed": false,
   "refCreateSavePath": "",
   "createDocNameTemplate": "",
   "dailyNoteSavePath": "/daily note/{{now | date \"2006/01\"}}/{{now | date \"2006-01-02\"}}",

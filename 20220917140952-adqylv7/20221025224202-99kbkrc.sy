@@ -1,0 +1,20 @@
+{
+	"ID": "20221025224202-99kbkrc",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221025224202-99kbkrc",
+		"title": "Untitled",
+		"updated": "20221025224202"
+	},
+	"Children": [
+		{
+			"ID": "20221025224202-yb631t7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025224202-yb631t7",
+				"updated": "20221025224202"
+			}
+		}
+	]
+}

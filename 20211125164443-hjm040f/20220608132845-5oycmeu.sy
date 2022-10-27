@@ -1,8 +1,10 @@
 {
 	"ID": "20220608132845-5oycmeu",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220608132845-5oycmeu",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20220608141214-94oeg15\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20220608132857-ryygzai\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20220608141214-94oeg15\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
 		"title": "Web 3.0",
 		"updated": "20220608145345"
 	},
@@ -74,48 +76,22 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
+					"Type": "NodeImage",
 					"Data": "span",
+					"Properties": {
+						"parent-style": "max-width: 650px; display: block;",
+						"style": "width: 640px;"
+					},
 					"Children": [
+						{
+							"Type": "NodeBang"
+						},
 						{
 							"Type": "NodeOpenBracket"
 						},
 						{
-							"Type": "NodeImage",
-							"Data": "span",
-							"Properties": {
-								"parent-style": "max-width: 650px; display: block;",
-								"style": "width: 640px;"
-							},
-							"Children": [
-								{
-									"Type": "NodeBang"
-								},
-								{
-									"Type": "NodeOpenBracket"
-								},
-								{
-									"Type": "NodeLinkText",
-									"Data": "Web3技术栈"
-								},
-								{
-									"Type": "NodeCloseBracket"
-								},
-								{
-									"Type": "NodeOpenParen"
-								},
-								{
-									"Type": "NodeLinkDest",
-									"Data": "https://oss.imzhanghao.com/img/202204141351015.png"
-								},
-								{
-									"Type": "NodeCloseParen"
-								}
-							]
-						},
-						{
-							"Type": "NodeKramdownSpanIAL",
-							"Data": "{: style=\"width: 640px;\" parent-style=\"max-width: 650px; display: block;\"}"
+							"Type": "NodeLinkText",
+							"Data": "Web3技术栈"
 						},
 						{
 							"Type": "NodeCloseBracket"
@@ -128,16 +104,16 @@
 							"Data": "https://oss.imzhanghao.com/img/202204141351015.png"
 						},
 						{
-							"Type": "NodeLinkSpace"
-						},
-						{
-							"Type": "NodeLinkTitle",
-							"Data": "Web3技术栈"
-						},
-						{
 							"Type": "NodeCloseParen"
 						}
 					]
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://oss.imzhanghao.com/img/202204141351015.png",
+					"TextMarkATitle": "Web3技术栈",
+					"TextMarkTextContent": "https://oss.imzhanghao.com/img/202204141351015.png"
 				}
 			]
 		},
@@ -211,22 +187,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "P2P internet overlay protocols"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "P2P internet overlay protocols"
 								},
 								{
 									"Type": "NodeText",
@@ -255,22 +218,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "Platform-neutral computation description language"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "Platform-neutral computation description language"
 								},
 								{
 									"Type": "NodeText",
@@ -352,22 +302,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "Data distribution protocols"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "Data distribution protocols"
 								},
 								{
 									"Type": "NodeText",
@@ -396,22 +333,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "Zero/Low-trust interaction platforms"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "Zero/Low-trust interaction platforms"
 								},
 								{
 									"Type": "NodeText",
@@ -440,22 +364,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "Zero/Low-trust interaction protocols"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "Zero/Low-trust interaction protocols"
 								},
 								{
 									"Type": "NodeText",
@@ -484,22 +395,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "Transient data messaging"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "Transient data messaging"
 								},
 								{
 									"Type": "NodeText",
@@ -581,22 +479,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "State channels"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "State channels"
 								},
 								{
 									"Type": "NodeText",
@@ -625,22 +510,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "Plasma protocols"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "Plasma protocols"
 								},
 								{
 									"Type": "NodeText",
@@ -669,22 +541,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "Encrypted storage"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "Encrypted storage"
 								},
 								{
 									"Type": "NodeText",
@@ -713,22 +572,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "Heavy computation"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "Heavy computation"
 								},
 								{
 									"Type": "NodeText",
@@ -757,22 +603,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "Distributed secret management"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "Distributed secret management"
 								},
 								{
 									"Type": "NodeText",
@@ -801,22 +634,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "Oracles"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "Oracles"
 								},
 								{
 									"Type": "NodeText",
@@ -1026,48 +846,22 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
+					"Type": "NodeImage",
 					"Data": "span",
+					"Properties": {
+						"parent-style": "max-width: 456px; display: block;",
+						"style": "width: 446px;"
+					},
 					"Children": [
+						{
+							"Type": "NodeBang"
+						},
 						{
 							"Type": "NodeOpenBracket"
 						},
 						{
-							"Type": "NodeImage",
-							"Data": "span",
-							"Properties": {
-								"parent-style": "max-width: 456px; display: block;",
-								"style": "width: 446px;"
-							},
-							"Children": [
-								{
-									"Type": "NodeBang"
-								},
-								{
-									"Type": "NodeOpenBracket"
-								},
-								{
-									"Type": "NodeLinkText",
-									"Data": "Dapp架构图"
-								},
-								{
-									"Type": "NodeCloseBracket"
-								},
-								{
-									"Type": "NodeOpenParen"
-								},
-								{
-									"Type": "NodeLinkDest",
-									"Data": "https://oss.imzhanghao.com/img/202204150914276.png"
-								},
-								{
-									"Type": "NodeCloseParen"
-								}
-							]
-						},
-						{
-							"Type": "NodeKramdownSpanIAL",
-							"Data": "{: style=\"width: 446px;\" parent-style=\"max-width: 456px; display: block;\"}"
+							"Type": "NodeLinkText",
+							"Data": "Dapp架构图"
 						},
 						{
 							"Type": "NodeCloseBracket"
@@ -1080,16 +874,16 @@
 							"Data": "https://oss.imzhanghao.com/img/202204150914276.png"
 						},
 						{
-							"Type": "NodeLinkSpace"
-						},
-						{
-							"Type": "NodeLinkTitle",
-							"Data": "Dapp架构图"
-						},
-						{
 							"Type": "NodeCloseParen"
 						}
 					]
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://oss.imzhanghao.com/img/202204150914276.png",
+					"TextMarkATitle": "Dapp架构图",
+					"TextMarkTextContent": "https://oss.imzhanghao.com/img/202204150914276.png"
 				}
 			]
 		},
@@ -1172,22 +966,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "核心栈（Core Stack）"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "核心栈（Core Stack）"
 				}
 			]
 		},
@@ -1232,22 +1013,9 @@
 					"Data": "我们所认为的核心栈主要组件有："
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "去中心化应用浏览器（Dapp Browser）、应用托管（Application Hosting）、查询图层（Query Layer）、状态转换机（State Transition Machine）、共识（Consensus）、对等网络层（P2P Layer）。"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "去中心化应用浏览器（Dapp Browser）、应用托管（Application Hosting）、查询图层（Query Layer）、状态转换机（State Transition Machine）、共识（Consensus）、对等网络层（P2P Layer）。"
 				}
 			]
 		},
@@ -1279,22 +1047,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "去中心化应用浏览器（Dapp Browser）"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "去中心化应用浏览器（Dapp Browser）"
 								},
 								{
 									"Type": "NodeText",
@@ -1323,22 +1078,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "应用托管（Application Hosting）"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "应用托管（Application Hosting）"
 								},
 								{
 									"Type": "NodeText",
@@ -1367,22 +1109,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "查询层（Query Layer）"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "查询层（Query Layer）"
 								},
 								{
 									"Type": "NodeText",
@@ -1411,22 +1140,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "状态转换机（State Transition ）"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "状态转换机（State Transition ）"
 								},
 								{
 									"Type": "NodeText",
@@ -1455,22 +1171,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "共识层（Consensus Layer）"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "共识层（Consensus Layer）"
 								},
 								{
 									"Type": "NodeText",
@@ -1499,22 +1202,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "对等网络层（P2P Layer）"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "对等网络层（P2P Layer）"
 								},
 								{
 									"Type": "NodeText",
@@ -1535,22 +1225,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "潜在的核心栈——扩展核心栈（Extended Core Stack）"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "潜在的核心栈——扩展核心栈（Extended Core Stack）"
 				},
 				{
 					"Type": "NodeText",
@@ -1586,22 +1263,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "侧链（Sidechains）"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "侧链（Sidechains）"
 								},
 								{
 									"Type": "NodeText",
@@ -1630,22 +1294,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "支付通道和状态通道网络（Payment Channel and State Channel Network）"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "支付通道和状态通道网络（Payment Channel and State Channel Network）"
 								},
 								{
 									"Type": "NodeText",
@@ -1674,22 +1325,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "跨账本协议（Interledger Protocol ILP）"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "跨账本协议（Interledger Protocol ILP）"
 								},
 								{
 									"Type": "NodeText",
@@ -1718,22 +1356,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "不可变的结构化数据库（Immutable Structured Databases）"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "不可变的结构化数据库（Immutable Structured Databases）"
 								},
 								{
 									"Type": "NodeText",
@@ -1764,22 +1389,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "零知识证明（Zero-knowledge Proof）"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "零知识证明（Zero-knowledge Proof）"
 								},
 								{
 									"Type": "NodeText",
@@ -1889,22 +1501,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "dApp浏览器"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "dApp浏览器"
 								},
 								{
 									"Type": "NodeText",
@@ -2015,22 +1614,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "应用程序托管"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "应用程序托管"
 								},
 								{
 									"Type": "NodeText",
@@ -2111,22 +1697,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "去中心化的应用程序"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "去中心化的应用程序"
 								},
 								{
 									"Type": "NodeText",
@@ -2259,22 +1832,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "Date feeds"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "Date feeds"
 								},
 								{
 									"Type": "NodeText",
@@ -4493,22 +4053,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "隐私和数字基础设施是什么？"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "隐私和数字基础设施是什么？"
 				},
 				{
 					"Type": "NodeText",
@@ -4525,22 +4072,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "隐私和数字基础设施为什么重要？"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "隐私和数字基础设施为什么重要？"
 				}
 			]
 		},
@@ -4674,60 +4208,20 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "区块链技术"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://101blockchains.com/blockchain-technology-explained/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://101blockchains.com/blockchain-technology-explained/",
+					"TextMarkTextContent": "区块链技术"
 				},
 				{
 					"Type": "NodeText",
 					"Data": "可以成为分散身份的绝佳解决方案。实际上，"
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "企业区块链"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://101blockchains.com/blockchain-for-enterprise/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://101blockchains.com/blockchain-for-enterprise/",
+					"TextMarkTextContent": "企业区块链"
 				},
 				{
 					"Type": "NodeText",
@@ -4866,30 +4360,10 @@
 					"Data": "另一个伟大的数字身份"
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "区块链平台"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://101blockchains.com/best-blockchain-platforms/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://101blockchains.com/best-blockchain-platforms/",
+					"TextMarkTextContent": "区块链平台"
 				},
 				{
 					"Type": "NodeText",
@@ -4948,30 +4422,10 @@
 					"Data": "这类似于在您的身份证上盖章。在这里，平台可以提供在数字身份区块链平台上为该信息添加"
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "哈希地址。"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://101blockchains.com/hashing-and-digital-signature-in-blockchain/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://101blockchains.com/hashing-and-digital-signature-in-blockchain/",
+					"TextMarkTextContent": "哈希地址。"
 				},
 				{
 					"Type": "NodeText",
@@ -5072,30 +4526,10 @@
 					"Data": "您还可以使用数字身份"
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "区块链平台"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://101blockchains.com/best-blockchain-platforms/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://101blockchains.com/best-blockchain-platforms/",
+					"TextMarkTextContent": "区块链平台"
 				},
 				{
 					"Type": "NodeText",
@@ -5178,90 +4612,30 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "智能合约"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://101blockchains.com/smart-contracts/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://101blockchains.com/smart-contracts/",
+					"TextMarkTextContent": "智能合约"
 				},
 				{
 					"Type": "NodeText",
 					"Data": "有很多用途。此外，您每次都需要您的身份来签署任何形式的官方合同。例如，在"
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "保险"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://101blockchains.com/blockchain-in-insurance/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://101blockchains.com/blockchain-in-insurance/",
+					"TextMarkTextContent": "保险"
 				},
 				{
 					"Type": "NodeText",
 					"Data": "、"
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "医疗保健"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://101blockchains.com/blockchain-for-healthcare/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://101blockchains.com/blockchain-for-healthcare/",
+					"TextMarkTextContent": "医疗保健"
 				},
 				{
 					"Type": "NodeText",
@@ -5363,30 +4737,10 @@
 					"Data": "使用它，用户可以创建自己的去中心化身份并对其进行控制，而无需任何中央或第三方限制。在这里，这些 DID 将链接到他们的去中心化"
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "公钥"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://101blockchains.com/public-key-cryptography/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://101blockchains.com/public-key-cryptography/",
+					"TextMarkTextContent": "公钥"
 				},
 				{
 					"Type": "NodeText",
@@ -5714,22 +5068,9 @@
 					"Data": " "
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "步骤 1："
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "步骤 1："
 				},
 				{
 					"Type": "NodeText",
@@ -5750,22 +5091,9 @@
 					"Data": " "
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "第 2 步："
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "第 2 步："
 				},
 				{
 					"Type": "NodeText",
@@ -5786,22 +5114,9 @@
 					"Data": " "
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "Step-3："
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "Step-3："
 				},
 				{
 					"Type": "NodeText",
@@ -5822,22 +5137,9 @@
 					"Data": " "
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "Step-4："
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "Step-4："
 				},
 				{
 					"Type": "NodeText",
@@ -6458,30 +5760,10 @@
 					"Data": "游戏"
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "产业"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://101blockchains.com/games-and-blockchain-an-emerging-trend/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://101blockchains.com/games-and-blockchain-an-emerging-trend/",
+					"TextMarkTextContent": "产业"
 				},
 				{
 					"Type": "NodeText",
@@ -6664,22 +5946,9 @@
 					},
 					"Children": [
 						{
-							"Type": "NodeStrong",
-							"Data": "strong",
-							"Children": [
-								{
-									"Type": "NodeStrongA6kOpenMarker",
-									"Data": "**"
-								},
-								{
-									"Type": "NodeText",
-									"Data": "可信计算和隐私计算"
-								},
-								{
-									"Type": "NodeStrongA6kCloseMarker",
-									"Data": "**"
-								}
-							]
+							"Type": "NodeTextMark",
+							"TextMarkType": "strong",
+							"TextMarkTextContent": "可信计算和隐私计算"
 						}
 					]
 				},
@@ -6933,30 +6202,10 @@
 					"Data": "数字资产可以是很多东西。但在这个区块链世界中，它现在转向了"
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "加密货币"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://101blockchains.com/what-is-a-cryptocurrency/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://101blockchains.com/what-is-a-cryptocurrency/",
+					"TextMarkTextContent": "加密货币"
 				},
 				{
 					"Type": "NodeText",
@@ -6988,22 +6237,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "NFT 和 JPEG 一样吗？"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "NFT 和 JPEG 一样吗？"
 				}
 			]
 		},
@@ -7034,116 +6270,36 @@
 					"Data": "此外，NFT 还可以提供区块链带来的额外优势，因为它们基本上是区块链网络上的"
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "智能合约。"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://101blockchains.com/what-is-a-smart-contract/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://101blockchains.com/what-is-a-smart-contract/",
+					"TextMarkTextContent": "智能合约。"
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "以太坊"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://101blockchains.com/ultimate-ethereum-guide/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://101blockchains.com/ultimate-ethereum-guide/",
+					"TextMarkTextContent": "以太坊"
 				},
 				{
 					"Type": "NodeText",
 					"Data": "是目前开发 NFT 的最受欢迎的选择，并支持独特的资产。您可以将独特的"
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "加密"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://101blockchains.com/blockchain-cryptography/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://101blockchains.com/blockchain-cryptography/",
+					"TextMarkTextContent": "加密"
 				},
 				{
 					"Type": "NodeText",
 					"Data": "令牌存储在不同的虚拟"
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "加密钱包"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://101blockchains.com/crypto-wallets/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://101blockchains.com/crypto-wallets/",
+					"TextMarkTextContent": "加密钱包"
 				},
 				{
 					"Type": "NodeText",
@@ -7161,22 +6317,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "为什么现在考虑 NFT 很重要？"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "为什么现在考虑 NFT 很重要？"
 				}
 			]
 		},
@@ -7189,90 +6332,30 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "不可替代的代币是区块链"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://101blockchains.com/blockchain-technology-explained/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://101blockchains.com/blockchain-technology-explained/",
+					"TextMarkTextContent": "不可替代的代币是区块链"
 				},
 				{
 					"Type": "NodeText",
 					"Data": "和"
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "加密"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://101blockchains.com/what-is-cryptocurrency/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://101blockchains.com/what-is-cryptocurrency/",
+					"TextMarkTextContent": "加密"
 				},
 				{
 					"Type": "NodeText",
 					"Data": "空间中最有趣的改进之一。区块链技术一直在为"
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "数字资产"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://101blockchains.com/digital-assets-in-finance/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://101blockchains.com/digital-assets-in-finance/",
+					"TextMarkTextContent": "数字资产"
 				},
 				{
 					"Type": "NodeText",
@@ -7293,60 +6376,20 @@
 					"Data": "换句话说，不可替代的代币正在为区块链网络上简单而安全的实物资产交易创造可行的前景。"
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "最重要的是，NFT 是新兴web3"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://101blockchains.com/web-3-0-blockchain-technology-stack/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://101blockchains.com/web-3-0-blockchain-technology-stack/",
+					"TextMarkTextContent": "最重要的是，NFT 是新兴web3"
 				},
 				{
 					"Type": "NodeText",
 					"Data": "领域不可或缺的亮点，在metaverse 中具有重要"
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "应用"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://101blockchains.com/nfts-and-metaverse/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://101blockchains.com/nfts-and-metaverse/",
+					"TextMarkTextContent": "应用"
 				},
 				{
 					"Type": "NodeText",
@@ -7367,60 +6410,20 @@
 					"Data": "有关不可替代令牌的一些数字可以向您展示它们如何比 JPEG 更重要。"
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "到 2021 年底， NFT 市场"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://101blockchains.com/nft-marketplace/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://101blockchains.com/nft-marketplace/",
+					"TextMarkTextContent": "到 2021 年底， NFT 市场"
 				},
 				{
 					"Type": "NodeText",
 					"Data": "的总销售额已超过 400 亿美元。你能相信名人会花费数百万美元购买花​​式猿的头像吗？好吧，"
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "Bored Ape Yacht Club"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://101blockchains.com/bored-ape-yacht-club-nfts/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://101blockchains.com/bored-ape-yacht-club-nfts/",
+					"TextMarkTextContent": "Bored Ape Yacht Club"
 				},
 				{
 					"Type": "NodeText",
@@ -7511,22 +6514,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "所有权"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "所有权"
 								}
 							]
 						}
@@ -7547,30 +6537,10 @@
 					"Data": "NFT 与 JPEG比较的最显着方面也将参考所有权。不可替代代币在"
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "分布式账本技术上"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://101blockchains.com/what-is-dlt/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://101blockchains.com/what-is-dlt/",
+					"TextMarkTextContent": "分布式账本技术上"
 				},
 				{
 					"Type": "NodeText",
@@ -7607,22 +6577,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "不可互换"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "不可互换"
 								}
 							]
 						}
@@ -7643,30 +6600,10 @@
 					"Data": "由于 NFT 的不可互换性，NFT 在实用性方面表现强劲。虽然"
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "DAO"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://101blockchains.com/decentralized-autonomous-organization-dao/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://101blockchains.com/decentralized-autonomous-organization-dao/",
+					"TextMarkTextContent": "DAO"
 				},
 				{
 					"Type": "NodeText",
@@ -7703,22 +6640,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "独特资产"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "独特资产"
 								}
 							]
 						}
@@ -7769,22 +6693,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "互操作性"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "互操作性"
 								}
 							]
 						}
@@ -7801,90 +6712,30 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "不可替代代币"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://101blockchains.com/non-fungible-tokens-nft/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://101blockchains.com/non-fungible-tokens-nft/",
+					"TextMarkTextContent": "不可替代代币"
 				},
 				{
 					"Type": "NodeText",
 					"Data": "也与 JPEG 不同，因为您可以在不同"
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "的基于区块链的平台"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://101blockchains.com/blockchain-platforms/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://101blockchains.com/blockchain-platforms/",
+					"TextMarkTextContent": "的基于区块链的平台"
 				},
 				{
 					"Type": "NodeText",
 					"Data": "上交易它们。您可以不受任何限制地在所有基于以太坊的平台上"
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "交易 NFT"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://101blockchains.com/buy-and-sell-nfts/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://101blockchains.com/buy-and-sell-nfts/",
+					"TextMarkTextContent": "交易 NFT"
 				},
 				{
 					"Type": "NodeText",
@@ -7921,22 +6772,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "透明度"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "透明度"
 								}
 							]
 						}
@@ -7990,30 +6828,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://101blockchains.com/web-3-0-blockchain-technology-stack/prettyPhoto"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://101blockchains.com/web-3-0-blockchain-technology-stack/#prettyPhoto"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://101blockchains.com/web-3-0-blockchain-technology-stack/#prettyPhoto",
+					"TextMarkTextContent": "https://101blockchains.com/web-3-0-blockchain-technology-stack/prettyPhoto"
 				}
 			]
 		},
@@ -8026,30 +6844,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://imzhanghao.com/2022/04/16/web3/%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://imzhanghao.com/2022/04/16/web3/#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://imzhanghao.com/2022/04/16/web3/#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99",
+					"TextMarkTextContent": "https://imzhanghao.com/2022/04/16/web3/%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99"
 				}
 			]
 		},
@@ -8062,30 +6860,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://101blockchains.com/digital-identity/"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://101blockchains.com/digital-identity/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://101blockchains.com/digital-identity/",
+					"TextMarkTextContent": "https://101blockchains.com/digital-identity/"
 				}
 			]
 		},
@@ -8098,30 +6876,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://learnblockchain.cn/article/3936"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://learnblockchain.cn/article/3936"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://learnblockchain.cn/article/3936",
+					"TextMarkTextContent": "https://learnblockchain.cn/article/3936"
 				}
 			]
 		},
@@ -8134,30 +6892,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://mp.weixin.qq.com/s?__biz=Mzg5Mjc3MjIyMA==\u0026mid=2247544668\u0026idx=1\u0026sn=c15abbac2e3deb5d68901e8b3a1caa9a\u0026source=41#wechat_redirect"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://mp.weixin.qq.com/s?__biz=Mzg5Mjc3MjIyMA==\u0026mid=2247544668\u0026idx=1\u0026sn=c15abbac2e3deb5d68901e8b3a1caa9a\u0026source=41#wechat_redirect"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://mp.weixin.qq.com/s?__biz=Mzg5Mjc3MjIyMA==\u0026mid=2247544668\u0026idx=1\u0026sn=c15abbac2e3deb5d68901e8b3a1caa9a\u0026source=41#wechat_redirect",
+					"TextMarkTextContent": "https://mp.weixin.qq.com/s?__biz=Mzg5Mjc3MjIyMA==\u0026amp;mid=2247544668\u0026amp;idx=1\u0026amp;sn=c15abbac2e3deb5d68901e8b3a1caa9a\u0026amp;source=41#wechat_redirect"
 				}
 			]
 		},
@@ -8170,30 +6908,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://www.webxlab.net/article/detail/OmAEWNGwar"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://www.webxlab.net/article/detail/OmAEWNGwar"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.webxlab.net/article/detail/OmAEWNGwar",
+					"TextMarkTextContent": "https://www.webxlab.net/article/detail/OmAEWNGwar"
 				}
 			]
 		}

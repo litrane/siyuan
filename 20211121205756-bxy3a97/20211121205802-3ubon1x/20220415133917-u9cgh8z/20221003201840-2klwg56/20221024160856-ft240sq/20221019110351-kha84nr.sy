@@ -4,8 +4,9 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20221019110351-kha84nr",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221019110351-oidwoiw\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221019212107-bwms3rq\u0026quot;,\u0026quot;scrollTop\u0026quot;:2300,\u0026quot;focusId\u0026quot;:\u0026quot;20221019193505-us2jken\u0026quot;,\u0026quot;focusStart\u0026quot;:2,\u0026quot;focusEnd\u0026quot;:2}",
 		"title": "2022-10-19",
-		"updated": "20221020005506"
+		"updated": "20221020005522"
 	},
 	"Children": [
 		{
@@ -131,7 +132,7 @@
 			},
 			"Properties": {
 				"id": "20221020005506-uom8fpk",
-				"updated": "20221020005506"
+				"updated": "20221020005522"
 			},
 			"Children": [
 				{
@@ -173,7 +174,8 @@
 						"Num": 2
 					},
 					"Properties": {
-						"id": "20221020005517-agfyth7"
+						"id": "20221020005517-agfyth7",
+						"updated": "20221020005522"
 					},
 					"Children": [
 						{
@@ -189,28 +191,6 @@
 									"Data": "马克思论文和拍照"
 								}
 							]
-						}
-					]
-				},
-				{
-					"ID": "20221020005522-rm6e4oy",
-					"Type": "NodeListItem",
-					"ListData": {
-						"Typ": 1,
-						"Delimiter": 46,
-						"Marker": "My4=",
-						"Num": 3
-					},
-					"Properties": {
-						"id": "20221020005522-rm6e4oy"
-					},
-					"Children": [
-						{
-							"ID": "20221020005522-zi5x8sl",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20221020005522-zi5x8sl"
-							}
 						}
 					]
 				}

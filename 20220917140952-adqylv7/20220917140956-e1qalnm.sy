@@ -1,9 +1,10 @@
 {
 	"ID": "20220917140956-e1qalnm",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220917140956-e1qalnm",
-		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220917141120-xlkfn1l\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220917141012-t11gfe3\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220917141211-ezeic0i\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:77,\u0026amp;quot;focusEnd\u0026amp;quot;:77}",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20220917141120-xlkfn1l\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20220917141012-t11gfe3\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20220917141211-ezeic0i\u0026quot;,\u0026quot;focusStart\u0026quot;:77,\u0026quot;focusEnd\u0026quot;:77}",
 		"title": "联邦学习基本概念",
 		"updated": "20220917142250"
 	},
@@ -201,10 +202,6 @@
 				{
 					"Type": "NodeText",
 					"Data": "（4）最近，有文献提出分割学习。可以看作纵向联邦学习的一种特殊形式。它在纵向联邦学习之上使用了深度神经网络（DNN）。也就是说，分割学习主要使用了联邦学习的设置，并在纵向划分的数据集上训练DNN。\n"
-				},
-				{
-					"Type": "NodeBr",
-					"Data": "br"
 				}
 			]
 		}

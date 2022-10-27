@@ -1,0 +1,123 @@
+{
+	"ID": "20221020184627-4fyjfan",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221020184627-4fyjfan",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221020184627-l6lj88p\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221020200149-2snlkgs\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221020200149-2snlkgs\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"title": "2022-10-20",
+		"updated": "20221020200149"
+	},
+	"Children": [
+		{
+			"ID": "20221020184627-l6lj88p",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221020184627-l6lj88p",
+				"updated": "20221020185107"
+			},
+			"Children": [
+				{
+					"ID": "20221020184630-ug4g4lk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221020184630-ug4g4lk",
+						"updated": "20221020184630"
+					},
+					"Children": [
+						{
+							"ID": "20221020184630-f56rerd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020184630-f56rerd",
+								"updated": "20221020184935"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "今天早上算法课+试跑了一下，theta的区块链运行没问题，如果参数调慢一点的话，对于算法课的分治还需要时间来进行复习"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221020184919-2397c0c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221020184919-2397c0c",
+						"updated": "20221020185056"
+					},
+					"Children": [
+						{
+							"ID": "20221020184919-tevbtk2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020184919-tevbtk2",
+								"updated": "20221020185056"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "下午上的马克思课，加了一些rss订阅源，然后吃了顿麦当劳。以后阅读信息要进行筛选了，此外还需要一步一步丰富rss内容，并且分类整理"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221020184959-toxre7l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221020184959-toxre7l",
+						"updated": "20221020185107"
+					},
+					"Children": [
+						{
+							"ID": "20221020184959-z765fyx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020184959-z765fyx",
+								"updated": "20221020185107"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "晚上需要做实验，看论文，完成画图的代码"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020200149-2snlkgs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020200149-2snlkgs"
+			}
+		}
+	]
+}

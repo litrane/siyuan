@@ -1,0 +1,51 @@
+{
+	"ID": "20221020200154-znq8h8x",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221020200154-znq8h8x",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221020200157-50hq01z\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221020200154-tp5ssd1\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221020200207-hjrvkl8\u0026quot;,\u0026quot;focusStart\u0026quot;:2,\u0026quot;focusEnd\u0026quot;:2}",
+		"title": "画图",
+		"updated": "20221020200238"
+	},
+	"Children": [
+		{
+			"ID": "20221020200157-50hq01z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020200157-50hq01z",
+				"updated": "20221020200206"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用matplotlib"
+				}
+			]
+		},
+		{
+			"ID": "20221020200207-hjrvkl8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020200207-hjrvkl8",
+				"updated": "20221020200238"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "assets/cheatsheets-20221020200238-f2ktsz8.pdf",
+					"TextMarkTextContent": "cheatsheets.pdf"
+				}
+			]
+		},
+		{
+			"ID": "20221020200154-tp5ssd1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020200154-tp5ssd1",
+				"updated": "20221020200154"
+			}
+		}
+	]
+}
