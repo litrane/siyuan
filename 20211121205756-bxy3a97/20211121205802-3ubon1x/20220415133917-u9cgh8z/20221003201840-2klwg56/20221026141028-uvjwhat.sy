@@ -4,8 +4,9 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20221026141028-uvjwhat",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221026141028-gwlio75\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221027124213-m6r58va\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221027124213-m6r58va\u0026quot;,\u0026quot;focusStart\u0026quot;:40,\u0026quot;focusEnd\u0026quot;:40}",
 		"title": "2022-10-26",
-		"updated": "20221026141029"
+		"updated": "20221027124255"
 	},
 	"Children": [
 		{
@@ -67,12 +68,12 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20221026144324-gxbisap",
-								"updated": "20221026144348"
+								"updated": "20221027124207"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "下午看来huginn怎么做rss"
+									"Data": "下午看来huginn怎么做rss，上课"
 								}
 							]
 						}
@@ -95,10 +96,31 @@
 							"ID": "20221026144349-fjqg4az",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20221026144349-fjqg4az"
-							}
+								"id": "20221026144349-fjqg4az",
+								"updated": "20221027124211"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "晚上啥也没干"
+								}
+							]
 						}
 					]
+				}
+			]
+		},
+		{
+			"ID": "20221027124213-m6r58va",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221027124213-m6r58va",
+				"updated": "20221027124255"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "总结：今天晚上值得反思，还在忙制作rss。对于实验部分只有上午的时间才是有效的。"
 				}
 			]
 		}

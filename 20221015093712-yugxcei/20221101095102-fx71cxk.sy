@@ -1,0 +1,41 @@
+{
+	"ID": "20221101095102-fx71cxk",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221101095102-fx71cxk",
+		"title": "动态规划",
+		"updated": "20221101110440"
+	},
+	"Children": [
+		{
+			"ID": "20221101095110-tcrb5ja",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221101095110-tcrb5ja",
+				"updated": "20221101110439"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "背包问题的顺序"
+				}
+			]
+		},
+		{
+			"ID": "20221101110440-i0fexnv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221101110440-i0fexnv"
+			}
+		},
+		{
+			"ID": "20221101095102-bqsw9t1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221101095102-bqsw9t1",
+				"updated": "20221101095102"
+			}
+		}
+	]
+}

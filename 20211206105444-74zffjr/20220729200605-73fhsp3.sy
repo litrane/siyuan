@@ -1,8 +1,10 @@
 {
 	"ID": "20220729200605-73fhsp3",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220729200605-73fhsp3",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20220729200608-sy2a8cp\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20220729200608-kvwt373\u0026quot;,\u0026quot;scrollTop\u0026quot;:6059.33349609375}",
 		"title": "入口函数与包初始化：Go程序的执行次序",
 		"updated": "20220831150331"
 	},
@@ -127,7 +129,6 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 1,
 			"Properties": {
-				"fold": "1",
 				"id": "20220729200608-9h80s8m",
 				"updated": "20220729200608"
 			},
@@ -142,7 +143,6 @@
 			"ID": "20220729200608-x06cb98",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"heading-fold": "1",
 				"id": "20220729200608-x06cb98",
 				"updated": "20220729200608"
 			},
@@ -157,7 +157,6 @@
 			"ID": "20220729200608-7q08lcg",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"heading-fold": "1",
 				"id": "20220729200608-7q08lcg",
 				"updated": "20220729200608"
 			},
@@ -172,7 +171,6 @@
 			"ID": "20220729200608-vhxiswm",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"heading-fold": "1",
 				"id": "20220729200608-vhxiswm",
 				"updated": "20220729200608"
 			},
@@ -188,7 +186,6 @@
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
 			"Properties": {
-				"heading-fold": "1",
 				"id": "20220729200608-yd2srvu",
 				"updated": "20220729200608"
 			},
@@ -215,7 +212,6 @@
 			"ID": "20220729200608-qe8rlel",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"heading-fold": "1",
 				"id": "20220729200608-qe8rlel",
 				"updated": "20220729200608"
 			},
@@ -225,22 +221,9 @@
 					"Data": "你会发现，main 函数的函数原型非常简单，没有参数也没有返回值。而且，Go 语言要求： "
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "可执行程序的 main 包必须定义 main 函数，否则 Go 编译器会报错。"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "可执行程序的 main 包必须定义 main 函数，否则 Go 编译器会报错。"
 				},
 				{
 					"Type": "NodeText",
@@ -252,7 +235,6 @@
 			"ID": "20220729200608-k7qciwv",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"heading-fold": "1",
 				"id": "20220729200608-k7qciwv",
 				"updated": "20220729200608"
 			},
@@ -267,7 +249,6 @@
 			"ID": "20220729200608-3wpvszg",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"heading-fold": "1",
 				"id": "20220729200608-3wpvszg",
 				"updated": "20220729200608"
 			},
@@ -282,7 +263,6 @@
 			"ID": "20220729200608-siaeqdf",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"heading-fold": "1",
 				"id": "20220729200608-siaeqdf",
 				"updated": "20220729200608"
 			},
@@ -298,7 +278,6 @@
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
 			"Properties": {
-				"heading-fold": "1",
 				"id": "20220729200608-ychzii9",
 				"updated": "20220729200608"
 			},
@@ -325,7 +304,6 @@
 			"ID": "20220729200608-5uikxuv",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"heading-fold": "1",
 				"id": "20220729200608-5uikxuv",
 				"updated": "20220729200608"
 			},
@@ -340,7 +318,6 @@
 			"ID": "20220729200608-9nhesq7",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"heading-fold": "1",
 				"id": "20220729200608-9nhesq7",
 				"updated": "20220729200608"
 			},
@@ -355,7 +332,6 @@
 			"ID": "20220729200608-wke2sv8",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"heading-fold": "1",
 				"id": "20220729200608-wke2sv8",
 				"updated": "20220729200608"
 			},
@@ -371,7 +347,6 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 1,
 			"Properties": {
-				"fold": "1",
 				"id": "20220729200608-zsxdtoz",
 				"updated": "20220729200608"
 			},
@@ -386,7 +361,6 @@
 			"ID": "20220729200608-2awg7ur",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"heading-fold": "1",
 				"id": "20220729200608-2awg7ur",
 				"updated": "20220729200608"
 			},
@@ -396,22 +370,9 @@
 					"Data": "除了前面讲过的 main.main 函数之外，Go 语言还有一个特殊函数，它就是用于"
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "进行包初始化的 init 函数"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "进行包初始化的 init 函数"
 				},
 				{
 					"Type": "NodeText",
@@ -423,7 +384,6 @@
 			"ID": "20220729200608-7gvfi95",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"heading-fold": "1",
 				"id": "20220729200608-7gvfi95",
 				"updated": "20220729200608"
 			},
@@ -438,7 +398,6 @@
 			"ID": "20220729200608-bznysos",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"heading-fold": "1",
 				"id": "20220729200608-bznysos",
 				"updated": "20220729200608"
 			},
@@ -454,7 +413,6 @@
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
 			"Properties": {
-				"heading-fold": "1",
 				"id": "20220729200608-xvs2r9u",
 				"updated": "20220729200608"
 			},
@@ -481,7 +439,6 @@
 			"ID": "20220729200608-yny4t9h",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"heading-fold": "1",
 				"id": "20220729200608-yny4t9h",
 				"updated": "20220729200608"
 			},
@@ -496,7 +453,6 @@
 			"ID": "20220729200608-sy2a8cp",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"heading-fold": "1",
 				"id": "20220729200608-sy2a8cp",
 				"updated": "20220729200608"
 			},
@@ -511,7 +467,6 @@
 			"ID": "20220729200608-se0pjp6",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"heading-fold": "1",
 				"id": "20220729200608-se0pjp6",
 				"updated": "20220729200608"
 			},
@@ -527,7 +482,6 @@
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
 			"Properties": {
-				"heading-fold": "1",
 				"id": "20220729200608-2xwaet1",
 				"updated": "20220729200608"
 			},
@@ -554,7 +508,6 @@
 			"ID": "20220729200608-duf11tl",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"heading-fold": "1",
 				"id": "20220729200608-duf11tl",
 				"updated": "20220729200608"
 			},
@@ -569,7 +522,6 @@
 			"ID": "20220729200608-rjjad3n",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"heading-fold": "1",
 				"id": "20220729200608-rjjad3n",
 				"updated": "20220729200608"
 			},
@@ -585,7 +537,6 @@
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
 			"Properties": {
-				"heading-fold": "1",
 				"id": "20220729200608-s2p6m2u",
 				"updated": "20220729200608"
 			},
@@ -612,7 +563,6 @@
 			"ID": "20220729200608-c9m9ufe",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"heading-fold": "1",
 				"id": "20220729200608-c9m9ufe",
 				"updated": "20220729200608"
 			},
@@ -627,7 +577,6 @@
 			"ID": "20220729200608-kb3ltxe",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"heading-fold": "1",
 				"id": "20220729200608-kb3ltxe",
 				"updated": "20220729200608"
 			},
@@ -642,7 +591,6 @@
 			"ID": "20220729200608-6xivxb2",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"heading-fold": "1",
 				"id": "20220729200608-6xivxb2",
 				"updated": "20220729200608"
 			},
@@ -657,7 +605,6 @@
 			"ID": "20220729200608-2v7oliz",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"heading-fold": "1",
 				"id": "20220729200608-2v7oliz",
 				"updated": "20220729200608"
 			},
@@ -713,22 +660,9 @@
 					"Data": "在这里你要注意："
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "我们在阅读和理解代码的时候，需要知道这些元素在在程序初始化过程中的初始化顺序，这样便于我们确定在某一行代码处这些元素的当前状态。"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "我们在阅读和理解代码的时候，需要知道这些元素在在程序初始化过程中的初始化顺序，这样便于我们确定在某一行代码处这些元素的当前状态。"
 				}
 			]
 		},
@@ -1293,22 +1227,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "这里我们先来看 init 函数的第一个常用用途：重置包级变量值。"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "这里我们先来看 init 函数的第一个常用用途：重置包级变量值。"
 				}
 			]
 		},
@@ -1501,22 +1422,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "init 函数的第二个常用用途，是实现对包级变量的复杂初始化。"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "init 函数的第二个常用用途，是实现对包级变量的复杂初始化。"
 				},
 				{
 					"Type": "NodeText",
@@ -1602,22 +1510,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "说完了这个，现在来讲 init 函数的第三个常用用途：在 init 函数中实现“注册模式”。"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "说完了这个，现在来讲 init 函数的第三个常用用途：在 init 函数中实现“注册模式”。"
 				},
 				{
 					"Type": "NodeText",
@@ -1762,22 +1657,9 @@
 					"Data": "实际上，这种 "
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "通过在 init 函数中注册自己的实现的模式，就有效降低了 Go 包对外的直接暴露"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "通过在 init 函数中注册自己的实现的模式，就有效降低了 Go 包对外的直接暴露"
 				},
 				{
 					"Type": "NodeText",

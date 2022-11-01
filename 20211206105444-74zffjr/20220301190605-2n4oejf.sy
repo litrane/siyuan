@@ -1,10 +1,12 @@
 {
 	"ID": "20220301190605-2n4oejf",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220301190605-2n4oejf",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20220301190605-rrnztpk\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20220302203539-2mzyv48\u0026quot;,\u0026quot;scrollTop\u0026quot;:598,\u0026quot;focusId\u0026quot;:\u0026quot;20220301200647-uksp83c\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
 		"title": "go编程基础",
-		"updated": "20220302203541"
+		"updated": "20220301200647"
 	},
 	"Children": [
 		{
@@ -45,33 +47,8 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeImage",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeBang"
-						},
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "image.png"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "assets/image-20220301200647-viviudp.png"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeText",
+					"Data": "​"
 				}
 			]
 		},

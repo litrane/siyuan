@@ -1,10 +1,12 @@
 {
 	"ID": "20211206105447-wgpt6ym",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20211206105447-wgpt6ym",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20211206105447-y531y5w\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221031083450-rnodz36\u0026quot;,\u0026quot;scrollTop\u0026quot;:1428.6666259765625,\u0026quot;focusId\u0026quot;:\u0026quot;20211212184011-flctj40\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
 		"title": "go基础语法",
-		"updated": "20211212194137"
+		"updated": "20221031083500"
 	},
 	"Children": [
 		{
@@ -17,8 +19,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "if-else语句"
+					"Data": "if-else 语句",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -32,7 +44,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "注意点："
+					"Data": "注意点：",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -40,7 +55,13 @@
 			"ID": "20211206105616-fo3f6g6",
 			"Type": "NodeList",
 			"ListData": {
-				"Typ": 1
+				"Typ": 1,
+				"Tight": true,
+				"Start": 1,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "MQ==",
+				"Num": 1
 			},
 			"Properties": {
 				"id": "20211206105616-fo3f6g6",
@@ -50,14 +71,19 @@
 				{
 					"ID": "20211206105621-52i237z",
 					"Type": "NodeListItem",
+					"Data": "1",
 					"ListData": {
 						"Typ": 1,
+						"Tight": true,
+						"Start": 1,
 						"Delimiter": 46,
-						"Marker": "MS4=",
+						"Padding": 3,
+						"Marker": "MQ==",
 						"Num": 1
 					},
 					"Properties": {
-						"id": "20211206105621-52i237z"
+						"id": "20211206105621-52i237z",
+						"updated": "20211206105621"
 					},
 					"Children": [
 						{
@@ -70,7 +96,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "}与else是同一行的，因为不是同一行的话编译器会在}后面加上；"
+									"Data": "}与 else 是同一行的，因为不是同一行的话编译器会在}后面加上；",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -79,14 +108,19 @@
 				{
 					"ID": "20211206105716-776vhzb",
 					"Type": "NodeListItem",
+					"Data": "2",
 					"ListData": {
 						"Typ": 1,
+						"Tight": true,
+						"Start": 2,
 						"Delimiter": 46,
-						"Marker": "Mi4=",
+						"Padding": 3,
+						"Marker": "Mg==",
 						"Num": 2
 					},
 					"Properties": {
-						"id": "20211206105716-776vhzb"
+						"id": "20211206105716-776vhzb",
+						"updated": "20211206105716"
 					},
 					"Children": [
 						{
@@ -99,7 +133,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "可以使用 if statement;condition{}进行编写，但statement初始化的是临时变量"
+									"Data": "可以使用 if statement;condition{}进行编写，但 statement 初始化的是临时变量",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -117,8 +154,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "for循环"
+					"Data": "for 循环",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -132,7 +179,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "语法"
+					"Data": "语法",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -140,6 +190,11 @@
 			"ID": "20211206105949-y8azf5a",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "Z28=",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20211206105949-y8azf5a",
 				"updated": "20211206110011"
@@ -147,19 +202,33 @@
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "Z28="
+					"CodeBlockInfo": "Z28=",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "for initialisation; condition; post {  \n}\n"
+					"Data": "for initialisation; condition; post {  \n}\n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -173,7 +242,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "注意点："
+					"Data": "注意点：",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -181,7 +253,13 @@
 			"ID": "20211206105938-766k607",
 			"Type": "NodeList",
 			"ListData": {
-				"Typ": 1
+				"Typ": 1,
+				"Tight": true,
+				"Start": 1,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "MQ==",
+				"Num": 1
 			},
 			"Properties": {
 				"id": "20211206105938-766k607",
@@ -191,14 +269,19 @@
 				{
 					"ID": "20211206105942-y0n64no",
 					"Type": "NodeListItem",
+					"Data": "1",
 					"ListData": {
 						"Typ": 1,
+						"Tight": true,
+						"Start": 1,
 						"Delimiter": 46,
-						"Marker": "MS4=",
+						"Padding": 3,
+						"Marker": "MQ==",
 						"Num": 1
 					},
 					"Properties": {
-						"id": "20211206105942-y0n64no"
+						"id": "20211206105942-y0n64no",
+						"updated": "20211206105942"
 					},
 					"Children": [
 						{
@@ -211,7 +294,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "在 for 循环中声明的变量只能在循环体内访问，因此 i 不能够在循环体外访问。"
+									"Data": "在 for 循环中声明的变量只能在循环体内访问，因此 i 不能够在循环体外访问。",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -220,10 +306,14 @@
 				{
 					"ID": "20211206110126-ej4w7ry",
 					"Type": "NodeListItem",
+					"Data": "2",
 					"ListData": {
 						"Typ": 1,
+						"Tight": true,
+						"Start": 2,
 						"Delimiter": 46,
-						"Marker": "Mi4=",
+						"Padding": 3,
+						"Marker": "Mg==",
 						"Num": 2
 					},
 					"Properties": {
@@ -241,7 +331,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "分号也可以省略"
+									"Data": "分号也可以省略",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -259,7 +352,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "break"
+					"Data": "break",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -273,7 +369,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "continue"
+					"Data": "continue",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -287,7 +386,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "无限循环"
+					"Data": "无限循环",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -295,6 +397,11 @@
 			"ID": "20211206110159-lmuqecd",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "Z28=",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20211206110159-lmuqecd",
 				"updated": "20211206110215"
@@ -302,19 +409,33 @@
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "Z28="
+					"CodeBlockInfo": "Z28=",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "for {  \n}\n"
+					"Data": "for {  \n}\n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -328,8 +449,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "switch语句"
+					"Data": "switch 语句",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -337,6 +468,11 @@
 			"ID": "20211206110232-4c8okmj",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "Z28=",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20211206110232-4c8okmj",
 				"updated": "20211212183935"
@@ -344,19 +480,33 @@
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "Z28="
+					"CodeBlockInfo": "Z28=",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "package main\n\nimport (\n    \"fmt\"\n)\n\nfunc main() {\n    letter := \"i\"\n    switch letter {\n    case \"a\", \"e\", \"i\", \"o\", \"u\": // 一个选项多个表达式\n        fmt.Println(\"vowel\")\n    default:\n        fmt.Println(\"not a vowel\")\n    }\n}\n"
+					"Data": "package main\n\nimport (\n    \"fmt\"\n)\n\nfunc main() {\n    letter := \"i\"\n    switch letter {\n    case \"a\", \"e\", \"i\", \"o\", \"u\": // 一个选项多个表达式\n        fmt.Println(\"vowel\")\n    default:\n        fmt.Println(\"not a vowel\")\n    }\n}\n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -369,11 +519,17 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeSuperBlockOpenMarker"
+					"Type": "NodeSuperBlockOpenMarker",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeSuperBlockLayoutMarker",
-					"Data": "col"
+					"Data": "col",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"ID": "20211212183939-5eamhzc",
@@ -384,22 +540,12 @@
 					},
 					"Children": [
 						{
-							"Type": "NodeStrong",
-							"Data": "strong",
-							"Children": [
-								{
-									"Type": "NodeStrongA6kOpenMarker",
-									"Data": "**"
-								},
-								{
-									"Type": "NodeText",
-									"Data": "fall through"
-								},
-								{
-									"Type": "NodeStrongA6kCloseMarker",
-									"Data": "**"
-								}
-							]
+							"Type": "NodeTextMark",
+							"Properties": {
+								"id": ""
+							},
+							"TextMarkType": "strong",
+							"TextMarkTextContent": "fall through"
 						}
 					]
 				},
@@ -407,6 +553,11 @@
 					"ID": "20211212183427-na9ou30",
 					"Type": "NodeCodeBlock",
 					"IsFencedCodeBlock": true,
+					"CodeBlockFenceChar": 96,
+					"CodeBlockFenceLen": 3,
+					"CodeBlockOpenFence": "YGBg",
+					"CodeBlockInfo": "Z28=",
+					"CodeBlockCloseFence": "YGBg",
 					"Properties": {
 						"id": "20211212183427-na9ou30",
 						"updated": "20211212183931"
@@ -414,24 +565,41 @@
 					"Children": [
 						{
 							"Type": "NodeCodeBlockFenceOpenMarker",
-							"Data": "```"
+							"Data": "```",
+							"CodeBlockFenceLen": 3,
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeCodeBlockFenceInfoMarker",
-							"CodeBlockInfo": "Z28="
+							"CodeBlockInfo": "Z28=",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeCodeBlockCode",
-							"Data": "func main() {\n\n    switch num := number(); { // num is not a constant\n    case num \u003c 50:\n        fmt.Printf(\"%d is lesser than 50\\n\", num)\n        fallthrough\n    case num \u003c 100:\n        fmt.Printf(\"%d is lesser than 100\\n\", num)\n        fallthrough\n    case num \u003c 200:\n        fmt.Printf(\"%d is lesser than 200\", num)\n    }\n\n}\n"
+							"Data": "func main() {\n\n    switch num := number(); { // num is not a constant\n    case num \u003c 50:\n        fmt.Printf(\"%d is lesser than 50\\n\", num)\n        fallthrough\n    case num \u003c 100:\n        fmt.Printf(\"%d is lesser than 100\\n\", num)\n        fallthrough\n    case num \u003c 200:\n        fmt.Printf(\"%d is lesser than 200\", num)\n    }\n\n}\n",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeCodeBlockFenceCloseMarker",
-							"Data": "```"
+							"Data": "```",
+							"CodeBlockFenceLen": 3,
+							"Properties": {
+								"id": ""
+							}
 						}
 					]
 				},
 				{
-					"Type": "NodeSuperBlockCloseMarker"
+					"Type": "NodeSuperBlockCloseMarker",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -445,8 +613,43 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "数组与切片"
+					"Data": "数组与切片",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221031082856-d1hnl09",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221031082856-d1hnl09",
+				"updated": "20221031082903"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "数组初始化",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -460,7 +663,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "var a [3]int vs [4]int"
+					"Data": "var a [3]int vs [4]int",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -474,7 +680,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "a := [3]int {12,34}"
+					"Data": "a := [3]int {12,34}",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -488,7 +697,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "[...]int"
+					"Data": "[...]int",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -502,7 +714,81 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "len()"
+					"Data": "len()",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20211212185255-vkea02n",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "Z28=",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20211212185255-vkea02n",
+				"updated": "20221031083245"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28=",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "a := [3][2]string{\n        {\"lion\", \"tiger\"},\n        {\"cat\", \"dog\"},\n        {\"pigeon\", \"peacock\"}, // this comma is necessary. The compiler will complain if you omit this comma\n    }\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221031083252-z3ltd2m",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221031083252-z3ltd2m",
+				"updated": "20221031083256"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "数组的遍历",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -516,34 +802,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "i,v=range a"
-				}
-			]
-		},
-		{
-			"ID": "20211212185255-vkea02n",
-			"Type": "NodeCodeBlock",
-			"IsFencedCodeBlock": true,
-			"Properties": {
-				"id": "20211212185255-vkea02n",
-				"updated": "20211212185258"
-			},
-			"Children": [
-				{
-					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
-				},
-				{
-					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "Z28="
-				},
-				{
-					"Type": "NodeCodeBlockCode",
-					"Data": "a := [3][2]string{\n        {\"lion\", \"tiger\"},\n        {\"cat\", \"dog\"},\n        {\"pigeon\", \"peacock\"}, // this comma is necessary. The compiler will complain if you omit this comma\n    }\n"
-				},
-				{
-					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "i,v=range a",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -551,26 +813,45 @@
 			"ID": "20211212185300-5u31t7u",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "Z28=",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20211212185300-5u31t7u",
-				"updated": "20211212185456"
+				"updated": "20221031083237"
 			},
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "Z28="
+					"CodeBlockInfo": "Z28=",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "func printarray(a [3][2]string) {\n    for _, v1 := range a {\n        for _, v2 := range v1 {\n            fmt.Printf(\"%s \", v2)\n        }\n        fmt.Printf(\"\\n\")\n    }\n}\n\n"
+					"Data": "func printarray(a [3][2]string) {\n    for _, v1 := range a {\n        for _, v2 := range v1 {\n            fmt.Printf(\"%s \", v2)\n        }\n        fmt.Printf(\"\\n\")\n    }\n}\n\n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -584,7 +865,79 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "其是值类型"
+					"Data": "其是值类型",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221031082717-9klc4a2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221031082717-9klc4a2",
+				"updated": "20221031082847"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "多维数组",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221031082947-s4w99m3",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221031082947-s4w99m3",
+				"updated": "20221031083009"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// Step 1: 创建数组\n    values := [][]int{}\n\n    // Step 2: 使用 append() 函数向空的二维数组添加两行一维数组\n    row1 := []int{1, 2, 3}\n    row2 := []int{4, 5, 6}\n    values = append(values, row1)\n    values = append(values, row2)\n\na := [3][4]int{  \n {0, 1, 2, 3} ,   /*  第一行索引为 0 */\n {4, 5, 6, 7} ,   /*  第二行索引为 1 */\n {8, 9, 10, 11},   /* 第三行索引为 2 */\n}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -598,7 +951,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "切片"
+					"Data": "切片",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -606,6 +962,11 @@
 			"ID": "20211212191739-5gdlpef",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "Z28=",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20211212191739-5gdlpef",
 				"updated": "20211212191754"
@@ -613,19 +974,33 @@
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "Z28="
+					"CodeBlockInfo": "Z28=",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "c:==[]int{7,8}\n"
+					"Data": "c:==[]int{7,8}\n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -639,7 +1014,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "其有len和cap两种属性，len是获取该切片的长度，cap则是获取其第一个元素到其映射的底层数组的最后一个元素的容量。"
+					"Data": "其有 len 和 cap 两种属性，len 是获取该切片的长度，cap 则是获取其第一个元素到其映射的底层数组的最后一个元素的容量。",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -653,7 +1031,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "对切片的修改也会反映在数组中"
+					"Data": "对切片的修改也会反映在数组中",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -661,6 +1042,11 @@
 			"ID": "20211212191936-8rqfp8n",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "Z28=",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20211212191936-8rqfp8n",
 				"updated": "20211212192644"
@@ -668,19 +1054,33 @@
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "Z28="
+					"CodeBlockInfo": "Z28=",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "func make（[]T，len，cap）\n"
+					"Data": "func make（[]T，len，cap）\n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -688,6 +1088,11 @@
 			"ID": "20211212192702-wjurtme",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "Z28=",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20211212192702-wjurtme",
 				"updated": "20211212192705"
@@ -695,19 +1100,33 @@
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "Z28="
+					"CodeBlockInfo": "Z28=",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "func main() {\n    cars := []string{\"Ferrari\", \"Honda\", \"Ford\"}\n    fmt.Println(\"cars:\", cars, \"has old length\", len(cars), \"and capacity\", cap(cars)) // capacity of cars is 3\n    cars = append(cars, \"Toyota\")\n    fmt.Println(\"cars:\", cars, \"has new length\", len(cars), \"and capacity\", cap(cars)) // capacity of cars is doubled to 6\n}\n"
+					"Data": "func main() {\n    cars := []string{\"Ferrari\", \"Honda\", \"Ford\"}\n    fmt.Println(\"cars:\", cars, \"has old length\", len(cars), \"and capacity\", cap(cars)) // capacity of cars is 3\n    cars = append(cars, \"Toyota\")\n    fmt.Println(\"cars:\", cars, \"has new length\", len(cars), \"and capacity\", cap(cars)) // capacity of cars is doubled to 6\n}\n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -721,7 +1140,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "names==nil(零值)"
+					"Data": "names==nil(零值)",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -729,6 +1151,11 @@
 			"ID": "20211212192734-xkpy58n",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "Z28=",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20211212192734-xkpy58n",
 				"updated": "20211212192814"
@@ -736,19 +1163,33 @@
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "Z28="
+					"CodeBlockInfo": "Z28=",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "func main() {\n    veggies := []string{\"potatoes\", \"tomatoes\", \"brinjal\"}\n    fruits := []string{\"oranges\", \"apples\"}\n    food := append(veggies, fruits...)\n    fmt.Println(\"food:\",food)\n}\nfunc main() {  \n    var names []string //zero value of a slice is nil\n    if names == nil {\n        fmt.Println(\"slice is nil going to append\")\n        names = append(names, \"John\", \"Sebastian\", \"Vinay\")\n        fmt.Println(\"names contents:\",names)\n    }\n}\n\n"
+					"Data": "func main() {\n    veggies := []string{\"potatoes\", \"tomatoes\", \"brinjal\"}\n    fruits := []string{\"oranges\", \"apples\"}\n    food := append(veggies, fruits...)\n    fmt.Println(\"food:\",food)\n}\nfunc main() {  \n    var names []string //zero value of a slice is nil\n    if names == nil {\n        fmt.Println(\"slice is nil going to append\")\n        names = append(names, \"John\", \"Sebastian\", \"Vinay\")\n        fmt.Println(\"names contents:\",names)\n    }\n}\n\n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -762,7 +1203,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "因此，当切片作为参数传递给函数时，函数内所做的更改也会在函数外可见。"
+					"Data": "因此，当切片作为参数传递给函数时，函数内所做的更改也会在函数外可见。",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -776,57 +1220,41 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "一种解决方法是使用 "
+					"Data": "一种解决方法是使用 ",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "copy"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://golang.org/pkg/builtin/#copy"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://golang.org/pkg/builtin/#copy",
+					"TextMarkTextContent": "copy"
 				},
 				{
 					"Type": "NodeText",
-					"Data": " 函数 "
+					"Data": " 函数 ",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "func copy(dst，src[]T)int"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "func copy(dst，src[]T)int"
 				},
 				{
 					"Type": "NodeText",
-					"Data": " 来生成一个切片的副本。这样我们可以使用新的切片，原始数组可以被垃圾回收。"
+					"Data": " 来生成一个切片的副本。这样我们可以使用新的切片，原始数组可以被垃圾回收。",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -840,7 +1268,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "数组与切片的区别在于切片由以下方法产生"
+					"Data": "数组与切片的区别在于切片由以下方法产生",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -848,7 +1279,13 @@
 			"ID": "20211212193215-q3c93dm",
 			"Type": "NodeList",
 			"ListData": {
-				"Typ": 1
+				"Typ": 1,
+				"Tight": true,
+				"Start": 1,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "MQ==",
+				"Num": 1
 			},
 			"Properties": {
 				"id": "20211212193215-q3c93dm",
@@ -858,14 +1295,19 @@
 				{
 					"ID": "20211212193217-rxpdnvq",
 					"Type": "NodeListItem",
+					"Data": "1",
 					"ListData": {
 						"Typ": 1,
+						"Tight": true,
+						"Start": 1,
 						"Delimiter": 46,
-						"Marker": "MS4=",
+						"Padding": 3,
+						"Marker": "MQ==",
 						"Num": 1
 					},
 					"Properties": {
-						"id": "20211212193217-rxpdnvq"
+						"id": "20211212193217-rxpdnvq",
+						"updated": "20211212193217"
 					},
 					"Children": [
 						{
@@ -878,7 +1320,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "通过数组创建一个切片"
+									"Data": "通过数组创建一个切片",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -887,10 +1332,14 @@
 				{
 					"ID": "20211212193246-obfpnp8",
 					"Type": "NodeListItem",
+					"Data": "2",
 					"ListData": {
 						"Typ": 1,
+						"Tight": true,
+						"Start": 2,
 						"Delimiter": 46,
-						"Marker": "Mi4=",
+						"Padding": 3,
+						"Marker": "Mg==",
 						"Num": 2
 					},
 					"Properties": {
@@ -908,7 +1357,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "直接声明一个切片a :=[]int {} vs数组的a:=[...]int{}"
+									"Data": "直接声明一个切片 a :=[]int {} vs 数组的 a:=[...]int{}",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -917,14 +1369,19 @@
 				{
 					"ID": "20211212193300-ehbl2as",
 					"Type": "NodeListItem",
+					"Data": "3",
 					"ListData": {
 						"Typ": 1,
+						"Tight": true,
+						"Start": 3,
 						"Delimiter": 46,
-						"Marker": "My4=",
+						"Padding": 3,
+						"Marker": "Mw==",
 						"Num": 3
 					},
 					"Properties": {
-						"id": "20211212193300-ehbl2as"
+						"id": "20211212193300-ehbl2as",
+						"updated": "20211212193300"
 					},
 					"Children": [
 						{
@@ -937,7 +1394,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "通过make"
+									"Data": "通过 make",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -946,10 +1406,14 @@
 				{
 					"ID": "20211212193304-bcnbf98",
 					"Type": "NodeListItem",
+					"Data": "4",
 					"ListData": {
 						"Typ": 1,
+						"Tight": true,
+						"Start": 4,
 						"Delimiter": 46,
-						"Marker": "NC4=",
+						"Padding": 3,
+						"Marker": "NA==",
 						"Num": 4
 					},
 					"Properties": {
@@ -967,7 +1431,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "切片生切片"
+									"Data": "切片生切片",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -985,7 +1452,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "切片删除"
+					"Data": "切片删除",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -993,6 +1463,11 @@
 			"ID": "20211212193629-znsbwbd",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "Z28=",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20211212193629-znsbwbd",
 				"updated": "20211212193634"
@@ -1000,99 +1475,51 @@
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "Z28="
+					"CodeBlockInfo": "Z28=",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "//我们创建了一个切片，有四个元素，下标命名为0，1，2，3\nslice11 := []int{1,2,3,4} \n//假设我们要删除下标为0的元素，这段代码的含义是\n创建一个空的切片 slice11[:0]\n创建一个从下标1到末尾元素的切片 slice11[1:]\n给空切片添加元素并返回一个新的切片\nslice12 := append(slice11[:0],slice11[1:]...)\n//同上我们得出删除下标为i的元素的切片的公式时\nsliceTemp := append(slice11[:i],slice[i+1:]...)\n"
+					"Data": "//我们创建了一个切片，有四个元素，下标命名为0，1，2，3\nslice11 := []int{1,2,3,4} \n//假设我们要删除下标为0的元素，这段代码的含义是\n创建一个空的切片 slice11[:0]\n创建一个从下标1到末尾元素的切片 slice11[1:]\n给空切片添加元素并返回一个新的切片\nslice12 := append(slice11[:0],slice11[1:]...)\n//同上我们得出删除下标为i的元素的切片的公式时\nsliceTemp := append(slice11[:i],slice[i+1:]...)\n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
 		{
-			"ID": "20211212193636-h838d7p",
+			"ID": "20221031082427-5mhheqh",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20211212193636-h838d7p",
-				"updated": "20211212193643"
-			},
-			"Children": [
-				{
-					"Type": "NodeImage",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeBang"
-						},
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "image.png"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "assets/image-20211212193643-pcano55.png"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
-				}
-			]
+				"id": "20221031082427-5mhheqh",
+				"updated": "20221031082709"
+			}
 		},
 		{
-			"ID": "20211212193646-5ylujmd",
+			"ID": "20221031083450-rnodz36",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20211212193646-5ylujmd",
-				"updated": "20211212194137"
-			},
-			"Children": [
-				{
-					"Type": "NodeImage",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeBang"
-						},
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "image.png"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "assets/image-20211212194137-4e9l8on.png"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
-				}
-			]
+				"id": "20221031083450-rnodz36",
+				"updated": "20221031083500"
+			}
 		}
 	]
 }

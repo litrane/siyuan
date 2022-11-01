@@ -1,0 +1,230 @@
+{
+	"ID": "20221030104416-41392if",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221030104416-41392if",
+		"title": "2022-10-30",
+		"updated": "20221031075930"
+	},
+	"Children": [
+		{
+			"ID": "20221030104420-6s0gjq4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030104420-6s0gjq4",
+				"updated": "20221030104250"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "今日活动："
+				}
+			]
+		},
+		{
+			"ID": "20221030104420-fhhpd70",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221030104420-fhhpd70",
+				"updated": "20221030210744"
+			},
+			"Children": [
+				{
+					"ID": "20221030104420-a50tsr0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221030104420-a50tsr0",
+						"updated": "20221030104308"
+					},
+					"Children": [
+						{
+							"ID": "20221030104420-jj0h60r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221030104420-jj0h60r",
+								"updated": "20221030185229"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "早上学习最近平面点对，发现课程网视频看不了，然后进行测试程序的测试，ac题目平面点对"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221030104420-o4ci4ly",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221030104420-o4ci4ly",
+						"updated": "20221030185459"
+					},
+					"Children": [
+						{
+							"ID": "20221030104420-221anlh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221030104420-221anlh",
+								"updated": "20221030185459"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "下午，进行theta测试工具重整，完成多账户发交易。交易在部署方面完成，但是缺乏代币的。缺乏整体运行跑通以及输出实验结果。未能实现读取key文件生成string列表以及根据数据自动化图的程序。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221030185453-o8qf4l6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221030185453-o8qf4l6",
+						"updated": "20221030210744"
+					},
+					"Children": [
+						{
+							"ID": "20221030185453-tnpjn98",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221030185453-tnpjn98",
+								"updated": "20221030210744"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "面向对象的看，跑步，看论文"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221030104420-8deu6wh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030104420-8deu6wh",
+				"updated": "20221030164221"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "最近点对，go，数组初始化"
+				}
+			]
+		},
+		{
+			"ID": "20221030164210-r2ktcsy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030164210-r2ktcsy"
+			}
+		},
+		{
+			"ID": "20221030104420-shh7fo1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030104420-shh7fo1",
+				"updated": "20221030104314"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "今日自我感想："
+				}
+			]
+		},
+		{
+			"ID": "20221030104420-61yb1b6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030104420-61yb1b6",
+				"updated": "20221031075930"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "今天的大部分时间都花在编码，晚上跑步加上看论文花了一些时间是我没想到的。以后还是十一点回去立即睡觉，7点起是一个好的作息。"
+				}
+			]
+		},
+		{
+			"ID": "20221030104420-rillttp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030104420-rillttp",
+				"updated": "20221030104321"
+			}
+		},
+		{
+			"ID": "20221030104420-oa4w3m6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030104420-oa4w3m6",
+				"updated": "20221030104321"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "看到了什么好的东西："
+				}
+			]
+		},
+		{
+			"ID": "20221030104420-b4x5pze",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030104420-b4x5pze",
+				"updated": "20221031075713"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "无"
+				}
+			]
+		},
+		{
+			"ID": "20221030104420-ycu3enx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030104420-ycu3enx",
+				"updated": "20221030104331"
+			}
+		},
+		{
+			"ID": "20221030104420-flgk7yt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030104420-flgk7yt",
+				"updated": "20221030104331"
+			}
+		}
+	]
+}

@@ -4,8 +4,9 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20221027124018-hsihl6k",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221027124018-lr2gc9t\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221027124018-lr2gc9t\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221027124035-t8l8asj\u0026quot;,\u0026quot;focusStart\u0026quot;:3,\u0026quot;focusEnd\u0026quot;:3}",
 		"title": "2022-10-27",
-		"updated": "20221027124118"
+		"updated": "20221028094521"
 	},
 	"Children": [
 		{
@@ -16,7 +17,7 @@
 			},
 			"Properties": {
 				"id": "20221027124018-lr2gc9t",
-				"updated": "20221027124118"
+				"updated": "20221028094521"
 			},
 			"Children": [
 				{
@@ -68,18 +69,55 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20221027124035-t8l8asj",
-								"updated": "20221027124118"
+								"updated": "20221027171450"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "下午对"
+									"Data": "下午马克思，写了论文，整理了书签"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221027171450-w8gwzjv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221027171450-w8gwzjv",
+						"updated": "20221028094521"
+					},
+					"Children": [
+						{
+							"ID": "20221027171450-m3ojpj4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221027171450-m3ojpj4",
+								"updated": "20221028094521"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "晚上订餐馆，整理实验数据，画图"
 								}
 							]
 						}
 					]
 				}
 			]
+		},
+		{
+			"ID": "20221028094458-rq2vf5b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221028094458-rq2vf5b"
+			}
 		}
 	]
 }

@@ -1,0 +1,33 @@
+{
+	"ID": "20221031082236-2omv63s",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221031082236-2omv63s",
+		"title": "最近平面点对问题",
+		"updated": "20221031090951"
+	},
+	"Children": [
+		{
+			"ID": "20221031082247-4r6zrz7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221031082247-4r6zrz7"
+			}
+		},
+		{
+			"ID": "20221031082236-xdy244l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221031082236-xdy244l",
+				"updated": "20221031090951"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "问题："
+				}
+			]
+		}
+	]
+}

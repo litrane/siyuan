@@ -1,0 +1,348 @@
+{
+	"ID": "20221031144151-0epjzs1",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221031144151-0epjzs1",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221031144159-d7081dh\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221031144159-i6o4j75\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221031144159-1l4kl1l\u0026quot;,\u0026quot;focusStart\u0026quot;:35,\u0026quot;focusEnd\u0026quot;:35}",
+		"title": "2022-10-31",
+		"updated": "20221101095054"
+	},
+	"Children": [
+		{
+			"ID": "20221031144159-d7081dh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221031144159-d7081dh",
+				"updated": "20221030104250"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "今日活动："
+				}
+			]
+		},
+		{
+			"ID": "20221031144159-wqvm2ze",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221031144159-wqvm2ze",
+				"updated": "20221101095003"
+			},
+			"Children": [
+				{
+					"ID": "20221031144159-140xi9o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221031144159-140xi9o",
+						"updated": "20221030104308"
+					},
+					"Children": [
+						{
+							"ID": "20221031144159-i6kdtd5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221031144159-i6kdtd5",
+								"updated": "20221031144312"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "早上做了一下go语言的笔记 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "block-ref",
+									"TextMarkBlockRefID": "20211212184011-flctj40",
+									"TextMarkBlockRefSubtype": "d",
+									"TextMarkTextContent": "数组与切片"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 以及  "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "block-ref",
+									"TextMarkBlockRefID": "20221031083506-fjxjoix",
+									"TextMarkBlockRefSubtype": "d",
+									"TextMarkTextContent": "Go cheet sheet"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，并发布博客"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221031144159-wsp3iwy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221031144159-wsp3iwy",
+						"updated": "20221030104309"
+					},
+					"Children": [
+						{
+							"ID": "20221031144159-7u13s1u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221031144159-7u13s1u",
+								"updated": "20221031144328"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "早上继续看了论文，对于平面最近点对看了看"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221031144328-clk2fvh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221031144328-clk2fvh"
+					},
+					"Children": [
+						{
+							"ID": "20221031144328-10lbnzc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221031144328-10lbnzc",
+								"updated": "20221031144337"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "早上之后进行上课"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221031144338-wkrv3f9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221031144338-wkrv3f9"
+					},
+					"Children": [
+						{
+							"ID": "20221031144338-y9lw3ui",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221031144338-y9lw3ui",
+								"updated": "20221031144405"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "下午完成第一道动态规划题目"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221031144406-7aqhdah",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20221031144406-7aqhdah",
+						"updated": "20221031161804"
+					},
+					"Children": [
+						{
+							"ID": "20221031144406-v38eva0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221031144406-v38eva0",
+								"updated": "20221031161804"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "下午看论文，想出来了一版专利"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221101094941-ize151o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20221101094941-ize151o",
+						"updated": "20221101095003"
+					},
+					"Children": [
+						{
+							"ID": "20221101094941-e3qg36y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221101094941-e3qg36y",
+								"updated": "20221101095003"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "下午复习图论，做完测试"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221101094936-wd86vz6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20221101094936-wd86vz6"
+					},
+					"Children": [
+						{
+							"ID": "20221101094936-koauhwm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221101094936-koauhwm"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "晚上上课，上课结束在宿舍开摆"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221031144159-hshj1jx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221031144159-hshj1jx",
+				"updated": "20221030104314"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "今日自我感想："
+				}
+			]
+		},
+		{
+			"ID": "20221031144159-1l4kl1l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221031144159-1l4kl1l",
+				"updated": "20221101095054"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "今天周一，感觉还是世界不够紧凑，建议少浏览手机，少接触一些不必要的信息"
+				}
+			]
+		},
+		{
+			"ID": "20221031144159-yuu6o8q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221031144159-yuu6o8q",
+				"updated": "20221030104321"
+			}
+		},
+		{
+			"ID": "20221031144159-y5kjpnx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221031144159-y5kjpnx",
+				"updated": "20221030104321"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "看到了什么好的东西："
+				}
+			]
+		},
+		{
+			"ID": "20221031144159-ctn3jbf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221031144159-ctn3jbf",
+				"updated": "20221101095007"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "无"
+				}
+			]
+		},
+		{
+			"ID": "20221031144159-zv1ssb1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221031144159-zv1ssb1",
+				"updated": "20221030104331"
+			}
+		},
+		{
+			"ID": "20221031144159-i6o4j75",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221031144159-i6o4j75",
+				"updated": "20221030104331"
+			}
+		}
+	]
+}
