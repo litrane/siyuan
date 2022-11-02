@@ -1,0 +1,27 @@
+{
+	"ID": "20221101150335-pc9tt58",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221101150335-pc9tt58",
+		"title": "正则表达式",
+		"updated": "20221101150343"
+	},
+	"Children": [
+		{
+			"ID": "20221101150343-6u09w0b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221101150343-6u09w0b"
+			}
+		},
+		{
+			"ID": "20221101150335-so197hq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221101150335-so197hq",
+				"updated": "20221101150335"
+			}
+		}
+	]
+}

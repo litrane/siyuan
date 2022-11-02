@@ -1,0 +1,223 @@
+{
+	"ID": "20221101231800-jtmolif",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221101231800-jtmolif",
+		"title": "2022-11-01",
+		"updated": "20221101232049"
+	},
+	"Children": [
+		{
+			"ID": "20221101231822-3we1ov2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221101231822-3we1ov2",
+				"updated": "20221030104250"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "今日活动："
+				}
+			]
+		},
+		{
+			"ID": "20221101231822-j8bntnx",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221101231822-j8bntnx",
+				"updated": "20221101232001"
+			},
+			"Children": [
+				{
+					"ID": "20221101231822-osew9iw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221101231822-osew9iw",
+						"updated": "20221030104308"
+					},
+					"Children": [
+						{
+							"ID": "20221101231822-lw7x8k7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221101231822-lw7x8k7",
+								"updated": "20221101231834"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "早上做编程题，开组会"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221101231822-8va23m6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221101231822-8va23m6",
+						"updated": "20221101232001"
+					},
+					"Children": [
+						{
+							"ID": "20221101231822-t4nx1dt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221101231822-t4nx1dt",
+								"updated": "20221101232001"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "下午修改theta代码，跑通多账户代码；之后和师兄开会，讨论实验，之后推进cosmos，写注释"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221101231926-mjjswlx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221101231926-mjjswlx",
+						"updated": "20221101231947"
+					},
+					"Children": [
+						{
+							"ID": "20221101231926-hegat4h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221101231926-hegat4h",
+								"updated": "20221101231947"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "晚上部署cosmos环境，部署了一半还在看，此外还跑步"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221101231822-y5vqxdr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221101231822-y5vqxdr",
+				"updated": "20221101232033"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "需要整理的笔记有实验文档，正则表达式，动态规划，以及最近点对笔记，还有论文阅读笔记"
+				}
+			]
+		},
+		{
+			"ID": "20221101231822-gsv7igg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221101231822-gsv7igg",
+				"updated": "20221030104314"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "今日自我感想："
+				}
+			]
+		},
+		{
+			"ID": "20221101231822-rughmhb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221101231822-rughmhb",
+				"updated": "20221101232045"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "感觉时间还是不够用啊。"
+				}
+			]
+		},
+		{
+			"ID": "20221101231822-0a4n1yt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221101231822-0a4n1yt",
+				"updated": "20221030104321"
+			}
+		},
+		{
+			"ID": "20221101231822-7v6kxpd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221101231822-7v6kxpd",
+				"updated": "20221030104321"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "看到了什么好的东西："
+				}
+			]
+		},
+		{
+			"ID": "20221101231822-p1vw18e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221101231822-p1vw18e",
+				"updated": "20221101232049"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "无"
+				}
+			]
+		},
+		{
+			"ID": "20221101231822-wxiizcj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221101231822-wxiizcj",
+				"updated": "20221030104331"
+			}
+		},
+		{
+			"ID": "20221101231822-6wwwq7h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221101231822-6wwwq7h",
+				"updated": "20221030104331"
+			}
+		}
+	]
+}
